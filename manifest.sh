@@ -6,3 +6,5 @@ do
     find * -not -name "manifest" -type f  -print > manifest
     cd ..
 done
+
+echo "Manifests generated!"
