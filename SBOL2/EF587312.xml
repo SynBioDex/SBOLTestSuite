@@ -35,28 +35,6 @@
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000987"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/EF587312/annotation0/1">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation0"/>
-        <sbol:displayId>annotation0</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <dcterms:title>Yeast expression vector pNIA-Cb</dcterms:title>
-        <gbConv:organism>Yeast expression vector pNIA-Cb</gbConv:organism>
-        <gbConv:mol_type>other DNA</gbConv:mol_type>
-        <gbConv:db_xref>taxon:443237</gbConv:db_xref>
-        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://www.async.ece.utah.edu/EF587312/annotation0/range/1">
-            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation0/range"/>
-            <sbol:displayId>range</sbol:displayId>
-            <sbol:version>1</sbol:version>
-            <sbol:start>1</sbol:start>
-            <sbol:end>705</sbol:end>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
       <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/EF587312/annotation1/1">
         <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation1"/>
         <sbol:displayId>annotation1</sbol:displayId>
@@ -71,6 +49,28 @@
         <sbol:location>
           <sbol:Range rdf:about="http://www.async.ece.utah.edu/EF587312/annotation1/range/1">
             <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbol:start>1</sbol:start>
+            <sbol:end>705</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/EF587312/annotation0/1">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Yeast expression vector pNIA-Cb</dcterms:title>
+        <gbConv:organism>Yeast expression vector pNIA-Cb</gbConv:organism>
+        <gbConv:mol_type>other DNA</gbConv:mol_type>
+        <gbConv:db_xref>taxon:443237</gbConv:db_xref>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0002206"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.async.ece.utah.edu/EF587312/annotation0/range/1">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/EF587312/annotation0/range"/>
             <sbol:displayId>range</sbol:displayId>
             <sbol:version>1</sbol:version>
             <sbol:start>1</sbol:start>

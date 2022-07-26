@@ -20,13 +20,6 @@
         <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation"/>
         <sbol:displayId>someSequenceAnnotation</sbol:displayId>
         <sbol:location>
-          <sbol:GenericLocation rdf:about="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation/generic_location">
-            <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation/generic_location"/>
-            <sbol:displayId>generic_location</sbol:displayId>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:GenericLocation>
-        </sbol:location>
-        <sbol:location>
           <sbol:Range rdf:about="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation/range">
             <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation/range"/>
             <sbol:displayId>range</sbol:displayId>
@@ -34,6 +27,13 @@
             <sbol:end>10</sbol:end>
             <sbol:sequence rdf:resource="http://partsregistry.org/seq/BBa_J23120"/>
           </sbol:Range>
+        </sbol:location>
+        <sbol:location>
+          <sbol:GenericLocation rdf:about="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation/generic_location">
+            <sbol:persistentIdentity rdf:resource="http://partsregistry.org/cd/BBa_J23119/someSequenceAnnotation/generic_location"/>
+            <sbol:displayId>generic_location</sbol:displayId>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:GenericLocation>
         </sbol:location>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
