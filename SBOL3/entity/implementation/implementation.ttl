@@ -1,0 +1,23 @@
+@base          <https://sbolstandard.org/examples/> .
+@prefix :      <https://sbolstandard.org/examples/> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
+@prefix CHEBI: <https://identifiers.org/CHEBI:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix sbol:  <http://sbols.org/v3#> .
+@prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix SO:    <https://identifiers.org/SO:> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+
+:impl1  a                  sbol:Implementation ;
+        sbol:built         :TetR_protein ;
+        sbol:displayId     "impl1" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> .
+
+:TetR_protein  a           sbol:Component ;
+        sbol:description   "TetR protein" ;
+        sbol:displayId     "TetR_protein" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "TetR" ;
+        sbol:role          GO:0003700 ;
+        sbol:type          SBO:0000252 .

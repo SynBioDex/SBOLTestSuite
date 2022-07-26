@@ -1,0 +1,62 @@
+{ 
+  "https://sbolstandard.org/examples/impl1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "impl1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Implementation"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#built" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/TetR_protein"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/TetR_protein" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "TetR_protein"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0003700"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "TetR"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "TetR protein"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ]
+  }
+}

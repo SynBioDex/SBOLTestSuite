@@ -1,0 +1,18 @@
+<rdf:RDF
+    xmlns:SO="https://identifiers.org/SO:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:EDAM="https://identifiers.org/edam:"
+    xmlns:sbol="http://sbols.org/v3#"
+    xmlns:CHEBI="https://identifiers.org/CHEBI:"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:SBO="https://identifiers.org/SBO:"
+    xmlns:GO="https://identifiers.org/GO:"
+    xmlns="https://sbolstandard.org/examples/"
+    xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xml:base="https://sbolstandard.org/examples/">
+   <sbol:Component rdf:about="urn:uuid:f8e709e1-2cac-43ab-bdca-796ee2d7755b">
+      <sbol:name>TetR</sbol:name>
+      <sbol:hasNamespace rdf:resource="urn:uuid:d8338ec9-2ec5-4231-9081-541d94efc7da"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
+   </sbol:Component>
+</rdf:RDF>

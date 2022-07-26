@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "https://sbolstandard.org/examples/TetR_protein",
+    "@type" : "sbol:Component",
+    "description" : "TetR protein",
+    "displayId" : "TetR_protein",
+    "hasNamespace" : "https://sbolstandard.org/examples",
+    "name" : "TetR",
+    "role" : "GO:0003700",
+    "type" : "SBO:0000252"
+  }, {
+    "@id" : "https://sbolstandard.org/examples/attachment1",
+    "@type" : "sbol:Attachment",
+    "displayId" : "attachment1",
+    "format" : "EDAM:format_2585",
+    "hasNamespace" : "https://sbolstandard.org/examples",
+    "hash" : "aaa",
+    "hashAlgorithm" : "Alg1",
+    "size" : "1000",
+    "source" : "https://sbolstandard.org/attachment1"
+  }, {
+    "@id" : "https://sbolstandard.org/examples/impl1",
+    "@type" : "sbol:Implementation",
+    "built" : "https://sbolstandard.org/examples/TetR_protein",
+    "displayId" : "impl1",
+    "hasAttachment" : "https://sbolstandard.org/examples/attachment1",
+    "hasNamespace" : "https://sbolstandard.org/examples"
+  } ],
+  "@context" : {
+    "hashAlgorithm" : {
+      "@id" : "http://sbols.org/v3#hashAlgorithm"
+    },
+    "hash" : {
+      "@id" : "http://sbols.org/v3#hash"
+    },
+    "size" : {
+      "@id" : "http://sbols.org/v3#size"
+    },
+    "format" : {
+      "@id" : "http://sbols.org/v3#format",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://sbols.org/v3#source",
+      "@type" : "@id"
+    },
+    "hasNamespace" : {
+      "@id" : "http://sbols.org/v3#hasNamespace",
+      "@type" : "@id"
+    },
+    "displayId" : {
+      "@id" : "http://sbols.org/v3#displayId"
+    },
+    "hasAttachment" : {
+      "@id" : "http://sbols.org/v3#hasAttachment",
+      "@type" : "@id"
+    },
+    "built" : {
+      "@id" : "http://sbols.org/v3#built",
+      "@type" : "@id"
+    },
+    "role" : {
+      "@id" : "http://sbols.org/v3#role",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://sbols.org/v3#description"
+    },
+    "name" : {
+      "@id" : "http://sbols.org/v3#name"
+    },
+    "type" : {
+      "@id" : "http://sbols.org/v3#type",
+      "@type" : "@id"
+    },
+    "SBO" : "https://identifiers.org/SBO:",
+    "CHEBI" : "https://identifiers.org/CHEBI:",
+    "GO" : "https://identifiers.org/GO:",
+    "sbol" : "http://sbols.org/v3#",
+    "EDAM" : "https://identifiers.org/edam:",
+    "SO" : "https://identifiers.org/SO:",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+  }
+}

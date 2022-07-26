@@ -1,0 +1,25 @@
+@base          <https://sbolstandard.org/examples/> .
+@prefix :      <https://sbolstandard.org/examples/> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
+@prefix CHEBI: <https://identifiers.org/CHEBI:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix sbol:  <http://sbols.org/v3#> .
+@prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix SO:    <https://identifiers.org/SO:> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+
+:toggle_switch  a          sbol:Component ;
+        sbol:description   "Toggle Switch genetic circuit" ;
+        sbol:displayId     "toggle_switch" ;
+        sbol:hasModel      :model1 ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "Toggle Switch" ;
+        sbol:type          SBO:0000241 .
+
+:model1  a                 sbol:Model ;
+        sbol:displayId     "model1" ;
+        sbol:framework     SBO:0000062 ;
+        sbol:hasNamespace  <https://sbolstandard.org> ;
+        sbol:language      EDAM:format_2585 ;
+        sbol:source        <http://virtualparts.org> .

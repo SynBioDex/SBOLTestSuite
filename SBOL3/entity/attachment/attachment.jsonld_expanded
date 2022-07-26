@@ -1,0 +1,61 @@
+[ {
+  "@id" : "https://sbolstandard.org/examples/TetR_protein",
+  "http://sbols.org/v3#role" : [ {
+    "@id" : "https://identifiers.org/GO:0003700"
+  } ],
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "TetR protein"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "TetR"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000252"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "TetR_protein"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Component" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/attachment1",
+  "http://sbols.org/v3#hashAlgorithm" : [ {
+    "@value" : "Alg1"
+  } ],
+  "http://sbols.org/v3#hash" : [ {
+    "@value" : "aaa"
+  } ],
+  "http://sbols.org/v3#size" : [ {
+    "@value" : "1000"
+  } ],
+  "http://sbols.org/v3#format" : [ {
+    "@id" : "https://identifiers.org/edam:format_2585"
+  } ],
+  "http://sbols.org/v3#source" : [ {
+    "@id" : "https://sbolstandard.org/attachment1"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "attachment1"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Attachment" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/impl1",
+  "http://sbols.org/v3#hasAttachment" : [ {
+    "@id" : "https://sbolstandard.org/examples/attachment1"
+  } ],
+  "http://sbols.org/v3#built" : [ {
+    "@id" : "https://sbolstandard.org/examples/TetR_protein"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "impl1"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Implementation" ]
+} ]

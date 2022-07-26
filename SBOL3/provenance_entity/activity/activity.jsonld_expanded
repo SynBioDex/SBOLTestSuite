@@ -1,0 +1,165 @@
+[ {
+  "@id" : "https://sbolstandard.org/examples/CodonOptimisationProtocol",
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "Optimisation protocol to improve the translation of mRNAs."
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Codon Optimisation Protocol"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.w3.org/ns/prov#Plan" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "CodonOptimisationProtocol"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/CodonOptimiserSoftware",
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "Used to optimise bacterial DNA sequences."
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Codon Optimiser Software"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.w3.org/ns/prov#Agent" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "CodonOptimiserSoftware"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/RBS_optimisation_activity",
+  "http://www.w3.org/ns/prov#wasInformedBy" : [ {
+    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity"
+  } ],
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "An activity that is used to RBSs"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "RBS optimization activity"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "http://sbols.org/v3#design"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.w3.org/ns/prov#Activity" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "RBS_optimisation_activity"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/codon_optimization_activity",
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "http://sbols.org/v3#design"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@value" : "2019-07-29T15:42:23.277Z"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.w3.org/ns/prov#Activity" ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@value" : "2020-08-30T15:42:23.277Z"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Codon optimization activity"
+  } ],
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "An activity that is used to optimise codons"
+  } ],
+  "http://www.w3.org/ns/prov#qualifiedUsage" : [ {
+    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
+  }, {
+    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "codon_optimization_activity"
+  } ],
+  "http://www.w3.org/ns/prov#qualifiedAssociation" : [ {
+    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
+  "http://www.w3.org/ns/prov#hadRole" : [ {
+    "@id" : "http://sbols.org/v3#design"
+  } ],
+  "http://www.w3.org/ns/prov#hadPlan" : [ {
+    "@id" : "https://sbolstandard.org/examples/CodonOptimisationProtocol"
+  } ],
+  "http://www.w3.org/ns/prov#agent" : [ {
+    "@id" : "https://sbolstandard.org/examples/CodonOptimiserSoftware"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Identified", "http://www.w3.org/ns/prov#Association" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "Association1"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1",
+  "http://www.w3.org/ns/prov#hadRole" : [ {
+    "@id" : "https://identifiers.org/SBO:0000645"
+  } ],
+  "http://www.w3.org/ns/prov#entity" : [ {
+    "@id" : "https://sbolstandard.org/examples/toggle_switch"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Identified", "http://www.w3.org/ns/prov#Usage" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "Usage1"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2",
+  "http://www.w3.org/ns/prov#hadRole" : [ {
+    "@id" : "https://identifiers.org/SBO:0000011"
+  } ],
+  "http://www.w3.org/ns/prov#entity" : [ {
+    "@id" : "https://sbolstandard.org/examples/toggle_switch_optimised"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Identified", "http://www.w3.org/ns/prov#Usage" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "Usage2"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/toggle_switch",
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "Toggle Switch genetic circuit"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Toggle Switch"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000241"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "toggle_switch"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Component" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/toggle_switch_optimised",
+  "http://www.w3.org/ns/prov#wasDerivedFrom" : [ {
+    "@id" : "https://sbolstandard.org/examples/toggle_switch"
+  } ],
+  "http://www.w3.org/ns/prov#wasGeneratedBy" : [ {
+    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity"
+  } ],
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "Toggle Switch genetic circuit - codon optimised"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Toggle Switch Optimised"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000241"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "toggle_switch_optimised"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Component" ]
+} ]

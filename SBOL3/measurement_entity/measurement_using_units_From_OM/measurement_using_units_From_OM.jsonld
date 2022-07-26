@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA",
+    "@type" : "sbol:Component",
+    "description" : "M9 Glucose CAA growth media",
+    "displayId" : "M9_Glucose_CAA",
+    "hasFeature" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1",
+    "hasNamespace" : "https://sbolstandard.org/examples",
+    "name" : "M9 Glucose CAA",
+    "type" : "SBO:0000241"
+  }, {
+    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1",
+    "@type" : "sbol:ExternallyDefined",
+    "definition" : "CHEBI:3312",
+    "displayId" : "ExternallyDefined1",
+    "hasMeasure" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
+    "type" : "SBO:0000247"
+  }, {
+    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
+    "@type" : [ "sbol:Identified", "om:Measure" ],
+    "displayId" : "measure1",
+    "hasNumericalValue" : "0.1",
+    "hasUnit" : "om:millimolePerLitre"
+  } ],
+  "@context" : {
+    "hasFeature" : {
+      "@id" : "http://sbols.org/v3#hasFeature",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://sbols.org/v3#description"
+    },
+    "name" : {
+      "@id" : "http://sbols.org/v3#name"
+    },
+    "hasNamespace" : {
+      "@id" : "http://sbols.org/v3#hasNamespace",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://sbols.org/v3#type",
+      "@type" : "@id"
+    },
+    "displayId" : {
+      "@id" : "http://sbols.org/v3#displayId"
+    },
+    "hasMeasure" : {
+      "@id" : "http://sbols.org/v3#hasMeasure",
+      "@type" : "@id"
+    },
+    "definition" : {
+      "@id" : "http://sbols.org/v3#definition",
+      "@type" : "@id"
+    },
+    "hasUnit" : {
+      "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit",
+      "@type" : "@id"
+    },
+    "hasNumericalValue" : {
+      "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue"
+    },
+    "SBO" : "https://identifiers.org/SBO:",
+    "CHEBI" : "https://identifiers.org/CHEBI:",
+    "GO" : "https://identifiers.org/GO:",
+    "sbol" : "http://sbols.org/v3#",
+    "EDAM" : "https://identifiers.org/edam:",
+    "SO" : "https://identifiers.org/SO:",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+  }
+}

@@ -1,0 +1,62 @@
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://sbolstandard.org/examples/toggle_switch> .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://sbolstandard.org/examples/codon_optimization_activity> .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#description> "Toggle Switch genetic circuit - codon optimised" .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#name> "Toggle Switch Optimised" .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://sbols.org/v3#displayId> "toggle_switch_optimised" .
+<https://sbolstandard.org/examples/toggle_switch_optimised> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://sbolstandard.org/examples/CodonOptimiserSoftware> <http://sbols.org/v3#description> "Used to optimise bacterial DNA sequences." .
+<https://sbolstandard.org/examples/CodonOptimiserSoftware> <http://sbols.org/v3#name> "Codon Optimiser Software" .
+<https://sbolstandard.org/examples/CodonOptimiserSoftware> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/CodonOptimiserSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://sbolstandard.org/examples/CodonOptimiserSoftware> <http://sbols.org/v3#displayId> "CodonOptimiserSoftware" .
+<https://sbolstandard.org/examples/CodonOptimiserSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://www.w3.org/ns/prov#wasInformedBy> <https://sbolstandard.org/examples/codon_optimization_activity> .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://sbols.org/v3#description> "An activity that is used to RBSs" .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://sbols.org/v3#name> "RBS optimization activity" .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://sbols.org/v3#type> <http://sbols.org/v3#design> .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://sbols.org/v3#displayId> "RBS_optimisation_activity" .
+<https://sbolstandard.org/examples/RBS_optimisation_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Association1> <http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v3#design> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Association1> <http://www.w3.org/ns/prov#hadPlan> <https://sbolstandard.org/examples/CodonOptimisationProtocol> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Association1> <http://www.w3.org/ns/prov#agent> <https://sbolstandard.org/examples/CodonOptimiserSoftware> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Association1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Association1> <http://sbols.org/v3#displayId> "Association1" .
+<https://sbolstandard.org/examples/codon_optimization_activity/Association1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Association> .
+<https://sbolstandard.org/examples/toggle_switch> <http://sbols.org/v3#description> "Toggle Switch genetic circuit" .
+<https://sbolstandard.org/examples/toggle_switch> <http://sbols.org/v3#name> "Toggle Switch" .
+<https://sbolstandard.org/examples/toggle_switch> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/toggle_switch> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> .
+<https://sbolstandard.org/examples/toggle_switch> <http://sbols.org/v3#displayId> "toggle_switch" .
+<https://sbolstandard.org/examples/toggle_switch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage1> <http://www.w3.org/ns/prov#hadRole> <https://identifiers.org/SBO:0000645> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage1> <http://www.w3.org/ns/prov#entity> <https://sbolstandard.org/examples/toggle_switch> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage1> <http://sbols.org/v3#displayId> "Usage1" .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Usage> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage2> <http://www.w3.org/ns/prov#hadRole> <https://identifiers.org/SBO:0000011> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage2> <http://www.w3.org/ns/prov#entity> <https://sbolstandard.org/examples/toggle_switch_optimised> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage2> <http://sbols.org/v3#displayId> "Usage2" .
+<https://sbolstandard.org/examples/codon_optimization_activity/Usage2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Usage> .
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://sbols.org/v3#description> "Optimisation protocol to improve the translation of mRNAs." .
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://sbols.org/v3#name> "Codon Optimisation Protocol" .
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://sbols.org/v3#displayId> "CodonOptimisationProtocol" .
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Plan> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#type> <http://sbols.org/v3#design> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#startedAtTime> "2019-07-29T15:42:23.277Z" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#endedAtTime> "2020-08-30T15:42:23.277Z" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#name> "Codon optimization activity" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#description> "An activity that is used to optimise codons" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedUsage> <https://sbolstandard.org/examples/codon_optimization_activity/Usage2> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#displayId> "codon_optimization_activity" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedAssociation> <https://sbolstandard.org/examples/codon_optimization_activity/Association1> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedUsage> <https://sbolstandard.org/examples/codon_optimization_activity/Usage1> .

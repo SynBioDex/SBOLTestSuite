@@ -1,0 +1,24 @@
+{ 
+  "urn:uuid:f8e709e1-2cac-43ab-bdca-796ee2d7755b" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "urn:uuid:d8338ec9-2ec5-4231-9081-541d94efc7da"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "TetR"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ]
+  }
+}

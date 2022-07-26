@@ -1,0 +1,50 @@
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://parts.igem.org/regulation> "//regulation/constitutive" .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://parts.igem.org/regulation> "//regulation/second_regulation" .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://parts.igem.org/sigmaFactor> "//rnap/prokaryote/ecoli/sigma70" .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://sbols.org/v3#description> "The experience page captures users' experience using the BBa_J23119 part" .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://sbols.org/v3#displayId> "information1" .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://sbols.org/v3#name> "BBa_J23119_experience" .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/Information> .
+<https://sbolstandard.org/examples/BBa_J23119/information1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://parts.igem.org/twinURL> <http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://parts.igem.org/twinURL> <http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://parts.igem.org/twinURL> <http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://sbols.org/v3#displayId> "twinParts" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://sbols.org/v3#name> "twin parts" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/TwinPartUsage> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/inStock> "true" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/registryStar> "1" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/twinURLs> <https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/twins> "7" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://parts.igem.org/uses> "442" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://sbols.org/v3#description> "BBa_J23119 usage statistics" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://sbols.org/v3#displayId> "usage1" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://sbols.org/v3#name> "BBa_J23119_usage" .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/IGEMUsage> .
+<https://sbolstandard.org/examples/BBa_J23119/usage1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/belongsTo> <https://sbolstandard.org/examples/SynBioHubRepository> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/belongsTo> <https://sbolstandard.org/examples/iGEMRepository> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/experienceURL> <http://parts.igem.org/Part:BBa_J23119:Experience> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/group> "iGEM2006_Berkeley" .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/hasInformation> <https://sbolstandard.org/examples/BBa_J23119/information1> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://parts.igem.org/hasUsage> <https://sbolstandard.org/examples/BBa_J23119/usage1> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#description> "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library." .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#displayId> "BBa_J23119" .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#name> "BBa_J23119 part" .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://sbolstandard.org/examples/BBa_J23119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
+<https://sbolstandard.org/examples/SynBioHubRepository> <http://sbols.org/v3#displayId> "SynBioHubRepository" .
+<https://sbolstandard.org/examples/SynBioHubRepository> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/SynBioHubRepository> <http://sbols.org/v3#name> "SynBioHub" .
+<https://sbolstandard.org/examples/SynBioHubRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/Repository> .
+<https://sbolstandard.org/examples/SynBioHubRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
+<https://sbolstandard.org/examples/iGEMRepository> <http://parts.igem.org/website> <http://parts.igem.org/Main_Page> .
+<https://sbolstandard.org/examples/iGEMRepository> <http://sbols.org/v3#description> "Registry of Standard Biological Parts" .
+<https://sbolstandard.org/examples/iGEMRepository> <http://sbols.org/v3#displayId> "iGEMRepository" .
+<https://sbolstandard.org/examples/iGEMRepository> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/iGEMRepository> <http://sbols.org/v3#name> "iGEM Registry" .
+<https://sbolstandard.org/examples/iGEMRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://parts.igem.org/Repository> .
+<https://sbolstandard.org/examples/iGEMRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .

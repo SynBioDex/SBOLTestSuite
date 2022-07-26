@@ -1,0 +1,34 @@
+[ {
+  "@id" : "https://sbolstandard.org/examples/CodonOptimiserSoftware",
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "Used to optimise bacterial DNA sequences."
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Codon Optimiser Software"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.w3.org/ns/prov#Agent" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "CodonOptimiserSoftware"
+  } ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/toggle_switch",
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "Toggle Switch genetic circuit"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "Toggle Switch"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000241"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "toggle_switch"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Component" ]
+} ]

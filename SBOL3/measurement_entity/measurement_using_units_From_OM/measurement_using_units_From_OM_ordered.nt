@@ -1,0 +1,17 @@
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1> <http://sbols.org/v3#displayId> "measure1" .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1> <http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue> "0.1" .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1> <http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Identified> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1> <http://sbols.org/v3#definition> <https://identifiers.org/CHEBI:3312> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1> <http://sbols.org/v3#displayId> "ExternallyDefined1" .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1> <http://sbols.org/v3#hasMeasure> <https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000247> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#ExternallyDefined> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://sbols.org/v3#description> "M9 Glucose CAA growth media" .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://sbols.org/v3#displayId> "M9_Glucose_CAA" .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://sbols.org/v3#hasFeature> <https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://sbols.org/v3#name> "M9 Glucose CAA" .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> .
+<https://sbolstandard.org/examples/M9_Glucose_CAA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .

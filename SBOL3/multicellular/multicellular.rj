@@ -1,0 +1,2234 @@
+{ 
+  "https://sbolstandard.org/examples/MulticellularSystem" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "MulticellularSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "MulticellularSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Multicellular System"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation1" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent7"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000645"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation2" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent12"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation2"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000459"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent6" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent6"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/rbs_gfp"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/OrganismA" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismA"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000290"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismA"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Organism A"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0005623"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/rbs_luxR"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/pConstLuxR" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "pConstLuxR"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000167"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "pLuxR"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Constituve promoter"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation2" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation2"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000011"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent12" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent12"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/LuxR_AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL_producer"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000704"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent4"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL producer"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL producer"
+    }
+     ] ,
+    "http://sbols.org/v3#hasInteraction" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/Interaction1"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/rbs_luxI"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation3" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent12"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation3"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000011"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/pLuxR" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "pLuxR"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000167"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "pLuxR"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR inducible promoter"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/SubComponent3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/Constraint3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#verifyIdentical"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/luxI" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "luxI"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000316"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "luxI"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "luxI coding sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent9" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent9"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent5" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent5"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/pLuxR"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Interaction1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasParticipation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Interaction"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000589"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ter_luxI" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ter_luxI"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000141"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "luxI terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/pConstLuxR"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation1" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent3"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000645"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent11" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent11"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/GFP_protein"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ReceiverSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint2"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "ReceiverSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Receiver System"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Interaction2"
+    }
+     ] ,
+    "http://sbols.org/v3#hasParticipation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Interaction"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000589"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/pConstLuxI"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation2" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent10"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation2"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000011"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation2" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation2"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000010"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ter_luxR" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ter_luxR"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000141"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "luxR terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/CHEBI:35224"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000247"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/pConstLuxI" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "pConstLuxI"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000167"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "pConstLuxI"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Constitutive promoter"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/SubComponent5" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent5"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/luxR" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "luxR"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000316"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "luxR"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "luxR coding sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#contains"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/Constraint2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#contains"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/rbs_luxI" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "rbs_luxI"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000139"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "rbs"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "RBS"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent8" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent8"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ter_gfp"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/GFP_protein" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "GFP_protein"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "GFP"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "GFP"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent4" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent4"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ter_luxR"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/rbs_gfp" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "rbs_gfp"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000139"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "rbs"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "RBS"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation1" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent10"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000010"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#contains"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent10" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent10"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/LuxR_protein"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Interaction3"
+    }
+     ] ,
+    "http://sbols.org/v3#hasParticipation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Interaction"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000170"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SenderSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/Constraint3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/Constraint2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "SenderSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Sender System"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation1" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent3"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000645"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/rbs_luxR" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "rbs_luxR"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000139"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "rbs"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "RBS"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/OrganismB"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/SubComponent4" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent4"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ter_luxI"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/LuxR_protein" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR_protein"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0003700"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR_protein"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/Constraint2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#contains"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/OrganismA"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/gfp" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000316"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp coding sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation2" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent11"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation2"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000011"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent7" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent7"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/gfp"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/LuxR_AHL" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR_AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0003700"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR_AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "LuxR_AHL complex"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation1" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent5"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000643"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/SubComponent3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/luxR"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ter_gfp" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ter_gfp"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000141"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#verifyIdentical"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL_receiver"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000704"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent11"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent10"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent12"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent8"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent7"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent4"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent6"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent5"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL receiver"
+    }
+     ] ,
+    "http://sbols.org/v3#hasInteraction" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction1"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL receiver"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/OrganismB" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismB"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000290"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismB"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Organism B"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0005623"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/Interaction1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Interaction1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasParticipation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Interaction"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000589"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_receiver/Interaction4" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Interaction4"
+    }
+     ] ,
+    "http://sbols.org/v3#hasParticipation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Interaction"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000177"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL_producer/SubComponent3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/luxI"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/Constraint3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/ComponentReference1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#verifyIdentical"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+     ]
+  }
+}

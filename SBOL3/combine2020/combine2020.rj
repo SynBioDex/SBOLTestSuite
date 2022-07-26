@@ -1,0 +1,1134 @@
+{ 
+  "https://synbiohub.org/public/igem/interlab16device2/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/SubComponent2"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/j23106" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "j23106"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_Sequence1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "i13504_Sequence1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#elements" : [ { 
+      "type" : "literal" ,
+      "value" : "aaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#encoding" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/edam:format_1207"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "i13504 sequence"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SequenceFeature2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SequenceFeature2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SequenceFeature"
+    }
+     ] ,
+    "http://sbols.org/v3#hasLocation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SequenceFeature2/Range1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/B0015" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "B0015"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000141"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/B0015_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "B0015 double terminator"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "interlab16device1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/SubComponent1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/SubComponent2"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SequenceFeature1/Range1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Range1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Range"
+    }
+     ] ,
+    "http://sbols.org/v3#start" : [ { 
+      "type" : "literal" ,
+      "value" : "13"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#end" : [ { 
+      "type" : "literal" ,
+      "value" : "18"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device1/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device2/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#meets"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/ComponentReference1"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SequenceFeature2/Range1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Range1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Range"
+    }
+     ] ,
+    "http://sbols.org/v3#start" : [ { 
+      "type" : "literal" ,
+      "value" : "739"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#end" : [ { 
+      "type" : "literal" ,
+      "value" : "746"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#hasLocation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent2/Range1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/E0040"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system/Interaction1/Participation1" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/ComponentReference1"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000645"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/B0015_Sequence1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "B0015_Sequence1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#elements" : [ { 
+      "type" : "literal" ,
+      "value" : "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#encoding" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/edam:format_1207"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "terminator sequence"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SubComponent1/Range1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Range1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Range"
+    }
+     ] ,
+    "http://sbols.org/v3#start" : [ { 
+      "type" : "literal" ,
+      "value" : "1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#end" : [ { 
+      "type" : "literal" ,
+      "value" : "11"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device2/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/j23106"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/j23101" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "j23101"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/E0040" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "E0040"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000316"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/E0040_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp coding sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SequenceFeature1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SequenceFeature1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SequenceFeature"
+    }
+     ] ,
+    "http://sbols.org/v3#hasLocation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SequenceFeature1/Range1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SubComponent2/Range1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Range1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Range"
+    }
+     ] ,
+    "http://sbols.org/v3#start" : [ { 
+      "type" : "literal" ,
+      "value" : "19"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#end" : [ { 
+      "type" : "literal" ,
+      "value" : "738"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "i13504_system"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "i13504 system"
+    }
+     ] ,
+    "http://sbols.org/v3#hasInteraction" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/Interaction1"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system/Interaction1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Interaction1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasParticipation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/Interaction1/Participation2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/Interaction1/Participation1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Interaction"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000589"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device1/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/j23101"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/B0034" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "B0034"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000139"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/B0034_Sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "B0034"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "RBS (Elowitz 1999)"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/E0040_Sequence1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "E0040_Sequence1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#elements" : [ { 
+      "type" : "literal" ,
+      "value" : "atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#encoding" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/edam:format_1207"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "gfp sequence"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device1/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/SubComponent2"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "interlab16device2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device2/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device1/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#meets"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/interlab16device1/ComponentReference1"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SubComponent3/Range1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Range1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Range"
+    }
+     ] ,
+    "http://sbols.org/v3#start" : [ { 
+      "type" : "literal" ,
+      "value" : "747"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#end" : [ { 
+      "type" : "literal" ,
+      "value" : "826"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/GFP_protein"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/GFP_protein" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "GFP_protein"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "GFP"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "GFP"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/B0034_Sequence" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "B0034_Sequence"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Sequence"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#elements" : [ { 
+      "type" : "literal" ,
+      "value" : "aaagaggagaaa"
+    }
+     ] ,
+    "http://sbols.org/v3#encoding" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/edam:format_1207"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SubComponent3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#hasLocation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent3/Range1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/B0015"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504_system/Interaction1/Participation2" : { 
+    "http://sbols.org/v3#participant" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system/SubComponent2"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Participation2"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000011"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Participation"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#hasLocation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent1/Range1"
+    }
+     ] ,
+    "http://sbols.org/v3#orientation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0001030"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/B0034"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/i13504" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "i13504"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000704"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#hasSequence" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_Sequence1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SequenceFeature2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SequenceFeature1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "i13504"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Screening plasmid intermediate"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ]
+  }
+   ,
+  "https://synbiohub.org/public/igem/interlab16device2/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem/i13504_system"
+    }
+     ]
+  }
+}

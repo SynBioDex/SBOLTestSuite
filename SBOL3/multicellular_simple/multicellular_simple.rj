@@ -1,0 +1,517 @@
+{ 
+  "https://sbolstandard.org/examples/MulticellularSystem" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "MulticellularSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "MulticellularSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Multicellular System"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#verifyIdentical"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/OrganismA" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismA"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000290"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismA"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Organism A"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0005623"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/OrganismB" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismB"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000290"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "OrganismB"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Organism B"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/GO:0005623"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ComponentReference2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ComponentReference"
+    }
+     ] ,
+    "http://sbols.org/v3#inChildOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+    }
+     ] ,
+    "http://sbols.org/v3#refersTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#contains"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ReceiverSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "ReceiverSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Receiver System"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SenderSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000289"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#hasConstraint" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/Constraint1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasFeature" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "SenderSystem"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Sender System"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/AHL" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/CHEBI:35224"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "AHL"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000247"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/OrganismB"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/SubComponent2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/AHL"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/Constraint1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Constraint1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Constraint"
+    }
+     ] ,
+    "http://sbols.org/v3#subject" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+    }
+     ] ,
+    "http://sbols.org/v3#restriction" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#contains"
+    }
+     ] ,
+    "http://sbols.org/v3#object" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/SenderSystem/SubComponent1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SubComponent1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#SubComponent"
+    }
+     ] ,
+    "http://sbols.org/v3#instanceOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/OrganismA"
+    }
+     ]
+  }
+}

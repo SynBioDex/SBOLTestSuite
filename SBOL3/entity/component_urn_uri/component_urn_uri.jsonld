@@ -1,0 +1,28 @@
+{
+  "@id" : "urn:uuid:f8e709e1-2cac-43ab-bdca-796ee2d7755b",
+  "@type" : "sbol:Component",
+  "hasNamespace" : "urn:uuid:d8338ec9-2ec5-4231-9081-541d94efc7da",
+  "name" : "TetR",
+  "type" : "SBO:0000252",
+  "@context" : {
+    "name" : {
+      "@id" : "http://sbols.org/v3#name"
+    },
+    "hasNamespace" : {
+      "@id" : "http://sbols.org/v3#hasNamespace",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://sbols.org/v3#type",
+      "@type" : "@id"
+    },
+    "SBO" : "https://identifiers.org/SBO:",
+    "CHEBI" : "https://identifiers.org/CHEBI:",
+    "GO" : "https://identifiers.org/GO:",
+    "sbol" : "http://sbols.org/v3#",
+    "EDAM" : "https://identifiers.org/edam:",
+    "SO" : "https://identifiers.org/SO:",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+  }
+}

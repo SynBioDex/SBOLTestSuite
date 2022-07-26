@@ -1,0 +1,60 @@
+@base          <https://sbolstandard.org/examples/> .
+@prefix :      <https://sbolstandard.org/examples/> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
+@prefix CHEBI: <https://identifiers.org/CHEBI:> .
+@prefix igem:  <http://parts.igem.org/> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix sbol:  <http://sbols.org/v3#> .
+@prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix SO:    <https://identifiers.org/SO:> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+
+<BBa_J23119/usage1>  a     sbol:Identified , igem:IGEMUsage ;
+        igem:inStock       "true" ;
+        igem:registryStar  "1" ;
+        igem:twinURLs      <BBa_J23119/usage1/twinParts> ;
+        igem:twins         "7" ;
+        igem:uses          "442" ;
+        sbol:description   "BBa_J23119 usage statistics" ;
+        sbol:displayId     "usage1" ;
+        sbol:name          "BBa_J23119_usage" .
+
+:iGEMRepository  a         igem:Repository , sbol:TopLevel ;
+        igem:website       igem:Main_Page ;
+        sbol:description   "Registry of Standard Biological Parts" ;
+        sbol:displayId     "iGEMRepository" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "iGEM Registry" .
+
+:BBa_J23119  a               sbol:Component ;
+        igem:belongsTo       :iGEMRepository , :SynBioHubRepository ;
+        igem:experienceURL   igem:Part:BBa_J23119:Experience ;
+        igem:group           "iGEM2006_Berkeley" ;
+        igem:hasInformation  <BBa_J23119/information1> ;
+        igem:hasUsage        <BBa_J23119/usage1> ;
+        sbol:description     "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library." ;
+        sbol:displayId       "BBa_J23119" ;
+        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:name            "BBa_J23119 part" ;
+        sbol:role            SO:0000167 ;
+        sbol:type            SBO:0000251 .
+
+:SynBioHubRepository  a    igem:Repository , sbol:TopLevel ;
+        sbol:displayId     "SynBioHubRepository" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "SynBioHub" .
+
+<BBa_J23119/usage1/twinParts>
+        a               igem:TwinPartUsage , sbol:Identified ;
+        igem:twinURL    <http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800> , <http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638> , <http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073> ;
+        sbol:displayId  "twinParts" ;
+        sbol:name       "twin parts" .
+
+<BBa_J23119/information1>
+        a                 igem:Information , sbol:Identified ;
+        igem:regulation   "//regulation/second_regulation" , "//regulation/constitutive" ;
+        igem:sigmaFactor  "//rnap/prokaryote/ecoli/sigma70" ;
+        sbol:description  "The experience page captures users' experience using the BBa_J23119 part" ;
+        sbol:displayId    "information1" ;
+        sbol:name         "BBa_J23119_experience" .

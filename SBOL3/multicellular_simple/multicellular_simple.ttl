@@ -1,0 +1,127 @@
+@base          <https://sbolstandard.org/examples/> .
+@prefix :      <https://sbolstandard.org/examples/> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
+@prefix CHEBI: <https://identifiers.org/CHEBI:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix sbol:  <http://sbols.org/v3#> .
+@prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix SO:    <https://identifiers.org/SO:> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+
+<ReceiverSystem/SubComponent1>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent1" ;
+        sbol:instanceOf  :OrganismB .
+
+:ReceiverSystem  a          sbol:Component ;
+        sbol:description    "Receiver System" ;
+        sbol:displayId      "ReceiverSystem" ;
+        sbol:hasConstraint  <ReceiverSystem/Constraint1> ;
+        sbol:hasFeature     <ReceiverSystem/SubComponent2> , <ReceiverSystem/SubComponent1> ;
+        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:name           "ReceiverSystem" ;
+        sbol:role           SBO:0000289 ;
+        sbol:type           SBO:0000241 .
+
+:MulticellularSystem  a     sbol:Component ;
+        sbol:description    "Multicellular System" ;
+        sbol:displayId      "MulticellularSystem" ;
+        sbol:hasConstraint  <MulticellularSystem/Constraint1> ;
+        sbol:hasFeature     <MulticellularSystem/ComponentReference2> , <MulticellularSystem/SubComponent1> , <MulticellularSystem/ComponentReference1> , <MulticellularSystem/SubComponent2> ;
+        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:name           "MulticellularSystem" ;
+        sbol:role           SBO:0000289 ;
+        sbol:type           SBO:0000241 .
+
+<MulticellularSystem/Constraint1>
+        a                 sbol:Constraint ;
+        sbol:displayId    "Constraint1" ;
+        sbol:object       <MulticellularSystem/ComponentReference2> ;
+        sbol:restriction  sbol:verifyIdentical ;
+        sbol:subject      <MulticellularSystem/ComponentReference1> .
+
+<SenderSystem/Constraint1>
+        a                 sbol:Constraint ;
+        sbol:displayId    "Constraint1" ;
+        sbol:object       <SenderSystem/SubComponent2> ;
+        sbol:restriction  sbol:contains ;
+        sbol:subject      <SenderSystem/SubComponent1> .
+
+<SenderSystem/SubComponent1>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent1" ;
+        sbol:instanceOf  :OrganismA .
+
+<MulticellularSystem/SubComponent2>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent2" ;
+        sbol:instanceOf  :ReceiverSystem .
+
+<MulticellularSystem/ComponentReference2>
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference2" ;
+        sbol:inChildOf  <MulticellularSystem/SubComponent2> ;
+        sbol:refersTo   <ReceiverSystem/SubComponent2> .
+
+:OrganismA  a              sbol:Component ;
+        sbol:description   "Organism A" ;
+        sbol:displayId     "OrganismA" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "OrganismA" ;
+        sbol:role          SBO:0000290 ;
+        sbol:type          GO:0005623 .
+
+<ReceiverSystem/Constraint1>
+        a                 sbol:Constraint ;
+        sbol:displayId    "Constraint1" ;
+        sbol:object       <ReceiverSystem/SubComponent2> ;
+        sbol:restriction  sbol:contains ;
+        sbol:subject      <ReceiverSystem/SubComponent1> .
+
+<ReceiverSystem/SubComponent2>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent2" ;
+        sbol:instanceOf  :AHL .
+
+<SenderSystem/SubComponent2>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent2" ;
+        sbol:instanceOf  :AHL .
+
+:SenderSystem  a            sbol:Component ;
+        sbol:description    "Sender System" ;
+        sbol:displayId      "SenderSystem" ;
+        sbol:hasConstraint  <SenderSystem/Constraint1> ;
+        sbol:hasFeature     <SenderSystem/SubComponent1> , <SenderSystem/SubComponent2> ;
+        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:name           "SenderSystem" ;
+        sbol:role           SBO:0000289 ;
+        sbol:type           SBO:0000241 .
+
+:AHL    a                  sbol:Component ;
+        sbol:description   "AHL" ;
+        sbol:displayId     "AHL" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "AHL" ;
+        sbol:role          CHEBI:35224 ;
+        sbol:type          SBO:0000247 .
+
+:OrganismB  a              sbol:Component ;
+        sbol:description   "Organism B" ;
+        sbol:displayId     "OrganismB" ;
+        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:name          "OrganismB" ;
+        sbol:role          SBO:0000290 ;
+        sbol:type          GO:0005623 .
+
+<MulticellularSystem/SubComponent1>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent1" ;
+        sbol:instanceOf  :SenderSystem .
+
+<MulticellularSystem/ComponentReference1>
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference1" ;
+        sbol:inChildOf  <MulticellularSystem/SubComponent1> ;
+        sbol:refersTo   <SenderSystem/SubComponent2> .

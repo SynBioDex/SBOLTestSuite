@@ -1,0 +1,49 @@
+[ {
+  "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA",
+  "http://sbols.org/v3#hasFeature" : [ {
+    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1"
+  } ],
+  "http://sbols.org/v3#description" : [ {
+    "@value" : "M9 Glucose CAA growth media"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "M9 Glucose CAA"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000241"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "M9_Glucose_CAA"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Component" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1",
+  "http://sbols.org/v3#hasMeasure" : [ {
+    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1"
+  } ],
+  "http://sbols.org/v3#definition" : [ {
+    "@id" : "https://identifiers.org/CHEBI:3312"
+  } ],
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000247"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "ExternallyDefined1"
+  } ],
+  "@type" : [ "http://sbols.org/v3#ExternallyDefined" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" : [ {
+    "@value" : "0.1"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Identified", "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "measure1"
+  } ]
+} ]
