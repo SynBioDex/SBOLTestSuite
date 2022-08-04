@@ -24,7 +24,7 @@ Submission of new files should follow the workflow below to add new SBOL test fi
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository.  
 2. Add the test file to the correct directory as described above. 
 3. Run the validation scripts found within the 'src/test' directory. 
-4. If the files are successfully validated, submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). 
+4. If the files are successfully validated, submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). In the pull request, please be sure to explain what the new files you are adding are intended to test. 
 
 # Running Characterization Profile
 
