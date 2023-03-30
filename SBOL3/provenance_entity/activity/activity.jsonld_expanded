@@ -55,12 +55,9 @@
     "@id" : "http://sbols.org/v3#design"
   } ],
   "http://www.w3.org/ns/prov#startedAtTime" : [ {
-    "@value" : "2019-07-29T15:42:23.277Z"
+    "@value" : "2019-07-29T12:48:00.149Z"
   } ],
   "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.w3.org/ns/prov#Activity" ],
-  "http://www.w3.org/ns/prov#endedAtTime" : [ {
-    "@value" : "2020-08-30T15:42:23.277Z"
-  } ],
   "http://sbols.org/v3#name" : [ {
     "@value" : "Codon optimization activity"
   } ],
@@ -74,6 +71,9 @@
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "codon_optimization_activity"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@value" : "2020-08-30T12:48:00.149Z"
   } ],
   "http://www.w3.org/ns/prov#qualifiedAssociation" : [ {
     "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
@@ -99,7 +99,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1",
   "http://www.w3.org/ns/prov#hadRole" : [ {
-    "@id" : "https://identifiers.org/SBO:0000645"
+    "@id" : "http://sbols.org/v3#learn"
   } ],
   "http://www.w3.org/ns/prov#entity" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch"
@@ -111,7 +111,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2",
   "http://www.w3.org/ns/prov#hadRole" : [ {
-    "@id" : "https://identifiers.org/SBO:0000011"
+    "@id" : "http://sbols.org/v3#design"
   } ],
   "http://www.w3.org/ns/prov#entity" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch_optimised"

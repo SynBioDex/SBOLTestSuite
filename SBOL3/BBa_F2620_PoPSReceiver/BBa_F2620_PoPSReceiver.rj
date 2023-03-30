@@ -140,7 +140,7 @@
      ] ,
     "http://sbols.org/v3#description" : [ { 
       "type" : "literal" ,
-      "value" : "lux pR sequence"
+      "value" : "BBa_R0062 sequence"
     }
      ]
   }
@@ -442,7 +442,7 @@
      ] ,
     "http://sbols.org/v3#description" : [ { 
       "type" : "literal" ,
-      "value" : "TetR sequence"
+      "value" : "TetR_protein sequence"
     }
      ]
   }
@@ -518,7 +518,7 @@
      ] ,
     "http://sbols.org/v3#description" : [ { 
       "type" : "literal" ,
-      "value" : "LuxR sequence"
+      "value" : "BBa_C0062_protein sequence"
     }
      ]
   }
@@ -579,7 +579,7 @@
      ] ,
     "http://sbols.org/v3#description" : [ { 
       "type" : "literal" ,
-      "value" : "luxR sequence"
+      "value" : "BBa_C0062 sequence"
     }
      ]
   }
@@ -1264,7 +1264,7 @@
      ] ,
     "http://sbols.org/v3#end" : [ { 
       "type" : "literal" ,
-      "value" : "53"
+      "value" : "54"
     }
      ]
   }
@@ -1353,7 +1353,7 @@
      ] ,
     "http://sbols.org/v3#end" : [ { 
       "type" : "literal" ,
-      "value" : "79"
+      "value" : "80"
     }
      ]
   }
@@ -1471,7 +1471,7 @@
      ] ,
     "http://sbols.org/v3#description" : [ { 
       "type" : "literal" ,
-      "value" : "pTetR sequence"
+      "value" : "BBa_R0040 sequence"
     }
      ]
   }

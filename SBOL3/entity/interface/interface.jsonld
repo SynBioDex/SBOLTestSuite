@@ -1,118 +1,135 @@
 {
-  "@graph" : [ {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer",
-    "@type" : "sbol:Component",
-    "description" : "LacI producer",
-    "displayId" : "LacI_producer",
-    "hasFeature" : [ "https://sbolstandard.org/examples/LacI_producer/SubComponent1", "https://sbolstandard.org/examples/LacI_producer/SubComponent2", "https://sbolstandard.org/examples/LacI_producer/SubComponent3" ],
-    "hasInterface" : "https://sbolstandard.org/examples/LacI_producer/Interface1",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "LacI produce",
-    "role" : "SO:0000704",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer/Interface1",
-    "@type" : "sbol:Interface",
-    "displayId" : "Interface1",
-    "input" : [ "https://sbolstandard.org/examples/LacI_producer/SubComponent2", "https://sbolstandard.org/examples/LacI_producer/SubComponent1" ],
-    "nondirectional" : "https://sbolstandard.org/examples/LacI_producer/SubComponent3",
-    "output" : "https://sbolstandard.org/examples/LacI_producer/SubComponent1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://sbolstandard.org/examples/LacI_protein"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://sbolstandard.org/examples/TetR_protein"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent3",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent3",
-    "instanceOf" : "https://sbolstandard.org/examples/aTC"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LacI_protein",
-    "@type" : "sbol:Component",
-    "description" : "LacI protein",
-    "displayId" : "LacI_protein",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "LacI",
-    "role" : "GO:0003700",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/TetR_protein",
-    "@type" : "sbol:Component",
-    "description" : "TetR protein",
-    "displayId" : "TetR_protein",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "TetR",
-    "role" : "GO:0003700",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/aTC",
-    "@type" : "sbol:Component",
-    "description" : "aTC",
-    "displayId" : "aTC",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "aTC",
-    "role" : "CHEBI:35224",
-    "type" : "SBO:0000247"
-  } ],
-  "@context" : {
-    "instanceOf" : {
-      "@id" : "http://sbols.org/v3#instanceOf",
-      "@type" : "@id"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "role" : {
-      "@id" : "http://sbols.org/v3#role",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "hasFeature" : {
-      "@id" : "http://sbols.org/v3#hasFeature",
-      "@type" : "@id"
-    },
-    "hasInterface" : {
-      "@id" : "http://sbols.org/v3#hasInterface",
-      "@type" : "@id"
-    },
-    "nondirectional" : {
-      "@id" : "http://sbols.org/v3#nondirectional",
-      "@type" : "@id"
-    },
-    "output" : {
-      "@id" : "http://sbols.org/v3#output",
-      "@type" : "@id"
-    },
-    "input" : {
-      "@id" : "http://sbols.org/v3#input",
-      "@type" : "@id"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent1",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/LacI_protein"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LacI_protein",
+            "sbol:role": {
+                "@id": "GO:0003700"
+            },
+            "sbol:description": "LacI protein",
+            "sbol:name": "LacI",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:displayId": "LacI_protein",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/TetR_protein",
+            "sbol:role": {
+                "@id": "GO:0003700"
+            },
+            "sbol:description": "TetR protein",
+            "sbol:name": "TetR",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:displayId": "TetR_protein",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LacI_producer",
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent3"
+                }
+            ],
+            "@type": "sbol:Component",
+            "sbol:description": "LacI producer",
+            "sbol:hasInterface": {
+                "@id": "https://sbolstandard.org/examples/LacI_producer/Interface1"
+            },
+            "sbol:displayId": "LacI_producer",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:role": {
+                "@id": "SO:0000704"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:name": "LacI produce"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LacI_producer/Interface1",
+            "sbol:nondirectional": {
+                "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent3"
+            },
+            "sbol:output": {
+                "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent1"
+            },
+            "sbol:input": [
+                {
+                    "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent1"
+                }
+            ],
+            "sbol:displayId": "Interface1",
+            "@type": "sbol:Interface"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent2",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/TetR_protein"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LacI_producer/SubComponent3",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/aTC"
+            },
+            "sbol:displayId": "SubComponent3",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/aTC",
+            "sbol:role": {
+                "@id": "CHEBI:35224"
+            },
+            "sbol:description": "aTC",
+            "sbol:name": "aTC",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000247"
+            },
+            "sbol:displayId": "aTC",
+            "@type": "sbol:Component"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

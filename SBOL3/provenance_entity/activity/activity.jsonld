@@ -1,144 +1,165 @@
 {
-  "@graph" : [ {
-    "@id" : "https://sbolstandard.org/examples/CodonOptimisationProtocol",
-    "@type" : [ "sbol:TopLevel", "prov:Plan" ],
-    "description" : "Optimisation protocol to improve the translation of mRNAs.",
-    "displayId" : "CodonOptimisationProtocol",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Codon Optimisation Protocol"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/CodonOptimiserSoftware",
-    "@type" : [ "sbol:TopLevel", "prov:Agent" ],
-    "description" : "Used to optimise bacterial DNA sequences.",
-    "displayId" : "CodonOptimiserSoftware",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Codon Optimiser Software"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/RBS_optimisation_activity",
-    "@type" : [ "sbol:TopLevel", "prov:Activity" ],
-    "description" : "An activity that is used to RBSs",
-    "displayId" : "RBS_optimisation_activity",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "RBS optimization activity",
-    "type" : "sbol:design",
-    "wasInformedBy" : "https://sbolstandard.org/examples/codon_optimization_activity"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity",
-    "@type" : [ "sbol:TopLevel", "prov:Activity" ],
-    "description" : "An activity that is used to optimise codons",
-    "displayId" : "codon_optimization_activity",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Codon optimization activity",
-    "type" : "sbol:design",
-    "endedAtTime" : "2020-08-30T15:42:23.277Z",
-    "qualifiedAssociation" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
-    "qualifiedUsage" : [ "https://sbolstandard.org/examples/codon_optimization_activity/Usage2", "https://sbolstandard.org/examples/codon_optimization_activity/Usage1" ],
-    "startedAtTime" : "2019-07-29T15:42:23.277Z"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
-    "@type" : [ "sbol:Identified", "prov:Association" ],
-    "displayId" : "Association1",
-    "agent" : "https://sbolstandard.org/examples/CodonOptimiserSoftware",
-    "hadPlan" : "https://sbolstandard.org/examples/CodonOptimisationProtocol",
-    "hadRole" : "sbol:design"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1",
-    "@type" : [ "sbol:Identified", "prov:Usage" ],
-    "displayId" : "Usage1",
-    "entity" : "https://sbolstandard.org/examples/toggle_switch",
-    "hadRole" : "SBO:0000645"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2",
-    "@type" : [ "sbol:Identified", "prov:Usage" ],
-    "displayId" : "Usage2",
-    "entity" : "https://sbolstandard.org/examples/toggle_switch_optimised",
-    "hadRole" : "SBO:0000011"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/toggle_switch",
-    "@type" : "sbol:Component",
-    "description" : "Toggle Switch genetic circuit",
-    "displayId" : "toggle_switch",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Toggle Switch",
-    "type" : "SBO:0000241"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/toggle_switch_optimised",
-    "@type" : "sbol:Component",
-    "description" : "Toggle Switch genetic circuit - codon optimised",
-    "displayId" : "toggle_switch_optimised",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Toggle Switch Optimised",
-    "type" : "SBO:0000241",
-    "wasDerivedFrom" : "https://sbolstandard.org/examples/toggle_switch",
-    "wasGeneratedBy" : "https://sbolstandard.org/examples/codon_optimization_activity"
-  } ],
-  "@context" : {
-    "wasDerivedFrom" : {
-      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
-      "@type" : "@id"
-    },
-    "wasGeneratedBy" : {
-      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "wasInformedBy" : {
-      "@id" : "http://www.w3.org/ns/prov#wasInformedBy",
-      "@type" : "@id"
-    },
-    "hadRole" : {
-      "@id" : "http://www.w3.org/ns/prov#hadRole",
-      "@type" : "@id"
-    },
-    "hadPlan" : {
-      "@id" : "http://www.w3.org/ns/prov#hadPlan",
-      "@type" : "@id"
-    },
-    "agent" : {
-      "@id" : "http://www.w3.org/ns/prov#agent",
-      "@type" : "@id"
-    },
-    "entity" : {
-      "@id" : "http://www.w3.org/ns/prov#entity",
-      "@type" : "@id"
-    },
-    "startedAtTime" : {
-      "@id" : "http://www.w3.org/ns/prov#startedAtTime"
-    },
-    "endedAtTime" : {
-      "@id" : "http://www.w3.org/ns/prov#endedAtTime"
-    },
-    "qualifiedUsage" : {
-      "@id" : "http://www.w3.org/ns/prov#qualifiedUsage",
-      "@type" : "@id"
-    },
-    "qualifiedAssociation" : {
-      "@id" : "http://www.w3.org/ns/prov#qualifiedAssociation",
-      "@type" : "@id"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/toggle_switch_optimised",
+            "prov:wasDerivedFrom": {
+                "@id": "https://sbolstandard.org/examples/toggle_switch"
+            },
+            "prov:wasGeneratedBy": {
+                "@id": "https://sbolstandard.org/examples/codon_optimization_activity"
+            },
+            "sbol:description": "Toggle Switch genetic circuit - codon optimised",
+            "sbol:name": "Toggle Switch Optimised",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:displayId": "toggle_switch_optimised",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/toggle_switch",
+            "sbol:description": "Toggle Switch genetic circuit",
+            "sbol:name": "Toggle Switch",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:displayId": "toggle_switch",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/codon_optimization_activity",
+            "sbol:type": {
+                "@id": "sbol:design"
+            },
+            "prov:startedAtTime": "2019-07-29T12:48:00.149Z",
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Activity"
+            ],
+            "sbol:name": "Codon optimization activity",
+            "sbol:description": "An activity that is used to optimise codons",
+            "prov:qualifiedUsage": [
+                {
+                    "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
+                }
+            ],
+            "sbol:displayId": "codon_optimization_activity",
+            "prov:endedAtTime": "2020-08-30T12:48:00.149Z",
+            "prov:qualifiedAssociation": {
+                "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            }
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/CodonOptimiserSoftware",
+            "sbol:description": "Used to optimise bacterial DNA sequences.",
+            "sbol:name": "Codon Optimiser Software",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Agent"
+            ],
+            "sbol:displayId": "CodonOptimiserSoftware"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/RBS_optimisation_activity",
+            "prov:wasInformedBy": {
+                "@id": "https://sbolstandard.org/examples/codon_optimization_activity"
+            },
+            "sbol:description": "An activity that is used to RBSs",
+            "sbol:name": "RBS optimization activity",
+            "sbol:type": {
+                "@id": "sbol:design"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Activity"
+            ],
+            "sbol:displayId": "RBS_optimisation_activity"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
+            "prov:hadRole": {
+                "@id": "sbol:design"
+            },
+            "prov:hadPlan": {
+                "@id": "https://sbolstandard.org/examples/CodonOptimisationProtocol"
+            },
+            "prov:agent": {
+                "@id": "https://sbolstandard.org/examples/CodonOptimiserSoftware"
+            },
+            "@type": [
+                "sbol:Identified",
+                "prov:Association"
+            ],
+            "sbol:displayId": "Association1"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/CodonOptimisationProtocol",
+            "sbol:description": "Optimisation protocol to improve the translation of mRNAs.",
+            "sbol:name": "Codon Optimisation Protocol",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Plan"
+            ],
+            "sbol:displayId": "CodonOptimisationProtocol"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage1",
+            "prov:hadRole": {
+                "@id": "sbol:learn"
+            },
+            "prov:entity": {
+                "@id": "https://sbolstandard.org/examples/toggle_switch"
+            },
+            "@type": [
+                "sbol:Identified",
+                "prov:Usage"
+            ],
+            "sbol:displayId": "Usage1"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage2",
+            "prov:hadRole": {
+                "@id": "sbol:design"
+            },
+            "prov:entity": {
+                "@id": "https://sbolstandard.org/examples/toggle_switch_optimised"
+            },
+            "@type": [
+                "sbol:Identified",
+                "prov:Usage"
+            ],
+            "sbol:displayId": "Usage2"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

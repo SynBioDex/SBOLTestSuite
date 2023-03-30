@@ -55,13 +55,12 @@
    </sbol:TopLevel>
    <sbol:TopLevel rdf:about="codon_optimization_activity">
       <sbol:type rdf:resource="http://sbols.org/v3#design"/>
-      <prov:startedAtTime>2019-07-29T15:42:23.277Z</prov:startedAtTime>
-      <prov:endedAtTime>2020-08-30T15:42:23.277Z</prov:endedAtTime>
+      <prov:startedAtTime>2019-07-29T12:48:00.149Z</prov:startedAtTime>
       <sbol:name>Codon optimization activity</sbol:name>
       <sbol:description>An activity that is used to optimise codons</sbol:description>
       <prov:qualifiedUsage>
          <sbol:Identified rdf:about="codon_optimization_activity/Usage2">
-            <prov:hadRole rdf:resource="https://identifiers.org/SBO:0000011"/>
+            <prov:hadRole rdf:resource="http://sbols.org/v3#design"/>
             <prov:entity rdf:resource="toggle_switch_optimised"/>
             <sbol:displayId>Usage2</sbol:displayId>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
@@ -69,6 +68,7 @@
       </prov:qualifiedUsage>
       <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
       <sbol:displayId>codon_optimization_activity</sbol:displayId>
+      <prov:endedAtTime>2020-08-30T12:48:00.149Z</prov:endedAtTime>
       <prov:qualifiedAssociation>
          <sbol:Identified rdf:about="codon_optimization_activity/Association1">
             <prov:hadRole rdf:resource="http://sbols.org/v3#design"/>
@@ -81,7 +81,7 @@
       <sbol:hasNamespace rdf:resource="/examples"/>
       <prov:qualifiedUsage>
          <sbol:Identified rdf:about="codon_optimization_activity/Usage1">
-            <prov:hadRole rdf:resource="https://identifiers.org/SBO:0000645"/>
+            <prov:hadRole rdf:resource="http://sbols.org/v3#learn"/>
             <prov:entity rdf:resource="toggle_switch"/>
             <sbol:displayId>Usage1</sbol:displayId>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>

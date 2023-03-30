@@ -1,31 +1,23 @@
 {
-  "@id" : "https://sbolstandard.org/examples/CodonOptimisationProtocol",
-  "@type" : [ "sbol:TopLevel", "prov:Plan" ],
-  "description" : "Optimisation protocol to improve the translation of mRNAs.",
-  "displayId" : "CodonOptimisationProtocol",
-  "hasNamespace" : "https://sbolstandard.org/examples",
-  "name" : "Codon Optimisation Protocol",
-  "@context" : {
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
+    "@id": "https://sbolstandard.org/examples/CodonOptimisationProtocol",
+    "sbol:description": "Optimisation protocol to improve the translation of mRNAs.",
+    "sbol:name": "Codon Optimisation Protocol",
+    "sbol:hasNamespace": {
+        "@id": "https://sbolstandard.org/examples"
     },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@type": [
+        "sbol:TopLevel",
+        "prov:Plan"
+    ],
+    "sbol:displayId": "CodonOptimisationProtocol",
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

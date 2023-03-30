@@ -146,12 +146,12 @@
      ] ,
     "http://www.w3.org/ns/prov#endedAtTime" : [ { 
       "type" : "literal" ,
-      "value" : "2020-08-30T15:42:23.277Z"
+      "value" : "2020-08-30T12:48:00.149Z"
     }
      ] ,
     "http://www.w3.org/ns/prov#startedAtTime" : [ { 
       "type" : "literal" ,
-      "value" : "2019-07-29T15:42:23.277Z"
+      "value" : "2019-07-29T12:48:00.149Z"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -296,7 +296,7 @@
      ] ,
     "http://www.w3.org/ns/prov#hadRole" : [ { 
       "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000645"
+      "value" : "http://sbols.org/v3#learn"
     }
      ]
   }
@@ -323,7 +323,7 @@
      ] ,
     "http://www.w3.org/ns/prov#hadRole" : [ { 
       "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000011"
+      "value" : "http://sbols.org/v3#design"
     }
      ]
   }
