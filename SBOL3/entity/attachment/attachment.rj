@@ -27,6 +27,49 @@
      ]
   }
    ,
+  "https://sbolstandard.org/examples/attachment2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "attachment2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Attachment"
+    }
+     ] ,
+    "http://sbols.org/v3#format" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/edam:format_2585"
+    }
+     ] ,
+    "http://sbols.org/v3#hash" : [ { 
+      "type" : "literal" ,
+      "value" : "aaa"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#size" : [ { 
+      "type" : "literal" ,
+      "value" : "1000"
+    }
+     ] ,
+    "http://sbols.org/v3#source" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/attachment2"
+    }
+     ] ,
+    "http://sbols.org/v3#hashAlgorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "sha-256"
+    }
+     ]
+  }
+   ,
   "https://sbolstandard.org/examples/attachment1" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
@@ -65,7 +108,7 @@
      ] ,
     "http://sbols.org/v3#hashAlgorithm" : [ { 
       "type" : "literal" ,
-      "value" : "Alg1"
+      "value" : "sha-256"
     }
      ]
   }

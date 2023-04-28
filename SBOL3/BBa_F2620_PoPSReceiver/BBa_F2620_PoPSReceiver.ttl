@@ -1,18 +1,18 @@
 @base          <https://synbiohub.org/public/igem/> .
 @prefix :      <https://synbiohub.org/public/igem/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 <BBa_F2620/SubComponent3/Range1>
         a                 sbol:Range ;
         sbol:displayId    "Range1" ;
-        sbol:end          "53" ;
+        sbol:end          "54" ;
         sbol:hasSequence  :BBa_F2620_Sequence1 ;
         sbol:orientation  SO:0001030 ;
         sbol:start        "1" .
@@ -25,11 +25,11 @@
         sbol:orientation  SO:0001030 .
 
 :BBa_C0062_Sequence1  a    sbol:Sequence ;
-        sbol:description   "luxR sequence" ;
+        sbol:description   "BBa_C0062 sequence" ;
         sbol:displayId     "BBa_C0062_Sequence1" ;
         sbol:elements      "atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcac" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 :BBa_B0010_Sequence1  a    sbol:Sequence ;
@@ -37,13 +37,13 @@
         sbol:displayId     "BBa_B0010_Sequence1" ;
         sbol:elements      "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 :BBa_C0062_protein  a      sbol:Component ;
         sbol:description   "LuxR protein" ;
         sbol:displayId     "BBa_C0062_protein" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_C0062_protein_Sequence1 ;
         sbol:name          "LuxR" ;
         sbol:role          GO:0003700 ;
@@ -68,13 +68,13 @@
         sbol:displayId     "BBa_B0012_Sequence1" ;
         sbol:elements      "tcacactggctcaccttcgggtgggcctttctgcgtttata" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 :BBa_B0012  a              sbol:Component ;
         sbol:description   "Double terminator consisting of BBa_B0010 and BBa_B0012" ;
         sbol:displayId     "BBa_B0012" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_B0012_Sequence1 ;
         sbol:name          "BBa_B0012" ;
         sbol:role          SO:0000141 ;
@@ -83,7 +83,7 @@
 :BBa_R0040  a              sbol:Component ;
         sbol:description   "TetR repressible promoter" ;
         sbol:displayId     "BBa_R0040" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_R0040_Sequence1 ;
         sbol:name          "pTetR" ;
         sbol:role          SO:0000167 ;
@@ -116,7 +116,7 @@
         sbol:displayId     "BBa_B0015_Sequence1" ;
         sbol:elements      "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttata" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 :BBa_F2620_Sequence1  a    sbol:Sequence ;
@@ -124,7 +124,7 @@
         sbol:displayId     "BBa_F2620_Sequence1" ;
         sbol:elements      "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcacaaagaggagaaaatgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcacccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttataacctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 <BBa_F2620/Interaction1/Participation2>
@@ -147,11 +147,11 @@
 
 :TetR_protein_Sequence1
         a                  sbol:Sequence ;
-        sbol:description   "TetR sequence" ;
+        sbol:description   "TetR_protein sequence" ;
         sbol:displayId     "TetR_protein_Sequence1" ;
         sbol:elements      "NNNNNNNNNNN" ;
         sbol:encoding      EDAM:format_1208 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 <BBa_B0015/SubComponent2>
@@ -164,7 +164,7 @@
 :BBa_B0010  a              sbol:Component ;
         sbol:description   "Transcriptional terminator consisting of a 64 bp stem-loop" ;
         sbol:displayId     "BBa_B0010" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_B0010_Sequence1 ;
         sbol:name          "BBa_B0010" ;
         sbol:role          SO:0000141 ;
@@ -173,7 +173,7 @@
 :TetR_protein  a           sbol:Component ;
         sbol:description   "TetR protein" ;
         sbol:displayId     "TetR_protein" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :TetR_protein_Sequence1 ;
         sbol:name          "TetR" ;
         sbol:role          GO:0003700 ;
@@ -195,7 +195,7 @@
         sbol:displayId     "BBa_B0034_Sequence1" ;
         sbol:elements      "aaagaggagaaa" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 <BBa_F2620/Interaction1/Participation1>
@@ -207,7 +207,7 @@
 <BBa_B0015/SubComponent1/Range1>
         a                 sbol:Range ;
         sbol:displayId    "Range1" ;
-        sbol:end          "79" ;
+        sbol:end          "80" ;
         sbol:hasSequence  :BBa_B0015_Sequence1 ;
         sbol:orientation  SO:0001030 ;
         sbol:start        "1" .
@@ -222,18 +222,18 @@
         sbol:description   "Double terminator consisting of BBa_B0010 and BBa_B0012" ;
         sbol:displayId     "BBa_B0015" ;
         sbol:hasFeature    <BBa_B0015/SubComponent2> , <BBa_B0015/SubComponent1> ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_B0015_Sequence1 ;
         sbol:name          "BBa_B0015" ;
         sbol:role          SO:0000141 ;
         sbol:type          SBO:0000251 .
 
 :BBa_R0062_Sequence1  a    sbol:Sequence ;
-        sbol:description   "lux pR sequence" ;
+        sbol:description   "BBa_R0062 sequence" ;
         sbol:displayId     "BBa_R0062_Sequence1" ;
         sbol:elements      "acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 <BBa_B0015/SubComponent1>
@@ -255,7 +255,7 @@
         sbol:displayId       "BBa_F2620" ;
         sbol:hasFeature      <BBa_F2620/SubComponent2> , <BBa_F2620/SubComponent7> , <BBa_F2620/SubComponent5> , <BBa_F2620/SubComponent3> , <BBa_F2620/SubComponent4> , <BBa_F2620/SubComponent6> , <BBa_F2620/SubComponent1> ;
         sbol:hasInteraction  <BBa_F2620/Interaction2> , <BBa_F2620/Interaction1> , <BBa_F2620/Interaction3> ;
-        sbol:hasNamespace    <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace    <../igem> ;
         sbol:hasSequence     :BBa_F2620_Sequence1 ;
         sbol:name            "BBa_F2620" ;
         sbol:role            SO:0000704 ;
@@ -276,11 +276,11 @@
 
 :BBa_C0062_protein_Sequence1
         a                  sbol:Sequence ;
-        sbol:description   "LuxR sequence" ;
+        sbol:description   "BBa_C0062_protein sequence" ;
         sbol:displayId     "BBa_C0062_protein_Sequence1" ;
         sbol:elements      "NNNNNNNNNNN" ;
         sbol:encoding      EDAM:format_1208 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 <BBa_F2620/Interaction3>
@@ -307,7 +307,7 @@
 :BBa_B0034  a              sbol:Component ;
         sbol:description   "RBS based on Elowitz repressilator" ;
         sbol:displayId     "BBa_B0034" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_B0034_Sequence1 ;
         sbol:name          "BBa_B0034" ;
         sbol:role          SO:0000139 ;
@@ -316,7 +316,7 @@
 :BBa_R0062  a              sbol:Component ;
         sbol:description   "Promoter (luxR &amp; HSL regulated -- lux pR)" ;
         sbol:displayId     "BBa_R0062" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_R0062_Sequence1 ;
         sbol:name          "lux pR" ;
         sbol:role          SO:0000167 ;
@@ -331,11 +331,11 @@
         sbol:start        "848" .
 
 :BBa_R0040_Sequence1  a    sbol:Sequence ;
-        sbol:description   "pTetR sequence" ;
+        sbol:description   "BBa_R0040 sequence" ;
         sbol:displayId     "BBa_R0040_Sequence1" ;
         sbol:elements      "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac" ;
         sbol:encoding      EDAM:format_1207 ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:name          "Sequence1" .
 
 <BBa_F2620/Interaction2>
@@ -347,7 +347,7 @@
 :BBa_C0062  a              sbol:Component ;
         sbol:description   "luxR repressor/activator,  (no LVA?)" ;
         sbol:displayId     "BBa_C0062" ;
-        sbol:hasNamespace  <https://synbiohub.org/public/igem> ;
+        sbol:hasNamespace  <../igem> ;
         sbol:hasSequence   :BBa_C0062_Sequence1 ;
         sbol:name          "luxR" ;
         sbol:role          SO:0000316 ;

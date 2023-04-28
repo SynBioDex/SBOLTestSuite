@@ -1,137 +1,129 @@
 {
-  "@graph" : [ {
-    "@id" : "https://sbolstandard.org/examples/BBa_J23119",
-    "@type" : "sbol:Component",
-    "belongsTo" : [ "https://sbolstandard.org/examples/iGEMRepository", "https://sbolstandard.org/examples/SynBioHubRepository" ],
-    "experienceURL" : "igem:Part:BBa_J23119:Experience",
-    "group" : "iGEM2006_Berkeley",
-    "hasInformation" : "https://sbolstandard.org/examples/BBa_J23119/information1",
-    "hasUsage" : "https://sbolstandard.org/examples/BBa_J23119/usage1",
-    "description" : "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library.",
-    "displayId" : "BBa_J23119",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "BBa_J23119 part",
-    "role" : "SO:0000167",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/BBa_J23119/information1",
-    "@type" : [ "igem:Information", "sbol:Identified" ],
-    "regulation" : [ "//regulation/second_regulation", "//regulation/constitutive" ],
-    "sigmaFactor" : "//rnap/prokaryote/ecoli/sigma70",
-    "description" : "The experience page captures users' experience using the BBa_J23119 part",
-    "displayId" : "information1",
-    "name" : "BBa_J23119_experience"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/BBa_J23119/usage1",
-    "@type" : [ "sbol:Identified", "igem:IGEMUsage" ],
-    "inStock" : "true",
-    "registryStar" : "1",
-    "twinURLs" : "https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts",
-    "twins" : "7",
-    "uses" : "442",
-    "description" : "BBa_J23119 usage statistics",
-    "displayId" : "usage1",
-    "name" : "BBa_J23119_usage"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts",
-    "@type" : [ "igem:TwinPartUsage", "sbol:Identified" ],
-    "twinURL" : [ "igem:wiki/index.php?title=Part:BBa_M36800", "igem:wiki/index.php?title=Part:BBa_M1638", "igem:wiki/index.php?title=Part:BBa_J72073" ],
-    "displayId" : "twinParts",
-    "name" : "twin parts"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SynBioHubRepository",
-    "@type" : [ "igem:Repository", "sbol:TopLevel" ],
-    "displayId" : "SynBioHubRepository",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "SynBioHub"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/iGEMRepository",
-    "@type" : [ "igem:Repository", "sbol:TopLevel" ],
-    "website" : "igem:Main_Page",
-    "description" : "Registry of Standard Biological Parts",
-    "displayId" : "iGEMRepository",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "iGEM Registry"
-  } ],
-  "@context" : {
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "registryStar" : {
-      "@id" : "http://parts.igem.org/registryStar"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "uses" : {
-      "@id" : "http://parts.igem.org/uses"
-    },
-    "twinURLs" : {
-      "@id" : "http://parts.igem.org/twinURLs",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "twins" : {
-      "@id" : "http://parts.igem.org/twins"
-    },
-    "inStock" : {
-      "@id" : "http://parts.igem.org/inStock"
-    },
-    "website" : {
-      "@id" : "http://parts.igem.org/website",
-      "@type" : "@id"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "belongsTo" : {
-      "@id" : "http://parts.igem.org/belongsTo",
-      "@type" : "@id"
-    },
-    "role" : {
-      "@id" : "http://sbols.org/v3#role",
-      "@type" : "@id"
-    },
-    "hasInformation" : {
-      "@id" : "http://parts.igem.org/hasInformation",
-      "@type" : "@id"
-    },
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "hasUsage" : {
-      "@id" : "http://parts.igem.org/hasUsage",
-      "@type" : "@id"
-    },
-    "experienceURL" : {
-      "@id" : "http://parts.igem.org/experienceURL",
-      "@type" : "@id"
-    },
-    "group" : {
-      "@id" : "http://parts.igem.org/group"
-    },
-    "twinURL" : {
-      "@id" : "http://parts.igem.org/twinURL",
-      "@type" : "@id"
-    },
-    "regulation" : {
-      "@id" : "http://parts.igem.org/regulation"
-    },
-    "sigmaFactor" : {
-      "@id" : "http://parts.igem.org/sigmaFactor"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "igem" : "http://parts.igem.org/",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/BBa_J23119/usage1",
+            "sbol:displayId": "usage1",
+            "igem:registryStar": "1",
+            "sbol:name": "BBa_J23119_usage",
+            "igem:uses": "442",
+            "igem:twinURLs": {
+                "@id": "https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts"
+            },
+            "sbol:description": "BBa_J23119 usage statistics",
+            "@type": [
+                "sbol:Identified",
+                "igem:IGEMUsage"
+            ],
+            "igem:twins": "7",
+            "igem:inStock": "true"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts",
+            "igem:twinURL": [
+                {
+                    "@id": "igem:wiki/index.php?title=Part:BBa_M36800"
+                },
+                {
+                    "@id": "igem:wiki/index.php?title=Part:BBa_M1638"
+                },
+                {
+                    "@id": "igem:wiki/index.php?title=Part:BBa_J72073"
+                }
+            ],
+            "sbol:name": "twin parts",
+            "@type": [
+                "igem:TwinPartUsage",
+                "sbol:Identified"
+            ],
+            "sbol:displayId": "twinParts"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/iGEMRepository",
+            "igem:website": {
+                "@id": "igem:Main_Page"
+            },
+            "sbol:description": "Registry of Standard Biological Parts",
+            "sbol:name": "iGEM Registry",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "igem:Repository",
+                "sbol:TopLevel"
+            ],
+            "sbol:displayId": "iGEMRepository"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/BBa_J23119",
+            "igem:belongsTo": [
+                {
+                    "@id": "https://sbolstandard.org/examples/iGEMRepository"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/SynBioHubRepository"
+                }
+            ],
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:description": "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library.",
+            "igem:hasInformation": {
+                "@id": "https://sbolstandard.org/examples/BBa_J23119/information1"
+            },
+            "sbol:name": "BBa_J23119 part",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "igem:hasUsage": {
+                "@id": "https://sbolstandard.org/examples/BBa_J23119/usage1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": "sbol:Component",
+            "igem:experienceURL": {
+                "@id": "igem:Part:BBa_J23119:Experience"
+            },
+            "sbol:displayId": "BBa_J23119",
+            "igem:group": "iGEM2006_Berkeley"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/BBa_J23119/information1",
+            "igem:regulation": [
+                "//regulation/second_regulation",
+                "//regulation/constitutive"
+            ],
+            "igem:sigmaFactor": "//rnap/prokaryote/ecoli/sigma70",
+            "sbol:description": "The experience page captures users' experience using the BBa_J23119 part",
+            "sbol:name": "BBa_J23119_experience",
+            "@type": [
+                "igem:Information",
+                "sbol:Identified"
+            ],
+            "sbol:displayId": "information1"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SynBioHubRepository",
+            "sbol:name": "SynBioHub",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "igem:Repository",
+                "sbol:TopLevel"
+            ],
+            "sbol:displayId": "SynBioHubRepository"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "igem": "http://parts.igem.org/",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

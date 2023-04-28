@@ -1,14 +1,14 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix igem:  <http://parts.igem.org/> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix igem:  <http://parts.igem.org/> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 <BBa_J23119/usage1>  a     sbol:Identified , igem:IGEMUsage ;
         igem:inStock       "true" ;
@@ -24,7 +24,7 @@
         igem:website       igem:Main_Page ;
         sbol:description   "Registry of Standard Biological Parts" ;
         sbol:displayId     "iGEMRepository" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "iGEM Registry" .
 
 :BBa_J23119  a               sbol:Component ;
@@ -35,14 +35,14 @@
         igem:hasUsage        <BBa_J23119/usage1> ;
         sbol:description     "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library." ;
         sbol:displayId       "BBa_J23119" ;
-        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace    </examples> ;
         sbol:name            "BBa_J23119 part" ;
         sbol:role            SO:0000167 ;
         sbol:type            SBO:0000251 .
 
 :SynBioHubRepository  a    igem:Repository , sbol:TopLevel ;
         sbol:displayId     "SynBioHubRepository" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "SynBioHub" .
 
 <BBa_J23119/usage1/twinParts>

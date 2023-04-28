@@ -1,18 +1,18 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 :lacI   a                  sbol:Component ;
         sbol:description   "lacI coding sequence" ;
         sbol:displayId     "lacI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "lacI" ;
         sbol:role          SO:0000316 ;
         sbol:type          SBO:0000251 .
@@ -25,7 +25,7 @@
 :ter_tetR  a               sbol:Component ;
         sbol:description   "Terminator" ;
         sbol:displayId     "ter_tetR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "tetR terminator" ;
         sbol:role          SO:0000141 ;
         sbol:type          SBO:0000251 .
@@ -33,7 +33,7 @@
 :IPTG_LacI  a              sbol:Component ;
         sbol:description   "IPTG_LacI complex" ;
         sbol:displayId     "IPTG_LacI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "IPTG_LacI" ;
         sbol:type          SBO:0000253 .
 
@@ -47,7 +47,7 @@
 :ter_lacI  a               sbol:Component ;
         sbol:description   "Terminator" ;
         sbol:displayId     "ter_lacI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "lacI terminator" ;
         sbol:role          SO:0000141 ;
         sbol:type          SBO:0000251 .
@@ -61,7 +61,7 @@
 :IPTG   a                  sbol:Component ;
         sbol:description   "IPTG" ;
         sbol:displayId     "IPTG" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "IPTG" ;
         sbol:role          CHEBI:35224 ;
         sbol:type          SBO:0000247 .
@@ -81,7 +81,7 @@
 :pTetR  a                  sbol:Component ;
         sbol:description   "TetR repressible promoter" ;
         sbol:displayId     "pTetR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "pTetR" ;
         sbol:role          SO:0000167 ;
         sbol:type          SBO:0000251 .
@@ -89,7 +89,7 @@
 :LacI_protein  a           sbol:Component ;
         sbol:description   "LacI protein" ;
         sbol:displayId     "LacI_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "LacI" ;
         sbol:role          GO:0003700 ;
         sbol:type          SBO:0000252 .
@@ -97,7 +97,7 @@
 :rbs_gfp  a                sbol:Component ;
         sbol:description   "RBS" ;
         sbol:displayId     "rbs_gfp" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "rbs" ;
         sbol:role          SO:0000139 ;
         sbol:type          SBO:0000251 .
@@ -106,6 +106,11 @@
         a                sbol:SubComponent ;
         sbol:displayId   "SubComponent5" ;
         sbol:instanceOf  :TetR_protein .
+
+<LacI_producer/SubComponent11>
+        a                sbol:SubComponent ;
+        sbol:displayId   "SubComponent11" ;
+        sbol:instanceOf  :atC_TetR .
 
 <LacI_producer/Interaction4>
         a                      sbol:Interaction ;
@@ -116,7 +121,7 @@
 :atC_TetR  a               sbol:Component ;
         sbol:description   "atC_TetR complex" ;
         sbol:displayId     "atC_TetR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "atC_TetR" ;
         sbol:type          SBO:0000253 .
 
@@ -165,13 +170,13 @@
 <LacI_producer/Interaction4/Participation3>
         a                 sbol:Participation ;
         sbol:displayId    "Participation3" ;
-        sbol:participant  <TetR_producer/SubComponent9> ;
+        sbol:participant  <LacI_producer/SubComponent11> ;
         sbol:role         SBO:0000011 .
 
 :TetR_protein  a           sbol:Component ;
         sbol:description   "TetR protein" ;
         sbol:displayId     "TetR_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "TetR" ;
         sbol:role          GO:0003700 ;
         sbol:type          SBO:0000252 .
@@ -181,9 +186,10 @@
         sbol:displayId      "toggle_switch" ;
         sbol:hasConstraint  <toggle_switch/Constraint1> , <toggle_switch/Constraint2> ;
         sbol:hasFeature     <toggle_switch/SubComponent1> , <toggle_switch/ComponentReference4> , <toggle_switch/ComponentReference3> , <toggle_switch/ComponentReference2> , <toggle_switch/ComponentReference1> , <toggle_switch/SubComponent2> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "Toggle Switch" ;
-        sbol:type           SBO:0000241 .
+        sbol:role           SO:0000704 ;
+        sbol:type           SBO:0000251 .
 
 <LacI_producer/SubComponent4>
         a                 sbol:SubComponent ;
@@ -194,15 +200,10 @@
 :pLacI  a                  sbol:Component ;
         sbol:description   "LacI repressible promoter" ;
         sbol:displayId     "pLacI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "pLacI promoter" ;
         sbol:role          SO:0000167 ;
         sbol:type          SBO:0000251 .
-
-<TetR_producer/SubComponent9>
-        a                sbol:SubComponent ;
-        sbol:displayId   "SubComponent9" ;
-        sbol:instanceOf  :atC_TetR .
 
 <toggle_switch/ComponentReference3>
         a               sbol:ComponentReference ;
@@ -213,7 +214,7 @@
 :rbs_tetR  a               sbol:Component ;
         sbol:description   "tetR RBS" ;
         sbol:displayId     "rbs_tetR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "rbs" ;
         sbol:role          SO:0000139 ;
         sbol:type          SBO:0000251 .
@@ -221,7 +222,7 @@
 :gfp    a                  sbol:Component ;
         sbol:description   "gfp coding sequence" ;
         sbol:displayId     "gfp" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "gfp" ;
         sbol:role          SO:0000316 ;
         sbol:type          SBO:0000251 .
@@ -229,9 +230,9 @@
 :LacI_producer  a            sbol:Component ;
         sbol:description     "LacI producer" ;
         sbol:displayId       "LacI_producer" ;
-        sbol:hasFeature      <LacI_producer/SubComponent1> , <LacI_producer/SubComponent5> , <LacI_producer/SubComponent10> , <LacI_producer/SubComponent2> , <LacI_producer/SubComponent8> , <LacI_producer/SubComponent9> , <LacI_producer/SubComponent3> , <LacI_producer/SubComponent6> , <LacI_producer/SubComponent7> , <LacI_producer/SubComponent4> ;
+        sbol:hasFeature      <LacI_producer/SubComponent1> , <LacI_producer/SubComponent11> , <LacI_producer/SubComponent5> , <LacI_producer/SubComponent10> , <LacI_producer/SubComponent2> , <LacI_producer/SubComponent8> , <LacI_producer/SubComponent9> , <LacI_producer/SubComponent3> , <LacI_producer/SubComponent6> , <LacI_producer/SubComponent7> , <LacI_producer/SubComponent4> ;
         sbol:hasInteraction  <LacI_producer/Interaction3> , <LacI_producer/Interaction2> , <LacI_producer/Interaction1> , <LacI_producer/Interaction4> ;
-        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace    </examples> ;
         sbol:name            "LacI producer" ;
         sbol:role            SO:0000704 ;
         sbol:type            SBO:0000251 .
@@ -275,7 +276,7 @@
         a                 sbol:Participation ;
         sbol:displayId    "Participation2" ;
         sbol:participant  <LacI_producer/SubComponent9> ;
-        sbol:role         SBO:0000019 .
+        sbol:role         SBO:0000020 .
 
 <LacI_producer/Interaction4/Participation2>
         a                 sbol:Participation ;
@@ -291,7 +292,7 @@
 :rbs_lacI  a               sbol:Component ;
         sbol:description   "RBS" ;
         sbol:displayId     "rbs_lacI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "rbs" ;
         sbol:role          SO:0000139 ;
         sbol:type          SBO:0000251 .
@@ -299,9 +300,9 @@
 :TetR_producer  a            sbol:Component ;
         sbol:description     "TetR producer" ;
         sbol:displayId       "TetR_producer" ;
-        sbol:hasFeature      <TetR_producer/SubComponent2> , <TetR_producer/SubComponent7> , <TetR_producer/SubComponent5> , <TetR_producer/SubComponent3> , <TetR_producer/SubComponent8> , <TetR_producer/SubComponent1> , <TetR_producer/SubComponent6> , <TetR_producer/SubComponent4> , <TetR_producer/SubComponent9> ;
+        sbol:hasFeature      <TetR_producer/SubComponent2> , <TetR_producer/SubComponent7> , <TetR_producer/SubComponent5> , <TetR_producer/SubComponent3> , <TetR_producer/SubComponent8> , <TetR_producer/SubComponent1> , <TetR_producer/SubComponent6> , <TetR_producer/SubComponent4> ;
         sbol:hasInteraction  <TetR_producer/Interaction2> , <TetR_producer/Interaction1> , <TetR_producer/Interaction3> ;
-        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace    </examples> ;
         sbol:name            "TetR device" ;
         sbol:role            SO:0000704 ;
         sbol:type            SBO:0000251 .
@@ -326,7 +327,7 @@
 :tetR   a                  sbol:Component ;
         sbol:description   "tetR coding sequence" ;
         sbol:displayId     "tetR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "tetR" ;
         sbol:role          SO:0000316 ;
         sbol:type          SBO:0000251 .
@@ -392,7 +393,7 @@
 :GFP_protein  a            sbol:Component ;
         sbol:description   "GFP" ;
         sbol:displayId     "GFP_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "GFP" ;
         sbol:type          SBO:0000252 .
 
@@ -411,7 +412,7 @@
 :aTC    a                  sbol:Component ;
         sbol:description   "aTC" ;
         sbol:displayId     "aTC" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "aTC" ;
         sbol:role          CHEBI:35224 ;
         sbol:type          SBO:0000247 .
@@ -454,7 +455,7 @@
         a                 sbol:Participation ;
         sbol:displayId    "Participation2" ;
         sbol:participant  <TetR_producer/SubComponent6> ;
-        sbol:role         SBO:0000019 .
+        sbol:role         SBO:0000020 .
 
 <TetR_producer/Interaction3/Participation2>
         a                 sbol:Participation ;

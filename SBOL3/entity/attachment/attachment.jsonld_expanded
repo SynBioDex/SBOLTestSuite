@@ -21,11 +21,11 @@
   "@type" : [ "http://sbols.org/v3#Component" ]
 }, {
   "@id" : "https://sbolstandard.org/examples/attachment1",
-  "http://sbols.org/v3#hashAlgorithm" : [ {
-    "@value" : "Alg1"
-  } ],
   "http://sbols.org/v3#hash" : [ {
     "@value" : "aaa"
+  } ],
+  "http://sbols.org/v3#hashAlgorithm" : [ {
+    "@value" : "sha-256"
   } ],
   "http://sbols.org/v3#size" : [ {
     "@value" : "1000"
@@ -41,6 +41,30 @@
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "attachment1"
+  } ],
+  "@type" : [ "http://sbols.org/v3#Attachment" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/attachment2",
+  "http://sbols.org/v3#hash" : [ {
+    "@value" : "aaa"
+  } ],
+  "http://sbols.org/v3#hashAlgorithm" : [ {
+    "@value" : "sha-256"
+  } ],
+  "http://sbols.org/v3#size" : [ {
+    "@value" : "1000"
+  } ],
+  "http://sbols.org/v3#format" : [ {
+    "@id" : "https://identifiers.org/edam:format_2585"
+  } ],
+  "http://sbols.org/v3#source" : [ {
+    "@id" : "https://sbolstandard.org/attachment2"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "https://sbolstandard.org/examples"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "attachment2"
   } ],
   "@type" : [ "http://sbols.org/v3#Attachment" ]
 }, {

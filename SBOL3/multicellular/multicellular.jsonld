@@ -1,604 +1,1100 @@
 {
-  "@graph" : [ {
-    "@id" : "https://sbolstandard.org/examples/AHL",
-    "@type" : "sbol:Component",
-    "description" : "AHL",
-    "displayId" : "AHL",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "AHL",
-    "role" : "CHEBI:35224",
-    "type" : "SBO:0000247"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer",
-    "@type" : "sbol:Component",
-    "description" : "AHL producer",
-    "displayId" : "AHL_producer",
-    "hasFeature" : [ "https://sbolstandard.org/examples/AHL_producer/SubComponent3", "https://sbolstandard.org/examples/AHL_producer/SubComponent2", "https://sbolstandard.org/examples/AHL_producer/SubComponent1", "https://sbolstandard.org/examples/AHL_producer/SubComponent4", "https://sbolstandard.org/examples/AHL_producer/SubComponent5" ],
-    "hasInteraction" : "https://sbolstandard.org/examples/AHL_producer/Interaction1",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "AHL producer",
-    "role" : "SO:0000704",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/Interaction1",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction1",
-    "hasParticipation" : [ "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation1", "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation2" ],
-    "type" : "SBO:0000589"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://sbolstandard.org/examples/AHL_producer/SubComponent3",
-    "role" : "SBO:0000645"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5",
-    "role" : "SBO:0000011"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://sbolstandard.org/examples/pConstLuxI",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://sbolstandard.org/examples/rbs_luxI",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/SubComponent3",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent3",
-    "instanceOf" : "https://sbolstandard.org/examples/luxI",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/SubComponent4",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent4",
-    "instanceOf" : "https://sbolstandard.org/examples/ter_luxI",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent5",
-    "instanceOf" : "https://sbolstandard.org/examples/AHL"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver",
-    "@type" : "sbol:Component",
-    "description" : "AHL receiver",
-    "displayId" : "AHL_receiver",
-    "hasFeature" : [ "https://sbolstandard.org/examples/AHL_receiver/SubComponent11", "https://sbolstandard.org/examples/AHL_receiver/SubComponent5", "https://sbolstandard.org/examples/AHL_receiver/SubComponent12", "https://sbolstandard.org/examples/AHL_receiver/SubComponent7", "https://sbolstandard.org/examples/AHL_receiver/SubComponent6", "https://sbolstandard.org/examples/AHL_receiver/SubComponent8", "https://sbolstandard.org/examples/AHL_receiver/SubComponent9", "https://sbolstandard.org/examples/AHL_receiver/SubComponent1", "https://sbolstandard.org/examples/AHL_receiver/SubComponent3", "https://sbolstandard.org/examples/AHL_receiver/SubComponent2", "https://sbolstandard.org/examples/AHL_receiver/SubComponent10", "https://sbolstandard.org/examples/AHL_receiver/SubComponent4" ],
-    "hasInteraction" : [ "https://sbolstandard.org/examples/AHL_receiver/Interaction4", "https://sbolstandard.org/examples/AHL_receiver/Interaction1", "https://sbolstandard.org/examples/AHL_receiver/Interaction2", "https://sbolstandard.org/examples/AHL_receiver/Interaction3" ],
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "AHL receiver",
-    "role" : "SO:0000704",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction1",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction1",
-    "hasParticipation" : [ "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation1", "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation2" ],
-    "type" : "SBO:0000589"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent3",
-    "role" : "SBO:0000645"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent10",
-    "role" : "SBO:0000011"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction2",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction2",
-    "hasParticipation" : [ "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation1", "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation2" ],
-    "type" : "SBO:0000589"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent7",
-    "role" : "SBO:0000645"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent11",
-    "role" : "SBO:0000011"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction3",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction3",
-    "hasParticipation" : [ "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation1", "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation2" ],
-    "type" : "SBO:0000170"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent5",
-    "role" : "SBO:0000643"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent12",
-    "role" : "SBO:0000459"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction4",
-    "hasParticipation" : [ "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation1", "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation2", "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation3" ],
-    "type" : "SBO:0000177"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent10",
-    "role" : "SBO:0000010"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9",
-    "role" : "SBO:0000010"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation3",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation3",
-    "participant" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent12",
-    "role" : "SBO:0000011"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://sbolstandard.org/examples/pConstLuxR",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent10",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent10",
-    "instanceOf" : "https://sbolstandard.org/examples/LuxR_protein"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent11",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent11",
-    "instanceOf" : "https://sbolstandard.org/examples/GFP_protein"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent12",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent12",
-    "instanceOf" : "https://sbolstandard.org/examples/LuxR_AHL"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://sbolstandard.org/examples/rbs_luxR",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent3",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent3",
-    "instanceOf" : "https://sbolstandard.org/examples/luxR",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent4",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent4",
-    "instanceOf" : "https://sbolstandard.org/examples/ter_luxR",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent5",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent5",
-    "instanceOf" : "https://sbolstandard.org/examples/pLuxR",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent6",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent6",
-    "instanceOf" : "https://sbolstandard.org/examples/rbs_gfp",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent7",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent7",
-    "instanceOf" : "https://sbolstandard.org/examples/gfp",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent8",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent8",
-    "instanceOf" : "https://sbolstandard.org/examples/ter_gfp",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent9",
-    "instanceOf" : "https://sbolstandard.org/examples/AHL"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/GFP_protein",
-    "@type" : "sbol:Component",
-    "description" : "GFP",
-    "displayId" : "GFP_protein",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "GFP",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LuxR_AHL",
-    "@type" : "sbol:Component",
-    "description" : "LuxR_AHL complex",
-    "displayId" : "LuxR_AHL",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "LuxR_AHL",
-    "role" : "GO:0003700",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/LuxR_protein",
-    "@type" : "sbol:Component",
-    "description" : "LuxR",
-    "displayId" : "LuxR_protein",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "LuxR_protein",
-    "role" : "GO:0003700",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/MulticellularSystem",
-    "@type" : "sbol:Component",
-    "description" : "Multicellular System",
-    "displayId" : "MulticellularSystem",
-    "hasConstraint" : "https://sbolstandard.org/examples/MulticellularSystem/Constraint1",
-    "hasFeature" : [ "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2", "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1", "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1", "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2" ],
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "MulticellularSystem",
-    "role" : "SBO:0000289",
-    "type" : "SBO:0000241"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1",
-    "@type" : "sbol:ComponentReference",
-    "displayId" : "ComponentReference1",
-    "inChildOf" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1",
-    "refersTo" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2",
-    "@type" : "sbol:ComponentReference",
-    "displayId" : "ComponentReference2",
-    "inChildOf" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2",
-    "refersTo" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/MulticellularSystem/Constraint1",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint1",
-    "object" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2",
-    "restriction" : "sbol:verifyIdentical",
-    "subject" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://sbolstandard.org/examples/SenderSystem"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://sbolstandard.org/examples/ReceiverSystem"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/OrganismA",
-    "@type" : "sbol:Component",
-    "description" : "Organism A",
-    "displayId" : "OrganismA",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "OrganismA",
-    "role" : "SBO:0000290",
-    "type" : "GO:0005623"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/OrganismB",
-    "@type" : "sbol:Component",
-    "description" : "Organism B",
-    "displayId" : "OrganismB",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "OrganismB",
-    "role" : "SBO:0000290",
-    "type" : "GO:0005623"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem",
-    "@type" : "sbol:Component",
-    "description" : "Receiver System",
-    "displayId" : "ReceiverSystem",
-    "hasConstraint" : [ "https://sbolstandard.org/examples/ReceiverSystem/Constraint3", "https://sbolstandard.org/examples/ReceiverSystem/Constraint1", "https://sbolstandard.org/examples/ReceiverSystem/Constraint2" ],
-    "hasFeature" : [ "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3", "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1", "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2", "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1" ],
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "ReceiverSystem",
-    "role" : "SBO:0000289",
-    "type" : "SBO:0000241"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1",
-    "@type" : "sbol:ComponentReference",
-    "displayId" : "ComponentReference1",
-    "inChildOf" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3",
-    "refersTo" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint1",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint1",
-    "object" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2",
-    "restriction" : "sbol:contains",
-    "subject" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint2",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint2",
-    "object" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3",
-    "restriction" : "sbol:contains",
-    "subject" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/Constraint3",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint3",
-    "object" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2",
-    "restriction" : "sbol:verifyIdentical",
-    "subject" : "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://sbolstandard.org/examples/OrganismB"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://sbolstandard.org/examples/AHL"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent3",
-    "instanceOf" : "https://sbolstandard.org/examples/AHL_receiver"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem",
-    "@type" : "sbol:Component",
-    "description" : "Sender System",
-    "displayId" : "SenderSystem",
-    "hasConstraint" : [ "https://sbolstandard.org/examples/SenderSystem/Constraint1", "https://sbolstandard.org/examples/SenderSystem/Constraint3", "https://sbolstandard.org/examples/SenderSystem/Constraint2" ],
-    "hasFeature" : [ "https://sbolstandard.org/examples/SenderSystem/SubComponent1", "https://sbolstandard.org/examples/SenderSystem/ComponentReference1", "https://sbolstandard.org/examples/SenderSystem/SubComponent3", "https://sbolstandard.org/examples/SenderSystem/SubComponent2" ],
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "SenderSystem",
-    "role" : "SBO:0000289",
-    "type" : "SBO:0000241"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/ComponentReference1",
-    "@type" : "sbol:ComponentReference",
-    "displayId" : "ComponentReference1",
-    "inChildOf" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3",
-    "refersTo" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/Constraint1",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint1",
-    "object" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2",
-    "restriction" : "sbol:contains",
-    "subject" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/Constraint2",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint2",
-    "object" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3",
-    "restriction" : "sbol:contains",
-    "subject" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/Constraint3",
-    "@type" : "sbol:Constraint",
-    "displayId" : "Constraint3",
-    "object" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2",
-    "restriction" : "sbol:verifyIdentical",
-    "subject" : "https://sbolstandard.org/examples/SenderSystem/ComponentReference1"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://sbolstandard.org/examples/OrganismA"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://sbolstandard.org/examples/AHL"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent3",
-    "instanceOf" : "https://sbolstandard.org/examples/AHL_producer"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/gfp",
-    "@type" : "sbol:Component",
-    "description" : "gfp coding sequence",
-    "displayId" : "gfp",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "gfp",
-    "role" : "SO:0000316",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/luxI",
-    "@type" : "sbol:Component",
-    "description" : "luxI coding sequence",
-    "displayId" : "luxI",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "luxI",
-    "role" : "SO:0000316",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/luxR",
-    "@type" : "sbol:Component",
-    "description" : "luxR coding sequence",
-    "displayId" : "luxR",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "luxR",
-    "role" : "SO:0000316",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/pConstLuxI",
-    "@type" : "sbol:Component",
-    "description" : "Constitutive promoter",
-    "displayId" : "pConstLuxI",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "pConstLuxI",
-    "role" : "SO:0000167",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/pConstLuxR",
-    "@type" : "sbol:Component",
-    "description" : "Constituve promoter",
-    "displayId" : "pConstLuxR",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "pLuxR",
-    "role" : "SO:0000167",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/pLuxR",
-    "@type" : "sbol:Component",
-    "description" : "LuxR inducible promoter",
-    "displayId" : "pLuxR",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "pLuxR",
-    "role" : "SO:0000167",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/rbs_gfp",
-    "@type" : "sbol:Component",
-    "description" : "RBS",
-    "displayId" : "rbs_gfp",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "rbs",
-    "role" : "SO:0000139",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/rbs_luxI",
-    "@type" : "sbol:Component",
-    "description" : "RBS",
-    "displayId" : "rbs_luxI",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "rbs",
-    "role" : "SO:0000139",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/rbs_luxR",
-    "@type" : "sbol:Component",
-    "description" : "RBS",
-    "displayId" : "rbs_luxR",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "rbs",
-    "role" : "SO:0000139",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ter_gfp",
-    "@type" : "sbol:Component",
-    "description" : "Terminator",
-    "displayId" : "ter_gfp",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "gfp terminator",
-    "role" : "SO:0000141",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ter_luxI",
-    "@type" : "sbol:Component",
-    "description" : "Terminator",
-    "displayId" : "ter_luxI",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "luxI terminator",
-    "role" : "SO:0000141",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/ter_luxR",
-    "@type" : "sbol:Component",
-    "description" : "Terminator",
-    "displayId" : "ter_luxR",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "luxR terminator",
-    "role" : "SO:0000141",
-    "type" : "SBO:0000251"
-  } ],
-  "@context" : {
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "role" : {
-      "@id" : "http://sbols.org/v3#role",
-      "@type" : "@id"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "instanceOf" : {
-      "@id" : "http://sbols.org/v3#instanceOf",
-      "@type" : "@id"
-    },
-    "hasParticipation" : {
-      "@id" : "http://sbols.org/v3#hasParticipation",
-      "@type" : "@id"
-    },
-    "participant" : {
-      "@id" : "http://sbols.org/v3#participant",
-      "@type" : "@id"
-    },
-    "refersTo" : {
-      "@id" : "http://sbols.org/v3#refersTo",
-      "@type" : "@id"
-    },
-    "inChildOf" : {
-      "@id" : "http://sbols.org/v3#inChildOf",
-      "@type" : "@id"
-    },
-    "hasFeature" : {
-      "@id" : "http://sbols.org/v3#hasFeature",
-      "@type" : "@id"
-    },
-    "hasConstraint" : {
-      "@id" : "http://sbols.org/v3#hasConstraint",
-      "@type" : "@id"
-    },
-    "subject" : {
-      "@id" : "http://sbols.org/v3#subject",
-      "@type" : "@id"
-    },
-    "restriction" : {
-      "@id" : "http://sbols.org/v3#restriction",
-      "@type" : "@id"
-    },
-    "object" : {
-      "@id" : "http://sbols.org/v3#object",
-      "@type" : "@id"
-    },
-    "orientation" : {
-      "@id" : "http://sbols.org/v3#orientation",
-      "@type" : "@id"
-    },
-    "hasInteraction" : {
-      "@id" : "http://sbols.org/v3#hasInteraction",
-      "@type" : "@id"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/rbs_luxR",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000139"
+            },
+            "sbol:name": "rbs",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "rbs_luxR",
+            "sbol:description": "RBS",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/AHL"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL",
+            "sbol:type": {
+                "@id": "SBO:0000247"
+            },
+            "sbol:role": {
+                "@id": "CHEBI:35224"
+            },
+            "sbol:name": "AHL",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "AHL",
+            "sbol:description": "AHL",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction2",
+            "sbol:type": {
+                "@id": "SBO:0000589"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction2",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000645"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent7"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction2/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000011"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent11"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000011"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent10"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent10",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/LuxR_protein"
+            },
+            "sbol:displayId": "SubComponent10",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2",
+            "sbol:refersTo": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+            },
+            "sbol:inChildOf": {
+                "@id": "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+            },
+            "sbol:displayId": "ComponentReference2",
+            "@type": "sbol:ComponentReference"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent11",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/GFP_protein"
+            },
+            "sbol:displayId": "SubComponent11",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000459"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent12"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent12",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/LuxR_AHL"
+            },
+            "sbol:displayId": "SubComponent12",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000010"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent9",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/AHL"
+            },
+            "sbol:displayId": "SubComponent9",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/MulticellularSystem",
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+                }
+            ],
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:description": "Multicellular System",
+            "@type": "sbol:Component",
+            "sbol:hasConstraint": {
+                "@id": "https://sbolstandard.org/examples/MulticellularSystem/Constraint1"
+            },
+            "sbol:role": {
+                "@id": "SBO:0000289"
+            },
+            "sbol:name": "MulticellularSystem",
+            "sbol:displayId": "MulticellularSystem"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/MulticellularSystem/Constraint1",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:verifyIdentical"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"
+            },
+            "sbol:displayId": "Constraint1",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1",
+            "sbol:refersTo": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+            },
+            "sbol:inChildOf": {
+                "@id": "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+            },
+            "sbol:displayId": "ComponentReference1",
+            "@type": "sbol:ComponentReference"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/ComponentReference1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+                }
+            ],
+            "sbol:description": "Sender System",
+            "sbol:hasConstraint": [
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/Constraint1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/Constraint3"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/SenderSystem/Constraint2"
+                }
+            ],
+            "sbol:name": "SenderSystem",
+            "sbol:displayId": "SenderSystem",
+            "@type": "sbol:Component",
+            "sbol:role": {
+                "@id": "SBO:0000289"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            }
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent1",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/OrganismA"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/Constraint1",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:contains"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+            },
+            "sbol:displayId": "Constraint1",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/Constraint3",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/ComponentReference1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:verifyIdentical"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+            },
+            "sbol:displayId": "Constraint3",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/Constraint2",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:contains"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
+            },
+            "sbol:displayId": "Constraint2",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/ComponentReference1",
+            "sbol:refersTo": {
+                "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
+            },
+            "sbol:inChildOf": {
+                "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
+            },
+            "sbol:displayId": "ComponentReference1",
+            "@type": "sbol:ComponentReference"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent3",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/AHL_producer"
+            },
+            "sbol:displayId": "SubComponent3",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/SenderSystem/SubComponent2",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/AHL"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:description": "AHL producer",
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent3"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent4"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
+                }
+            ],
+            "sbol:displayId": "AHL_producer",
+            "sbol:hasInteraction": {
+                "@id": "https://sbolstandard.org/examples/AHL_producer/Interaction1"
+            },
+            "sbol:role": {
+                "@id": "SO:0000704"
+            },
+            "@type": "sbol:Component",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:name": "AHL producer"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent5",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/pLuxR"
+            },
+            "sbol:displayId": "SubComponent5",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/pLuxR",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:name": "pLuxR",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "pLuxR",
+            "sbol:description": "LuxR inducible promoter",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ter_gfp",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000141"
+            },
+            "sbol:name": "gfp terminator",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "ter_gfp",
+            "sbol:description": "Terminator",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/Interaction1",
+            "sbol:type": {
+                "@id": "SBO:0000589"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction1",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000645"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent3"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/Interaction1/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000011"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/rbs_gfp",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000139"
+            },
+            "sbol:name": "rbs",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "rbs_gfp",
+            "sbol:description": "RBS",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent1",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/pConstLuxI"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/pConstLuxI",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:name": "pConstLuxI",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "pConstLuxI",
+            "sbol:description": "Constitutive promoter",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/luxR",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000316"
+            },
+            "sbol:name": "luxR",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "luxR",
+            "sbol:description": "luxR coding sequence",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000643"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent5"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/pConstLuxR",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:name": "pLuxR",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "pConstLuxR",
+            "sbol:description": "Constituve promoter",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction1",
+            "sbol:type": {
+                "@id": "SBO:0000589"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction1",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction1/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000645"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent3"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver",
+            "sbol:hasInteraction": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction3"
+                }
+            ],
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent11"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent5"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent12"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent7"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent6"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent8"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent3"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent10"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent4"
+                }
+            ],
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:name": "AHL receiver",
+            "@type": "sbol:Component",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "AHL_receiver",
+            "sbol:role": {
+                "@id": "SO:0000704"
+            },
+            "sbol:description": "AHL receiver"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4",
+            "sbol:type": {
+                "@id": "SBO:0000177"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation3"
+                }
+            ],
+            "sbol:displayId": "Interaction4",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent7",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/gfp"
+            },
+            "sbol:displayId": "SubComponent7",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent6",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/rbs_gfp"
+            },
+            "sbol:displayId": "SubComponent6",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent8",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/ter_gfp"
+            },
+            "sbol:displayId": "SubComponent8",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent1",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/pConstLuxR"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent3",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/luxR"
+            },
+            "sbol:displayId": "SubComponent3",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent2",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/rbs_luxR"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent4",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/ter_luxR"
+            },
+            "sbol:displayId": "SubComponent4",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction3",
+            "sbol:type": {
+                "@id": "SBO:0000170"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction3/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction3",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/OrganismB"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/OrganismB",
+            "sbol:type": {
+                "@id": "GO:0005623"
+            },
+            "sbol:role": {
+                "@id": "SBO:0000290"
+            },
+            "sbol:name": "OrganismB",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "OrganismB",
+            "sbol:description": "Organism B",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000010"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent10"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/Constraint3",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:verifyIdentical"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+            },
+            "sbol:displayId": "Constraint3",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1",
+            "sbol:refersTo": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
+            },
+            "sbol:inChildOf": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
+            },
+            "sbol:displayId": "ComponentReference1",
+            "@type": "sbol:ComponentReference"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ter_luxR",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000141"
+            },
+            "sbol:name": "luxR terminator",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "ter_luxR",
+            "sbol:description": "Terminator",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/Constraint2",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:contains"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
+            },
+            "sbol:displayId": "Constraint2",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver"
+            },
+            "sbol:displayId": "SubComponent3",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent5",
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/AHL"
+            },
+            "sbol:displayId": "SubComponent5",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/OrganismA",
+            "sbol:type": {
+                "@id": "GO:0005623"
+            },
+            "sbol:role": {
+                "@id": "SBO:0000290"
+            },
+            "sbol:name": "OrganismA",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "OrganismA",
+            "sbol:description": "Organism A",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LuxR_protein",
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:role": {
+                "@id": "GO:0003700"
+            },
+            "sbol:name": "LuxR_protein",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "LuxR_protein",
+            "sbol:description": "LuxR",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/gfp",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000316"
+            },
+            "sbol:name": "gfp",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "gfp",
+            "sbol:description": "gfp coding sequence",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem",
+            "sbol:role": {
+                "@id": "SBO:0000289"
+            },
+            "sbol:description": "Receiver System",
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/ComponentReference1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+                }
+            ],
+            "sbol:name": "ReceiverSystem",
+            "@type": "sbol:Component",
+            "sbol:displayId": "ReceiverSystem",
+            "sbol:hasConstraint": [
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/Constraint3"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/Constraint1"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/ReceiverSystem/Constraint2"
+                }
+            ],
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            }
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ReceiverSystem/Constraint1",
+            "sbol:subject": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"
+            },
+            "sbol:restriction": {
+                "@id": "sbol:contains"
+            },
+            "sbol:object": {
+                "@id": "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+            },
+            "sbol:displayId": "Constraint1",
+            "@type": "sbol:Constraint"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/LuxR_AHL",
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:role": {
+                "@id": "GO:0003700"
+            },
+            "sbol:name": "LuxR_AHL",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "LuxR_AHL",
+            "sbol:description": "LuxR_AHL complex",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/rbs_luxI",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000139"
+            },
+            "sbol:name": "rbs",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "rbs_luxI",
+            "sbol:description": "RBS",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent4",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/ter_luxI"
+            },
+            "sbol:displayId": "SubComponent4",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/ter_luxI",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000141"
+            },
+            "sbol:name": "luxI terminator",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "ter_luxI",
+            "sbol:description": "Terminator",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent3",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/luxI"
+            },
+            "sbol:displayId": "SubComponent3",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_receiver/Interaction4/Participation3",
+            "sbol:role": {
+                "@id": "SBO:0000011"
+            },
+            "sbol:participant": {
+                "@id": "https://sbolstandard.org/examples/AHL_receiver/SubComponent12"
+            },
+            "sbol:displayId": "Participation3",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/GFP_protein",
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:name": "GFP",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "GFP_protein",
+            "sbol:description": "GFP",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/luxI",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000316"
+            },
+            "sbol:name": "luxI",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "luxI",
+            "sbol:description": "luxI coding sequence",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/AHL_producer/SubComponent2",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://sbolstandard.org/examples/rbs_luxI"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

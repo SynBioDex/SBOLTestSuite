@@ -69,6 +69,8 @@
   "http://sbols.org/v3#hasFeature" : [ {
     "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent1"
   }, {
+    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent11"
+  }, {
     "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent5"
   }, {
     "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent10"
@@ -211,7 +213,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation2",
   "http://sbols.org/v3#role" : [ {
-    "@id" : "https://identifiers.org/SBO:0000019"
+    "@id" : "https://identifiers.org/SBO:0000020"
   } ],
   "http://sbols.org/v3#participant" : [ {
     "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent9"
@@ -266,7 +268,7 @@
     "@id" : "https://identifiers.org/SBO:0000011"
   } ],
   "http://sbols.org/v3#participant" : [ {
-    "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent9"
+    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent11"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "Participation3"
@@ -291,6 +293,15 @@
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "SubComponent10"
+  } ],
+  "@type" : [ "http://sbols.org/v3#SubComponent" ]
+}, {
+  "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent11",
+  "http://sbols.org/v3#instanceOf" : [ {
+    "@id" : "https://sbolstandard.org/examples/atC_TetR"
+  } ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "SubComponent11"
   } ],
   "@type" : [ "http://sbols.org/v3#SubComponent" ]
 }, {
@@ -419,8 +430,6 @@
     "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent6"
   }, {
     "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent4"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent9"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "TetR_producer"
@@ -515,7 +524,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation2",
   "http://sbols.org/v3#role" : [ {
-    "@id" : "https://identifiers.org/SBO:0000019"
+    "@id" : "https://identifiers.org/SBO:0000020"
   } ],
   "http://sbols.org/v3#participant" : [ {
     "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent6"
@@ -658,15 +667,6 @@
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "SubComponent8"
-  } ],
-  "@type" : [ "http://sbols.org/v3#SubComponent" ]
-}, {
-  "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent9",
-  "http://sbols.org/v3#instanceOf" : [ {
-    "@id" : "https://sbolstandard.org/examples/atC_TetR"
-  } ],
-  "http://sbols.org/v3#displayId" : [ {
-    "@value" : "SubComponent9"
   } ],
   "@type" : [ "http://sbols.org/v3#SubComponent" ]
 }, {
@@ -941,6 +941,9 @@
   "@type" : [ "http://sbols.org/v3#Component" ]
 }, {
   "@id" : "https://sbolstandard.org/examples/toggle_switch",
+  "http://sbols.org/v3#type" : [ {
+    "@id" : "https://identifiers.org/SBO:0000251"
+  } ],
   "http://sbols.org/v3#hasFeature" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch/SubComponent1"
   }, {
@@ -963,6 +966,9 @@
   "http://sbols.org/v3#description" : [ {
     "@value" : "Toggle Switch genetic circuit"
   } ],
+  "http://sbols.org/v3#role" : [ {
+    "@id" : "https://identifiers.org/SO:0000704"
+  } ],
   "http://sbols.org/v3#hasConstraint" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch/Constraint1"
   }, {
@@ -971,9 +977,6 @@
   "@type" : [ "http://sbols.org/v3#Component" ],
   "http://sbols.org/v3#name" : [ {
     "@value" : "Toggle Switch"
-  } ],
-  "http://sbols.org/v3#type" : [ {
-    "@id" : "https://identifiers.org/SBO:0000241"
   } ]
 }, {
   "@id" : "https://sbolstandard.org/examples/toggle_switch/ComponentReference1",

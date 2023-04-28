@@ -28,9 +28,18 @@
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
       <sbol:displayId>TetR_protein</sbol:displayId>
    </sbol:Component>
-   <sbol:Attachment rdf:about="attachment1">
-      <sbol:hashAlgorithm>Alg1</sbol:hashAlgorithm>
+   <sbol:Attachment rdf:about="attachment2">
       <sbol:hash>aaa</sbol:hash>
+      <sbol:hashAlgorithm>sha-256</sbol:hashAlgorithm>
+      <sbol:size>1000</sbol:size>
+      <sbol:format rdf:resource="https://identifiers.org/edam:format_2585"/>
+      <sbol:source rdf:resource="/attachment2"/>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:displayId>attachment2</sbol:displayId>
+   </sbol:Attachment>
+   <sbol:Attachment rdf:about="attachment1">
+      <sbol:hash>aaa</sbol:hash>
+      <sbol:hashAlgorithm>sha-256</sbol:hashAlgorithm>
       <sbol:size>1000</sbol:size>
       <sbol:format rdf:resource="https://identifiers.org/edam:format_2585"/>
       <sbol:source rdf:resource="/attachment1"/>

@@ -1,16 +1,16 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
-<urn:uuid:f8e709e1-2cac-43ab-bdca-796ee2d7755b>
+<urn:uuid:a795cdd2-c23e-4003-a8e9-b603afaaadf1>
         a                  sbol:Component ;
-        sbol:hasNamespace  <urn:uuid:d8338ec9-2ec5-4231-9081-541d94efc7da> ;
+        sbol:hasNamespace  <urn:uuid:0cb87e4e-ed33-4485-b7a3-26ad6c3fad5f> ;
         sbol:name          "TetR" ;
         sbol:type          SBO:0000252 .

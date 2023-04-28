@@ -29,7 +29,7 @@
 <https://synbiohub.org/public/igem/BBa_B0012_Sequence1> <http://sbols.org/v3#name> "Sequence1" .
 <https://synbiohub.org/public/igem/BBa_B0012_Sequence1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Sequence> .
 <https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1> <http://sbols.org/v3#displayId> "Range1" .
-<https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1> <http://sbols.org/v3#end> "79" .
+<https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1> <http://sbols.org/v3#end> "80" .
 <https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_B0015_Sequence1> .
 <https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1> <http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
 <https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1> <http://sbols.org/v3#start> "1" .
@@ -90,7 +90,7 @@
 <https://synbiohub.org/public/igem/BBa_C0062> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
 <https://synbiohub.org/public/igem/BBa_C0062> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://synbiohub.org/public/igem/BBa_C0062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://synbiohub.org/public/igem/BBa_C0062_Sequence1> <http://sbols.org/v3#description> "luxR sequence" .
+<https://synbiohub.org/public/igem/BBa_C0062_Sequence1> <http://sbols.org/v3#description> "BBa_C0062 sequence" .
 <https://synbiohub.org/public/igem/BBa_C0062_Sequence1> <http://sbols.org/v3#displayId> "BBa_C0062_Sequence1" .
 <https://synbiohub.org/public/igem/BBa_C0062_Sequence1> <http://sbols.org/v3#elements> "atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcac" .
 <https://synbiohub.org/public/igem/BBa_C0062_Sequence1> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
@@ -105,7 +105,7 @@
 <https://synbiohub.org/public/igem/BBa_C0062_protein> <http://sbols.org/v3#role> <https://identifiers.org/GO:0003700> .
 <https://synbiohub.org/public/igem/BBa_C0062_protein> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000252> .
 <https://synbiohub.org/public/igem/BBa_C0062_protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1> <http://sbols.org/v3#description> "LuxR sequence" .
+<https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1> <http://sbols.org/v3#description> "BBa_C0062_protein sequence" .
 <https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1> <http://sbols.org/v3#displayId> "BBa_C0062_protein_Sequence1" .
 <https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1> <http://sbols.org/v3#elements> "NNNNNNNNNNN" .
 <https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1208> .
@@ -158,7 +158,7 @@
 <https://synbiohub.org/public/igem/BBa_F2620/SubComponent2> <http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/TetR_protein> .
 <https://synbiohub.org/public/igem/BBa_F2620/SubComponent2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#SubComponent> .
 <https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1> <http://sbols.org/v3#displayId> "Range1" .
-<https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1> <http://sbols.org/v3#end> "53" .
+<https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1> <http://sbols.org/v3#end> "54" .
 <https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_F2620_Sequence1> .
 <https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1> <http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
 <https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1> <http://sbols.org/v3#start> "1" .
@@ -245,7 +245,7 @@
 <https://synbiohub.org/public/igem/BBa_R0040> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <https://synbiohub.org/public/igem/BBa_R0040> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://synbiohub.org/public/igem/BBa_R0040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://synbiohub.org/public/igem/BBa_R0040_Sequence1> <http://sbols.org/v3#description> "pTetR sequence" .
+<https://synbiohub.org/public/igem/BBa_R0040_Sequence1> <http://sbols.org/v3#description> "BBa_R0040 sequence" .
 <https://synbiohub.org/public/igem/BBa_R0040_Sequence1> <http://sbols.org/v3#displayId> "BBa_R0040_Sequence1" .
 <https://synbiohub.org/public/igem/BBa_R0040_Sequence1> <http://sbols.org/v3#elements> "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac" .
 <https://synbiohub.org/public/igem/BBa_R0040_Sequence1> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
@@ -260,7 +260,7 @@
 <https://synbiohub.org/public/igem/BBa_R0062> <http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
 <https://synbiohub.org/public/igem/BBa_R0062> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
 <https://synbiohub.org/public/igem/BBa_R0062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://synbiohub.org/public/igem/BBa_R0062_Sequence1> <http://sbols.org/v3#description> "lux pR sequence" .
+<https://synbiohub.org/public/igem/BBa_R0062_Sequence1> <http://sbols.org/v3#description> "BBa_R0062 sequence" .
 <https://synbiohub.org/public/igem/BBa_R0062_Sequence1> <http://sbols.org/v3#displayId> "BBa_R0062_Sequence1" .
 <https://synbiohub.org/public/igem/BBa_R0062_Sequence1> <http://sbols.org/v3#elements> "acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa" .
 <https://synbiohub.org/public/igem/BBa_R0062_Sequence1> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
@@ -275,7 +275,7 @@
 <https://synbiohub.org/public/igem/TetR_protein> <http://sbols.org/v3#role> <https://identifiers.org/GO:0003700> .
 <https://synbiohub.org/public/igem/TetR_protein> <http://sbols.org/v3#type> <https://identifiers.org/SBO:0000252> .
 <https://synbiohub.org/public/igem/TetR_protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#Component> .
-<https://synbiohub.org/public/igem/TetR_protein_Sequence1> <http://sbols.org/v3#description> "TetR sequence" .
+<https://synbiohub.org/public/igem/TetR_protein_Sequence1> <http://sbols.org/v3#description> "TetR_protein sequence" .
 <https://synbiohub.org/public/igem/TetR_protein_Sequence1> <http://sbols.org/v3#displayId> "TetR_protein_Sequence1" .
 <https://synbiohub.org/public/igem/TetR_protein_Sequence1> <http://sbols.org/v3#elements> "NNNNNNNNNNN" .
 <https://synbiohub.org/public/igem/TetR_protein_Sequence1> <http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1208> .

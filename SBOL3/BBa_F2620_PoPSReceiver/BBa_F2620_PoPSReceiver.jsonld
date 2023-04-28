@@ -1,441 +1,705 @@
 {
-  "@graph" : [ {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0010",
-    "@type" : "sbol:Component",
-    "description" : "Transcriptional terminator consisting of a 64 bp stem-loop",
-    "displayId" : "BBa_B0010",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_B0010_Sequence1",
-    "name" : "BBa_B0010",
-    "role" : "SO:0000141",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0010_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "BBa_B0010 sequence",
-    "displayId" : "BBa_B0010_Sequence1",
-    "elements" : "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0012",
-    "@type" : "sbol:Component",
-    "description" : "Double terminator consisting of BBa_B0010 and BBa_B0012",
-    "displayId" : "BBa_B0012",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_B0012_Sequence1",
-    "name" : "BBa_B0012",
-    "role" : "SO:0000141",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0012_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "BBa_B0012 sequence",
-    "displayId" : "BBa_B0012_Sequence1",
-    "elements" : "tcacactggctcaccttcgggtgggcctttctgcgtttata",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0015",
-    "@type" : "sbol:Component",
-    "description" : "Double terminator consisting of BBa_B0010 and BBa_B0012",
-    "displayId" : "BBa_B0015",
-    "hasFeature" : [ "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2", "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1" ],
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_B0015_Sequence1",
-    "name" : "BBa_B0015",
-    "role" : "SO:0000141",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_B0010",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "79",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_B0015_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_B0012",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "121",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_B0015_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "81"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0015_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "BBa_B0015 sequence",
-    "displayId" : "BBa_B0015_Sequence1",
-    "elements" : "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttata",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0034",
-    "@type" : "sbol:Component",
-    "description" : "RBS based on Elowitz repressilator",
-    "displayId" : "BBa_B0034",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_B0034_Sequence1",
-    "name" : "BBa_B0034",
-    "role" : "SO:0000139",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_B0034_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "BBa_B0034 sequence",
-    "displayId" : "BBa_B0034_Sequence1",
-    "elements" : "aaagaggagaaa",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_C0062",
-    "@type" : "sbol:Component",
-    "description" : "luxR repressor/activator,  (no LVA?)",
-    "displayId" : "BBa_C0062",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_C0062_Sequence1",
-    "name" : "luxR",
-    "role" : "SO:0000316",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_C0062_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "luxR sequence",
-    "displayId" : "BBa_C0062_Sequence1",
-    "elements" : "atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcac",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_C0062_protein",
-    "@type" : "sbol:Component",
-    "description" : "LuxR protein",
-    "displayId" : "BBa_C0062_protein",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1",
-    "name" : "LuxR",
-    "role" : "GO:0003700",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "LuxR sequence",
-    "displayId" : "BBa_C0062_protein_Sequence1",
-    "elements" : "NNNNNNNNNNN",
-    "encoding" : "EDAM:format_1208",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620",
-    "@type" : "sbol:Component",
-    "description" : "PoPS Receiver",
-    "displayId" : "BBa_F2620",
-    "hasFeature" : [ "https://synbiohub.org/public/igem/BBa_F2620/SubComponent2", "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7", "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5", "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3", "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4", "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6", "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1" ],
-    "hasInteraction" : [ "https://synbiohub.org/public/igem/BBa_F2620/Interaction2", "https://synbiohub.org/public/igem/BBa_F2620/Interaction1", "https://synbiohub.org/public/igem/BBa_F2620/Interaction3" ],
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "name" : "BBa_F2620",
-    "role" : "SO:0000704",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction1",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction1",
-    "hasParticipation" : [ "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1", "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2" ],
-    "type" : "SBO:0000589"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5",
-    "role" : "SBO:0000645"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1",
-    "role" : "SBO:0000011"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction2",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction2",
-    "hasParticipation" : [ "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1", "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2" ],
-    "type" : "SBO:0000170"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7",
-    "role" : "SBO:0000643"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1",
-    "role" : "SBO:0000459"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction3",
-    "@type" : "sbol:Interaction",
-    "displayId" : "Interaction3",
-    "hasParticipation" : [ "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1", "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2" ],
-    "type" : "SBO:0000170"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation1",
-    "participant" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3",
-    "role" : "SBO:0000643"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2",
-    "@type" : "sbol:Participation",
-    "displayId" : "Participation2",
-    "participant" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent2",
-    "role" : "SBO:0000459"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_C0062_protein"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent2",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent2",
-    "instanceOf" : "https://synbiohub.org/public/igem/TetR_protein"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent3",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_R0040",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "53",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent4",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_B0034",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "66",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "55"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent5",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_C0062",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "847",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "67"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent6",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_B0015",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "968",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "848"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7",
-    "@type" : "sbol:SubComponent",
-    "displayId" : "SubComponent7",
-    "hasLocation" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7/Range1",
-    "instanceOf" : "https://synbiohub.org/public/igem/BBa_R0062",
-    "orientation" : "SO:0001030"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7/Range1",
-    "@type" : "sbol:Range",
-    "displayId" : "Range1",
-    "end" : "1023",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "orientation" : "SO:0001030",
-    "start" : "969"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "BBa_F2620 sequence",
-    "displayId" : "BBa_F2620_Sequence1",
-    "elements" : "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcacaaagaggagaaaatgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcacccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttataacctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_R0040",
-    "@type" : "sbol:Component",
-    "description" : "TetR repressible promoter",
-    "displayId" : "BBa_R0040",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_R0040_Sequence1",
-    "name" : "pTetR",
-    "role" : "SO:0000167",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_R0040_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "pTetR sequence",
-    "displayId" : "BBa_R0040_Sequence1",
-    "elements" : "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_R0062",
-    "@type" : "sbol:Component",
-    "description" : "Promoter (luxR &amp; HSL regulated -- lux pR)",
-    "displayId" : "BBa_R0062",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/BBa_R0062_Sequence1",
-    "name" : "lux pR",
-    "role" : "SO:0000167",
-    "type" : "SBO:0000251"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/BBa_R0062_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "lux pR sequence",
-    "displayId" : "BBa_R0062_Sequence1",
-    "elements" : "acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa",
-    "encoding" : "EDAM:format_1207",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/TetR_protein",
-    "@type" : "sbol:Component",
-    "description" : "TetR protein",
-    "displayId" : "TetR_protein",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "hasSequence" : "https://synbiohub.org/public/igem/TetR_protein_Sequence1",
-    "name" : "TetR",
-    "role" : "GO:0003700",
-    "type" : "SBO:0000252"
-  }, {
-    "@id" : "https://synbiohub.org/public/igem/TetR_protein_Sequence1",
-    "@type" : "sbol:Sequence",
-    "description" : "TetR sequence",
-    "displayId" : "TetR_protein_Sequence1",
-    "elements" : "NNNNNNNNNNN",
-    "encoding" : "EDAM:format_1208",
-    "hasNamespace" : "https://synbiohub.org/public/igem",
-    "name" : "Sequence1"
-  } ],
-  "@context" : {
-    "start" : {
-      "@id" : "http://sbols.org/v3#start"
-    },
-    "orientation" : {
-      "@id" : "http://sbols.org/v3#orientation",
-      "@type" : "@id"
-    },
-    "hasSequence" : {
-      "@id" : "http://sbols.org/v3#hasSequence",
-      "@type" : "@id"
-    },
-    "end" : {
-      "@id" : "http://sbols.org/v3#end"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "instanceOf" : {
-      "@id" : "http://sbols.org/v3#instanceOf",
-      "@type" : "@id"
-    },
-    "hasLocation" : {
-      "@id" : "http://sbols.org/v3#hasLocation",
-      "@type" : "@id"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "encoding" : {
-      "@id" : "http://sbols.org/v3#encoding",
-      "@type" : "@id"
-    },
-    "elements" : {
-      "@id" : "http://sbols.org/v3#elements"
-    },
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "role" : {
-      "@id" : "http://sbols.org/v3#role",
-      "@type" : "@id"
-    },
-    "hasParticipation" : {
-      "@id" : "http://sbols.org/v3#hasParticipation",
-      "@type" : "@id"
-    },
-    "participant" : {
-      "@id" : "http://sbols.org/v3#participant",
-      "@type" : "@id"
-    },
-    "hasFeature" : {
-      "@id" : "http://sbols.org/v3#hasFeature",
-      "@type" : "@id"
-    },
-    "hasInteraction" : {
-      "@id" : "http://sbols.org/v3#hasInteraction",
-      "@type" : "@id"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1",
+            "sbol:start": "1",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
+            },
+            "sbol:end": "54",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcacaaagaggagaaaatgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcacccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttataacctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa",
+            "sbol:displayId": "BBa_F2620_Sequence1",
+            "sbol:description": "BBa_F2620 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_C0062"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5/Range1"
+            },
+            "sbol:displayId": "SubComponent5",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_C0062",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000316"
+            },
+            "sbol:name": "luxR",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_C0062_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_C0062",
+            "sbol:description": "luxR repressor/activator,  (no LVA?)",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5/Range1",
+            "sbol:start": "67",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
+            },
+            "sbol:end": "847",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_C0062_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcac",
+            "sbol:displayId": "BBa_C0062_Sequence1",
+            "sbol:description": "BBa_C0062 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0010_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc",
+            "sbol:displayId": "BBa_B0010_Sequence1",
+            "sbol:description": "BBa_B0010 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_C0062_protein",
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:role": {
+                "@id": "GO:0003700"
+            },
+            "sbol:name": "LuxR",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_C0062_protein",
+            "sbol:description": "LuxR protein",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1208"
+            },
+            "sbol:elements": "NNNNNNNNNNN",
+            "sbol:displayId": "BBa_C0062_protein_Sequence1",
+            "sbol:description": "BBa_C0062_protein sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction1",
+            "sbol:type": {
+                "@id": "SBO:0000589"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction1",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000645"
+            },
+            "sbol:participant": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000011"
+            },
+            "sbol:participant": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7/Range1",
+            "sbol:start": "969",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
+            },
+            "sbol:end": "1023",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0012_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "tcacactggctcaccttcgggtgggcctttctgcgtttata",
+            "sbol:displayId": "BBa_B0012_Sequence1",
+            "sbol:description": "BBa_B0012 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0012",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000141"
+            },
+            "sbol:name": "BBa_B0012",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0012_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_B0012",
+            "sbol:description": "Double terminator consisting of BBa_B0010 and BBa_B0012",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0040",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:name": "pTetR",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0040_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_R0040",
+            "sbol:description": "TetR repressible promoter",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0040_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac",
+            "sbol:displayId": "BBa_R0040_Sequence1",
+            "sbol:description": "BBa_R0040 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0034"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4/Range1"
+            },
+            "sbol:displayId": "SubComponent4",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0034",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000139"
+            },
+            "sbol:name": "BBa_B0034",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0034_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_B0034",
+            "sbol:description": "RBS based on Elowitz repressilator",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4/Range1",
+            "sbol:start": "55",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
+            },
+            "sbol:end": "66",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0040"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3/Range1"
+            },
+            "sbol:displayId": "SubComponent3",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0015_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttata",
+            "sbol:displayId": "BBa_B0015_Sequence1",
+            "sbol:description": "BBa_B0015 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1",
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_C0062_protein"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000459"
+            },
+            "sbol:participant": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2",
+            "sbol:role": {
+                "@id": "SBO:0000459"
+            },
+            "sbol:participant": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent2"
+            },
+            "sbol:displayId": "Participation2",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent2",
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/TetR_protein"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/TetR_protein_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1208"
+            },
+            "sbol:elements": "NNNNNNNNNNN",
+            "sbol:displayId": "TetR_protein_Sequence1",
+            "sbol:description": "TetR_protein sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0012"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2/Range1"
+            },
+            "sbol:displayId": "SubComponent2",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2/Range1",
+            "sbol:start": "81",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0015_Sequence1"
+            },
+            "sbol:end": "121",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0010",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000141"
+            },
+            "sbol:name": "BBa_B0010",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0010_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_B0010",
+            "sbol:description": "Transcriptional terminator consisting of a 64 bp stem-loop",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/TetR_protein",
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:role": {
+                "@id": "GO:0003700"
+            },
+            "sbol:name": "TetR",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/TetR_protein_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "TetR_protein",
+            "sbol:description": "TetR protein",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000643"
+            },
+            "sbol:participant": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0062"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7/Range1"
+            },
+            "sbol:displayId": "SubComponent7",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0034_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "aaagaggagaaa",
+            "sbol:displayId": "BBa_B0034_Sequence1",
+            "sbol:description": "BBa_B0034 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1",
+            "sbol:start": "1",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0015_Sequence1"
+            },
+            "sbol:end": "80",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1",
+            "sbol:role": {
+                "@id": "SBO:0000643"
+            },
+            "sbol:participant": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3"
+            },
+            "sbol:displayId": "Participation1",
+            "@type": "sbol:Participation"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0015",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0015_Sequence1"
+            },
+            "@type": "sbol:Component",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent2"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1"
+                }
+            ],
+            "sbol:description": "Double terminator consisting of BBa_B0010 and BBa_B0012",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:role": {
+                "@id": "SO:0000141"
+            },
+            "sbol:name": "BBa_B0015",
+            "sbol:displayId": "BBa_B0015"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0010"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0015/SubComponent1/Range1"
+            },
+            "sbol:displayId": "SubComponent1",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0062_Sequence1",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa",
+            "sbol:displayId": "BBa_R0062_Sequence1",
+            "sbol:description": "BBa_R0062 sequence",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0062",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:name": "lux pR",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0062_Sequence1"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_R0062",
+            "sbol:description": "Promoter (luxR &amp; HSL regulated -- lux pR)",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620",
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent2"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent7"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent5"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent3"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent4"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"
+                }
+            ],
+            "sbol:hasInteraction": [
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction2"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction1"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction3"
+                }
+            ],
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
+            },
+            "sbol:displayId": "BBa_F2620",
+            "@type": "sbol:Component",
+            "sbol:role": {
+                "@id": "SO:0000704"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:name": "BBa_F2620",
+            "sbol:description": "PoPS Receiver",
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            }
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction2",
+            "sbol:type": {
+                "@id": "SBO:0000170"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction2",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:instanceOf": {
+                "@id": "https://synbiohub.org/public/igem/BBa_B0015"
+            },
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6/Range1"
+            },
+            "sbol:displayId": "SubComponent6",
+            "@type": "sbol:SubComponent"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction3",
+            "sbol:type": {
+                "@id": "SBO:0000170"
+            },
+            "sbol:hasParticipation": [
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1"
+                },
+                {
+                    "@id": "https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2"
+                }
+            ],
+            "sbol:displayId": "Interaction3",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_F2620/SubComponent6/Range1",
+            "sbol:start": "848",
+            "sbol:orientation": {
+                "@id": "SO:0001030"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
+            },
+            "sbol:end": "968",
+            "sbol:displayId": "Range1",
+            "@type": "sbol:Range"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

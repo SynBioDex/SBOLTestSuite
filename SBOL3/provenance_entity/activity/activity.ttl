@@ -1,19 +1,19 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 :toggle_switch_optimised
         a                    sbol:Component ;
         sbol:description     "Toggle Switch genetic circuit - codon optimised" ;
         sbol:displayId       "toggle_switch_optimised" ;
-        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace    </examples> ;
         sbol:name            "Toggle Switch Optimised" ;
         sbol:type            SBO:0000241 ;
         prov:wasDerivedFrom  :toggle_switch ;
@@ -23,14 +23,14 @@
         a                  sbol:TopLevel , prov:Agent ;
         sbol:description   "Used to optimise bacterial DNA sequences." ;
         sbol:displayId     "CodonOptimiserSoftware" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "Codon Optimiser Software" .
 
 :RBS_optimisation_activity
         a                   sbol:TopLevel , prov:Activity ;
         sbol:description    "An activity that is used to RBSs" ;
         sbol:displayId      "RBS_optimisation_activity" ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "RBS optimization activity" ;
         sbol:type           sbol:design ;
         prov:wasInformedBy  :codon_optimization_activity .
@@ -45,7 +45,7 @@
 :toggle_switch  a          sbol:Component ;
         sbol:description   "Toggle Switch genetic circuit" ;
         sbol:displayId     "toggle_switch" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "Toggle Switch" ;
         sbol:type          SBO:0000241 .
 
@@ -53,29 +53,29 @@
         a               sbol:Identified , prov:Usage ;
         sbol:displayId  "Usage1" ;
         prov:entity     :toggle_switch ;
-        prov:hadRole    SBO:0000645 .
+        prov:hadRole    sbol:learn .
 
 <codon_optimization_activity/Usage2>
         a               sbol:Identified , prov:Usage ;
         sbol:displayId  "Usage2" ;
         prov:entity     :toggle_switch_optimised ;
-        prov:hadRole    SBO:0000011 .
+        prov:hadRole    sbol:design .
 
 :CodonOptimisationProtocol
         a                  sbol:TopLevel , prov:Plan ;
         sbol:description   "Optimisation protocol to improve the translation of mRNAs." ;
         sbol:displayId     "CodonOptimisationProtocol" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "Codon Optimisation Protocol" .
 
 :codon_optimization_activity
         a                          sbol:TopLevel , prov:Activity ;
         sbol:description           "An activity that is used to optimise codons" ;
         sbol:displayId             "codon_optimization_activity" ;
-        sbol:hasNamespace          <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace          </examples> ;
         sbol:name                  "Codon optimization activity" ;
         sbol:type                  sbol:design ;
-        prov:endedAtTime           "2020-08-30T15:42:23.277Z" ;
+        prov:endedAtTime           "2019-08-30T00:00:00Z" ;
         prov:qualifiedAssociation  <codon_optimization_activity/Association1> ;
         prov:qualifiedUsage        <codon_optimization_activity/Usage2> , <codon_optimization_activity/Usage1> ;
-        prov:startedAtTime         "2019-07-29T15:42:23.277Z" .
+        prov:startedAtTime         "2019-07-29T16:50:59Z" .

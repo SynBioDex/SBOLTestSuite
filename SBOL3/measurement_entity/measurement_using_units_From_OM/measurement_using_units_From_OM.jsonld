@@ -1,71 +1,139 @@
 {
-  "@graph" : [ {
-    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA",
-    "@type" : "sbol:Component",
-    "description" : "M9 Glucose CAA growth media",
-    "displayId" : "M9_Glucose_CAA",
-    "hasFeature" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "M9 Glucose CAA",
-    "type" : "SBO:0000241"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1",
-    "@type" : "sbol:ExternallyDefined",
-    "definition" : "CHEBI:3312",
-    "displayId" : "ExternallyDefined1",
-    "hasMeasure" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
-    "type" : "SBO:0000247"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
-    "@type" : [ "sbol:Identified", "om:Measure" ],
-    "displayId" : "measure1",
-    "hasNumericalValue" : "0.1",
-    "hasUnit" : "om:millimolePerLitre"
-  } ],
-  "@context" : {
-    "hasFeature" : {
-      "@id" : "http://sbols.org/v3#hasFeature",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "hasMeasure" : {
-      "@id" : "http://sbols.org/v3#hasMeasure",
-      "@type" : "@id"
-    },
-    "definition" : {
-      "@id" : "http://sbols.org/v3#definition",
-      "@type" : "@id"
-    },
-    "hasUnit" : {
-      "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit",
-      "@type" : "@id"
-    },
-    "hasNumericalValue" : {
-      "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "om:milli",
+            "om:hasFactor": "0.001",
+            "sbol:name": "milli",
+            "om:label": "milli",
+            "om:symbol": "m",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:SIPrefix"
+            ],
+            "sbol:displayId": "milli"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
+            "om:hasUnit": {
+                "@id": "om:millimolePerLitre"
+            },
+            "om:hasNumericalValue": "0.1",
+            "@type": [
+                "sbol:Identified",
+                "om:Measure"
+            ],
+            "sbol:displayId": "measure1"
+        },
+        {
+            "@id": "om:millimolePerLitre",
+            "om:hasDenominator": {
+                "@id": "om:litre"
+            },
+            "om:hasNumerator": {
+                "@id": "om:millimole"
+            },
+            "sbol:name": "millimolar",
+            "om:label": "millimolar",
+            "om:symbol": "mmol/l",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:UnitDivision"
+            ],
+            "sbol:displayId": "millimolePerLitre"
+        },
+        {
+            "@id": "om:millimole",
+            "om:hasPrefix": {
+                "@id": "om:milli"
+            },
+            "om:hasUnit": {
+                "@id": "om:mole"
+            },
+            "sbol:name": "millimole",
+            "om:label": "millimole",
+            "om:symbol": "mmol",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:PrefixedUnit"
+            ],
+            "sbol:displayId": "millimole"
+        },
+        {
+            "@id": "om:mole",
+            "sbol:name": "mole",
+            "om:label": "mole",
+            "om:symbol": "mol",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:SingularUnit"
+            ],
+            "sbol:displayId": "mole"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1",
+            "sbol:hasMeasure": {
+                "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1"
+            },
+            "sbol:definition": {
+                "@id": "CHEBI:3312"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000247"
+            },
+            "sbol:displayId": "ExternallyDefined1",
+            "@type": "sbol:ExternallyDefined"
+        },
+        {
+            "@id": "om:litre",
+            "sbol:name": "liter",
+            "om:label": "liter",
+            "om:symbol": "l",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:SingularUnit"
+            ],
+            "sbol:displayId": "litre"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA",
+            "sbol:hasFeature": {
+                "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1"
+            },
+            "sbol:description": "M9 Glucose CAA growth media",
+            "sbol:name": "M9 Glucose CAA",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:displayId": "M9_Glucose_CAA",
+            "@type": "sbol:Component"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

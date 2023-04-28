@@ -1,18 +1,18 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 :rbs_luxR  a               sbol:Component ;
         sbol:description   "RBS" ;
         sbol:displayId     "rbs_luxR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "rbs" ;
         sbol:role          SO:0000139 ;
         sbol:type          SBO:0000251 .
@@ -63,7 +63,7 @@
         sbol:displayId      "MulticellularSystem" ;
         sbol:hasConstraint  <MulticellularSystem/Constraint1> ;
         sbol:hasFeature     <MulticellularSystem/ComponentReference2> , <MulticellularSystem/SubComponent1> , <MulticellularSystem/ComponentReference1> , <MulticellularSystem/SubComponent2> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "MulticellularSystem" ;
         sbol:role           SBO:0000289 ;
         sbol:type           SBO:0000241 .
@@ -73,7 +73,7 @@
         sbol:displayId      "SenderSystem" ;
         sbol:hasConstraint  <SenderSystem/Constraint1> , <SenderSystem/Constraint3> , <SenderSystem/Constraint2> ;
         sbol:hasFeature     <SenderSystem/SubComponent1> , <SenderSystem/ComponentReference1> , <SenderSystem/SubComponent3> , <SenderSystem/SubComponent2> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "SenderSystem" ;
         sbol:role           SBO:0000289 ;
         sbol:type           SBO:0000241 .
@@ -106,7 +106,7 @@
 :ter_gfp  a                sbol:Component ;
         sbol:description   "Terminator" ;
         sbol:displayId     "ter_gfp" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "gfp terminator" ;
         sbol:role          SO:0000141 ;
         sbol:type          SBO:0000251 .
@@ -125,7 +125,7 @@
 :rbs_gfp  a                sbol:Component ;
         sbol:description   "RBS" ;
         sbol:displayId     "rbs_gfp" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "rbs" ;
         sbol:role          SO:0000139 ;
         sbol:type          SBO:0000251 .
@@ -139,7 +139,7 @@
 :luxR   a                  sbol:Component ;
         sbol:description   "luxR coding sequence" ;
         sbol:displayId     "luxR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "luxR" ;
         sbol:role          SO:0000316 ;
         sbol:type          SBO:0000251 .
@@ -153,7 +153,7 @@
 :pConstLuxR  a             sbol:Component ;
         sbol:description   "Constituve promoter" ;
         sbol:displayId     "pConstLuxR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "pLuxR" ;
         sbol:role          SO:0000167 ;
         sbol:type          SBO:0000251 .
@@ -175,7 +175,7 @@
         sbol:displayId       "AHL_receiver" ;
         sbol:hasFeature      <AHL_receiver/SubComponent11> , <AHL_receiver/SubComponent5> , <AHL_receiver/SubComponent12> , <AHL_receiver/SubComponent7> , <AHL_receiver/SubComponent6> , <AHL_receiver/SubComponent8> , <AHL_receiver/SubComponent9> , <AHL_receiver/SubComponent1> , <AHL_receiver/SubComponent3> , <AHL_receiver/SubComponent2> , <AHL_receiver/SubComponent10> , <AHL_receiver/SubComponent4> ;
         sbol:hasInteraction  <AHL_receiver/Interaction4> , <AHL_receiver/Interaction1> , <AHL_receiver/Interaction2> , <AHL_receiver/Interaction3> ;
-        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace    </examples> ;
         sbol:name            "AHL receiver" ;
         sbol:role            SO:0000704 ;
         sbol:type            SBO:0000251 .
@@ -213,7 +213,7 @@
 :ter_luxR  a               sbol:Component ;
         sbol:description   "Terminator" ;
         sbol:displayId     "ter_luxR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "luxR terminator" ;
         sbol:role          SO:0000141 ;
         sbol:type          SBO:0000251 .
@@ -232,7 +232,7 @@
 :OrganismB  a              sbol:Component ;
         sbol:description   "Organism B" ;
         sbol:displayId     "OrganismB" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "OrganismB" ;
         sbol:role          SBO:0000290 ;
         sbol:type          GO:0005623 .
@@ -262,7 +262,7 @@
 :LuxR_protein  a           sbol:Component ;
         sbol:description   "LuxR" ;
         sbol:displayId     "LuxR_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "LuxR_protein" ;
         sbol:role          GO:0003700 ;
         sbol:type          SBO:0000252 .
@@ -282,7 +282,7 @@
 :gfp    a                  sbol:Component ;
         sbol:description   "gfp coding sequence" ;
         sbol:displayId     "gfp" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "gfp" ;
         sbol:role          SO:0000316 ;
         sbol:type          SBO:0000251 .
@@ -292,7 +292,7 @@
         sbol:displayId      "ReceiverSystem" ;
         sbol:hasConstraint  <ReceiverSystem/Constraint3> , <ReceiverSystem/Constraint1> , <ReceiverSystem/Constraint2> ;
         sbol:hasFeature     <ReceiverSystem/SubComponent3> , <ReceiverSystem/ComponentReference1> , <ReceiverSystem/SubComponent2> , <ReceiverSystem/SubComponent1> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "ReceiverSystem" ;
         sbol:role           SBO:0000289 ;
         sbol:type           SBO:0000241 .
@@ -300,7 +300,7 @@
 :LuxR_AHL  a               sbol:Component ;
         sbol:description   "LuxR_AHL complex" ;
         sbol:displayId     "LuxR_AHL" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "LuxR_AHL" ;
         sbol:role          GO:0003700 ;
         sbol:type          SBO:0000252 .
@@ -308,7 +308,7 @@
 :rbs_luxI  a               sbol:Component ;
         sbol:description   "RBS" ;
         sbol:displayId     "rbs_luxI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "rbs" ;
         sbol:role          SO:0000139 ;
         sbol:type          SBO:0000251 .
@@ -321,7 +321,7 @@
 :OrganismA  a              sbol:Component ;
         sbol:description   "Organism A" ;
         sbol:displayId     "OrganismA" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "OrganismA" ;
         sbol:role          SBO:0000290 ;
         sbol:type          GO:0005623 .
@@ -348,7 +348,7 @@
 :pLuxR  a                  sbol:Component ;
         sbol:description   "LuxR inducible promoter" ;
         sbol:displayId     "pLuxR" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "pLuxR" ;
         sbol:role          SO:0000167 ;
         sbol:type          SBO:0000251 .
@@ -374,14 +374,14 @@
 :GFP_protein  a            sbol:Component ;
         sbol:description   "GFP" ;
         sbol:displayId     "GFP_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "GFP" ;
         sbol:type          SBO:0000252 .
 
 :luxI   a                  sbol:Component ;
         sbol:description   "luxI coding sequence" ;
         sbol:displayId     "luxI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "luxI" ;
         sbol:role          SO:0000316 ;
         sbol:type          SBO:0000251 .
@@ -403,7 +403,7 @@
         sbol:displayId       "AHL_producer" ;
         sbol:hasFeature      <AHL_producer/SubComponent3> , <AHL_producer/SubComponent2> , <AHL_producer/SubComponent1> , <AHL_producer/SubComponent4> , <AHL_producer/SubComponent5> ;
         sbol:hasInteraction  <AHL_producer/Interaction1> ;
-        sbol:hasNamespace    <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace    </examples> ;
         sbol:name            "AHL producer" ;
         sbol:role            SO:0000704 ;
         sbol:type            SBO:0000251 .
@@ -417,7 +417,7 @@
 :AHL    a                  sbol:Component ;
         sbol:description   "AHL" ;
         sbol:displayId     "AHL" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "AHL" ;
         sbol:role          CHEBI:35224 ;
         sbol:type          SBO:0000247 .
@@ -431,7 +431,7 @@
 :pConstLuxI  a             sbol:Component ;
         sbol:description   "Constitutive promoter" ;
         sbol:displayId     "pConstLuxI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "pConstLuxI" ;
         sbol:role          SO:0000167 ;
         sbol:type          SBO:0000251 .
@@ -445,7 +445,7 @@
 :ter_luxI  a               sbol:Component ;
         sbol:description   "Terminator" ;
         sbol:displayId     "ter_luxI" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "luxI terminator" ;
         sbol:role          SO:0000141 ;
         sbol:type          SBO:0000251 .

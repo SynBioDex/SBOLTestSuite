@@ -161,7 +161,7 @@
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_F2620_Sequence1"/>
                   </sbol:hasSequence>
-                  <sbol:end>53</sbol:end>
+                  <sbol:end>54</sbol:end>
                   <sbol:displayId>Range1</sbol:displayId>
                </sbol:Range>
             </sbol:hasLocation>
@@ -300,7 +300,7 @@
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_B0015_Sequence1"/>
                   </sbol:hasSequence>
-                  <sbol:end>79</sbol:end>
+                  <sbol:end>80</sbol:end>
                   <sbol:displayId>Range1</sbol:displayId>
                </sbol:Range>
             </sbol:hasLocation>
@@ -346,7 +346,7 @@
       <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
       <sbol:elements>acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa</sbol:elements>
       <sbol:displayId>BBa_R0062_Sequence1</sbol:displayId>
-      <sbol:description>lux pR sequence</sbol:description>
+      <sbol:description>BBa_R0062 sequence</sbol:description>
    </sbol:Sequence>
    <sbol:Sequence rdf:about="BBa_B0034_Sequence1">
       <sbol:name>Sequence1</sbol:name>
@@ -370,7 +370,7 @@
       <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1208"/>
       <sbol:elements>NNNNNNNNNNN</sbol:elements>
       <sbol:displayId>TetR_protein_Sequence1</sbol:displayId>
-      <sbol:description>TetR sequence</sbol:description>
+      <sbol:description>TetR_protein sequence</sbol:description>
    </sbol:Sequence>
    <sbol:Sequence rdf:about="BBa_B0012_Sequence1">
       <sbol:name>Sequence1</sbol:name>
@@ -386,7 +386,7 @@
       <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1208"/>
       <sbol:elements>NNNNNNNNNNN</sbol:elements>
       <sbol:displayId>BBa_C0062_protein_Sequence1</sbol:displayId>
-      <sbol:description>LuxR sequence</sbol:description>
+      <sbol:description>BBa_C0062_protein sequence</sbol:description>
    </sbol:Sequence>
    <sbol:Sequence rdf:about="BBa_R0040_Sequence1">
       <sbol:name>Sequence1</sbol:name>
@@ -394,7 +394,7 @@
       <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
       <sbol:elements>tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac</sbol:elements>
       <sbol:displayId>BBa_R0040_Sequence1</sbol:displayId>
-      <sbol:description>pTetR sequence</sbol:description>
+      <sbol:description>BBa_R0040 sequence</sbol:description>
    </sbol:Sequence>
    <sbol:Sequence rdf:about="BBa_C0062_Sequence1">
       <sbol:name>Sequence1</sbol:name>
@@ -402,6 +402,6 @@
       <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
       <sbol:elements>atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcac</sbol:elements>
       <sbol:displayId>BBa_C0062_Sequence1</sbol:displayId>
-      <sbol:description>luxR sequence</sbol:description>
+      <sbol:description>BBa_C0062 sequence</sbol:description>
    </sbol:Sequence>
 </rdf:RDF>
