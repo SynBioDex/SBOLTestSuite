@@ -1,5 +1,5 @@
 { 
-  "urn:uuid:0536365c-9ff0-4d45-927c-8bde1665355a" : { 
+  "urn:uuid:a795cdd2-c23e-4003-a8e9-b603afaaadf1" : { 
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#Component"
@@ -7,7 +7,7 @@
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
       "type" : "uri" ,
-      "value" : "urn:uuid:c3354ff3-9779-4bfa-a185-7fe6ac7471a2"
+      "value" : "urn:uuid:0cb87e4e-ed33-4485-b7a3-26ad6c3fad5f"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 

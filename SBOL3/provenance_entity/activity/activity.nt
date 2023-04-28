@@ -49,14 +49,14 @@
 <https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://sbols.org/v3#displayId> "CodonOptimisationProtocol" .
 <https://sbolstandard.org/examples/CodonOptimisationProtocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Plan> .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#type> <http://sbols.org/v3#design> .
-<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#startedAtTime> "2019-07-29T12:48:00.149Z" .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sbols.org/v3#TopLevel> .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#name> "Codon optimization activity" .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#description> "An activity that is used to optimise codons" .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedUsage> <https://sbolstandard.org/examples/codon_optimization_activity/Usage2> .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#displayId> "codon_optimization_activity" .
-<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#endedAtTime> "2020-08-30T12:48:00.149Z" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#startedAtTime> "2019-07-29T16:50:59Z" .
+<https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#endedAtTime> "2019-08-30T00:00:00Z" .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedAssociation> <https://sbolstandard.org/examples/codon_optimization_activity/Association1> .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
 <https://sbolstandard.org/examples/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedUsage> <https://sbolstandard.org/examples/codon_optimization_activity/Usage1> .

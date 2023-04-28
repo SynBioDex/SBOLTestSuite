@@ -37,7 +37,6 @@
             "sbol:type": {
                 "@id": "sbol:design"
             },
-            "prov:startedAtTime": "2019-07-29T12:48:00.149Z",
             "@type": [
                 "sbol:TopLevel",
                 "prov:Activity"
@@ -53,7 +52,8 @@
                 }
             ],
             "sbol:displayId": "codon_optimization_activity",
-            "prov:endedAtTime": "2020-08-30T12:48:00.149Z",
+            "prov:startedAtTime": "2019-07-29T16:50:59Z",
+            "prov:endedAtTime": "2019-08-30T00:00:00Z",
             "prov:qualifiedAssociation": {
                 "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
             },
