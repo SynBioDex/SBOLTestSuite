@@ -1,13 +1,13 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 <M9_Glucose_CAA/ExternallyDefined1/measure1>
         a                     sbol:Identified , om:Measure ;
@@ -26,7 +26,7 @@
 :litre  a                     sbol:TopLevel , om:SingularUnit ;
         sbol:description      "The litre is a unit of volume defined as 1.0e-3 cubic metre." ;
         sbol:displayId        "litre" ;
-        sbol:hasNamespace     <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace     </examples> ;
         sbol:name             "liter" ;
         om:alternativeLabel   "litre2" , "liter" ;
         om:alternativeSymbol  "L2" , "L" ;
@@ -38,7 +38,7 @@
 
 :cubicMeter  a             sbol:TopLevel , om:UnitExponentiation ;
         sbol:displayId     "cubicMeter" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "cubicMeter" ;
         om:hasBase         :meter ;
         om:hasExponent     "3" ;
@@ -47,14 +47,14 @@
 
 :kelvin  a                 sbol:TopLevel , om:SingularUnit ;
         sbol:displayId     "kelvin" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "kelvin" ;
         om:label           "kelvin" ;
         om:symbol          "kelvin" .
 
 :kelvinMole  a             sbol:TopLevel , om:UnitMultiplication ;
         sbol:displayId     "kelvinMole" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "kelvinMole" ;
         om:hasTerm1        :kelvin ;
         om:hasTerm2        :mole ;
@@ -65,27 +65,27 @@
         sbol:description   "M9 Glucose CAA growth media" ;
         sbol:displayId     "M9_Glucose_CAA" ;
         sbol:hasFeature    <M9_Glucose_CAA/ExternallyDefined1> ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "M9 Glucose CAA" ;
         sbol:type          SBO:0000241 .
 
 :mole   a                  sbol:TopLevel , om:SingularUnit ;
         sbol:displayId     "mole" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "mole" ;
         om:label           "mole" ;
         om:symbol          "mol" .
 
 :meter  a                  sbol:TopLevel , om:SingularUnit ;
         sbol:displayId     "meter" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "meter" ;
         om:label           "meter" ;
         om:symbol          "m" .
 
 :millimolePerLitre  a      sbol:TopLevel , om:UnitDivision ;
         sbol:displayId     "millimolePerLitre" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "millimolar" ;
         om:hasDenominator  :litre ;
         om:hasNumerator    :millimole ;
@@ -94,7 +94,7 @@
 
 :millimole  a              sbol:TopLevel , om:PrefixedUnit ;
         sbol:displayId     "millimole" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "millimole" ;
         om:hasPrefix       :milli ;
         om:hasUnit         :mole ;
@@ -104,7 +104,7 @@
 :milli  a                     om:SIPrefix , sbol:TopLevel ;
         sbol:description      "Comment for the milli prefix." ;
         sbol:displayId        "milli" ;
-        sbol:hasNamespace     <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace     </examples> ;
         sbol:name             "milli" ;
         om:alternativeLabel   "milli1" , "milli2" ;
         om:alternativeSymbol  "m1" , "m2" ;

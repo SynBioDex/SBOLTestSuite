@@ -144,7 +144,7 @@
     "@id" : "https://synbiohub.org/public/igem/BBa_B0015_Sequence1"
   } ],
   "http://sbols.org/v3#end" : [ {
-    "@value" : "79"
+    "@value" : "80"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "Range1"
@@ -291,7 +291,7 @@
     "@value" : "BBa_C0062_Sequence1"
   } ],
   "http://sbols.org/v3#description" : [ {
-    "@value" : "luxR sequence"
+    "@value" : "BBa_C0062 sequence"
   } ],
   "@type" : [ "http://sbols.org/v3#Sequence" ]
 }, {
@@ -336,7 +336,7 @@
     "@value" : "BBa_C0062_protein_Sequence1"
   } ],
   "http://sbols.org/v3#description" : [ {
-    "@value" : "LuxR sequence"
+    "@value" : "BBa_C0062_protein sequence"
   } ],
   "@type" : [ "http://sbols.org/v3#Sequence" ]
 }, {
@@ -544,7 +544,7 @@
     "@id" : "https://synbiohub.org/public/igem/BBa_F2620_Sequence1"
   } ],
   "http://sbols.org/v3#end" : [ {
-    "@value" : "53"
+    "@value" : "54"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "Range1"
@@ -745,7 +745,7 @@
     "@value" : "BBa_R0040_Sequence1"
   } ],
   "http://sbols.org/v3#description" : [ {
-    "@value" : "pTetR sequence"
+    "@value" : "BBa_R0040 sequence"
   } ],
   "@type" : [ "http://sbols.org/v3#Sequence" ]
 }, {
@@ -790,7 +790,7 @@
     "@value" : "BBa_R0062_Sequence1"
   } ],
   "http://sbols.org/v3#description" : [ {
-    "@value" : "lux pR sequence"
+    "@value" : "BBa_R0062 sequence"
   } ],
   "@type" : [ "http://sbols.org/v3#Sequence" ]
 }, {
@@ -835,7 +835,7 @@
     "@value" : "TetR_protein_Sequence1"
   } ],
   "http://sbols.org/v3#description" : [ {
-    "@value" : "TetR sequence"
+    "@value" : "TetR_protein sequence"
   } ],
   "@type" : [ "http://sbols.org/v3#Sequence" ]
 } ]

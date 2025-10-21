@@ -1,13 +1,13 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 <LacI_producer/SubComponent1>
         a                sbol:SubComponent ;
@@ -17,7 +17,7 @@
 :TetR_protein  a           sbol:Component ;
         sbol:description   "TetR protein" ;
         sbol:displayId     "TetR_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "TetR" ;
         sbol:role          GO:0003700 ;
         sbol:type          SBO:0000252 .
@@ -27,7 +27,7 @@
         sbol:displayId     "LacI_producer" ;
         sbol:hasFeature    <LacI_producer/SubComponent1> , <LacI_producer/SubComponent2> , <LacI_producer/SubComponent3> ;
         sbol:hasInterface  <LacI_producer/Interface1> ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "LacI produce" ;
         sbol:role          SO:0000704 ;
         sbol:type          SBO:0000251 .
@@ -47,7 +47,7 @@
 :LacI_protein  a           sbol:Component ;
         sbol:description   "LacI protein" ;
         sbol:displayId     "LacI_protein" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "LacI" ;
         sbol:role          GO:0003700 ;
         sbol:type          SBO:0000252 .
@@ -60,7 +60,7 @@
 :aTC    a                  sbol:Component ;
         sbol:description   "aTC" ;
         sbol:displayId     "aTC" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "aTC" ;
         sbol:role          CHEBI:35224 ;
         sbol:type          SBO:0000247 .

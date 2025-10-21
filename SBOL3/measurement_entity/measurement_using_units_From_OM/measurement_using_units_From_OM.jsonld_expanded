@@ -1,4 +1,109 @@
 [ {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/litre",
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "liter"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ {
+    "@value" : "liter"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ {
+    "@value" : "l"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.ontology-of-units-of-measure.org/resource/om-2/SingularUnit" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "litre"
+  } ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/milli",
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor" : [ {
+    "@value" : "0.001"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "milli"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ {
+    "@value" : "milli"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ {
+    "@value" : "m"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.ontology-of-units-of-measure.org/resource/om-2/SIPrefix" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "milli"
+  } ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole",
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasPrefix" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/milli"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/mole"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "millimole"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ {
+    "@value" : "millimole"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ {
+    "@value" : "mmol"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.ontology-of-units-of-measure.org/resource/om-2/PrefixedUnit" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "millimole"
+  } ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre",
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasDenominator" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/litre"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumerator" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole"
+  } ],
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "millimolar"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ {
+    "@value" : "millimolar"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ {
+    "@value" : "mmol/l"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "millimolePerLitre"
+  } ]
+}, {
+  "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2/mole",
+  "http://sbols.org/v3#name" : [ {
+    "@value" : "mole"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ {
+    "@value" : "mole"
+  } ],
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ {
+    "@value" : "mol"
+  } ],
+  "http://sbols.org/v3#hasNamespace" : [ {
+    "@id" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+  } ],
+  "@type" : [ "http://sbols.org/v3#TopLevel", "http://www.ontology-of-units-of-measure.org/resource/om-2/SingularUnit" ],
+  "http://sbols.org/v3#displayId" : [ {
+    "@value" : "mole"
+  } ]
+}, {
   "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA",
   "http://sbols.org/v3#hasFeature" : [ {
     "@id" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1"

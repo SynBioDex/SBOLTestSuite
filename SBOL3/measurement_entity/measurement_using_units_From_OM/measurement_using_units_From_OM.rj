@@ -1,4 +1,167 @@
 { 
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/litre" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "litre"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "liter"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/SingularUnit"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "liter"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "l"
+    }
+     ]
+  }
+   ,
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre" : { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasDenominator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/litre"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "millimolePerLitre"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "millimolar"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumerator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "millimolar"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "mmol/l"
+    }
+     ]
+  }
+   ,
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/milli" : { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor" : [ { 
+      "type" : "literal" ,
+      "value" : "0.001"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "milli"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "milli"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/SIPrefix"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "milli"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "m"
+    }
+     ]
+  }
+   ,
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/mole" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "mole"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "mole"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/SingularUnit"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "mole"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "mol"
+    }
+     ]
+  }
+   ,
   "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
@@ -50,6 +213,53 @@
     "http://sbols.org/v3#hasMeasure" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1"
+    }
+     ]
+  }
+   ,
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "millimole"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "millimole"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/PrefixedUnit"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/mole"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "millimole"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "mmol"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasPrefix" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/milli"
     }
      ]
   }

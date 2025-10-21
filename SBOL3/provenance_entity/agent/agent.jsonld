@@ -1,45 +1,40 @@
 {
-  "@graph" : [ {
-    "@id" : "https://sbolstandard.org/examples/CodonOptimiserSoftware",
-    "@type" : [ "sbol:TopLevel", "prov:Agent" ],
-    "description" : "Used to optimise bacterial DNA sequences.",
-    "displayId" : "CodonOptimiserSoftware",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Codon Optimiser Software"
-  }, {
-    "@id" : "https://sbolstandard.org/examples/toggle_switch",
-    "@type" : "sbol:Component",
-    "description" : "Toggle Switch genetic circuit",
-    "displayId" : "toggle_switch",
-    "hasNamespace" : "https://sbolstandard.org/examples",
-    "name" : "Toggle Switch",
-    "type" : "SBO:0000241"
-  } ],
-  "@context" : {
-    "description" : {
-      "@id" : "http://sbols.org/v3#description"
-    },
-    "name" : {
-      "@id" : "http://sbols.org/v3#name"
-    },
-    "hasNamespace" : {
-      "@id" : "http://sbols.org/v3#hasNamespace",
-      "@type" : "@id"
-    },
-    "type" : {
-      "@id" : "http://sbols.org/v3#type",
-      "@type" : "@id"
-    },
-    "displayId" : {
-      "@id" : "http://sbols.org/v3#displayId"
-    },
-    "SBO" : "https://identifiers.org/SBO:",
-    "CHEBI" : "https://identifiers.org/CHEBI:",
-    "GO" : "https://identifiers.org/GO:",
-    "sbol" : "http://sbols.org/v3#",
-    "EDAM" : "https://identifiers.org/edam:",
-    "SO" : "https://identifiers.org/SO:",
-    "prov" : "http://www.w3.org/ns/prov#",
-    "om" : "http://www.ontology-of-units-of-measure.org/resource/om-2/"
-  }
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/toggle_switch",
+            "sbol:description": "Toggle Switch genetic circuit",
+            "sbol:name": "Toggle Switch",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:displayId": "toggle_switch",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/CodonOptimiserSoftware",
+            "sbol:description": "Used to optimise bacterial DNA sequences.",
+            "sbol:name": "Codon Optimiser Software",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Agent"
+            ],
+            "sbol:displayId": "CodonOptimiserSoftware"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
 }

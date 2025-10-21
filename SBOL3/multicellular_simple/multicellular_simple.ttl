@@ -1,13 +1,13 @@
 @base          <https://sbolstandard.org/examples/> .
 @prefix :      <https://sbolstandard.org/examples/> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix sbol:  <http://sbols.org/v3#> .
 @prefix EDAM:  <https://identifiers.org/edam:> .
+@prefix GO:    <https://identifiers.org/GO:> .
+@prefix SBO:   <https://identifiers.org/SBO:> .
 @prefix SO:    <https://identifiers.org/SO:> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sbol:  <http://sbols.org/v3#> .
 
 <ReceiverSystem/SubComponent1>
         a                sbol:SubComponent ;
@@ -19,7 +19,7 @@
         sbol:displayId      "ReceiverSystem" ;
         sbol:hasConstraint  <ReceiverSystem/Constraint1> ;
         sbol:hasFeature     <ReceiverSystem/SubComponent2> , <ReceiverSystem/SubComponent1> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "ReceiverSystem" ;
         sbol:role           SBO:0000289 ;
         sbol:type           SBO:0000241 .
@@ -29,7 +29,7 @@
         sbol:displayId      "MulticellularSystem" ;
         sbol:hasConstraint  <MulticellularSystem/Constraint1> ;
         sbol:hasFeature     <MulticellularSystem/ComponentReference2> , <MulticellularSystem/SubComponent1> , <MulticellularSystem/ComponentReference1> , <MulticellularSystem/SubComponent2> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "MulticellularSystem" ;
         sbol:role           SBO:0000289 ;
         sbol:type           SBO:0000241 .
@@ -67,7 +67,7 @@
 :OrganismA  a              sbol:Component ;
         sbol:description   "Organism A" ;
         sbol:displayId     "OrganismA" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "OrganismA" ;
         sbol:role          SBO:0000290 ;
         sbol:type          GO:0005623 .
@@ -94,7 +94,7 @@
         sbol:displayId      "SenderSystem" ;
         sbol:hasConstraint  <SenderSystem/Constraint1> ;
         sbol:hasFeature     <SenderSystem/SubComponent1> , <SenderSystem/SubComponent2> ;
-        sbol:hasNamespace   <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace   </examples> ;
         sbol:name           "SenderSystem" ;
         sbol:role           SBO:0000289 ;
         sbol:type           SBO:0000241 .
@@ -102,7 +102,7 @@
 :AHL    a                  sbol:Component ;
         sbol:description   "AHL" ;
         sbol:displayId     "AHL" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "AHL" ;
         sbol:role          CHEBI:35224 ;
         sbol:type          SBO:0000247 .
@@ -110,7 +110,7 @@
 :OrganismB  a              sbol:Component ;
         sbol:description   "Organism B" ;
         sbol:displayId     "OrganismB" ;
-        sbol:hasNamespace  <https://sbolstandard.org/examples> ;
+        sbol:hasNamespace  </examples> ;
         sbol:name          "OrganismB" ;
         sbol:role          SBO:0000290 ;
         sbol:type          GO:0005623 .
