@@ -52,7 +52,7 @@
    <sbol:Component rdf:about="TetR_producer">
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="TetR_producer/SubComponent2">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="rbs_tetR"/>
             <sbol:displayId>SubComponent2</sbol:displayId>
          </sbol:SubComponent>
@@ -74,7 +74,7 @@
       <sbol:displayId>TetR_producer</sbol:displayId>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="TetR_producer/SubComponent3">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="tetR"/>
             <sbol:displayId>SubComponent3</sbol:displayId>
          </sbol:SubComponent>
@@ -95,7 +95,7 @@
                   <sbol:role rdf:resource="https://identifiers.org/SBO:0000642"/>
                   <sbol:participant>
                      <sbol:SubComponent rdf:about="TetR_producer/SubComponent1">
-                        <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                        <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                         <sbol:instanceOf>
                            <sbol:Component rdf:about="pLacI"/>
                         </sbol:instanceOf>
@@ -148,7 +148,7 @@
       <sbol:description>TetR producer</sbol:description>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="TetR_producer/SubComponent4">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="ter_tetR"/>
             </sbol:instanceOf>
@@ -245,13 +245,13 @@
       <sbol:hasNamespace rdf:resource="/examples"/>
       <sbol:hasFeature>
          <sbol:ComponentReference rdf:about="toggle_switch/ComponentReference4">
+            <sbol:refersTo rdf:resource="TetR_producer/SubComponent5"/>
             <sbol:inChildOf>
                <sbol:SubComponent rdf:about="toggle_switch/SubComponent2">
                   <sbol:instanceOf rdf:resource="TetR_producer"/>
                   <sbol:displayId>SubComponent2</sbol:displayId>
                </sbol:SubComponent>
             </sbol:inChildOf>
-            <sbol:hasFeature rdf:resource="TetR_producer/SubComponent5"/>
             <sbol:displayId>ComponentReference4</sbol:displayId>
          </sbol:ComponentReference>
       </sbol:hasFeature>
@@ -259,15 +259,15 @@
       <sbol:description>Toggle Switch genetic circuit</sbol:description>
       <sbol:hasFeature>
          <sbol:ComponentReference rdf:about="toggle_switch/ComponentReference3">
-            <sbol:inChildOf rdf:resource="toggle_switch/SubComponent1"/>
-            <sbol:hasFeature>
+            <sbol:refersTo>
                <sbol:SubComponent rdf:about="LacI_producer/SubComponent9">
                   <sbol:instanceOf>
                      <sbol:Component rdf:about="TetR_protein"/>
                   </sbol:instanceOf>
                   <sbol:displayId>SubComponent9</sbol:displayId>
                </sbol:SubComponent>
-            </sbol:hasFeature>
+            </sbol:refersTo>
+            <sbol:inChildOf rdf:resource="toggle_switch/SubComponent1"/>
             <sbol:displayId>ComponentReference3</sbol:displayId>
          </sbol:ComponentReference>
       </sbol:hasFeature>
@@ -275,21 +275,21 @@
          <sbol:Constraint rdf:about="toggle_switch/Constraint1">
             <sbol:subject>
                <sbol:ComponentReference rdf:about="toggle_switch/ComponentReference1">
-                  <sbol:inChildOf rdf:resource="toggle_switch/SubComponent1"/>
-                  <sbol:hasFeature>
+                  <sbol:refersTo>
                      <sbol:SubComponent rdf:about="LacI_producer/SubComponent7">
                         <sbol:instanceOf rdf:resource="LacI_protein"/>
                         <sbol:displayId>SubComponent7</sbol:displayId>
                      </sbol:SubComponent>
-                  </sbol:hasFeature>
+                  </sbol:refersTo>
+                  <sbol:inChildOf rdf:resource="toggle_switch/SubComponent1"/>
                   <sbol:displayId>ComponentReference1</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:subject>
             <sbol:restriction rdf:resource="http://sbols.org/v3#verifyIdentical"/>
             <sbol:object>
                <sbol:ComponentReference rdf:about="toggle_switch/ComponentReference2">
+                  <sbol:refersTo rdf:resource="TetR_producer/SubComponent6"/>
                   <sbol:inChildOf rdf:resource="toggle_switch/SubComponent2"/>
-                  <sbol:hasFeature rdf:resource="TetR_producer/SubComponent6"/>
                   <sbol:displayId>ComponentReference2</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:object>
@@ -359,7 +359,7 @@
                   <sbol:role rdf:resource="https://identifiers.org/SBO:0000642"/>
                   <sbol:participant>
                      <sbol:SubComponent rdf:about="LacI_producer/SubComponent1">
-                        <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                        <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                         <sbol:instanceOf rdf:resource="pTetR"/>
                         <sbol:displayId>SubComponent1</sbol:displayId>
                      </sbol:SubComponent>
@@ -380,7 +380,7 @@
       <sbol:hasFeature rdf:resource="LacI_producer/SubComponent1"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="LacI_producer/SubComponent5">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="gfp"/>
             </sbol:instanceOf>
@@ -423,7 +423,7 @@
       </sbol:hasFeature>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="LacI_producer/SubComponent2">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="rbs_lacI"/>
             <sbol:displayId>SubComponent2</sbol:displayId>
          </sbol:SubComponent>
@@ -437,7 +437,7 @@
                   <sbol:role rdf:resource="https://identifiers.org/SBO:0000645"/>
                   <sbol:participant>
                      <sbol:SubComponent rdf:about="LacI_producer/SubComponent3">
-                        <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                        <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                         <sbol:instanceOf rdf:resource="lacI"/>
                         <sbol:displayId>SubComponent3</sbol:displayId>
                      </sbol:SubComponent>
@@ -486,7 +486,7 @@
       <sbol:hasFeature rdf:resource="LacI_producer/SubComponent3"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="LacI_producer/SubComponent6">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="ter_lacI"/>
             <sbol:displayId>SubComponent6</sbol:displayId>
          </sbol:SubComponent>
@@ -497,7 +497,7 @@
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="LacI_producer/SubComponent4">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="rbs_gfp"/>
             <sbol:displayId>SubComponent4</sbol:displayId>
          </sbol:SubComponent>

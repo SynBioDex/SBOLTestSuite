@@ -54,11 +54,11 @@
   } ]
 }, {
   "@id" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1",
+  "http://sbols.org/v3#refersTo" : [ {
+    "@id" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
+  } ],
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
-  } ],
-  "http://sbols.org/v3#hasFeature" : [ {
-    "@id" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "ComponentReference1"
@@ -66,11 +66,11 @@
   "@type" : [ "http://sbols.org/v3#ComponentReference" ]
 }, {
   "@id" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2",
+  "http://sbols.org/v3#refersTo" : [ {
+    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
+  } ],
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
-  } ],
-  "http://sbols.org/v3#hasFeature" : [ {
-    "@id" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "ComponentReference2"

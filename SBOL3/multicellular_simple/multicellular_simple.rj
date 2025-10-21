@@ -215,7 +215,7 @@
       "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
     }
@@ -238,7 +238,7 @@
       "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
     }

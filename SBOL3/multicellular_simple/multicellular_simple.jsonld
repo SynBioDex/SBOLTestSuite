@@ -23,14 +23,14 @@
     "@id" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference1",
     "@type" : "sbol:ComponentReference",
     "displayId" : "ComponentReference1",
-    "hasFeature" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2",
-    "inChildOf" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
+    "inChildOf" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1",
+    "refersTo" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
   }, {
     "@id" : "https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2",
     "@type" : "sbol:ComponentReference",
     "displayId" : "ComponentReference2",
-    "hasFeature" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2",
-    "inChildOf" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
+    "inChildOf" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2",
+    "refersTo" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
   }, {
     "@id" : "https://sbolstandard.org/examples/MulticellularSystem/Constraint1",
     "@type" : "sbol:Constraint",
@@ -167,6 +167,10 @@
     },
     "object" : {
       "@id" : "http://sbols.org/v3#object",
+      "@type" : "@id"
+    },
+    "refersTo" : {
+      "@id" : "http://sbols.org/v3#refersTo",
       "@type" : "@id"
     },
     "inChildOf" : {

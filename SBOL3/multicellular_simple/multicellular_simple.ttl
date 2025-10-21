@@ -59,10 +59,10 @@
         sbol:instanceOf  :ReceiverSystem .
 
 <MulticellularSystem/ComponentReference2>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference2" ;
-        sbol:hasFeature  <ReceiverSystem/SubComponent2> ;
-        sbol:inChildOf   <MulticellularSystem/SubComponent2> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference2" ;
+        sbol:inChildOf  <MulticellularSystem/SubComponent2> ;
+        sbol:refersTo   <ReceiverSystem/SubComponent2> .
 
 :OrganismA  a              sbol:Component ;
         sbol:description   "Organism A" ;
@@ -121,7 +121,7 @@
         sbol:instanceOf  :SenderSystem .
 
 <MulticellularSystem/ComponentReference1>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference1" ;
-        sbol:hasFeature  <SenderSystem/SubComponent2> ;
-        sbol:inChildOf   <MulticellularSystem/SubComponent1> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference1" ;
+        sbol:inChildOf  <MulticellularSystem/SubComponent1> ;
+        sbol:refersTo   <SenderSystem/SubComponent2> .

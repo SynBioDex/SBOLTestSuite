@@ -30,10 +30,10 @@
     "hasNamespace" : "https://sbolstandard.org/examples",
     "name" : "Codon optimization activity",
     "type" : "sbol:design",
-    "endedAtTime" : "2020-08-30T16:00:20.683Z",
+    "endedAtTime" : "2020-08-30T15:42:23.277Z",
     "qualifiedAssociation" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
     "qualifiedUsage" : [ "https://sbolstandard.org/examples/codon_optimization_activity/Usage2", "https://sbolstandard.org/examples/codon_optimization_activity/Usage1" ],
-    "startedAtTime" : "2019-07-29T16:00:20.683Z"
+    "startedAtTime" : "2019-07-29T15:42:23.277Z"
   }, {
     "@id" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
     "@type" : [ "sbol:Identified", "prov:Association" ],
@@ -121,12 +121,12 @@
     "startedAtTime" : {
       "@id" : "http://www.w3.org/ns/prov#startedAtTime"
     },
+    "endedAtTime" : {
+      "@id" : "http://www.w3.org/ns/prov#endedAtTime"
+    },
     "qualifiedUsage" : {
       "@id" : "http://www.w3.org/ns/prov#qualifiedUsage",
       "@type" : "@id"
-    },
-    "endedAtTime" : {
-      "@id" : "http://www.w3.org/ns/prov#endedAtTime"
     },
     "qualifiedAssociation" : {
       "@id" : "http://www.w3.org/ns/prov#qualifiedAssociation",

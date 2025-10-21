@@ -50,7 +50,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -136,7 +136,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -310,7 +310,7 @@
       "value" : "https://sbolstandard.org/examples/toggle_switch/SubComponent2"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/TetR_producer/SubComponent5"
     }
@@ -759,7 +759,7 @@
       "value" : "https://sbolstandard.org/examples/toggle_switch/SubComponent1"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/LacI_producer/SubComponent9"
     }
@@ -817,7 +817,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -840,7 +840,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1225,7 +1225,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1349,7 +1349,7 @@
       "value" : "https://sbolstandard.org/examples/toggle_switch/SubComponent2"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/TetR_producer/SubComponent6"
     }
@@ -1369,7 +1369,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1433,7 +1433,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1582,7 +1582,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1794,7 +1794,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1820,7 +1820,7 @@
       "value" : "https://sbolstandard.org/examples/toggle_switch/SubComponent1"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/LacI_producer/SubComponent7"
     }
@@ -1863,7 +1863,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 

@@ -183,7 +183,7 @@
 }, {
   "@id" : "https://synbiohub.org/public/igem/i13504/SequenceFeature1",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#hasLocation" : [ {
     "@id" : "https://synbiohub.org/public/igem/i13504/SequenceFeature1/Range1"
@@ -210,7 +210,7 @@
 }, {
   "@id" : "https://synbiohub.org/public/igem/i13504/SequenceFeature2",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#hasLocation" : [ {
     "@id" : "https://synbiohub.org/public/igem/i13504/SequenceFeature2/Range1"
@@ -240,7 +240,7 @@
     "@id" : "https://synbiohub.org/public/igem/i13504/SubComponent1/Range1"
   } ],
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://synbiohub.org/public/igem/B0034"
@@ -252,7 +252,7 @@
 }, {
   "@id" : "https://synbiohub.org/public/igem/i13504/SubComponent1/Range1",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#end" : [ {
     "@value" : "11"
@@ -273,7 +273,7 @@
     "@id" : "https://synbiohub.org/public/igem/i13504/SubComponent2/Range1"
   } ],
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://synbiohub.org/public/igem/E0040"
@@ -285,7 +285,7 @@
 }, {
   "@id" : "https://synbiohub.org/public/igem/i13504/SubComponent2/Range1",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#end" : [ {
     "@value" : "738"
@@ -306,7 +306,7 @@
     "@id" : "https://synbiohub.org/public/igem/i13504/SubComponent3/Range1"
   } ],
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://synbiohub.org/public/igem/B0015"
@@ -384,7 +384,7 @@
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
   } ],
-  "http://sbols.org/v3#hasFeature" : [ {
+  "http://sbols.org/v3#refersTo" : [ {
     "@id" : "https://synbiohub.org/public/igem/i13504/SubComponent2"
   } ],
   "http://sbols.org/v3#displayId" : [ {
@@ -474,7 +474,7 @@
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://synbiohub.org/public/igem/interlab16device1/SubComponent2"
   } ],
-  "http://sbols.org/v3#hasFeature" : [ {
+  "http://sbols.org/v3#refersTo" : [ {
     "@id" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
   } ],
   "http://sbols.org/v3#displayId" : [ {
@@ -541,7 +541,7 @@
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://synbiohub.org/public/igem/interlab16device2/SubComponent2"
   } ],
-  "http://sbols.org/v3#hasFeature" : [ {
+  "http://sbols.org/v3#refersTo" : [ {
     "@id" : "https://synbiohub.org/public/igem/i13504_system/SubComponent1"
   } ],
   "http://sbols.org/v3#displayId" : [ {

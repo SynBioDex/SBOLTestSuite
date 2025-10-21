@@ -56,7 +56,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent6" ;
         sbol:instanceOf   :ter_lacI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :IPTG   a                  sbol:Component ;
         sbol:description   "IPTG" ;
@@ -131,19 +131,19 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent5" ;
         sbol:instanceOf   :gfp ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <toggle_switch/ComponentReference4>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference4" ;
-        sbol:hasFeature  <TetR_producer/SubComponent5> ;
-        sbol:inChildOf   <toggle_switch/SubComponent2> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference4" ;
+        sbol:inChildOf  <toggle_switch/SubComponent2> ;
+        sbol:refersTo   <TetR_producer/SubComponent5> .
 
 <TetR_producer/SubComponent4>
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent4" ;
         sbol:instanceOf   :ter_tetR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <TetR_producer/Interaction3>
         a                      sbol:Interaction ;
@@ -189,7 +189,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent4" ;
         sbol:instanceOf   :rbs_gfp ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :pLacI  a                  sbol:Component ;
         sbol:description   "LacI repressible promoter" ;
@@ -205,10 +205,10 @@
         sbol:instanceOf  :atC_TetR .
 
 <toggle_switch/ComponentReference3>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference3" ;
-        sbol:hasFeature  <LacI_producer/SubComponent9> ;
-        sbol:inChildOf   <toggle_switch/SubComponent1> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference3" ;
+        sbol:inChildOf  <toggle_switch/SubComponent1> ;
+        sbol:refersTo   <LacI_producer/SubComponent9> .
 
 :rbs_tetR  a               sbol:Component ;
         sbol:description   "tetR RBS" ;
@@ -240,7 +240,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent3" ;
         sbol:instanceOf   :tetR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <TetR_producer/Interaction2>
         a                      sbol:Interaction ;
@@ -310,7 +310,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent3" ;
         sbol:instanceOf   :lacI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <TetR_producer/SubComponent8>
         a                sbol:SubComponent ;
@@ -318,10 +318,10 @@
         sbol:instanceOf  :IPTG_LacI .
 
 <toggle_switch/ComponentReference2>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference2" ;
-        sbol:hasFeature  <TetR_producer/SubComponent6> ;
-        sbol:inChildOf   <toggle_switch/SubComponent2> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference2" ;
+        sbol:inChildOf  <toggle_switch/SubComponent2> ;
+        sbol:refersTo   <TetR_producer/SubComponent6> .
 
 :tetR   a                  sbol:Component ;
         sbol:description   "tetR coding sequence" ;
@@ -341,7 +341,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent2" ;
         sbol:instanceOf   :rbs_tetR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <TetR_producer/Interaction1>
         a                      sbol:Interaction ;
@@ -400,7 +400,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent2" ;
         sbol:instanceOf   :rbs_lacI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <TetR_producer/Interaction3/Participation3>
         a                 sbol:Participation ;
@@ -422,10 +422,10 @@
         sbol:instanceOf  :IPTG .
 
 <toggle_switch/ComponentReference1>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference1" ;
-        sbol:hasFeature  <LacI_producer/SubComponent7> ;
-        sbol:inChildOf   <toggle_switch/SubComponent1> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference1" ;
+        sbol:inChildOf  <toggle_switch/SubComponent1> ;
+        sbol:refersTo   <LacI_producer/SubComponent7> .
 
 <TetR_producer/Interaction1/Participation1>
         a                 sbol:Participation ;
@@ -437,7 +437,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent1" ;
         sbol:instanceOf   :pLacI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <LacI_producer/SubComponent7>
         a                sbol:SubComponent ;
@@ -448,7 +448,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent1" ;
         sbol:instanceOf   :pTetR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <TetR_producer/Interaction2/Participation2>
         a                 sbol:Participation ;

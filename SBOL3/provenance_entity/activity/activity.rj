@@ -146,7 +146,12 @@
      ] ,
     "http://www.w3.org/ns/prov#endedAtTime" : [ { 
       "type" : "literal" ,
-      "value" : "2020-08-30T16:00:20.683Z"
+      "value" : "2020-08-30T15:42:23.277Z"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#startedAtTime" : [ { 
+      "type" : "literal" ,
+      "value" : "2019-07-29T15:42:23.277Z"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -156,11 +161,6 @@
     , { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/ns/prov#Activity"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#startedAtTime" : [ { 
-      "type" : "literal" ,
-      "value" : "2019-07-29T16:00:20.683Z"
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 

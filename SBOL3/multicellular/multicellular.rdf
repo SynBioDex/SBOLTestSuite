@@ -13,6 +13,14 @@
    <sbol:Component rdf:about="MulticellularSystem">
       <sbol:hasFeature>
          <sbol:ComponentReference rdf:about="MulticellularSystem/ComponentReference2">
+            <sbol:refersTo>
+               <sbol:SubComponent rdf:about="ReceiverSystem/SubComponent2">
+                  <sbol:instanceOf>
+                     <sbol:Component rdf:about="AHL"/>
+                  </sbol:instanceOf>
+                  <sbol:displayId>SubComponent2</sbol:displayId>
+               </sbol:SubComponent>
+            </sbol:refersTo>
             <sbol:inChildOf>
                <sbol:SubComponent rdf:about="MulticellularSystem/SubComponent2">
                   <sbol:instanceOf>
@@ -21,14 +29,6 @@
                   <sbol:displayId>SubComponent2</sbol:displayId>
                </sbol:SubComponent>
             </sbol:inChildOf>
-            <sbol:hasFeature>
-               <sbol:SubComponent rdf:about="ReceiverSystem/SubComponent2">
-                  <sbol:instanceOf>
-                     <sbol:Component rdf:about="AHL"/>
-                  </sbol:instanceOf>
-                  <sbol:displayId>SubComponent2</sbol:displayId>
-               </sbol:SubComponent>
-            </sbol:hasFeature>
             <sbol:displayId>ComponentReference2</sbol:displayId>
          </sbol:ComponentReference>
       </sbol:hasFeature>
@@ -39,6 +39,14 @@
          <sbol:Constraint rdf:about="MulticellularSystem/Constraint1">
             <sbol:subject>
                <sbol:ComponentReference rdf:about="MulticellularSystem/ComponentReference1">
+                  <sbol:refersTo>
+                     <sbol:SubComponent rdf:about="SenderSystem/SubComponent2">
+                        <sbol:instanceOf>
+                           <sbol:Component rdf:about="AHL"/>
+                        </sbol:instanceOf>
+                        <sbol:displayId>SubComponent2</sbol:displayId>
+                     </sbol:SubComponent>
+                  </sbol:refersTo>
                   <sbol:inChildOf>
                      <sbol:SubComponent rdf:about="MulticellularSystem/SubComponent1">
                         <sbol:instanceOf>
@@ -47,14 +55,6 @@
                         <sbol:displayId>SubComponent1</sbol:displayId>
                      </sbol:SubComponent>
                   </sbol:inChildOf>
-                  <sbol:hasFeature>
-                     <sbol:SubComponent rdf:about="SenderSystem/SubComponent2">
-                        <sbol:instanceOf>
-                           <sbol:Component rdf:about="AHL"/>
-                        </sbol:instanceOf>
-                        <sbol:displayId>SubComponent2</sbol:displayId>
-                     </sbol:SubComponent>
-                  </sbol:hasFeature>
                   <sbol:displayId>ComponentReference1</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:subject>
@@ -187,7 +187,7 @@
                   <sbol:role rdf:resource="https://identifiers.org/SBO:0000645"/>
                   <sbol:participant>
                      <sbol:SubComponent rdf:about="AHL_receiver/SubComponent3">
-                        <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                        <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                         <sbol:instanceOf>
                            <sbol:Component rdf:about="luxR"/>
                         </sbol:instanceOf>
@@ -210,7 +210,7 @@
       <sbol:name>AHL receiver</sbol:name>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent5">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="pLuxR"/>
             </sbol:instanceOf>
@@ -220,7 +220,7 @@
       <sbol:hasFeature rdf:resource="AHL_receiver/SubComponent12"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent7">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="gfp"/>
             </sbol:instanceOf>
@@ -229,7 +229,7 @@
       </sbol:hasFeature>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent6">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="rbs_gfp"/>
             <sbol:displayId>SubComponent6</sbol:displayId>
          </sbol:SubComponent>
@@ -256,7 +256,7 @@
       </sbol:hasInteraction>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent8">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="ter_gfp"/>
             <sbol:displayId>SubComponent8</sbol:displayId>
          </sbol:SubComponent>
@@ -266,7 +266,7 @@
       <sbol:hasFeature rdf:resource="AHL_receiver/SubComponent9"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent1">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="pConstLuxR"/>
             </sbol:instanceOf>
@@ -277,7 +277,7 @@
       <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent2">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="rbs_luxR"/>
             </sbol:instanceOf>
@@ -287,7 +287,7 @@
       <sbol:hasFeature rdf:resource="AHL_receiver/SubComponent10"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_receiver/SubComponent4">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="ter_luxR"/>
             </sbol:instanceOf>
@@ -344,8 +344,8 @@
       <sbol:name>ReceiverSystem</sbol:name>
       <sbol:hasFeature>
          <sbol:ComponentReference rdf:about="ReceiverSystem/ComponentReference1">
+            <sbol:refersTo rdf:resource="AHL_receiver/SubComponent9"/>
             <sbol:inChildOf rdf:resource="ReceiverSystem/SubComponent3"/>
-            <sbol:hasFeature rdf:resource="AHL_receiver/SubComponent9"/>
             <sbol:displayId>ComponentReference1</sbol:displayId>
          </sbol:ComponentReference>
       </sbol:hasFeature>
@@ -397,7 +397,7 @@
       <sbol:description>AHL producer</sbol:description>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_producer/SubComponent3">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="luxI"/>
             <sbol:displayId>SubComponent3</sbol:displayId>
          </sbol:SubComponent>
@@ -405,7 +405,7 @@
       <sbol:displayId>AHL_producer</sbol:displayId>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_producer/SubComponent2">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="rbs_luxI"/>
             <sbol:displayId>SubComponent2</sbol:displayId>
          </sbol:SubComponent>
@@ -440,7 +440,7 @@
       <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_producer/SubComponent1">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="pConstLuxI"/>
             </sbol:instanceOf>
@@ -449,7 +449,7 @@
       </sbol:hasFeature>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="AHL_producer/SubComponent4">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="ter_luxI"/>
             <sbol:displayId>SubComponent4</sbol:displayId>
          </sbol:SubComponent>
@@ -480,13 +480,13 @@
          <sbol:Constraint rdf:about="SenderSystem/Constraint3">
             <sbol:subject>
                <sbol:ComponentReference rdf:about="SenderSystem/ComponentReference1">
+                  <sbol:refersTo rdf:resource="AHL_producer/SubComponent5"/>
                   <sbol:inChildOf>
                      <sbol:SubComponent rdf:about="SenderSystem/SubComponent3">
                         <sbol:instanceOf rdf:resource="AHL_producer"/>
                         <sbol:displayId>SubComponent3</sbol:displayId>
                      </sbol:SubComponent>
                   </sbol:inChildOf>
-                  <sbol:hasFeature rdf:resource="AHL_producer/SubComponent5"/>
                   <sbol:displayId>ComponentReference1</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:subject>

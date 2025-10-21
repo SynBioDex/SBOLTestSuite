@@ -12,21 +12,40 @@
     <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation6">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation6"/>
-        <sbol:displayId>annotation6</sbol:displayId>
-        <dcterms:title>CaMV 35S promoter short</dcterms:title>
-        <gbConv:featureType>Promoter</gbConv:featureType>
-        <gbConv:vntifkey>29</gbConv:vntifkey>
-        <gbConv:label>35S pro short (no BsaI and BpiI)</gbConv:label>
-        <gbConv:label>CaMV 35S promoter short</gbConv:label>
+      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation2">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <dcterms:title>G to A</dcterms:title>
+        <gbConv:featureType>Mutation</gbConv:featureType>
+        <gbConv:vntifkey>62</gbConv:vntifkey>
+        <gbConv:label>G to A</gbConv:label>
         <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
         <sbol:location>
-          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation6/range">
-            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation6/range"/>
+          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation2/range"/>
             <sbol:displayId>range</sbol:displayId>
-            <sbol:start>2252</sbol:start>
-            <sbol:end>2677</sbol:end>
+            <sbol:start>1208</sbol:start>
+            <sbol:end>1208</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation3">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <dcterms:title>rep (pMB1)</dcterms:title>
+        <gbConv:featureType>Misc._feature</gbConv:featureType>
+        <gbConv:vntifkey>21</gbConv:vntifkey>
+        <gbConv:label>rep (pMB1)</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+        <sbol:location>
+          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation3/range">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1401</sbol:start>
+            <sbol:end>2015</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
         </sbol:location>
@@ -46,25 +65,6 @@
             <sbol:displayId>range</sbol:displayId>
             <sbol:start>2248</sbol:start>
             <sbol:end>2251</sbol:end>
-            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
-          </sbol:Range>
-        </sbol:location>
-      </sbol:SequenceAnnotation>
-    </sbol:sequenceAnnotation>
-    <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation1">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation1"/>
-        <sbol:displayId>annotation1</sbol:displayId>
-        <dcterms:title>Sm/Sp no DraIII</dcterms:title>
-        <gbConv:vntifkey>4</gbConv:vntifkey>
-        <gbConv:label>Sm/Sp no DraIII</gbConv:label>
-        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
-        <sbol:location>
-          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation1/range">
-            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation1/range"/>
-            <sbol:displayId>range</sbol:displayId>
-            <sbol:start>231</sbol:start>
-            <sbol:end>1241</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
         </sbol:location>
@@ -92,39 +92,40 @@
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation2">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation2"/>
-        <sbol:displayId>annotation2</sbol:displayId>
-        <dcterms:title>G to A</dcterms:title>
-        <gbConv:featureType>Mutation</gbConv:featureType>
-        <gbConv:vntifkey>62</gbConv:vntifkey>
-        <gbConv:label>G to A</gbConv:label>
-        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
+      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation1">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>Sm/Sp no DraIII</dcterms:title>
+        <gbConv:vntifkey>4</gbConv:vntifkey>
+        <gbConv:label>Sm/Sp no DraIII</gbConv:label>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
         <sbol:location>
-          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation2/range">
-            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation2/range"/>
+          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation1/range"/>
             <sbol:displayId>range</sbol:displayId>
-            <sbol:start>1208</sbol:start>
-            <sbol:end>1208</sbol:end>
+            <sbol:start>231</sbol:start>
+            <sbol:end>1241</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
         </sbol:location>
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation0">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation0"/>
-        <sbol:displayId>annotation0</sbol:displayId>
-        <dcterms:title>AATG 4bp overhang</dcterms:title>
-        <gbConv:featureType>Misc._feature</gbConv:featureType>
-        <gbConv:label>AATG 4bp overhang</gbConv:label>
+      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation6">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation6"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <dcterms:title>CaMV 35S promoter short</dcterms:title>
+        <gbConv:featureType>Promoter</gbConv:featureType>
+        <gbConv:vntifkey>29</gbConv:vntifkey>
+        <gbConv:label>35S pro short (no BsaI and BpiI)</gbConv:label>
+        <gbConv:label>CaMV 35S promoter short</gbConv:label>
         <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
         <sbol:location>
-          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation0/range">
-            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation0/range"/>
+          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation6/range">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation6/range"/>
             <sbol:displayId>range</sbol:displayId>
-            <sbol:start>1</sbol:start>
-            <sbol:end>4</sbol:end>
+            <sbol:start>2252</sbol:start>
+            <sbol:end>2677</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
         </sbol:location>
@@ -152,20 +153,19 @@
       </sbol:SequenceAnnotation>
     </sbol:sequenceAnnotation>
     <sbol:sequenceAnnotation>
-      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation3">
-        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation3"/>
-        <sbol:displayId>annotation3</sbol:displayId>
-        <dcterms:title>rep (pMB1)</dcterms:title>
+      <sbol:SequenceAnnotation rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation0">
+        <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>AATG 4bp overhang</dcterms:title>
         <gbConv:featureType>Misc._feature</gbConv:featureType>
-        <gbConv:vntifkey>21</gbConv:vntifkey>
-        <gbConv:label>rep (pMB1)</gbConv:label>
+        <gbConv:label>AATG 4bp overhang</gbConv:label>
         <sbol:role rdf:resource="http://identifiers.org/so/SO:0000110"/>
         <sbol:location>
-          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation3/range">
-            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation3/range"/>
+          <sbol:Range rdf:about="http://www.async.ece.utah.edu/pICH51277/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="http://www.async.ece.utah.edu/pICH51277/annotation0/range"/>
             <sbol:displayId>range</sbol:displayId>
-            <sbol:start>1401</sbol:start>
-            <sbol:end>2015</sbol:end>
+            <sbol:start>1</sbol:start>
+            <sbol:end>4</sbol:end>
             <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
           </sbol:Range>
         </sbol:location>

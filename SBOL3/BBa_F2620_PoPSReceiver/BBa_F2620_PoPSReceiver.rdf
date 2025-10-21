@@ -69,12 +69,12 @@
                   <sbol:role rdf:resource="https://identifiers.org/SBO:0000643"/>
                   <sbol:participant>
                      <sbol:SubComponent rdf:about="BBa_F2620/SubComponent7">
-                        <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                        <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                         <sbol:instanceOf rdf:resource="BBa_R0062"/>
                         <sbol:hasLocation>
                            <sbol:Range rdf:about="BBa_F2620/SubComponent7/Range1">
                               <sbol:start>969</sbol:start>
-                              <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                              <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                               <sbol:hasSequence>
                                  <sbol:Sequence rdf:about="BBa_F2620_Sequence1"/>
                               </sbol:hasSequence>
@@ -112,14 +112,14 @@
       <sbol:hasNamespace rdf:resource="../igem"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="BBa_F2620/SubComponent5">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="BBa_C0062"/>
             </sbol:instanceOf>
             <sbol:hasLocation>
                <sbol:Range rdf:about="BBa_F2620/SubComponent5/Range1">
                   <sbol:start>67</sbol:start>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_F2620_Sequence1"/>
                   </sbol:hasSequence>
@@ -152,12 +152,12 @@
       </sbol:hasInteraction>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="BBa_F2620/SubComponent3">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="BBa_R0040"/>
             <sbol:hasLocation>
                <sbol:Range rdf:about="BBa_F2620/SubComponent3/Range1">
                   <sbol:start>1</sbol:start>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_F2620_Sequence1"/>
                   </sbol:hasSequence>
@@ -171,14 +171,14 @@
       <sbol:name>BBa_F2620</sbol:name>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="BBa_F2620/SubComponent4">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="BBa_B0034"/>
             </sbol:instanceOf>
             <sbol:hasLocation>
                <sbol:Range rdf:about="BBa_F2620/SubComponent4/Range1">
                   <sbol:start>55</sbol:start>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_F2620_Sequence1"/>
                   </sbol:hasSequence>
@@ -191,14 +191,14 @@
       </sbol:hasFeature>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="BBa_F2620/SubComponent6">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="BBa_B0015"/>
             </sbol:instanceOf>
             <sbol:hasLocation>
                <sbol:Range rdf:about="BBa_F2620/SubComponent6/Range1">
                   <sbol:start>848</sbol:start>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_F2620_Sequence1"/>
                   </sbol:hasSequence>
@@ -273,12 +273,12 @@
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="BBa_B0015/SubComponent2">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="BBa_B0012"/>
             <sbol:hasLocation>
                <sbol:Range rdf:about="BBa_B0015/SubComponent2/Range1">
                   <sbol:start>81</sbol:start>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_B0015_Sequence1"/>
                   </sbol:hasSequence>
@@ -291,12 +291,12 @@
       </sbol:hasFeature>
       <sbol:hasFeature>
          <sbol:SubComponent rdf:about="BBa_B0015/SubComponent1">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf rdf:resource="BBa_B0010"/>
             <sbol:hasLocation>
                <sbol:Range rdf:about="BBa_B0015/SubComponent1/Range1">
                   <sbol:start>1</sbol:start>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:hasSequence>
                      <sbol:Sequence rdf:about="BBa_B0015_Sequence1"/>
                   </sbol:hasSequence>

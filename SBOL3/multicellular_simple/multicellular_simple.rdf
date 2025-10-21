@@ -13,6 +13,14 @@
    <sbol:Component rdf:about="MulticellularSystem">
       <sbol:hasFeature>
          <sbol:ComponentReference rdf:about="MulticellularSystem/ComponentReference2">
+            <sbol:refersTo>
+               <sbol:SubComponent rdf:about="ReceiverSystem/SubComponent2">
+                  <sbol:instanceOf>
+                     <sbol:Component rdf:about="AHL"/>
+                  </sbol:instanceOf>
+                  <sbol:displayId>SubComponent2</sbol:displayId>
+               </sbol:SubComponent>
+            </sbol:refersTo>
             <sbol:inChildOf>
                <sbol:SubComponent rdf:about="MulticellularSystem/SubComponent2">
                   <sbol:instanceOf>
@@ -21,14 +29,6 @@
                   <sbol:displayId>SubComponent2</sbol:displayId>
                </sbol:SubComponent>
             </sbol:inChildOf>
-            <sbol:hasFeature>
-               <sbol:SubComponent rdf:about="ReceiverSystem/SubComponent2">
-                  <sbol:instanceOf>
-                     <sbol:Component rdf:about="AHL"/>
-                  </sbol:instanceOf>
-                  <sbol:displayId>SubComponent2</sbol:displayId>
-               </sbol:SubComponent>
-            </sbol:hasFeature>
             <sbol:displayId>ComponentReference2</sbol:displayId>
          </sbol:ComponentReference>
       </sbol:hasFeature>
@@ -39,6 +39,14 @@
          <sbol:Constraint rdf:about="MulticellularSystem/Constraint1">
             <sbol:subject>
                <sbol:ComponentReference rdf:about="MulticellularSystem/ComponentReference1">
+                  <sbol:refersTo>
+                     <sbol:SubComponent rdf:about="SenderSystem/SubComponent2">
+                        <sbol:instanceOf>
+                           <sbol:Component rdf:about="AHL"/>
+                        </sbol:instanceOf>
+                        <sbol:displayId>SubComponent2</sbol:displayId>
+                     </sbol:SubComponent>
+                  </sbol:refersTo>
                   <sbol:inChildOf>
                      <sbol:SubComponent rdf:about="MulticellularSystem/SubComponent1">
                         <sbol:instanceOf>
@@ -47,14 +55,6 @@
                         <sbol:displayId>SubComponent1</sbol:displayId>
                      </sbol:SubComponent>
                   </sbol:inChildOf>
-                  <sbol:hasFeature>
-                     <sbol:SubComponent rdf:about="SenderSystem/SubComponent2">
-                        <sbol:instanceOf>
-                           <sbol:Component rdf:about="AHL"/>
-                        </sbol:instanceOf>
-                        <sbol:displayId>SubComponent2</sbol:displayId>
-                     </sbol:SubComponent>
-                  </sbol:hasFeature>
                   <sbol:displayId>ComponentReference1</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:subject>

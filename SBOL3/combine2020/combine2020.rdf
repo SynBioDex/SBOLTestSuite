@@ -47,11 +47,11 @@
                   <sbol:displayId>SubComponent1</sbol:displayId>
                </sbol:SubComponent>
             </sbol:inChildOf>
-            <sbol:hasFeature>
+            <sbol:refersTo>
                <sbol:SubComponent rdf:about="i13504/SubComponent2">
                   <sbol:hasLocation>
                      <sbol:Range rdf:about="i13504/SubComponent2/Range1">
-                        <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                        <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                         <sbol:end>738</sbol:end>
                         <sbol:start>19</sbol:start>
                         <sbol:hasSequence>
@@ -60,11 +60,11 @@
                         <sbol:displayId>Range1</sbol:displayId>
                      </sbol:Range>
                   </sbol:hasLocation>
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:instanceOf rdf:resource="E0040"/>
                   <sbol:displayId>SubComponent2</sbol:displayId>
                </sbol:SubComponent>
-            </sbol:hasFeature>
+            </sbol:refersTo>
             <sbol:displayId>ComponentReference1</sbol:displayId>
          </sbol:ComponentReference>
       </sbol:hasFeature>
@@ -106,7 +106,7 @@
                   <sbol:displayId>Range1</sbol:displayId>
                </sbol:Range>
             </sbol:hasLocation>
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="B0015"/>
             </sbol:instanceOf>
@@ -117,7 +117,7 @@
       <sbol:name>i13504</sbol:name>
       <sbol:hasFeature>
          <sbol:SequenceFeature rdf:about="i13504/SequenceFeature2">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:hasLocation>
                <sbol:Range rdf:about="i13504/SequenceFeature2/Range1">
                   <sbol:end>746</sbol:end>
@@ -137,7 +137,7 @@
       </sbol:hasSequence>
       <sbol:hasFeature>
          <sbol:SequenceFeature rdf:about="i13504/SequenceFeature1">
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:hasLocation>
                <sbol:Range rdf:about="i13504/SequenceFeature1/Range1">
                   <sbol:end>18</sbol:end>
@@ -156,7 +156,7 @@
          <sbol:SubComponent rdf:about="i13504/SubComponent1">
             <sbol:hasLocation>
                <sbol:Range rdf:about="i13504/SubComponent1/Range1">
-                  <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+                  <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
                   <sbol:end>11</sbol:end>
                   <sbol:start>1</sbol:start>
                   <sbol:hasSequence>
@@ -165,7 +165,7 @@
                   <sbol:displayId>Range1</sbol:displayId>
                </sbol:Range>
             </sbol:hasLocation>
-            <sbol:orientation rdf:resource="http://sbols.org/v3#inline"/>
+            <sbol:orientation rdf:resource="https://identifiers.org/SO:0001030"/>
             <sbol:instanceOf>
                <sbol:Component rdf:about="B0034"/>
             </sbol:instanceOf>
@@ -198,7 +198,7 @@
                         <sbol:displayId>SubComponent2</sbol:displayId>
                      </sbol:SubComponent>
                   </sbol:inChildOf>
-                  <sbol:hasFeature rdf:resource="i13504_system/SubComponent1"/>
+                  <sbol:refersTo rdf:resource="i13504_system/SubComponent1"/>
                   <sbol:displayId>ComponentReference1</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:object>
@@ -243,7 +243,7 @@
                         <sbol:displayId>SubComponent2</sbol:displayId>
                      </sbol:SubComponent>
                   </sbol:inChildOf>
-                  <sbol:hasFeature rdf:resource="i13504_system/SubComponent1"/>
+                  <sbol:refersTo rdf:resource="i13504_system/SubComponent1"/>
                   <sbol:displayId>ComponentReference1</sbol:displayId>
                </sbol:ComponentReference>
             </sbol:object>

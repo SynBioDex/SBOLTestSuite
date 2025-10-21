@@ -35,10 +35,10 @@
         sbol:role         SBO:0000011 .
 
 <MulticellularSystem/ComponentReference2>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference2" ;
-        sbol:hasFeature  <ReceiverSystem/SubComponent2> ;
-        sbol:inChildOf   <MulticellularSystem/SubComponent2> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference2" ;
+        sbol:inChildOf  <MulticellularSystem/SubComponent2> ;
+        sbol:refersTo   <ReceiverSystem/SubComponent2> .
 
 <AHL_receiver/Interaction2/Participation2>
         a                 sbol:Participation ;
@@ -101,7 +101,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent5" ;
         sbol:instanceOf   :pLuxR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :ter_gfp  a                sbol:Component ;
         sbol:description   "Terminator" ;
@@ -134,7 +134,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent1" ;
         sbol:instanceOf   :pConstLuxI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :luxR   a                  sbol:Component ;
         sbol:description   "luxR coding sequence" ;
@@ -159,10 +159,10 @@
         sbol:type          SBO:0000251 .
 
 <MulticellularSystem/ComponentReference1>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference1" ;
-        sbol:hasFeature  <SenderSystem/SubComponent2> ;
-        sbol:inChildOf   <MulticellularSystem/SubComponent1> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference1" ;
+        sbol:inChildOf  <MulticellularSystem/SubComponent1> ;
+        sbol:refersTo   <SenderSystem/SubComponent2> .
 
 <AHL_receiver/Interaction1>
         a                      sbol:Interaction ;
@@ -227,7 +227,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent4" ;
         sbol:instanceOf   :ter_luxR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :OrganismB  a              sbol:Component ;
         sbol:description   "Organism B" ;
@@ -277,7 +277,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent3" ;
         sbol:instanceOf   :luxR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :gfp    a                  sbol:Component ;
         sbol:description   "gfp coding sequence" ;
@@ -330,7 +330,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent8" ;
         sbol:instanceOf   :ter_gfp ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <ReceiverSystem/Constraint1>
         a                 sbol:Constraint ;
@@ -343,7 +343,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent4" ;
         sbol:instanceOf   :ter_luxI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :pLuxR  a                  sbol:Component ;
         sbol:description   "LuxR inducible promoter" ;
@@ -363,7 +363,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent2" ;
         sbol:instanceOf   :rbs_luxR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <AHL_receiver/Interaction4>
         a                      sbol:Interaction ;
@@ -412,7 +412,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent7" ;
         sbol:instanceOf   :gfp ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :AHL    a                  sbol:Component ;
         sbol:description   "AHL" ;
@@ -426,7 +426,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent3" ;
         sbol:instanceOf   :luxI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :pConstLuxI  a             sbol:Component ;
         sbol:description   "Constitutive promoter" ;
@@ -440,7 +440,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent1" ;
         sbol:instanceOf   :pConstLuxR ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :ter_luxI  a               sbol:Component ;
         sbol:description   "Terminator" ;
@@ -468,16 +468,16 @@
         sbol:role         SBO:0000011 .
 
 <ReceiverSystem/ComponentReference1>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference1" ;
-        sbol:hasFeature  <AHL_receiver/SubComponent9> ;
-        sbol:inChildOf   <ReceiverSystem/SubComponent3> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference1" ;
+        sbol:inChildOf  <ReceiverSystem/SubComponent3> ;
+        sbol:refersTo   <AHL_receiver/SubComponent9> .
 
 <SenderSystem/ComponentReference1>
-        a                sbol:ComponentReference ;
-        sbol:displayId   "ComponentReference1" ;
-        sbol:hasFeature  <AHL_producer/SubComponent5> ;
-        sbol:inChildOf   <SenderSystem/SubComponent3> .
+        a               sbol:ComponentReference ;
+        sbol:displayId  "ComponentReference1" ;
+        sbol:inChildOf  <SenderSystem/SubComponent3> ;
+        sbol:refersTo   <AHL_producer/SubComponent5> .
 
 <SenderSystem/Constraint2>
         a                 sbol:Constraint ;
@@ -495,7 +495,7 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent6" ;
         sbol:instanceOf   :rbs_gfp ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <MulticellularSystem/SubComponent2>
         a                sbol:SubComponent ;
@@ -506,4 +506,4 @@
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent2" ;
         sbol:instanceOf   :rbs_luxI ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .

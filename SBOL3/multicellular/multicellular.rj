@@ -136,7 +136,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -197,7 +197,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -223,7 +223,7 @@
       "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"
     }
@@ -404,7 +404,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -590,7 +590,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -643,7 +643,7 @@
       "value" : "https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent2"
     }
@@ -701,7 +701,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -878,7 +878,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1229,7 +1229,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1285,7 +1285,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1536,7 +1536,7 @@
       "value" : "https://sbolstandard.org/examples/ReceiverSystem/SubComponent3"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/AHL_receiver/SubComponent9"
     }
@@ -1612,7 +1612,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1780,7 +1780,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -1864,7 +1864,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -2171,7 +2171,7 @@
      ] ,
     "http://sbols.org/v3#orientation" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#inline"
+      "value" : "https://identifiers.org/SO:0001030"
     }
      ] ,
     "http://sbols.org/v3#instanceOf" : [ { 
@@ -2197,7 +2197,7 @@
       "value" : "https://sbolstandard.org/examples/SenderSystem/SubComponent3"
     }
      ] ,
-    "http://sbols.org/v3#hasFeature" : [ { 
+    "http://sbols.org/v3#refersTo" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/AHL_producer/SubComponent5"
     }

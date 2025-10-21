@@ -275,7 +275,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent1",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/pTetR"
@@ -296,7 +296,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent2",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/rbs_lacI"
@@ -308,7 +308,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent3",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/lacI"
@@ -320,7 +320,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent4",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/rbs_gfp"
@@ -332,7 +332,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent5",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/gfp"
@@ -344,7 +344,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent6",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/ter_lacI"
@@ -579,7 +579,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent1",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/pLacI"
@@ -591,7 +591,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent2",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/rbs_tetR"
@@ -603,7 +603,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent3",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/tetR"
@@ -615,7 +615,7 @@
 }, {
   "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent4",
   "http://sbols.org/v3#orientation" : [ {
-    "@id" : "http://sbols.org/v3#inline"
+    "@id" : "https://identifiers.org/SO:0001030"
   } ],
   "http://sbols.org/v3#instanceOf" : [ {
     "@id" : "https://sbolstandard.org/examples/ter_tetR"
@@ -977,11 +977,11 @@
   } ]
 }, {
   "@id" : "https://sbolstandard.org/examples/toggle_switch/ComponentReference1",
+  "http://sbols.org/v3#refersTo" : [ {
+    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent7"
+  } ],
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch/SubComponent1"
-  } ],
-  "http://sbols.org/v3#hasFeature" : [ {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent7"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "ComponentReference1"
@@ -989,11 +989,11 @@
   "@type" : [ "http://sbols.org/v3#ComponentReference" ]
 }, {
   "@id" : "https://sbolstandard.org/examples/toggle_switch/ComponentReference2",
+  "http://sbols.org/v3#refersTo" : [ {
+    "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent6"
+  } ],
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch/SubComponent2"
-  } ],
-  "http://sbols.org/v3#hasFeature" : [ {
-    "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent6"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "ComponentReference2"
@@ -1001,11 +1001,11 @@
   "@type" : [ "http://sbols.org/v3#ComponentReference" ]
 }, {
   "@id" : "https://sbolstandard.org/examples/toggle_switch/ComponentReference3",
+  "http://sbols.org/v3#refersTo" : [ {
+    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent9"
+  } ],
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch/SubComponent1"
-  } ],
-  "http://sbols.org/v3#hasFeature" : [ {
-    "@id" : "https://sbolstandard.org/examples/LacI_producer/SubComponent9"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "ComponentReference3"
@@ -1013,11 +1013,11 @@
   "@type" : [ "http://sbols.org/v3#ComponentReference" ]
 }, {
   "@id" : "https://sbolstandard.org/examples/toggle_switch/ComponentReference4",
+  "http://sbols.org/v3#refersTo" : [ {
+    "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent5"
+  } ],
   "http://sbols.org/v3#inChildOf" : [ {
     "@id" : "https://sbolstandard.org/examples/toggle_switch/SubComponent2"
-  } ],
-  "http://sbols.org/v3#hasFeature" : [ {
-    "@id" : "https://sbolstandard.org/examples/TetR_producer/SubComponent5"
   } ],
   "http://sbols.org/v3#displayId" : [ {
     "@value" : "ComponentReference4"

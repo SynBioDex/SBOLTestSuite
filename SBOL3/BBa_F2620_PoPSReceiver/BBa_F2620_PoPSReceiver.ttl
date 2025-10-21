@@ -14,7 +14,7 @@
         sbol:displayId    "Range1" ;
         sbol:end          "53" ;
         sbol:hasSequence  :BBa_F2620_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "1" .
 
 <BBa_F2620/SubComponent5>
@@ -22,7 +22,7 @@
         sbol:displayId    "SubComponent5" ;
         sbol:hasLocation  <BBa_F2620/SubComponent5/Range1> ;
         sbol:instanceOf   :BBa_C0062 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :BBa_C0062_Sequence1  a    sbol:Sequence ;
         sbol:description   "luxR sequence" ;
@@ -60,7 +60,7 @@
         sbol:displayId    "Range1" ;
         sbol:end          "1023" ;
         sbol:hasSequence  :BBa_F2620_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "969" .
 
 :BBa_B0012_Sequence1  a    sbol:Sequence ;
@@ -94,14 +94,14 @@
         sbol:displayId    "SubComponent4" ;
         sbol:hasLocation  <BBa_F2620/SubComponent4/Range1> ;
         sbol:instanceOf   :BBa_B0034 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <BBa_F2620/SubComponent4/Range1>
         a                 sbol:Range ;
         sbol:displayId    "Range1" ;
         sbol:end          "66" ;
         sbol:hasSequence  :BBa_F2620_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "55" .
 
 <BBa_F2620/SubComponent3>
@@ -109,7 +109,7 @@
         sbol:displayId    "SubComponent3" ;
         sbol:hasLocation  <BBa_F2620/SubComponent3/Range1> ;
         sbol:instanceOf   :BBa_R0040 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :BBa_B0015_Sequence1  a    sbol:Sequence ;
         sbol:description   "BBa_B0015 sequence" ;
@@ -159,7 +159,7 @@
         sbol:displayId    "SubComponent2" ;
         sbol:hasLocation  <BBa_B0015/SubComponent2/Range1> ;
         sbol:instanceOf   :BBa_B0012 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :BBa_B0010  a              sbol:Component ;
         sbol:description   "Transcriptional terminator consisting of a 64 bp stem-loop" ;
@@ -209,7 +209,7 @@
         sbol:displayId    "Range1" ;
         sbol:end          "79" ;
         sbol:hasSequence  :BBa_B0015_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "1" .
 
 <BBa_F2620/Interaction3/Participation1>
@@ -241,14 +241,14 @@
         sbol:displayId    "SubComponent1" ;
         sbol:hasLocation  <BBa_B0015/SubComponent1/Range1> ;
         sbol:instanceOf   :BBa_B0010 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 <BBa_F2620/SubComponent7>
         a                 sbol:SubComponent ;
         sbol:displayId    "SubComponent7" ;
         sbol:hasLocation  <BBa_F2620/SubComponent7/Range1> ;
         sbol:instanceOf   :BBa_R0062 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :BBa_F2620  a                sbol:Component ;
         sbol:description     "PoPS Receiver" ;
@@ -266,7 +266,7 @@
         sbol:displayId    "Range1" ;
         sbol:end          "847" ;
         sbol:hasSequence  :BBa_F2620_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "67" .
 
 <BBa_F2620/SubComponent1>
@@ -294,7 +294,7 @@
         sbol:displayId    "Range1" ;
         sbol:end          "121" ;
         sbol:hasSequence  :BBa_B0015_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "81" .
 
 <BBa_F2620/SubComponent6>
@@ -302,7 +302,7 @@
         sbol:displayId    "SubComponent6" ;
         sbol:hasLocation  <BBa_F2620/SubComponent6/Range1> ;
         sbol:instanceOf   :BBa_B0015 ;
-        sbol:orientation  sbol:inline .
+        sbol:orientation  SO:0001030 .
 
 :BBa_B0034  a              sbol:Component ;
         sbol:description   "RBS based on Elowitz repressilator" ;
@@ -327,7 +327,7 @@
         sbol:displayId    "Range1" ;
         sbol:end          "968" ;
         sbol:hasSequence  :BBa_F2620_Sequence1 ;
-        sbol:orientation  sbol:inline ;
+        sbol:orientation  SO:0001030 ;
         sbol:start        "848" .
 
 :BBa_R0040_Sequence1  a    sbol:Sequence ;
