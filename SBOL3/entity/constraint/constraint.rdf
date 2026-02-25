@@ -1,0 +1,75 @@
+<rdf:RDF
+    xmlns:SO="https://identifiers.org/SO:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:EDAM="https://identifiers.org/edam:"
+    xmlns:sbol="http://sbols.org/v3#"
+    xmlns:CHEBI="https://identifiers.org/CHEBI:"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:SBO="https://identifiers.org/SBO:"
+    xmlns:GO="https://identifiers.org/GO:"
+    xmlns="https://synbiohub.org/public/igem/"
+    xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xml:base="https://synbiohub.org/public/igem/">
+   <sbol:Component rdf:about="j23101">
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>j23101</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="i13504">
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:description>Screening plasmid intermediate</sbol:description>
+      <sbol:name>i13504</sbol:name>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>i13504</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="interlab16device1">
+      <sbol:hasConstraint>
+         <sbol:Constraint rdf:about="interlab16device1/Constraint1">
+            <sbol:object>
+               <sbol:ComponentReference rdf:about="interlab16device1/ComponentReference1">
+                  <sbol:inChildOf>
+                     <sbol:SubComponent rdf:about="interlab16device1/SubComponent1">
+                        <sbol:instanceOf>
+                           <sbol:Component rdf:about="i13504_system"/>
+                        </sbol:instanceOf>
+                        <sbol:displayId>SubComponent1</sbol:displayId>
+                     </sbol:SubComponent>
+                  </sbol:inChildOf>
+                  <sbol:refersTo>
+                     <sbol:SubComponent rdf:about="i13504_system/SubComponent1">
+                        <sbol:instanceOf rdf:resource="i13504"/>
+                        <sbol:displayId>SubComponent1</sbol:displayId>
+                     </sbol:SubComponent>
+                  </sbol:refersTo>
+                  <sbol:displayId>ComponentReference1</sbol:displayId>
+               </sbol:ComponentReference>
+            </sbol:object>
+            <sbol:subject>
+               <sbol:SubComponent rdf:about="interlab16device1/SubComponent2">
+                  <sbol:instanceOf rdf:resource="j23101"/>
+                  <sbol:displayId>SubComponent2</sbol:displayId>
+               </sbol:SubComponent>
+            </sbol:subject>
+            <sbol:restriction rdf:resource="http://sbols.org/v3#meets"/>
+            <sbol:displayId>Constraint1</sbol:displayId>
+         </sbol:Constraint>
+      </sbol:hasConstraint>
+      <sbol:hasFeature rdf:resource="interlab16device1/SubComponent2"/>
+      <sbol:hasFeature rdf:resource="interlab16device1/ComponentReference1"/>
+      <sbol:hasFeature rdf:resource="interlab16device1/SubComponent1"/>
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>interlab16device1</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="i13504_system">
+      <sbol:hasFeature rdf:resource="i13504_system/SubComponent1"/>
+      <sbol:role rdf:resource="https://identifiers.org/SBO:0000289"/>
+      <sbol:name>i13504 system</sbol:name>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000241"/>
+      <sbol:displayId>i13504_system</sbol:displayId>
+   </sbol:Component>
+</rdf:RDF>

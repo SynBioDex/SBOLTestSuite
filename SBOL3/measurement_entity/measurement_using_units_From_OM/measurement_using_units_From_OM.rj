@@ -1,11 +1,54 @@
 { 
+  "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1" : { 
+    "http://sbols.org/v3#definition" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/CHEBI:3312"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "ExternallyDefined1"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000247"
+    }
+     ] ,
+    "http://sbols.org/v3#hasMeasure" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#ExternallyDefined"
+    }
+     ]
+  }
+   ,
   "http://www.ontology-of-units-of-measure.org/resource/om-2/litre" : { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "l"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "liter"
+    }
+     ] ,
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
       "value" : "litre"
     }
      ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
       "type" : "literal" ,
       "value" : "liter"
     }
@@ -18,75 +61,18 @@
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#TopLevel"
     }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "liter"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
-      "type" : "literal" ,
-      "value" : "l"
-    }
-     ]
-  }
-   ,
-  "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre" : { 
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasDenominator" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/litre"
-    }
-     ] ,
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "millimolePerLitre"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
-      "type" : "literal" ,
-      "value" : "millimolar"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumerator" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "millimolar"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
-      "type" : "literal" ,
-      "value" : "mmol/l"
-    }
      ]
   }
    ,
   "http://www.ontology-of-units-of-measure.org/resource/om-2/milli" : { 
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor" : [ { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
       "type" : "literal" ,
-      "value" : "0.001"
+      "value" : "m"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "milli"
     }
      ] ,
     "http://sbols.org/v3#displayId" : [ { 
@@ -94,7 +80,12 @@
       "value" : "milli"
     }
      ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
       "type" : "literal" ,
       "value" : "milli"
     }
@@ -108,30 +99,35 @@
       "value" : "http://sbols.org/v3#TopLevel"
     }
      ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor" : [ { 
+      "type" : "literal" ,
+      "value" : "0.001"
+    }
+     ]
+  }
+   ,
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/mole" : { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "mol"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "mole"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "mole"
+    }
+     ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
       "type" : "uri" ,
       "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
     }
      ] ,
     "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "milli"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
-      "type" : "literal" ,
-      "value" : "m"
-    }
-     ]
-  }
-   ,
-  "http://www.ontology-of-units-of-measure.org/resource/om-2/mole" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "mole"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
       "type" : "literal" ,
       "value" : "mole"
     }
@@ -144,28 +140,23 @@
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#TopLevel"
     }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "mole"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
-      "type" : "literal" ,
-      "value" : "mol"
-    }
      ]
   }
    ,
   "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1" : { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" : [ { 
+      "type" : "literal" ,
+      "value" : "0.1"
+    }
+     ] ,
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
       "value" : "measure1"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -176,51 +167,13 @@
       "type" : "uri" ,
       "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"
     }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" : [ { 
-      "type" : "literal" ,
-      "value" : "0.1"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "ExternallyDefined1"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#ExternallyDefined"
-    }
-     ] ,
-    "http://sbols.org/v3#definition" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/CHEBI:3312"
-    }
-     ] ,
-    "http://sbols.org/v3#type" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000247"
-    }
-     ] ,
-    "http://sbols.org/v3#hasMeasure" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1"
-    }
      ]
   }
    ,
   "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole" : { 
-    "http://sbols.org/v3#displayId" : [ { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
       "type" : "literal" ,
-      "value" : "millimole"
+      "value" : "mmol"
     }
      ] ,
     "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
@@ -228,13 +181,9 @@
       "value" : "millimole"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/PrefixedUnit"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "millimole"
     }
      ] ,
     "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" : [ { 
@@ -247,47 +196,36 @@
       "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
     }
      ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasPrefix" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/milli"
+    }
+     ] ,
     "http://sbols.org/v3#name" : [ { 
       "type" : "literal" ,
       "value" : "millimole"
     }
      ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
-      "type" : "literal" ,
-      "value" : "mmol"
-    }
-     ] ,
-    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasPrefix" : [ { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
-      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/milli"
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/PrefixedUnit"
     }
      ]
   }
    ,
   "https://sbolstandard.org/examples/M9_Glucose_CAA" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "M9_Glucose_CAA"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Component"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
     "http://sbols.org/v3#hasFeature" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1"
     }
      ] ,
-    "http://sbols.org/v3#name" : [ { 
+    "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
-      "value" : "M9 Glucose CAA"
+      "value" : "M9_Glucose_CAA"
     }
      ] ,
     "http://sbols.org/v3#description" : [ { 
@@ -295,9 +233,71 @@
       "value" : "M9 Glucose CAA growth media"
     }
      ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
     "http://sbols.org/v3#type" : [ { 
       "type" : "uri" ,
       "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "M9 Glucose CAA"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ]
+  }
+   ,
+  "http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre" : { 
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/symbol" : [ { 
+      "type" : "literal" ,
+      "value" : "mmol/l"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/label" : [ { 
+      "type" : "literal" ,
+      "value" : "millimolar"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "millimolePerLitre"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasDenominator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/litre"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "millimolar"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+     ] ,
+    "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumerator" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ontology-of-units-of-measure.org/resource/om-2/millimole"
     }
      ]
   }

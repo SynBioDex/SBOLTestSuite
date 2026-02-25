@@ -1,0 +1,74 @@
+{ 
+  "https://sbolstandard.org/examples/attachment1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "attachment1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#source" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/attachment1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Attachment"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/attachment2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "attachment2"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#source" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/attachment2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Attachment"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/exp1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "exp1"
+    }
+     ] ,
+    "http://sbols.org/v3#member" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/attachment1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/attachment2"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Experiment"
+    }
+     ]
+  }
+}

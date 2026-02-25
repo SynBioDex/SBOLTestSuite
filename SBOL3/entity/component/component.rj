@@ -1,0 +1,39 @@
+{ 
+  "https://synbiohub.org/public/igem/BBa_F2620" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_F2620"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000704"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "PoPS Receiver"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://synbiohub.org/public/igem"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_F2620"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ]
+  }
+}

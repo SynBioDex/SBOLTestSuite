@@ -1,0 +1,55 @@
+{
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/interlab16device1",
+            "sbol:hasFeature": [
+                {
+                    "@id": "https://sbolstandard.org/examples/interlab16device1/ExternallyDefined2"
+                },
+                {
+                    "@id": "https://sbolstandard.org/examples/interlab16device1/ExternallyDefined1"
+                }
+            ],
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:displayId": "interlab16device1",
+            "@type": "sbol:Component"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/interlab16device1/ExternallyDefined2",
+            "sbol:definition": {
+                "@id": "http://uniprot.org/rfp"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:displayId": "ExternallyDefined2",
+            "@type": "sbol:ExternallyDefined"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/interlab16device1/ExternallyDefined1",
+            "sbol:definition": {
+                "@id": "http://uniprot.org/gfp"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000252"
+            },
+            "sbol:displayId": "ExternallyDefined1",
+            "@type": "sbol:ExternallyDefined"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
+}

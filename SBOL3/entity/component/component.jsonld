@@ -1,0 +1,26 @@
+{
+    "@id": "https://synbiohub.org/public/igem/BBa_F2620",
+    "sbol:role": {
+        "@id": "SO:0000704"
+    },
+    "sbol:description": "PoPS Receiver",
+    "sbol:name": "BBa_F2620",
+    "sbol:hasNamespace": {
+        "@id": "https://synbiohub.org/public/igem"
+    },
+    "sbol:type": {
+        "@id": "SBO:0000251"
+    },
+    "sbol:displayId": "BBa_F2620",
+    "@type": "sbol:Component",
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
+}

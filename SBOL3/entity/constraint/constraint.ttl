@@ -1,0 +1,68 @@
+BASE   <https://synbiohub.org/public/igem/>
+PREFIX :      <https://synbiohub.org/public/igem/>
+PREFIX CHEBI: <https://identifiers.org/CHEBI:>
+PREFIX EDAM:  <https://identifiers.org/edam:>
+PREFIX GO:    <https://identifiers.org/GO:>
+PREFIX SBO:   <https://identifiers.org/SBO:>
+PREFIX SO:    <https://identifiers.org/SO:>
+PREFIX om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/>
+PREFIX prov:  <http://www.w3.org/ns/prov#>
+PREFIX sbol:  <http://sbols.org/v3#>
+
+<interlab16device1/SubComponent1>
+        a                sbol:SubComponent;
+        sbol:displayId   "SubComponent1";
+        sbol:instanceOf  :i13504_system .
+
+:j23101  a                 sbol:Component;
+        sbol:displayId     "j23101";
+        sbol:hasNamespace  <../igem>;
+        sbol:role          SO:0000704;
+        sbol:type          SBO:0000251 .
+
+<interlab16device1/Constraint1>
+        a                 sbol:Constraint;
+        sbol:displayId    "Constraint1";
+        sbol:object       <interlab16device1/ComponentReference1>;
+        sbol:restriction  sbol:meets;
+        sbol:subject      <interlab16device1/SubComponent2> .
+
+:i13504  a                 sbol:Component;
+        sbol:description   "Screening plasmid intermediate";
+        sbol:displayId     "i13504";
+        sbol:hasNamespace  <../igem>;
+        sbol:name          "i13504";
+        sbol:role          SO:0000704;
+        sbol:type          SBO:0000251 .
+
+:interlab16device1  a       sbol:Component;
+        sbol:displayId      "interlab16device1";
+        sbol:hasConstraint  <interlab16device1/Constraint1>;
+        sbol:hasFeature     <interlab16device1/SubComponent2> , <interlab16device1/ComponentReference1> , <interlab16device1/SubComponent1>;
+        sbol:hasNamespace   <../igem>;
+        sbol:role           SO:0000704;
+        sbol:type           SBO:0000251 .
+
+<interlab16device1/ComponentReference1>
+        a               sbol:ComponentReference;
+        sbol:displayId  "ComponentReference1";
+        sbol:inChildOf  <interlab16device1/SubComponent1>;
+        sbol:refersTo   <i13504_system/SubComponent1> .
+
+<interlab16device1/SubComponent2>
+        a                sbol:SubComponent;
+        sbol:displayId   "SubComponent2";
+        sbol:instanceOf  :j23101 .
+
+<i13504_system/SubComponent1>
+        a                sbol:SubComponent;
+        sbol:displayId   "SubComponent1";
+        sbol:instanceOf  :i13504 .
+
+:i13504_system  a          sbol:Component;
+        sbol:displayId     "i13504_system";
+        sbol:hasFeature    <i13504_system/SubComponent1>;
+        sbol:hasNamespace  <../igem>;
+        sbol:name          "i13504 system";
+        sbol:role          SBO:0000289;
+        sbol:type          SBO:0000241 .
