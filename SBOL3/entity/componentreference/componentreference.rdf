@@ -1,0 +1,98 @@
+<rdf:RDF
+    xmlns:SO="https://identifiers.org/SO:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:EDAM="https://identifiers.org/edam:"
+    xmlns:sbol="http://sbols.org/v3#"
+    xmlns:CHEBI="https://identifiers.org/CHEBI:"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:SBO="https://identifiers.org/SBO:"
+    xmlns:GO="https://identifiers.org/GO:"
+    xmlns="https://synbiohub.org/public/igem/"
+    xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xml:base="https://synbiohub.org/public/igem/">
+   <sbol:Component rdf:about="i13504">
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>i13504</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="interlab16device1">
+      <sbol:hasFeature>
+         <sbol:ComponentReference rdf:about="interlab16device1/ComponentReference1">
+            <sbol:inChildOf>
+               <sbol:SubComponent rdf:about="interlab16device1/SubComponent1">
+                  <sbol:instanceOf>
+                     <sbol:Component rdf:about="i13504_system"/>
+                  </sbol:instanceOf>
+                  <sbol:displayId>SubComponent1</sbol:displayId>
+               </sbol:SubComponent>
+            </sbol:inChildOf>
+            <sbol:refersTo>
+               <sbol:SubComponent rdf:about="i13504_system/SubComponent1">
+                  <sbol:instanceOf rdf:resource="i13504"/>
+                  <sbol:displayId>SubComponent1</sbol:displayId>
+               </sbol:SubComponent>
+            </sbol:refersTo>
+            <sbol:displayId>ComponentReference1</sbol:displayId>
+         </sbol:ComponentReference>
+      </sbol:hasFeature>
+      <sbol:hasFeature rdf:resource="interlab16device1/SubComponent1"/>
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>interlab16device1</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="i13504_system">
+      <sbol:hasFeature rdf:resource="i13504_system/SubComponent1"/>
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:role rdf:resource="https://identifiers.org/SBO:0000289"/>
+      <sbol:name>i13504 system</sbol:name>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>i13504_system</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="simpleDevice">
+      <sbol:hasFeature>
+         <sbol:SubComponent rdf:about="simpleDevice/SubComponent1">
+            <sbol:instanceOf>
+               <sbol:Component rdf:about="B0015"/>
+            </sbol:instanceOf>
+            <sbol:displayId>SubComponent1</sbol:displayId>
+         </sbol:SubComponent>
+      </sbol:hasFeature>
+      <sbol:hasSequence>
+         <sbol:Sequence rdf:about="simpleDevice_Sequence1"/>
+      </sbol:hasSequence>
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000704"/>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>simpleDevice</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="B0015">
+      <sbol:hasSequence>
+         <sbol:Sequence rdf:about="B0015_Sequence1"/>
+      </sbol:hasSequence>
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000141"/>
+      <sbol:description>B0015 double terminator</sbol:description>
+      <sbol:name>terminator</sbol:name>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>B0015</sbol:displayId>
+   </sbol:Component>
+   <sbol:Sequence rdf:about="B0015_Sequence1">
+      <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+      <sbol:elements>ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc</sbol:elements>
+      <sbol:description>B0015 sequence</sbol:description>
+      <sbol:name>Sequence1</sbol:name>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:displayId>B0015_Sequence1</sbol:displayId>
+   </sbol:Sequence>
+   <sbol:Sequence rdf:about="simpleDevice_Sequence1">
+      <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+      <sbol:elements></sbol:elements>
+      <sbol:description>simpleDevice sequence</sbol:description>
+      <sbol:name>Sequence1</sbol:name>
+      <sbol:hasNamespace rdf:resource="../igem"/>
+      <sbol:displayId>simpleDevice_Sequence1</sbol:displayId>
+   </sbol:Sequence>
+</rdf:RDF>

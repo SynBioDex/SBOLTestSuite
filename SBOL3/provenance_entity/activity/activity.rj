@@ -1,124 +1,13 @@
 { 
-  "https://sbolstandard.org/examples/CodonOptimiserSoftware" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "CodonOptimiserSoftware"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Agent"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "Codon Optimiser Software"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Used to optimise bacterial DNA sequences."
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/RBS_optimisation_activity" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "RBS_optimisation_activity"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#wasInformedBy" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/codon_optimization_activity"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Activity"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "RBS optimization activity"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "An activity that is used to RBSs"
-    }
-     ] ,
-    "http://sbols.org/v3#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#design"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/toggle_switch" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "toggle_switch"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Component"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "Toggle Switch"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Toggle Switch genetic circuit"
-    }
-     ] ,
-    "http://sbols.org/v3#type" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000241"
-    }
-     ]
-  }
-   ,
   "https://sbolstandard.org/examples/CodonOptimisationProtocol" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
       "value" : "CodonOptimisationProtocol"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Plan"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Optimisation protocol to improve the translation of mRNAs."
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
@@ -131,31 +20,35 @@
       "value" : "Codon Optimisation Protocol"
     }
      ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Optimisation protocol to improve the translation of mRNAs."
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/codon_optimization_activity" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "codon_optimization_activity"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#endedAtTime" : [ { 
-      "type" : "literal" ,
-      "value" : "2019-08-30T00:00:00Z"
-    }
-     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#TopLevel"
     }
     , { 
       "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Activity"
+      "value" : "http://www.w3.org/ns/prov#Plan"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/codon_optimization_activity" : { 
+    "http://www.w3.org/ns/prov#endedAtTime" : [ { 
+      "type" : "literal" ,
+      "value" : "2019-08-30T00:00:00Z"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "codon_optimization_activity"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#qualifiedUsage" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
     }
      ] ,
     "http://www.w3.org/ns/prov#startedAtTime" : [ { 
@@ -166,20 +59,6 @@
     "http://sbols.org/v3#hasNamespace" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "Codon optimization activity"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#qualifiedUsage" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
     }
      ] ,
     "http://sbols.org/v3#description" : [ { 
@@ -196,6 +75,139 @@
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
     }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Codon optimization activity"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Activity"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/codon_optimization_activity/Usage2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Usage2"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#hadRole" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#design"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#entity" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/toggle_switch_optimised"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Usage"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/codon_optimization_activity/Usage1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "Usage1"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#hadRole" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#learn"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#entity" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/toggle_switch"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Usage"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/CodonOptimiserSoftware" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "CodonOptimiserSoftware"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Used to optimise bacterial DNA sequences."
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Codon Optimiser Software"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Agent"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/toggle_switch" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "toggle_switch"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Toggle Switch genetic circuit"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Toggle Switch"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
      ]
   }
    ,
@@ -203,6 +215,31 @@
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
       "value" : "toggle_switch_optimised"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Toggle Switch genetic circuit - codon optimised"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#wasDerivedFrom" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/toggle_switch"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "Toggle Switch Optimised"
     }
      ] ,
     "http://www.w3.org/ns/prov#wasGeneratedBy" : [ { 
@@ -214,31 +251,6 @@
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#Component"
     }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "Toggle Switch Optimised"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Toggle Switch genetic circuit - codon optimised"
-    }
-     ] ,
-    "http://sbols.org/v3#type" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000241"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#wasDerivedFrom" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/toggle_switch"
-    }
      ]
   }
    ,
@@ -248,82 +260,70 @@
       "value" : "Association1"
     }
      ] ,
-    "http://www.w3.org/ns/prov#agent" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/CodonOptimiserSoftware"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Identified"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Association"
-    }
-     ] ,
     "http://www.w3.org/ns/prov#hadRole" : [ { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#design"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#agent" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/CodonOptimiserSoftware"
     }
      ] ,
     "http://www.w3.org/ns/prov#hadPlan" : [ { 
       "type" : "uri" ,
       "value" : "https://sbolstandard.org/examples/CodonOptimisationProtocol"
     }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/codon_optimization_activity/Usage1" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "Usage1"
-    }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Identified"
+      "value" : "http://www.w3.org/ns/prov#Association"
     }
     , { 
       "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Usage"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#entity" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/toggle_switch"
-    }
-     ] ,
-    "http://www.w3.org/ns/prov#hadRole" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#learn"
+      "value" : "http://sbols.org/v3#Identified"
     }
      ]
   }
    ,
-  "https://sbolstandard.org/examples/codon_optimization_activity/Usage2" : { 
+  "https://sbolstandard.org/examples/RBS_optimisation_activity" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
-      "value" : "Usage2"
+      "value" : "RBS_optimisation_activity"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Identified"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Usage"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "An activity that is used to RBSs"
     }
      ] ,
-    "http://www.w3.org/ns/prov#entity" : [ { 
+    "http://sbols.org/v3#hasNamespace" : [ { 
       "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/toggle_switch_optimised"
+      "value" : "https://sbolstandard.org/examples"
     }
      ] ,
-    "http://www.w3.org/ns/prov#hadRole" : [ { 
+    "http://sbols.org/v3#type" : [ { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#design"
+    }
+     ] ,
+    "http://www.w3.org/ns/prov#wasInformedBy" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/codon_optimization_activity"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "RBS optimization activity"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Activity"
     }
      ]
   }

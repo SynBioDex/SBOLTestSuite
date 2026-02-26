@@ -18,6 +18,23 @@
             "@type": "sbol:Attachment"
         },
         {
+            "@id": "https://sbolstandard.org/examples/attachment2",
+            "sbol:hash": "aaa",
+            "sbol:hashAlgorithm": "sha-256",
+            "sbol:size": "1000",
+            "sbol:format": {
+                "@id": "EDAM:format_2585"
+            },
+            "sbol:source": {
+                "@id": "https://sbolstandard.org/attachment2"
+            },
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:displayId": "attachment2",
+            "@type": "sbol:Attachment"
+        },
+        {
             "@id": "https://sbolstandard.org/examples/impl1",
             "sbol:hasAttachment": {
                 "@id": "https://sbolstandard.org/examples/attachment1"
@@ -46,23 +63,6 @@
             },
             "sbol:displayId": "TetR_protein",
             "@type": "sbol:Component"
-        },
-        {
-            "@id": "https://sbolstandard.org/examples/attachment2",
-            "sbol:hash": "aaa",
-            "sbol:hashAlgorithm": "sha-256",
-            "sbol:size": "1000",
-            "sbol:format": {
-                "@id": "EDAM:format_2585"
-            },
-            "sbol:source": {
-                "@id": "https://sbolstandard.org/attachment2"
-            },
-            "sbol:hasNamespace": {
-                "@id": "https://sbolstandard.org/examples"
-            },
-            "sbol:displayId": "attachment2",
-            "@type": "sbol:Attachment"
         }
     ],
     "@context": {

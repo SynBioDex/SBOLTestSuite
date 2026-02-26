@@ -28,24 +28,6 @@
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000241"/>
       <sbol:displayId>toggle_switch_optimised</sbol:displayId>
    </sbol:Component>
-   <sbol:TopLevel rdf:about="CodonOptimiserSoftware">
-      <sbol:description>Used to optimise bacterial DNA sequences.</sbol:description>
-      <sbol:name>Codon Optimiser Software</sbol:name>
-      <sbol:hasNamespace rdf:resource="/examples"/>
-      <sbol:displayId>CodonOptimiserSoftware</sbol:displayId>
-      <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-   </sbol:TopLevel>
-   <sbol:TopLevel rdf:about="RBS_optimisation_activity">
-      <prov:wasInformedBy>
-         <sbol:TopLevel rdf:about="codon_optimization_activity"/>
-      </prov:wasInformedBy>
-      <sbol:description>An activity that is used to RBSs</sbol:description>
-      <sbol:name>RBS optimization activity</sbol:name>
-      <sbol:type rdf:resource="http://sbols.org/v3#design"/>
-      <sbol:hasNamespace rdf:resource="/examples"/>
-      <sbol:displayId>RBS_optimisation_activity</sbol:displayId>
-      <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-   </sbol:TopLevel>
    <sbol:TopLevel rdf:about="CodonOptimisationProtocol">
       <sbol:description>Optimisation protocol to improve the translation of mRNAs.</sbol:description>
       <sbol:name>Codon Optimisation Protocol</sbol:name>
@@ -54,31 +36,19 @@
       <rdf:type rdf:resource="http://www.w3.org/ns/prov#Plan"/>
    </sbol:TopLevel>
    <sbol:TopLevel rdf:about="codon_optimization_activity">
-      <sbol:type rdf:resource="http://sbols.org/v3#design"/>
-      <sbol:name>Codon optimization activity</sbol:name>
-      <sbol:description>An activity that is used to optimise codons</sbol:description>
-      <prov:qualifiedUsage>
-         <sbol:Identified rdf:about="codon_optimization_activity/Usage2">
-            <prov:hadRole rdf:resource="http://sbols.org/v3#design"/>
-            <prov:entity rdf:resource="toggle_switch_optimised"/>
-            <sbol:displayId>Usage2</sbol:displayId>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
-         </sbol:Identified>
-      </prov:qualifiedUsage>
-      <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-      <sbol:displayId>codon_optimization_activity</sbol:displayId>
-      <prov:startedAtTime>2019-07-29T16:50:59Z</prov:startedAtTime>
-      <prov:endedAtTime>2019-08-30T00:00:00Z</prov:endedAtTime>
       <prov:qualifiedAssociation>
          <sbol:Identified rdf:about="codon_optimization_activity/Association1">
             <prov:hadRole rdf:resource="http://sbols.org/v3#design"/>
             <prov:hadPlan rdf:resource="CodonOptimisationProtocol"/>
-            <prov:agent rdf:resource="CodonOptimiserSoftware"/>
+            <prov:agent>
+               <sbol:TopLevel rdf:about="CodonOptimiserSoftware"/>
+            </prov:agent>
             <sbol:displayId>Association1</sbol:displayId>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Association"/>
          </sbol:Identified>
       </prov:qualifiedAssociation>
-      <sbol:hasNamespace rdf:resource="/examples"/>
+      <prov:endedAtTime>2019-08-30T00:00:00Z</prov:endedAtTime>
+      <sbol:displayId>codon_optimization_activity</sbol:displayId>
       <prov:qualifiedUsage>
          <sbol:Identified rdf:about="codon_optimization_activity/Usage1">
             <prov:hadRole rdf:resource="http://sbols.org/v3#learn"/>
@@ -87,5 +57,35 @@
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
          </sbol:Identified>
       </prov:qualifiedUsage>
+      <prov:qualifiedUsage>
+         <sbol:Identified rdf:about="codon_optimization_activity/Usage2">
+            <prov:hadRole rdf:resource="http://sbols.org/v3#design"/>
+            <prov:entity rdf:resource="toggle_switch_optimised"/>
+            <sbol:displayId>Usage2</sbol:displayId>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+         </sbol:Identified>
+      </prov:qualifiedUsage>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:name>Codon optimization activity</sbol:name>
+      <prov:startedAtTime>2019-07-29T16:50:59Z</prov:startedAtTime>
+      <sbol:description>An activity that is used to optimise codons</sbol:description>
+      <sbol:type rdf:resource="http://sbols.org/v3#design"/>
+      <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+   </sbol:TopLevel>
+   <sbol:TopLevel rdf:about="CodonOptimiserSoftware">
+      <sbol:description>Used to optimise bacterial DNA sequences.</sbol:description>
+      <sbol:name>Codon Optimiser Software</sbol:name>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:displayId>CodonOptimiserSoftware</sbol:displayId>
+      <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+   </sbol:TopLevel>
+   <sbol:TopLevel rdf:about="RBS_optimisation_activity">
+      <prov:wasInformedBy rdf:resource="codon_optimization_activity"/>
+      <sbol:description>An activity that is used to RBSs</sbol:description>
+      <sbol:name>RBS optimization activity</sbol:name>
+      <sbol:type rdf:resource="http://sbols.org/v3#design"/>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:displayId>RBS_optimisation_activity</sbol:displayId>
+      <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
    </sbol:TopLevel>
 </rdf:RDF>

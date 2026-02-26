@@ -1,0 +1,46 @@
+<rdf:RDF
+    xmlns:SO="https://identifiers.org/SO:"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:EDAM="https://identifiers.org/edam:"
+    xmlns:sbol="http://sbols.org/v3#"
+    xmlns:CHEBI="https://identifiers.org/CHEBI:"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:SBO="https://identifiers.org/SBO:"
+    xmlns:GO="https://identifiers.org/GO:"
+    xmlns="https://sbolstandard.org/examples/"
+    xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xml:base="https://sbolstandard.org/examples/">
+   <sbol:Component rdf:about="E0040">
+      <sbol:hasFeature>
+         <sbol:SequenceFeature rdf:about="E0040/SequenceFeature1">
+            <sbol:hasLocation>
+               <sbol:Range rdf:about="E0040/SequenceFeature1/Range1">
+                  <sbol:end>3</sbol:end>
+                  <sbol:start>1</sbol:start>
+                  <sbol:hasSequence>
+                     <sbol:Sequence rdf:about="E0040_Sequence1"/>
+                  </sbol:hasSequence>
+                  <sbol:displayId>Range1</sbol:displayId>
+               </sbol:Range>
+            </sbol:hasLocation>
+            <sbol:displayId>SequenceFeature1</sbol:displayId>
+         </sbol:SequenceFeature>
+      </sbol:hasFeature>
+      <sbol:hasSequence>
+         <sbol:Sequence rdf:about="E0040_Sequence1"/>
+      </sbol:hasSequence>
+      <sbol:role rdf:resource="https://identifiers.org/SO:0000316"/>
+      <sbol:name>E0040</sbol:name>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000251"/>
+      <sbol:displayId>E0040</sbol:displayId>
+   </sbol:Component>
+   <sbol:Sequence rdf:about="E0040_Sequence1">
+      <sbol:encoding rdf:resource="https://identifiers.org/edam:format_1207"/>
+      <sbol:elements>atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</sbol:elements>
+      <sbol:description>E0040 sequence</sbol:description>
+      <sbol:name>Sequence1</sbol:name>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:displayId>E0040_Sequence1</sbol:displayId>
+   </sbol:Sequence>
+</rdf:RDF>

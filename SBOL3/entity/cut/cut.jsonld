@@ -1,0 +1,67 @@
+{
+    "@graph": [
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0040/SequenceFeature1/Cut1",
+            "sbol:at": "5",
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0040_Sequence1"
+            },
+            "sbol:displayId": "Cut1",
+            "@type": "sbol:Cut"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0040_Sequence1",
+            "sbol:encoding": {
+                "@id": "EDAM:format_1207"
+            },
+            "sbol:elements": "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac",
+            "sbol:description": "BBa_R0040 sequence",
+            "sbol:name": "Sequence1",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:displayId": "BBa_R0040_Sequence1",
+            "@type": "sbol:Sequence"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0040/SequenceFeature1",
+            "sbol:hasLocation": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0040/SequenceFeature1/Cut1"
+            },
+            "sbol:displayId": "SequenceFeature1",
+            "@type": "sbol:SequenceFeature"
+        },
+        {
+            "@id": "https://synbiohub.org/public/igem/BBa_R0040",
+            "sbol:hasFeature": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0040/SequenceFeature1"
+            },
+            "sbol:hasSequence": {
+                "@id": "https://synbiohub.org/public/igem/BBa_R0040_Sequence1"
+            },
+            "sbol:role": {
+                "@id": "SO:0000167"
+            },
+            "sbol:description": "TetR repressible promoter",
+            "sbol:name": "pTetR",
+            "sbol:hasNamespace": {
+                "@id": "https://synbiohub.org/public/igem"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:displayId": "BBa_R0040",
+            "@type": "sbol:Component"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
+}

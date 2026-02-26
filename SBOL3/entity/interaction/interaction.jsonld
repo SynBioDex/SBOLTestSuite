@@ -1,0 +1,40 @@
+{
+    "@graph": [
+        {
+            "@id": "https://sbolstandard.org/examples/i13504_system/Interaction1",
+            "sbol:type": {
+                "@id": "SBO:0000589"
+            },
+            "sbol:displayId": "Interaction1",
+            "@type": "sbol:Interaction"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/i13504_system",
+            "sbol:hasInteraction": {
+                "@id": "https://sbolstandard.org/examples/i13504_system/Interaction1"
+            },
+            "sbol:role": {
+                "@id": "SO:0000704"
+            },
+            "sbol:name": "i13504 system",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000251"
+            },
+            "sbol:displayId": "i13504_system",
+            "@type": "sbol:Component"
+        }
+    ],
+    "@context": {
+        "SBO": "https://identifiers.org/SBO:",
+        "CHEBI": "https://identifiers.org/CHEBI:",
+        "GO": "https://identifiers.org/GO:",
+        "sbol": "http://sbols.org/v3#",
+        "EDAM": "https://identifiers.org/edam:",
+        "SO": "https://identifiers.org/SO:",
+        "prov": "http://www.w3.org/ns/prov#",
+        "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/"
+    }
+}

@@ -20,14 +20,6 @@
       <sbol:hasNamespace rdf:resource="/examples"/>
       <sbol:displayId>col1</sbol:displayId>
    </sbol:Collection>
-   <sbol:Component rdf:about="LacI_protein">
-      <sbol:role rdf:resource="https://identifiers.org/GO:0003700"/>
-      <sbol:description>LacI protein</sbol:description>
-      <sbol:name>LacI</sbol:name>
-      <sbol:hasNamespace rdf:resource="/examples"/>
-      <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
-      <sbol:displayId>LacI_protein</sbol:displayId>
-   </sbol:Component>
    <sbol:Component rdf:about="TetR_protein">
       <sbol:role rdf:resource="https://identifiers.org/GO:0003700"/>
       <sbol:description>TetR protein</sbol:description>
@@ -35,5 +27,13 @@
       <sbol:hasNamespace rdf:resource="/examples"/>
       <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
       <sbol:displayId>TetR_protein</sbol:displayId>
+   </sbol:Component>
+   <sbol:Component rdf:about="LacI_protein">
+      <sbol:role rdf:resource="https://identifiers.org/GO:0003700"/>
+      <sbol:description>LacI protein</sbol:description>
+      <sbol:name>LacI</sbol:name>
+      <sbol:hasNamespace rdf:resource="/examples"/>
+      <sbol:type rdf:resource="https://identifiers.org/SBO:0000252"/>
+      <sbol:displayId>LacI_protein</sbol:displayId>
    </sbol:Component>
 </rdf:RDF>

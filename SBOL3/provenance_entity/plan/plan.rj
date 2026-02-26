@@ -5,13 +5,9 @@
       "value" : "CodonOptimisationProtocol"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Plan"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Optimisation protocol to improve the translation of mRNAs."
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
@@ -24,9 +20,13 @@
       "value" : "Codon Optimisation Protocol"
     }
      ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Optimisation protocol to improve the translation of mRNAs."
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Plan"
     }
      ]
   }

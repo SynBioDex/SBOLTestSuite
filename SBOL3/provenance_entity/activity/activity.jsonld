@@ -1,6 +1,33 @@
 {
     "@graph": [
         {
+            "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage1",
+            "prov:hadRole": {
+                "@id": "sbol:learn"
+            },
+            "prov:entity": {
+                "@id": "https://sbolstandard.org/examples/toggle_switch"
+            },
+            "@type": [
+                "sbol:Identified",
+                "prov:Usage"
+            ],
+            "sbol:displayId": "Usage1"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/toggle_switch",
+            "sbol:description": "Toggle Switch genetic circuit",
+            "sbol:name": "Toggle Switch",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:type": {
+                "@id": "SBO:0000241"
+            },
+            "sbol:displayId": "toggle_switch",
+            "@type": "sbol:Component"
+        },
+        {
             "@id": "https://sbolstandard.org/examples/toggle_switch_optimised",
             "prov:wasDerivedFrom": {
                 "@id": "https://sbolstandard.org/examples/toggle_switch"
@@ -20,59 +47,33 @@
             "@type": "sbol:Component"
         },
         {
-            "@id": "https://sbolstandard.org/examples/toggle_switch",
-            "sbol:description": "Toggle Switch genetic circuit",
-            "sbol:name": "Toggle Switch",
-            "sbol:hasNamespace": {
-                "@id": "https://sbolstandard.org/examples"
-            },
-            "sbol:type": {
-                "@id": "SBO:0000241"
-            },
-            "sbol:displayId": "toggle_switch",
-            "@type": "sbol:Component"
-        },
-        {
             "@id": "https://sbolstandard.org/examples/codon_optimization_activity",
-            "sbol:type": {
-                "@id": "sbol:design"
+            "prov:qualifiedAssociation": {
+                "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
             },
+            "prov:endedAtTime": "2019-08-30T00:00:00Z",
             "@type": [
                 "sbol:TopLevel",
                 "prov:Activity"
             ],
-            "sbol:name": "Codon optimization activity",
-            "sbol:description": "An activity that is used to optimise codons",
+            "sbol:displayId": "codon_optimization_activity",
             "prov:qualifiedUsage": [
                 {
-                    "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
+                    "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
                 },
                 {
-                    "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage1"
+                    "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage2"
                 }
             ],
-            "sbol:displayId": "codon_optimization_activity",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "sbol:name": "Codon optimization activity",
             "prov:startedAtTime": "2019-07-29T16:50:59Z",
-            "prov:endedAtTime": "2019-08-30T00:00:00Z",
-            "prov:qualifiedAssociation": {
-                "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Association1"
-            },
-            "sbol:hasNamespace": {
-                "@id": "https://sbolstandard.org/examples"
+            "sbol:description": "An activity that is used to optimise codons",
+            "sbol:type": {
+                "@id": "sbol:design"
             }
-        },
-        {
-            "@id": "https://sbolstandard.org/examples/CodonOptimiserSoftware",
-            "sbol:description": "Used to optimise bacterial DNA sequences.",
-            "sbol:name": "Codon Optimiser Software",
-            "sbol:hasNamespace": {
-                "@id": "https://sbolstandard.org/examples"
-            },
-            "@type": [
-                "sbol:TopLevel",
-                "prov:Agent"
-            ],
-            "sbol:displayId": "CodonOptimiserSoftware"
         },
         {
             "@id": "https://sbolstandard.org/examples/RBS_optimisation_activity",
@@ -94,6 +95,19 @@
             "sbol:displayId": "RBS_optimisation_activity"
         },
         {
+            "@id": "https://sbolstandard.org/examples/CodonOptimiserSoftware",
+            "sbol:description": "Used to optimise bacterial DNA sequences.",
+            "sbol:name": "Codon Optimiser Software",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Agent"
+            ],
+            "sbol:displayId": "CodonOptimiserSoftware"
+        },
+        {
             "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Association1",
             "prov:hadRole": {
                 "@id": "sbol:design"
@@ -111,33 +125,6 @@
             "sbol:displayId": "Association1"
         },
         {
-            "@id": "https://sbolstandard.org/examples/CodonOptimisationProtocol",
-            "sbol:description": "Optimisation protocol to improve the translation of mRNAs.",
-            "sbol:name": "Codon Optimisation Protocol",
-            "sbol:hasNamespace": {
-                "@id": "https://sbolstandard.org/examples"
-            },
-            "@type": [
-                "sbol:TopLevel",
-                "prov:Plan"
-            ],
-            "sbol:displayId": "CodonOptimisationProtocol"
-        },
-        {
-            "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage1",
-            "prov:hadRole": {
-                "@id": "sbol:learn"
-            },
-            "prov:entity": {
-                "@id": "https://sbolstandard.org/examples/toggle_switch"
-            },
-            "@type": [
-                "sbol:Identified",
-                "prov:Usage"
-            ],
-            "sbol:displayId": "Usage1"
-        },
-        {
             "@id": "https://sbolstandard.org/examples/codon_optimization_activity/Usage2",
             "prov:hadRole": {
                 "@id": "sbol:design"
@@ -150,6 +137,19 @@
                 "prov:Usage"
             ],
             "sbol:displayId": "Usage2"
+        },
+        {
+            "@id": "https://sbolstandard.org/examples/CodonOptimisationProtocol",
+            "sbol:description": "Optimisation protocol to improve the translation of mRNAs.",
+            "sbol:name": "Codon Optimisation Protocol",
+            "sbol:hasNamespace": {
+                "@id": "https://sbolstandard.org/examples"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "prov:Plan"
+            ],
+            "sbol:displayId": "CodonOptimisationProtocol"
         }
     ],
     "@context": {

@@ -1,0 +1,25 @@
+BASE   <https://sbolstandard.org/examples/>
+PREFIX :      <https://sbolstandard.org/examples/>
+PREFIX CHEBI: <https://identifiers.org/CHEBI:>
+PREFIX EDAM:  <https://identifiers.org/edam:>
+PREFIX GO:    <https://identifiers.org/GO:>
+PREFIX SBO:   <https://identifiers.org/SBO:>
+PREFIX SO:    <https://identifiers.org/SO:>
+PREFIX om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/>
+PREFIX prov:  <http://www.w3.org/ns/prov#>
+PREFIX sbol:  <http://sbols.org/v3#>
+
+:attachment1  a            sbol:Attachment;
+        sbol:displayId     "attachment1";
+        sbol:hasNamespace  </examples>;
+        sbol:source        </attachment1> .
+
+:attachment2  a            sbol:Attachment;
+        sbol:displayId     "attachment2";
+        sbol:hasNamespace  </examples>;
+        sbol:source        </attachment2> .
+
+:exp1   a                  sbol:Experiment;
+        sbol:displayId     "exp1";
+        sbol:hasNamespace  </examples>;
+        sbol:member        :attachment2 , :attachment1 .

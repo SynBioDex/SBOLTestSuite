@@ -5,13 +5,9 @@
       "value" : "CodonOptimiserSoftware"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://www.w3.org/ns/prov#Agent"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Used to optimise bacterial DNA sequences."
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
@@ -24,9 +20,13 @@
       "value" : "Codon Optimiser Software"
     }
      ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Used to optimise bacterial DNA sequences."
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/ns/prov#Agent"
     }
      ]
   }
@@ -37,9 +37,9 @@
       "value" : "toggle_switch"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Component"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Toggle Switch genetic circuit"
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
@@ -47,19 +47,19 @@
       "value" : "https://sbolstandard.org/examples"
     }
      ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000241"
+    }
+     ] ,
     "http://sbols.org/v3#name" : [ { 
       "type" : "literal" ,
       "value" : "Toggle Switch"
     }
      ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Toggle Switch genetic circuit"
-    }
-     ] ,
-    "http://sbols.org/v3#type" : [ { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000241"
+      "value" : "http://sbols.org/v3#Component"
     }
      ]
   }

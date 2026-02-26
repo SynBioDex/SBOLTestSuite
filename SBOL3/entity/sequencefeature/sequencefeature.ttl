@@ -1,0 +1,39 @@
+BASE   <https://sbolstandard.org/examples/>
+PREFIX :      <https://sbolstandard.org/examples/>
+PREFIX CHEBI: <https://identifiers.org/CHEBI:>
+PREFIX EDAM:  <https://identifiers.org/edam:>
+PREFIX GO:    <https://identifiers.org/GO:>
+PREFIX SBO:   <https://identifiers.org/SBO:>
+PREFIX SO:    <https://identifiers.org/SO:>
+PREFIX om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/>
+PREFIX prov:  <http://www.w3.org/ns/prov#>
+PREFIX sbol:  <http://sbols.org/v3#>
+
+<E0040/SequenceFeature1/Range1>
+        a                 sbol:Range;
+        sbol:displayId    "Range1";
+        sbol:end          "3";
+        sbol:hasSequence  :E0040_Sequence1;
+        sbol:start        "1" .
+
+<E0040/SequenceFeature1>
+        a                 sbol:SequenceFeature;
+        sbol:displayId    "SequenceFeature1";
+        sbol:hasLocation  <E0040/SequenceFeature1/Range1> .
+
+:E0040  a                  sbol:Component;
+        sbol:displayId     "E0040";
+        sbol:hasFeature    <E0040/SequenceFeature1>;
+        sbol:hasNamespace  </examples>;
+        sbol:hasSequence   :E0040_Sequence1;
+        sbol:name          "E0040";
+        sbol:role          SO:0000316;
+        sbol:type          SBO:0000251 .
+
+:E0040_Sequence1  a        sbol:Sequence;
+        sbol:description   "E0040 sequence";
+        sbol:displayId     "E0040_Sequence1";
+        sbol:elements      "atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa";
+        sbol:encoding      EDAM:format_1207;
+        sbol:hasNamespace  </examples>;
+        sbol:name          "Sequence1" .

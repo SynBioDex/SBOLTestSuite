@@ -1,53 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "om:milli",
-            "om:hasFactor": "0.001",
-            "sbol:name": "milli",
-            "om:label": "milli",
-            "om:symbol": "m",
-            "sbol:hasNamespace": {
-                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
-            },
-            "@type": [
-                "sbol:TopLevel",
-                "om:SIPrefix"
-            ],
-            "sbol:displayId": "milli"
-        },
-        {
-            "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
-            "om:hasUnit": {
-                "@id": "om:millimolePerLitre"
-            },
-            "om:hasNumericalValue": "0.1",
-            "@type": [
-                "sbol:Identified",
-                "om:Measure"
-            ],
-            "sbol:displayId": "measure1"
-        },
-        {
-            "@id": "om:millimolePerLitre",
-            "om:hasDenominator": {
-                "@id": "om:litre"
-            },
-            "om:hasNumerator": {
-                "@id": "om:millimole"
-            },
-            "sbol:name": "millimolar",
-            "om:label": "millimolar",
-            "om:symbol": "mmol/l",
-            "sbol:hasNamespace": {
-                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
-            },
-            "@type": [
-                "sbol:TopLevel",
-                "om:UnitDivision"
-            ],
-            "sbol:displayId": "millimolePerLitre"
-        },
-        {
             "@id": "om:millimole",
             "om:hasPrefix": {
                 "@id": "om:milli"
@@ -66,6 +19,21 @@
                 "om:PrefixedUnit"
             ],
             "sbol:displayId": "millimole"
+        },
+        {
+            "@id": "om:milli",
+            "om:hasFactor": "0.001",
+            "sbol:name": "milli",
+            "om:label": "milli",
+            "om:symbol": "m",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:SIPrefix"
+            ],
+            "sbol:displayId": "milli"
         },
         {
             "@id": "om:mole",
@@ -96,6 +64,18 @@
             "@type": "sbol:ExternallyDefined"
         },
         {
+            "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1",
+            "om:hasUnit": {
+                "@id": "om:millimolePerLitre"
+            },
+            "om:hasNumericalValue": "0.1",
+            "@type": [
+                "sbol:Identified",
+                "om:Measure"
+            ],
+            "sbol:displayId": "measure1"
+        },
+        {
             "@id": "om:litre",
             "sbol:name": "liter",
             "om:label": "liter",
@@ -108,6 +88,26 @@
                 "om:SingularUnit"
             ],
             "sbol:displayId": "litre"
+        },
+        {
+            "@id": "om:millimolePerLitre",
+            "om:hasDenominator": {
+                "@id": "om:litre"
+            },
+            "om:hasNumerator": {
+                "@id": "om:millimole"
+            },
+            "sbol:name": "millimolar",
+            "om:label": "millimolar",
+            "om:symbol": "mmol/l",
+            "sbol:hasNamespace": {
+                "@id": "http://www.ontology-of-units-of-measure.org/resource/om-2"
+            },
+            "@type": [
+                "sbol:TopLevel",
+                "om:UnitDivision"
+            ],
+            "sbol:displayId": "millimolePerLitre"
         },
         {
             "@id": "https://sbolstandard.org/examples/M9_Glucose_CAA",

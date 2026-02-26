@@ -1,60 +1,81 @@
-@base          <https://sbolstandard.org/examples/> .
-@prefix :      <https://sbolstandard.org/examples/> .
-@prefix CHEBI: <https://identifiers.org/CHEBI:> .
-@prefix EDAM:  <https://identifiers.org/edam:> .
-@prefix GO:    <https://identifiers.org/GO:> .
-@prefix SBO:   <https://identifiers.org/SBO:> .
-@prefix SO:    <https://identifiers.org/SO:> .
-@prefix igem:  <http://parts.igem.org/> .
-@prefix om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
-@prefix prov:  <http://www.w3.org/ns/prov#> .
-@prefix sbol:  <http://sbols.org/v3#> .
+BASE   <https://sbolstandard.org/examples/>
+PREFIX :      <https://sbolstandard.org/examples/>
+PREFIX CHEBI: <https://identifiers.org/CHEBI:>
+PREFIX EDAM:  <https://identifiers.org/edam:>
+PREFIX GO:    <https://identifiers.org/GO:>
+PREFIX SBO:   <https://identifiers.org/SBO:>
+PREFIX SO:    <https://identifiers.org/SO:>
+PREFIX igem:  <http://parts.igem.org/>
+PREFIX om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/>
+PREFIX prov:  <http://www.w3.org/ns/prov#>
+PREFIX sbol:  <http://sbols.org/v3#>
 
-<BBa_J23119/usage1>  a     sbol:Identified , igem:IGEMUsage ;
-        igem:inStock       "true" ;
-        igem:registryStar  "1" ;
-        igem:twinURLs      <BBa_J23119/usage1/twinParts> ;
-        igem:twins         "7" ;
-        igem:uses          "442" ;
-        sbol:description   "BBa_J23119 usage statistics" ;
-        sbol:displayId     "usage1" ;
-        sbol:name          "BBa_J23119_usage" .
-
-:iGEMRepository  a         igem:Repository , sbol:TopLevel ;
-        igem:website       igem:Main_Page ;
-        sbol:description   "Registry of Standard Biological Parts" ;
-        sbol:displayId     "iGEMRepository" ;
-        sbol:hasNamespace  </examples> ;
-        sbol:name          "iGEM Registry" .
-
-:BBa_J23119  a               sbol:Component ;
-        igem:belongsTo       :iGEMRepository , :SynBioHubRepository ;
-        igem:experienceURL   igem:Part:BBa_J23119:Experience ;
-        igem:group           "iGEM2006_Berkeley" ;
-        igem:hasInformation  <BBa_J23119/information1> ;
-        igem:hasUsage        <BBa_J23119/usage1> ;
-        sbol:description     "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library." ;
-        sbol:displayId       "BBa_J23119" ;
-        sbol:hasNamespace    </examples> ;
-        sbol:name            "BBa_J23119 part" ;
-        sbol:role            SO:0000167 ;
-        sbol:type            SBO:0000251 .
-
-:SynBioHubRepository  a    igem:Repository , sbol:TopLevel ;
-        sbol:displayId     "SynBioHubRepository" ;
-        sbol:hasNamespace  </examples> ;
+:SynBioHubRepository  a    igem:Repository , sbol:TopLevel;
+        sbol:displayId     "SynBioHubRepository";
+        sbol:hasNamespace  </examples>;
         sbol:name          "SynBioHub" .
 
 <BBa_J23119/usage1/twinParts>
-        a               igem:TwinPartUsage , sbol:Identified ;
-        igem:twinURL    <http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800> , <http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638> , <http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073> ;
-        sbol:displayId  "twinParts" ;
+        a               igem:TwinPartUsage , sbol:Identified;
+        igem:twinURL    <http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800> , <http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638> , <http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073>;
+        sbol:displayId  "twinParts";
         sbol:name       "twin parts" .
 
+:BBa_J23119  a               sbol:Component;
+        igem:belongsTo       :SynBioHubRepository , :iGEMRepository;
+        igem:experienceURL   igem:Part:BBa_J23119:Experience;
+        igem:group           "iGEM2006_Berkeley";
+        igem:hasInformation  <BBa_J23119/information1> , <BBa_J23119/information3> , <BBa_J23119/information2>;
+        igem:hasUsage        <BBa_J23119/usage1> , <BBa_J23119/usage2> , <BBa_J23119/usage3>;
+        sbol:description     "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library.";
+        sbol:displayId       "BBa_J23119";
+        sbol:hasNamespace    </examples>;
+        sbol:name            "BBa_J23119 part";
+        sbol:role            SO:0000167;
+        sbol:type            SBO:0000251 .
+
+<BBa_J23119/usage1>  a     sbol:Identified , igem:iGEMUsage;
+        igem:inStock       "true";
+        igem:registryStar  "1";
+        igem:twinURLs      <BBa_J23119/usage1/twinParts>;
+        igem:twins         "7";
+        igem:uses          "442";
+        igem:uses2         "442"^^<http://www.w3.org/2001/XMLSchema#int>;
+        sbol:description   "BBa_J23119 usage statistics";
+        sbol:displayId     "usage1";
+        sbol:name          "BBa_J23119_usage" .
+
 <BBa_J23119/information1>
-        a                 igem:Information , sbol:Identified ;
-        igem:regulation   "//regulation/second_regulation" , "//regulation/constitutive" ;
-        igem:sigmaFactor  "//rnap/prokaryote/ecoli/sigma70" ;
-        sbol:description  "The experience page captures users' experience using the BBa_J23119 part" ;
-        sbol:displayId    "information1" ;
+        a                 igem:Information , sbol:Identified;
+        igem:regulation   "//regulation/second_regulation" , "//regulation/constitutive";
+        igem:sigmaFactor  "//rnap/prokaryote/ecoli/sigma70";
+        igem:source       :BBa_J23119;
+        sbol:description  "The experience page captures users' experience using the BBa_J23119 part";
+        sbol:displayId    "information1";
         sbol:name         "BBa_J23119_experience" .
+
+<BBa_J23119/usage3>  a  igem:Z_iGEMUsage , sbol:Identified;
+        sbol:displayId  "usage3";
+        sbol:name       "BBa_J23119_usage_3" .
+
+<BBa_J23119/information3>
+        a               igem:Z_Information , sbol:Identified;
+        sbol:displayId  "information3";
+        sbol:name       "BBa_J23119_experience3" .
+
+:iGEMRepository  a         igem:Repository , sbol:TopLevel;
+        igem:website       igem:Main_Page;
+        sbol:description   "Registry of Standard Biological Parts";
+        sbol:displayId     "iGEMRepository";
+        sbol:hasNamespace  </examples>;
+        sbol:name          "iGEM Registry" .
+
+<BBa_J23119/usage2>  a  igem:A_iGEMUsage , sbol:Identified;
+        igem:twins      "7";
+        sbol:displayId  "usage2";
+        sbol:name       "BBa_J23119_usage_2" .
+
+<BBa_J23119/information2>
+        a               igem:A_Information , sbol:Identified;
+        sbol:displayId  "information2";
+        sbol:name       "BBa_J23119_experience2" .

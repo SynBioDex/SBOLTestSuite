@@ -42,18 +42,6 @@
       <sbol:displayId>litre</sbol:displayId>
       <rdf:type rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/SingularUnit"/>
    </sbol:TopLevel>
-   <sbol:TopLevel rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre">
-      <om:hasDenominator rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/litre"/>
-      <om:hasNumerator>
-         <sbol:TopLevel rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/millimole"/>
-      </om:hasNumerator>
-      <sbol:name>millimolar</sbol:name>
-      <om:label>millimolar</om:label>
-      <om:symbol>mmol/l</om:symbol>
-      <sbol:hasNamespace rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2"/>
-      <sbol:displayId>millimolePerLitre</sbol:displayId>
-      <rdf:type rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision"/>
-   </sbol:TopLevel>
    <sbol:TopLevel rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/milli">
       <om:hasFactor>0.001</om:hasFactor>
       <sbol:name>milli</sbol:name>
@@ -80,5 +68,15 @@
       <sbol:hasNamespace rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2"/>
       <sbol:displayId>millimole</sbol:displayId>
       <rdf:type rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/PrefixedUnit"/>
+   </sbol:TopLevel>
+   <sbol:TopLevel rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/millimolePerLitre">
+      <om:hasDenominator rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/litre"/>
+      <om:hasNumerator rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/millimole"/>
+      <sbol:name>millimolar</sbol:name>
+      <om:label>millimolar</om:label>
+      <om:symbol>mmol/l</om:symbol>
+      <sbol:hasNamespace rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2"/>
+      <sbol:displayId>millimolePerLitre</sbol:displayId>
+      <rdf:type rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision"/>
    </sbol:TopLevel>
 </rdf:RDF>

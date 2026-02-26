@@ -1,4 +1,70 @@
 { 
+  "https://sbolstandard.org/examples/BBa_J23119/usage3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "usage3"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119_usage_3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/Z_iGEMUsage"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/BBa_J23119/information2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "information2"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119_experience2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/A_Information"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/BBa_J23119/information3" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "information3"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119_experience3"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/Z_Information"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+     ]
+  }
+   ,
   "https://sbolstandard.org/examples/BBa_J23119/usage1" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
@@ -8,6 +74,21 @@
     "http://parts.igem.org/twins" : [ { 
       "type" : "literal" ,
       "value" : "7"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119 usage statistics"
+    }
+     ] ,
+    "http://parts.igem.org/registryStar" : [ { 
+      "type" : "literal" ,
+      "value" : "1"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119_usage"
     }
      ] ,
     "http://parts.igem.org/inStock" : [ { 
@@ -22,26 +103,17 @@
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Identified"
+      "value" : "http://parts.igem.org/iGEMUsage"
     }
     , { 
       "type" : "uri" ,
-      "value" : "http://parts.igem.org/IGEMUsage"
+      "value" : "http://sbols.org/v3#Identified"
     }
      ] ,
-    "http://parts.igem.org/registryStar" : [ { 
+    "http://parts.igem.org/uses2" : [ { 
       "type" : "literal" ,
-      "value" : "1"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "BBa_J23119_usage"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "BBa_J23119 usage statistics"
+      "value" : "442" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#int"
     }
      ] ,
     "http://parts.igem.org/uses" : [ { 
@@ -51,19 +123,238 @@
      ]
   }
    ,
+  "https://sbolstandard.org/examples/SynBioHubRepository" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "SynBioHubRepository"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "SynBioHub"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#TopLevel"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/Repository"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/BBa_J23119/information1" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "information1"
+    }
+     ] ,
+    "http://parts.igem.org/source" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119"
+    }
+     ] ,
+    "http://parts.igem.org/sigmaFactor" : [ { 
+      "type" : "literal" ,
+      "value" : "//rnap/prokaryote/ecoli/sigma70"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "The experience page captures users' experience using the BBa_J23119 part"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119_experience"
+    }
+     ] ,
+    "http://parts.igem.org/regulation" : [ { 
+      "type" : "literal" ,
+      "value" : "//regulation/second_regulation"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "//regulation/constitutive"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/Information"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/BBa_J23119/usage2" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "usage2"
+    }
+     ] ,
+    "http://parts.igem.org/twins" : [ { 
+      "type" : "literal" ,
+      "value" : "7"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119_usage_2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/A_iGEMUsage"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "twinParts"
+    }
+     ] ,
+    "http://parts.igem.org/twinURL" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "twin parts"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/TwinPartUsage"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Identified"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/BBa_J23119" : { 
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119"
+    }
+     ] ,
+    "http://parts.igem.org/group" : [ { 
+      "type" : "literal" ,
+      "value" : "iGEM2006_Berkeley"
+    }
+     ] ,
+    "http://parts.igem.org/hasInformation" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119/information2"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119/information3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119/information1"
+    }
+     ] ,
+    "http://sbols.org/v3#role" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SO:0000167"
+    }
+     ] ,
+    "http://parts.igem.org/belongsTo" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/SynBioHubRepository"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/iGEMRepository"
+    }
+     ] ,
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library."
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000251"
+    }
+     ] ,
+    "http://parts.igem.org/experienceURL" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/Part:BBa_J23119:Experience"
+    }
+     ] ,
+    "http://sbols.org/v3#name" : [ { 
+      "type" : "literal" ,
+      "value" : "BBa_J23119 part"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ] ,
+    "http://parts.igem.org/hasUsage" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119/usage3"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119/usage1"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/BBa_J23119/usage2"
+    }
+     ]
+  }
+   ,
   "https://sbolstandard.org/examples/iGEMRepository" : { 
+    "http://parts.igem.org/website" : [ { 
+      "type" : "uri" ,
+      "value" : "http://parts.igem.org/Main_Page"
+    }
+     ] ,
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
       "value" : "iGEMRepository"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/Repository"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#TopLevel"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "Registry of Standard Biological Parts"
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
@@ -76,184 +367,13 @@
       "value" : "iGEM Registry"
     }
      ] ,
-    "http://parts.igem.org/website" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/Main_Page"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Registry of Standard Biological Parts"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/BBa_J23119/information1" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "information1"
-    }
-     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/Information"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Identified"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "BBa_J23119_experience"
-    }
-     ] ,
-    "http://parts.igem.org/regulation" : [ { 
-      "type" : "literal" ,
-      "value" : "//regulation/constitutive"
-    }
-    , { 
-      "type" : "literal" ,
-      "value" : "//regulation/second_regulation"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "The experience page captures users' experience using the BBa_J23119 part"
-    }
-     ] ,
-    "http://parts.igem.org/sigmaFactor" : [ { 
-      "type" : "literal" ,
-      "value" : "//rnap/prokaryote/ecoli/sigma70"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "twinParts"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/TwinPartUsage"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Identified"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "twin parts"
-    }
-     ] ,
-    "http://parts.igem.org/twinURL" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073"
-    }
-    , { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/SynBioHubRepository" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "SynBioHubRepository"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/Repository"
-    }
-    , { 
       "type" : "uri" ,
       "value" : "http://sbols.org/v3#TopLevel"
     }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "SynBioHub"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/BBa_J23119" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "BBa_J23119"
-    }
-     ] ,
-    "http://sbols.org/v3#role" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/SO:0000167"
-    }
-     ] ,
-    "http://parts.igem.org/group" : [ { 
-      "type" : "literal" ,
-      "value" : "iGEM2006_Berkeley"
-    }
-     ] ,
-    "http://parts.igem.org/hasUsage" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/BBa_J23119/usage1"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Component"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://parts.igem.org/hasInformation" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/BBa_J23119/information1"
-    }
-     ] ,
-    "http://parts.igem.org/belongsTo" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/iGEMRepository"
-    }
     , { 
       "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/SynBioHubRepository"
-    }
-     ] ,
-    "http://sbols.org/v3#name" : [ { 
-      "type" : "literal" ,
-      "value" : "BBa_J23119 part"
-    }
-     ] ,
-    "http://sbols.org/v3#description" : [ { 
-      "type" : "literal" ,
-      "value" : "Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library."
-    }
-     ] ,
-    "http://parts.igem.org/experienceURL" : [ { 
-      "type" : "uri" ,
-      "value" : "http://parts.igem.org/Part:BBa_J23119:Experience"
-    }
-     ] ,
-    "http://sbols.org/v3#type" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000251"
+      "value" : "http://parts.igem.org/Repository"
     }
      ]
   }

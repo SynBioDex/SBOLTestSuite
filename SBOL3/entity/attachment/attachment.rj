@@ -1,118 +1,4 @@
 { 
-  "https://sbolstandard.org/examples/impl1" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "impl1"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Implementation"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#built" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/TetR_protein"
-    }
-     ] ,
-    "http://sbols.org/v3#hasAttachment" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples/attachment1"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/attachment2" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "attachment2"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Attachment"
-    }
-     ] ,
-    "http://sbols.org/v3#format" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/edam:format_2585"
-    }
-     ] ,
-    "http://sbols.org/v3#hash" : [ { 
-      "type" : "literal" ,
-      "value" : "aaa"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#size" : [ { 
-      "type" : "literal" ,
-      "value" : "1000"
-    }
-     ] ,
-    "http://sbols.org/v3#source" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/attachment2"
-    }
-     ] ,
-    "http://sbols.org/v3#hashAlgorithm" : [ { 
-      "type" : "literal" ,
-      "value" : "sha-256"
-    }
-     ]
-  }
-   ,
-  "https://sbolstandard.org/examples/attachment1" : { 
-    "http://sbols.org/v3#displayId" : [ { 
-      "type" : "literal" ,
-      "value" : "attachment1"
-    }
-     ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Attachment"
-    }
-     ] ,
-    "http://sbols.org/v3#format" : [ { 
-      "type" : "uri" ,
-      "value" : "https://identifiers.org/edam:format_2585"
-    }
-     ] ,
-    "http://sbols.org/v3#hash" : [ { 
-      "type" : "literal" ,
-      "value" : "aaa"
-    }
-     ] ,
-    "http://sbols.org/v3#hasNamespace" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/examples"
-    }
-     ] ,
-    "http://sbols.org/v3#size" : [ { 
-      "type" : "literal" ,
-      "value" : "1000"
-    }
-     ] ,
-    "http://sbols.org/v3#source" : [ { 
-      "type" : "uri" ,
-      "value" : "https://sbolstandard.org/attachment1"
-    }
-     ] ,
-    "http://sbols.org/v3#hashAlgorithm" : [ { 
-      "type" : "literal" ,
-      "value" : "sha-256"
-    }
-     ]
-  }
-   ,
   "https://sbolstandard.org/examples/TetR_protein" : { 
     "http://sbols.org/v3#displayId" : [ { 
       "type" : "literal" ,
@@ -124,9 +10,9 @@
       "value" : "https://identifiers.org/GO:0003700"
     }
      ] ,
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
-      "type" : "uri" ,
-      "value" : "http://sbols.org/v3#Component"
+    "http://sbols.org/v3#description" : [ { 
+      "type" : "literal" ,
+      "value" : "TetR protein"
     }
      ] ,
     "http://sbols.org/v3#hasNamespace" : [ { 
@@ -134,19 +20,133 @@
       "value" : "https://sbolstandard.org/examples"
     }
      ] ,
+    "http://sbols.org/v3#type" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/SBO:0000252"
+    }
+     ] ,
     "http://sbols.org/v3#name" : [ { 
       "type" : "literal" ,
       "value" : "TetR"
     }
      ] ,
-    "http://sbols.org/v3#description" : [ { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Component"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/attachment1" : { 
+    "http://sbols.org/v3#hash" : [ { 
       "type" : "literal" ,
-      "value" : "TetR protein"
+      "value" : "aaa"
     }
      ] ,
-    "http://sbols.org/v3#type" : [ { 
+    "http://sbols.org/v3#format" : [ { 
       "type" : "uri" ,
-      "value" : "https://identifiers.org/SBO:0000252"
+      "value" : "https://identifiers.org/edam:format_2585"
+    }
+     ] ,
+    "http://sbols.org/v3#size" : [ { 
+      "type" : "literal" ,
+      "value" : "1000"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "attachment1"
+    }
+     ] ,
+    "http://sbols.org/v3#hashAlgorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "sha-256"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#source" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/attachment1"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Attachment"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/attachment2" : { 
+    "http://sbols.org/v3#hash" : [ { 
+      "type" : "literal" ,
+      "value" : "aaa"
+    }
+     ] ,
+    "http://sbols.org/v3#format" : [ { 
+      "type" : "uri" ,
+      "value" : "https://identifiers.org/edam:format_2585"
+    }
+     ] ,
+    "http://sbols.org/v3#size" : [ { 
+      "type" : "literal" ,
+      "value" : "1000"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "attachment2"
+    }
+     ] ,
+    "http://sbols.org/v3#hashAlgorithm" : [ { 
+      "type" : "literal" ,
+      "value" : "sha-256"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://sbols.org/v3#source" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/attachment2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Attachment"
+    }
+     ]
+  }
+   ,
+  "https://sbolstandard.org/examples/impl1" : { 
+    "http://sbols.org/v3#built" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/TetR_protein"
+    }
+     ] ,
+    "http://sbols.org/v3#hasAttachment" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples/attachment1"
+    }
+     ] ,
+    "http://sbols.org/v3#displayId" : [ { 
+      "type" : "literal" ,
+      "value" : "impl1"
+    }
+     ] ,
+    "http://sbols.org/v3#hasNamespace" : [ { 
+      "type" : "uri" ,
+      "value" : "https://sbolstandard.org/examples"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://sbols.org/v3#Implementation"
     }
      ]
   }

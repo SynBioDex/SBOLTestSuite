@@ -1,0 +1,66 @@
+BASE   <https://synbiohub.org/public/igem/>
+PREFIX :      <https://synbiohub.org/public/igem/>
+PREFIX CHEBI: <https://identifiers.org/CHEBI:>
+PREFIX EDAM:  <https://identifiers.org/edam:>
+PREFIX GO:    <https://identifiers.org/GO:>
+PREFIX SBO:   <https://identifiers.org/SBO:>
+PREFIX SO:    <https://identifiers.org/SO:>
+PREFIX om:    <http://www.ontology-of-units-of-measure.org/resource/om-2/>
+PREFIX prov:  <http://www.w3.org/ns/prov#>
+PREFIX sbol:  <http://sbols.org/v3#>
+
+:BBa_R0040_start  a        sbol:Component;
+        sbol:description   "promoter_start";
+        sbol:displayId     "BBa_R0040_start";
+        sbol:hasNamespace  <../igem>;
+        sbol:hasSequence   :BBa_R0040_start_Sequence1;
+        sbol:name          "pTetR_start";
+        sbol:role          SO:0000804;
+        sbol:type          SBO:0000251 .
+
+:cs1    a                  sbol:CombinatorialDerivation;
+        sbol:displayId     "cs1";
+        sbol:hasNamespace  <../igem>;
+        sbol:template      :BBa_R0040 .
+
+<BBa_R0040/SubComponent1>
+        a                sbol:SubComponent;
+        sbol:displayId   "SubComponent1";
+        sbol:instanceOf  :BBa_R0040_start .
+
+<BBa_R0040/SubComponent3>
+        a                sbol:SubComponent;
+        sbol:displayId   "SubComponent3";
+        sbol:instanceOf  :BBa_R0040_start .
+
+:BBa_R0040_start_Sequence1
+        a                  sbol:Sequence;
+        sbol:description   "BBa_R0040_start sequence";
+        sbol:displayId     "BBa_R0040_start_Sequence1";
+        sbol:elements      "tccctat";
+        sbol:encoding      EDAM:format_1207;
+        sbol:hasNamespace  <../igem>;
+        sbol:name          "Sequence1" .
+
+<BBa_R0040/SubComponent2>
+        a                sbol:SubComponent;
+        sbol:displayId   "SubComponent2";
+        sbol:instanceOf  :BBa_R0040_start .
+
+:BBa_R0040_Sequence1  a    sbol:Sequence;
+        sbol:description   "BBa_R0040 sequence";
+        sbol:displayId     "BBa_R0040_Sequence1";
+        sbol:elements      "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac";
+        sbol:encoding      EDAM:format_1207;
+        sbol:hasNamespace  <../igem>;
+        sbol:name          "Sequence1" .
+
+:BBa_R0040  a              sbol:Component;
+        sbol:description   "TetR repressible promoter";
+        sbol:displayId     "BBa_R0040";
+        sbol:hasFeature    <BBa_R0040/SubComponent3> , <BBa_R0040/SubComponent2> , <BBa_R0040/SubComponent1>;
+        sbol:hasNamespace  <../igem>;
+        sbol:hasSequence   :BBa_R0040_Sequence1;
+        sbol:name          "pTetR";
+        sbol:role          SO:0000167;
+        sbol:type          SBO:0000251 .
