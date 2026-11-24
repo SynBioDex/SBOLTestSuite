@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+>
+  <rdf:Description rdf:about="http://ex/assoc">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Association"/>
+    <sbol:displayId>assoc</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/assoc"/>
+    <prov:agent rdf:resource="http://ex/missing-agent"/>
+  </rdf:Description>
+</rdf:RDF>

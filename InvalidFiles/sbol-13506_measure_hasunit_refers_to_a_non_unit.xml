@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+>
+  <rdf:Description rdf:about="http://ex/m">
+    <rdf:type rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/Measure"/>
+    <sbol:displayId>m</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/m"/>
+    <om:hasNumericalValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</om:hasNumericalValue>
+    <om:hasUnit rdf:resource="http://ex/notunit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ex/notunit">
+    <rdf:type rdf:resource="http://sbols.org/v2#Collection"/>
+    <sbol:displayId>notunit</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/notunit"/>
+  </rdf:Description>
+</rdf:RDF>

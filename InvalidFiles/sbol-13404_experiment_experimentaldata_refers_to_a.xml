@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+>
+  <rdf:Description rdf:about="http://ex/e">
+    <rdf:type rdf:resource="http://sbols.org/v2#Experiment"/>
+    <sbol:displayId>e</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/e"/>
+    <sbol:experimentalData rdf:resource="http://ex/not-ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ex/not-ed">
+    <rdf:type rdf:resource="http://sbols.org/v2#Collection"/>
+    <sbol:displayId>ned</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/not-ed"/>
+  </rdf:Description>
+</rdf:RDF>

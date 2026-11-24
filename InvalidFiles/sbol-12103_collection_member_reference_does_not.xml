@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+>
+  <rdf:Description rdf:about="http://ex/coll">
+    <rdf:type rdf:resource="http://sbols.org/v2#Collection"/>
+    <sbol:displayId>coll</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/coll"/>
+    <sbol:member rdf:resource="http://ex/missing-member"/>
+  </rdf:Description>
+</rdf:RDF>
