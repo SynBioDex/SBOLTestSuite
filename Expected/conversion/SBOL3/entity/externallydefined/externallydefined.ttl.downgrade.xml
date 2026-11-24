@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/interlab16device1">
+		<displayId xmlns="http://sbols.org/v2#">interlab16device1</displayId>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/interlab16device1"/>
+	</ModuleDefinition>
+</rdf:RDF>

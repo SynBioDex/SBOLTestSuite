@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Module xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/MulticellularSystem/SubComponent2">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem"/>
+	</Module>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/OrganismB">
+		<description xmlns="http://purl.org/dc/terms/">Organism B</description>
+		<displayId xmlns="http://sbols.org/v2#">OrganismB</displayId>
+		<title xmlns="http://purl.org/dc/terms/">OrganismB</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000290"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/GO:0005623"/>
+	</ComponentDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/ReceiverSystem/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/OrganismB"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/SenderSystem/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/AHL"/>
+	</FunctionalComponent>
+	<SequenceConstraint xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/SenderSystem/Constraint1">
+		<displayId xmlns="http://sbols.org/v2#">Constraint1</displayId>
+		<object xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent2"/>
+		<restriction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#contains"/>
+		<subject xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent1"/>
+	</SequenceConstraint>
+	<SequenceConstraint xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/ReceiverSystem/Constraint1">
+		<displayId xmlns="http://sbols.org/v2#">Constraint1</displayId>
+		<object xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"/>
+		<restriction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#contains"/>
+		<subject xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"/>
+	</SequenceConstraint>
+	<Module xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem"/>
+	</Module>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/OrganismA">
+		<description xmlns="http://purl.org/dc/terms/">Organism A</description>
+		<displayId xmlns="http://sbols.org/v2#">OrganismA</displayId>
+		<title xmlns="http://purl.org/dc/terms/">OrganismA</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000290"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/GO:0005623"/>
+	</ComponentDefinition>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/ReceiverSystem">
+		<description xmlns="http://purl.org/dc/terms/">Receiver System</description>
+		<displayId xmlns="http://sbols.org/v2#">ReceiverSystem</displayId>
+		<sequenceConstraint xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/Constraint1"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"/>
+		<title xmlns="http://purl.org/dc/terms/">ReceiverSystem</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000289"/>
+	</ModuleDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/SenderSystem/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/OrganismA"/>
+	</FunctionalComponent>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/MulticellularSystem">
+		<description xmlns="http://purl.org/dc/terms/">Multicellular System</description>
+		<displayId xmlns="http://sbols.org/v2#">MulticellularSystem</displayId>
+		<module xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"/>
+		<module xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"/>
+		<title xmlns="http://purl.org/dc/terms/">MulticellularSystem</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000289"/>
+	</ModuleDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/ReceiverSystem/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/AHL"/>
+	</FunctionalComponent>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/SenderSystem">
+		<description xmlns="http://purl.org/dc/terms/">Sender System</description>
+		<displayId xmlns="http://sbols.org/v2#">SenderSystem</displayId>
+		<sequenceConstraint xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/Constraint1"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent2"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent1"/>
+		<title xmlns="http://purl.org/dc/terms/">SenderSystem</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000289"/>
+	</ModuleDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/AHL">
+		<description xmlns="http://purl.org/dc/terms/">AHL</description>
+		<displayId xmlns="http://sbols.org/v2#">AHL</displayId>
+		<title xmlns="http://purl.org/dc/terms/">AHL</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/CHEBI:35224"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1">
+		<mapsTo xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1/ComponentReference1"/>
+	</rdf:Description>
+	<MapsTo xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1/ComponentReference1">
+		<displayId xmlns="http://sbols.org/v2#">ComponentReference1</displayId>
+		<local xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/ComponentReference2"/>
+		<remote xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent2"/>
+		<refinement xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#verifyIdentical"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1/ComponentReference1"/>
+	</MapsTo>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/AHL">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/AHL"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/MulticellularSystem">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/MulticellularSystem/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/MulticellularSystem/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/OrganismA">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/OrganismA"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/OrganismB">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/OrganismB"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ReceiverSystem">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ReceiverSystem/Constraint1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/Constraint1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ReceiverSystem/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ReceiverSystem/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ReceiverSystem/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SenderSystem">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SenderSystem/Constraint1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/Constraint1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SenderSystem/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SenderSystem/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SenderSystem/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ReceiverSystem/SubComponent1">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ReceiverSystem/SubComponent2">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SenderSystem/SubComponent1">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SenderSystem/SubComponent2">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+</rdf:RDF>

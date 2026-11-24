@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system">
+		<displayId xmlns="http://sbols.org/v2#">i13504_system</displayId>
+		<title xmlns="http://purl.org/dc/terms/">i13504 system</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000804"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system"/>
+	</ComponentDefinition>
+</rdf:RDF>

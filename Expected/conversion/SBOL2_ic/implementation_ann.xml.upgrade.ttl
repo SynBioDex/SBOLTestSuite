@@ -1,0 +1,7 @@
+<http://examples.org/Implementation/1.0.0/build> a <http://sbols.org/v3#Implementation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://examples.org/Implementation/build/1.0.0> ;
+	<http://sbols.org/v3#built> <http://examples.org/ComponentDefinition/1.0.0/mutant> ;
+	<http://sbols.org/v3#displayId> "build" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://examples.org/ComponentDefinition/design/1.0.0> ;
+	<http://purl.org/dc/terms/created> "2003-12-04T12:00:00Z" ;
+	<http://sbols.org/v3#hasNamespace> <http://examples.org/Implementation> .

@@ -1,0 +1,6 @@
+<http://sys-bio.org/1.0.0/Implementation_build> a <http://sbols.org/v3#Implementation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sys-bio.org/Implementation_build/1.0.0> ;
+	<http://sbols.org/v3#displayId> "Implementation_build" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://sys-bio.org/ModuleDefinition_design/1.0.0> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://sys-bio.org/Activity_build_generation/1.0.0> ;
+	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> .

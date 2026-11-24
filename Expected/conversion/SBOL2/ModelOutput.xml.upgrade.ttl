@@ -1,0 +1,8 @@
+<http://www.sbolstandard.org/examples/pIKE_Toggle_1> a <http://sbols.org/v3#Model> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.sbolstandard.org/examples/pIKE_Toggle_1> ;
+	<http://sbols.org/v3#displayId> "pIKE_Toggle_1" ;
+	<http://sbols.org/v3#name> "pIKE_Toggle_1 toggle switch" ;
+	<http://sbols.org/v3#source> <http://virtualparts.org/part/pIKE_Toggle_1> ;
+	<http://sbols.org/v3#language> <https://identifiers.org/edam:format_2585> ;
+	<http://sbols.org/v3#framework> <https://identifiers.org/SBO:0000062> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.sbolstandard.org/examples> .

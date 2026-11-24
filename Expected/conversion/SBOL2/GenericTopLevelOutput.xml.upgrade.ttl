@@ -1,0 +1,16 @@
+<http://www.partsregistry.org/cd/BBa_J23119> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.partsregistry.org/cd/BBa_J23119> ;
+	<http://sbols.org/v3#displayId> "BBa_J23119" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.partsregistry.org/Part:BBa_J23119> ;
+	<http://sbols.org/v3#name> "J23119" ;
+	<http://sbols.org/v3#description> "Constitutive promoter" ;
+	<http://www.myapp.org/datasheet> <http://www.partsregistry.org/gen/datasheet1> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://www.partsregistry.org/gen/datasheet1> a <http://www.myapp.org/Datasheet> ;
+	<http://sbols.org/v3#displayId> "datasheet1" ;
+	<http://sbols.org/v3#name> "Datasheet 1" ;
+	<http://www.myapp.org/characterizationData> <http://www.myapp.org//measurement/1> ;
+	<http://www.myapp.org/transcriptionRate> "1" .
+<http://www.partsregistry.org/cd/BBa_J23119> <http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/cd> .
+<http://www.partsregistry.org/gen/datasheet1> <http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/gen> .

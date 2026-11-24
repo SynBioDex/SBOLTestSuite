@@ -1,0 +1,7 @@
+<http://partsregistry.org/seq/BBa_J23119> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/seq/BBa_J23119> ;
+	<http://sbols.org/v3#displayId> "BBa_J23119" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23119:Design> ;
+	<http://sbols.org/v3#elements> "ttgacagctagctcagtcctaggtataatgctagc" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
+	<http://sbols.org/v3#hasNamespace> <http://partsregistry.org/seq> .

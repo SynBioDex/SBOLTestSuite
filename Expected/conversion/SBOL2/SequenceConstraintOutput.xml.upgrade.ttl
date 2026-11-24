@@ -1,0 +1,43 @@
+<http://partsregistry.org/cd/LacI_operator> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/LacI_operator> ;
+	<http://sbols.org/v3#displayId> "LacI_operator" ;
+	<http://sbols.org/v3#name> "LacI operator" ;
+	<http://sbols.org/v3#description> "LacI binding site" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000057> .
+<http://partsregistry.org/cd/pspac> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/pspac> ;
+	<http://sbols.org/v3#displayId> "pspac" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://partsregistry.org/cd/BBa_K174004> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/BBa_K174004> ;
+	<http://sbols.org/v3#displayId> "BBa_K174004" ;
+	<http://sbols.org/v3#name> "constitutive promoter" ;
+	<http://sbols.org/v3#description> "pspac core promoter region" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<http://partsregistry.org/cd/BBa_K174004/pspac> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/BBa_K174004/pspac> ;
+	<http://sbols.org/v3#displayId> "pspac" ;
+	<http://sbols.org/v3#instanceOf> <http://partsregistry.org/cd/pspac> .
+<http://partsregistry.org/cd/BBa_K174004> <http://sbols.org/v3#hasFeature> <http://partsregistry.org/cd/BBa_K174004/pspac> .
+<http://partsregistry.org/cd/BBa_K174004/LacI_operator> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/BBa_K174004/LacI_operator> ;
+	<http://sbols.org/v3#displayId> "LacI_operator" ;
+	<http://sbols.org/v3#instanceOf> <http://partsregistry.org/cd/LacI_operator> .
+<http://partsregistry.org/cd/BBa_K174004> <http://sbols.org/v3#hasFeature> <http://partsregistry.org/cd/BBa_K174004/LacI_operator> .
+<http://partsregistry.org/cd/BBa_K174004/r1> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/BBa_K174004/r1> ;
+	<http://sbols.org/v3#displayId> "r1" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://partsregistry.org/cd/BBa_K174004/pspac> ;
+	<http://sbols.org/v3#object> <http://partsregistry.org/cd/BBa_K174004/LacI_operator> .
+<http://partsregistry.org/cd/BBa_K174004> <http://sbols.org/v3#hasConstraint> <http://partsregistry.org/cd/BBa_K174004/r1> ;
+	<http://sbols.org/v3#hasNamespace> <http://partsregistry.org/cd> .
+<http://partsregistry.org/cd/LacI_operator> <http://sbols.org/v3#hasNamespace> <http://partsregistry.org/cd> .
+<http://partsregistry.org/cd/pspac> <http://sbols.org/v3#hasNamespace> <http://partsregistry.org/cd> .
+<http://partsregistry.org/cd/BBa_K174004/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://partsregistry.org/cd/BBa_K174004/pspac> , <http://partsregistry.org/cd/BBa_K174004/LacI_operator> .
+<http://partsregistry.org/cd/BBa_K174004> <http://sbols.org/v3#hasInterface> <http://partsregistry.org/cd/BBa_K174004/Interface1> .

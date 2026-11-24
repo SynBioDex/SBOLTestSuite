@@ -1,0 +1,1117 @@
+<https://synbiohub.org/public/igem/1/BBa_E0422> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/1> ;
+	<http://sbols.org/v3#displayId> "BBa_E0422" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_E0422> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_E0422" ;
+	<http://sbols.org/v3#description> "ECFP (RBS+ LVA+ TERM) (B0034.E0022.B0015)" ;
+	<http://purl.org/dc/terms/created> "2003-12-04T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:26Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "-- No description --" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Caitlin Conboy and Jennifer Braff" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter> , <https://identifiers.org/SO:0000804> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942815> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/component942815/1> ;
+	<http://sbols.org/v3#displayId> "component942815" ;
+	<http://sbols.org/v3#name> "BBa_E0022" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_E0022> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0422/component942815> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942823> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/component942823/1> ;
+	<http://sbols.org/v3#displayId> "component942823" ;
+	<http://sbols.org/v3#name> "BBa_B0010" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0010> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0422/component942823> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942803> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/component942803/1> ;
+	<http://sbols.org/v3#displayId> "component942803" ;
+	<http://sbols.org/v3#name> "BBa_B0034" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0034> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0422/component942803> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942833> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/component942833/1> ;
+	<http://sbols.org/v3#displayId> "component942833" ;
+	<http://sbols.org/v3#name> "BBa_B0012" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0012> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0422/component942833> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942823> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942823/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942823/1> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942823/range942823> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942823/range942823/1> ;
+	<http://sbols.org/v3#displayId> "range942823" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "789" ;
+	<http://sbols.org/v3#end> "868" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942823> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0422/component942823/range942823> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942803> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942803/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942803/1> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942803/range942803> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942803/range942803/1> ;
+	<http://sbols.org/v3#displayId> "range942803" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "12" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942803> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0422/component942803/range942803> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942833> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942833/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942833/1> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942833/range942833> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942833/range942833/1> ;
+	<http://sbols.org/v3#displayId> "range942833" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "877" ;
+	<http://sbols.org/v3#end> "917" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942833> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0422/component942833/range942833> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942815> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942815/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942815/1> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942815/range942815> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422/annotation942815/range942815/1> ;
+	<http://sbols.org/v3#displayId> "range942815" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "19" ;
+	<http://sbols.org/v3#end> "780" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942815> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0422/component942815/range942815> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0422_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_I712004> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I712004/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I712004" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I712004> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_I712004" ;
+	<http://sbols.org/v3#description> "CMV promoter" ;
+	<http://purl.org/dc/terms/created> "2007-10-18T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:45Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "pcDNA3 by Invitrogen" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I712004> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "a constitutive expression promoter or use in mammalian cells. Ribosome binding site is included." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_130_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "1896" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "9" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "It's complicated" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "Cloned into pSB1AC3 vector." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Andrej Ondracka" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I712004_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_K119002> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K119002/1> ;
+	<http://sbols.org/v3#displayId> "BBa_K119002" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_K119002> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_K119002" ;
+	<http://sbols.org/v3#description> "RcnR operator (represses RcnA)" ;
+	<http://purl.org/dc/terms/created> "2008-09-27T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-05-08T01:09:38Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "E.coli genome" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K119002> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Operator for RcnR(YohL) the negative regulator of niquel extrusion pump(RcnA) in E.coli" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_235_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "3054" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "9" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "It's complicated" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "We needed the RcnR operator without its promoter, so it was necessary to predict the promoter and discard it from the sequence." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Libertad Pantoja" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/1/BBa_K119002/annotation1977507> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K119002/annotation1977507/1> ;
+	<http://sbols.org/v3#displayId> "annotation1977507" ;
+	<http://sbols.org/v3#name> "RcnRop" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K119002> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000110> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc> .
+<https://synbiohub.org/public/igem/1/BBa_K119002/annotation1977507/range1977507> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K119002/annotation1977507/range1977507/1> ;
+	<http://sbols.org/v3#displayId> "range1977507" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K119002> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "83" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_K119002/annotation1977507> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_K119002/annotation1977507/range1977507> .
+<https://synbiohub.org/public/igem/1/BBa_K119002> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_K119002/annotation1977507> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K119002_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_B0034> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0034" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0034> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_B0034" ;
+	<http://sbols.org/v3#description> "RBS (Elowitz 1999) -- defines RBS efficiency" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "RBS based on Elowitz repressilator." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "Varies from -6 to +1 region from original sequence to accomodate BioBricks      suffix.   <p>No secondary structures are formed in the given RBS region. Users should check      for secondary structures induced in the RBS by upstream and downstream elements      in the +50 to -50 region, as such structures will greatly affect the strength      of the RBS.\n\nContact info for this part: <a href=\"mailto:(bchow@media.mit.edu)\">Brian Chow</a>" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003." ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000139> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/RBS> .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034/annotation23325/1> ;
+	<http://sbols.org/v3#displayId> "annotation23325" ;
+	<http://sbols.org/v3#name> "conserved" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/conserved> , <https://identifiers.org/SO:0000330> .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034/annotation23325/range23325/1> ;
+	<http://sbols.org/v3#displayId> "range23325" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "5" ;
+	<http://sbols.org/v3#end> "8" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> .
+<https://synbiohub.org/public/igem/1/BBa_B0034> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0012" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0012> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_B0012" ;
+	<http://sbols.org/v3#description> "TE from coliphageT7" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Derived from the TE terminator of T7 bacteriophage between Genes 1.3 and 1.4      <genbank>V01146</genbank>." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Transcription terminator for the <i>E.coli</i> RNA polymerase." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Fails> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "<P> <P>Suggested by Sri Kosuri and Drew Endy as a high efficiency terminator. The      5' end cutoff was placed immediately after the TAA stop codon and the 3' end      cutoff was placed just prior to the RBS of Gene 1.4 (before AAGGAG).<P> Use anywhere transcription should be stopped when the gene of interest is upstream of this terminator." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Reshma Shetty" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Terminator> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1690/1> ;
+	<http://sbols.org/v3#displayId> "annotation1690" ;
+	<http://sbols.org/v3#name> "polya" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/polya> , <https://identifiers.org/SO:0000553> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1690/range1690/1> ;
+	<http://sbols.org/v3#displayId> "range1690" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "28" ;
+	<http://sbols.org/v3#end> "41" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1686/1> ;
+	<http://sbols.org/v3#displayId> "annotation1686" ;
+	<http://sbols.org/v3#name> "T7 TE" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop> , <https://identifiers.org/SO:0000313> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1686/range1686/1> ;
+	<http://sbols.org/v3#displayId> "range1686" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "8" ;
+	<http://sbols.org/v3#end> "27" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1687/1> ;
+	<http://sbols.org/v3#displayId> "annotation1687" ;
+	<http://sbols.org/v3#name> "stop" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000319> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stop> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1687/range1687/1> ;
+	<http://sbols.org/v3#displayId> "range1687" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "34" ;
+	<http://sbols.org/v3#end> "34" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation7020/1> ;
+	<http://sbols.org/v3#displayId> "annotation7020" ;
+	<http://sbols.org/v3#name> "BBa_B0012" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation7020/range7020/1> ;
+	<http://sbols.org/v3#displayId> "range7020" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "41" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> .
+<http://michael.zhang/1/Eukaryotic_Promoters> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/1> ;
+	<http://sbols.org/v3#displayId> "Eukaryotic_Promoters" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://michael.zhang/UnnamedPart/1> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Op_Component/1> ;
+	<http://sbols.org/v3#displayId> "Op_Component" ;
+	<http://sbols.org/v3#instanceOf> <http://michael.zhang/1/Op> .
+<http://michael.zhang/1/Eukaryotic_Promoters> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Pro_Component/1> ;
+	<http://sbols.org/v3#displayId> "Pro_Component" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_I712004> .
+<http://michael.zhang/1/Eukaryotic_Promoters> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceAnnotation/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceAnnotation/1> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Op_Component/GenericLocation> a <http://sbols.org/v3#Location> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceAnnotation/GenericLocation/1> ;
+	<http://sbols.org/v3#displayId> "GenericLocation" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> <http://sbols.org/v3#hasLocation> <http://michael.zhang/1/Eukaryotic_Promoters/Op_Component/GenericLocation> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceAnnotation1/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceAnnotation1/1> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component/Eukaryotic_Promoters_SequenceAnnotation1_Range> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceAnnotation1/Eukaryotic_Promoters_SequenceAnnotation1_Range/1> ;
+	<http://sbols.org/v3#displayId> "Eukaryotic_Promoters_SequenceAnnotation1_Range" ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "654" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component> <http://sbols.org/v3#hasLocation> <http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component/Eukaryotic_Promoters_SequenceAnnotation1_Range> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceConstraint> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceConstraint/1> ;
+	<http://sbols.org/v3#displayId> "Eukaryotic_Promoters_SequenceConstraint" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component> .
+<http://michael.zhang/1/Eukaryotic_Promoters> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/Eukaryotic_Promoters/Eukaryotic_Promoters_SequenceConstraint> ;
+	<http://sbols.org/v3#hasSequence> <http://michael.zhang/1/Eukaryotic_PromotersSequence> .
+<https://synbiohub.org/public/igem/1/BBa_I13603> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I13603" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I13603> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_I13603" ;
+	<http://sbols.org/v3#description> "Lac operator with CFP reporter (with LVA tag) [R/Lc+]" ;
+	<http://purl.org/dc/terms/created> "2004-07-15T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:36Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I13603> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "-- No description --" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/None> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_6_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "101" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "It's complicated" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Planning> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Christopher Batten, Victoria Chou, Kenneth Nesmith" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter> , <https://identifiers.org/SO:0000804> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221478> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/component2221478/1> ;
+	<http://sbols.org/v3#displayId> "component2221478" ;
+	<http://sbols.org/v3#name> "BBa_R0011" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I13603> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_R0011> .
+<https://synbiohub.org/public/igem/1/BBa_I13603> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I13603/component2221478> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221496> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/component2221496/1> ;
+	<http://sbols.org/v3#displayId> "component2221496" ;
+	<http://sbols.org/v3#name> "BBa_E0422" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I13603> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_E0422> .
+<https://synbiohub.org/public/igem/1/BBa_I13603> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I13603/component2221496> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221496> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_I13603/annotation2221496/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/annotation2221496/1> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221496/range2221496> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/annotation2221496/range2221496/1> ;
+	<http://sbols.org/v3#displayId> "range2221496" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I13603> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse> ;
+	<http://sbols.org/v3#start> "64" ;
+	<http://sbols.org/v3#end> "980" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221496> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I13603/component2221496/range2221496> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221478> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_I13603/annotation2221478/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/annotation2221478/1> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221478/range2221478> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603/annotation2221478/range2221478/1> ;
+	<http://sbols.org/v3#displayId> "range2221478" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I13603> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "54" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221478> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I13603/component2221478/range2221478> .
+<https://synbiohub.org/public/igem/1/BBa_I13603> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I13603_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/1> ;
+	<http://sbols.org/v3#displayId> "BBa_E0022" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_E0022> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "ECFP" ;
+	<http://sbols.org/v3#description> "enhanced cyan fluorescent protein derived from A. victoria GFP" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:25Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Modified from <bb_part>BBa_E0021</bb_part>." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Cyan fluorescent protein (ECFP) reporter coding sequence without the Ribosome      Binding Site. Modified with an LVA tail for rapid degradation of the protein      and faster fall time for the emission. </P>" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "<P> <P>BBa_E0022 cyan fluorescent protein is based on BioBrick part BBa_E0021. It      has been modified to include a rapid degradation LVA tail, and includes the      BioBrick standard assembly head and tail restriction sites. The RBS has been      removed. The stop codon has been changed from TAA to a double stop codon TAATAA.      <P>" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "June Rhee, Connie Tao, Ty Thomson, Louis Waldman" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Reporter> , <https://identifiers.org/SO:0000804> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2154> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2154/1> ;
+	<http://sbols.org/v3#displayId> "annotation2154" ;
+	<http://sbols.org/v3#name> "2" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000319> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stop> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2154/range2154> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2154/range2154/1> ;
+	<http://sbols.org/v3#displayId> "range2154" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "757" ;
+	<http://sbols.org/v3#end> "762" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2154> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2154/range2154> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2154> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2153> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2153/1> ;
+	<http://sbols.org/v3#displayId> "annotation2153" ;
+	<http://sbols.org/v3#name> "SsrA" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000324> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/tag> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2153/range2153> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2153/range2153/1> ;
+	<http://sbols.org/v3#displayId> "range2153" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "719" ;
+	<http://sbols.org/v3#end> "756" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2153> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2153/range2153> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2153> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2150> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2150/1> ;
+	<http://sbols.org/v3#displayId> "annotation2150" ;
+	<http://sbols.org/v3#name> "CFP (LVA)" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/cds> , <https://identifiers.org/SO:0000316> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2150/range2150> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2150/range2150/1> ;
+	<http://sbols.org/v3#displayId> "range2150" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "762" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2150> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2150/range2150> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2150> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation7040> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation7040/1> ;
+	<http://sbols.org/v3#displayId> "annotation7040" ;
+	<http://sbols.org/v3#name> "BBa_E0022" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation7040/range7040> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation7040/range7040/1> ;
+	<http://sbols.org/v3#displayId> "range7040" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "762" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation7040> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation7040/range7040> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation7040> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2155> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2155/1> ;
+	<http://sbols.org/v3#displayId> "annotation2155" ;
+	<http://sbols.org/v3#name> "A" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:1000008> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/s_mutation> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2155/range2155> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022/annotation2155/range2155/1> ;
+	<http://sbols.org/v3#displayId> "range2155" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "69" ;
+	<http://sbols.org/v3#end> "69" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2155> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2155/range2155> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_E0022/annotation2155> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I741109" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I741109> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_I741109" ;
+	<http://sbols.org/v3#description> "Lambda Or operator region" ;
+	<http://purl.org/dc/terms/created> "2007-07-05T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:08:02Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Lambda genome from NCBI" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "This is the unmodified version of the lambda operator (Or) that is controlled by Cro and Cl concentrations." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_143_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "1939" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "9" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "none" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Galen Lynch" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936876> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936876/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936876" ;
+	<http://sbols.org/v3#name> "Cro, Cl binding region (Or2)" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/binding> , <https://identifiers.org/SO:0001091> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936876/range1936876> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936876/range1936876/1> ;
+	<http://sbols.org/v3#displayId> "range1936876" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "34" ;
+	<http://sbols.org/v3#end> "50" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936876> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936876/range1936876> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936876> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936879> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936879/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936879" ;
+	<http://sbols.org/v3#name> "-10 region" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936879/range1936879> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936879/range1936879/1> ;
+	<http://sbols.org/v3#displayId> "range1936879" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "71" ;
+	<http://sbols.org/v3#end> "76" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936879> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936879/range1936879> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936879> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936878> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936878/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936878" ;
+	<http://sbols.org/v3#name> "Cro, Cl binding regio (Or1)" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/binding> , <https://identifiers.org/SO:0001091> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936878/range1936878> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936878/range1936878/1> ;
+	<http://sbols.org/v3#displayId> "range1936878" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "58" ;
+	<http://sbols.org/v3#end> "74" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936878> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936878/range1936878> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936878> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936877> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936877/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936877" ;
+	<http://sbols.org/v3#name> "-35 region" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936877/range1936877> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936877/range1936877/1> ;
+	<http://sbols.org/v3#displayId> "range1936877" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "48" ;
+	<http://sbols.org/v3#end> "53" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936877> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936877/range1936877> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936877> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936873> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936873/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936873" ;
+	<http://sbols.org/v3#name> "-10 region" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936873/range1936873> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936873/range1936873/1> ;
+	<http://sbols.org/v3#displayId> "range1936873" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse> ;
+	<http://sbols.org/v3#start> "7" ;
+	<http://sbols.org/v3#end> "12" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936873> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936873/range1936873> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936873> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936874> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936874/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936874" ;
+	<http://sbols.org/v3#name> "Cro, Cl binding region (Or3)" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/binding> , <https://identifiers.org/SO:0001091> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936874/range1936874> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936874/range1936874/1> ;
+	<http://sbols.org/v3#displayId> "range1936874" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "11" ;
+	<http://sbols.org/v3#end> "27" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936874> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936874/range1936874> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936874> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936875> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936875/1> ;
+	<http://sbols.org/v3#displayId> "annotation1936875" ;
+	<http://sbols.org/v3#name> "-35 region" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936875/range1936875> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109/annotation1936875/range1936875/1> ;
+	<http://sbols.org/v3#displayId> "range1936875" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/reverse> ;
+	<http://sbols.org/v3#start> "30" ;
+	<http://sbols.org/v3#end> "35" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936875> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936875/range1936875> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936875> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_I9201> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I9201/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I9201" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I9201> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "cI lam" ;
+	<http://sbols.org/v3#description> "lambda cI operator/binding site" ;
+	<http://purl.org/dc/terms/created> "2004-01-27T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:08:11Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "lambda bacteriophage" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I9201> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "Not in stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Unavailable> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "operator sites: O1, O2, and O3" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "crackdots" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/1/BBa_I9201/annotation302665> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I9201/annotation302665/1> ;
+	<http://sbols.org/v3#displayId> "annotation302665" ;
+	<http://sbols.org/v3#name> "cI lambda" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I9201> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000057> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/operator> .
+<https://synbiohub.org/public/igem/1/BBa_I9201/annotation302665/range302665> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I9201/annotation302665/range302665/1> ;
+	<http://sbols.org/v3#displayId> "range302665" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I9201> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "82" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_I9201/annotation302665> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_I9201/annotation302665/range302665> .
+<https://synbiohub.org/public/igem/1/BBa_I9201> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_I9201/annotation302665> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I9201_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_B0010> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0010/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0010" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0010> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "BBa_B0010" ;
+	<http://sbols.org/v3#description> "T1 from E. coli rrnB" ;
+	<http://purl.org/dc/terms/created> "2003-11-19T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0010> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Transcriptional terminator consisting of a 64 bp stem-loop." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/None> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Randy Rettberg" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Terminator> .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation4184> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0010/annotation4184/1> ;
+	<http://sbols.org/v3#displayId> "annotation4184" ;
+	<http://sbols.org/v3#name> "stem_loop" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0010> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop> , <https://identifiers.org/SO:0000313> .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation4184/range4184> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0010/annotation4184/range4184/1> ;
+	<http://sbols.org/v3#displayId> "range4184" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0010> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "12" ;
+	<http://sbols.org/v3#end> "55" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation4184> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0010/annotation4184/range4184> .
+<https://synbiohub.org/public/igem/1/BBa_B0010> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0010/annotation4184> .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation7018> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0010/annotation7018/1> ;
+	<http://sbols.org/v3#displayId> "annotation7018" ;
+	<http://sbols.org/v3#name> "BBa_B0010" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0010> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation7018/range7018> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0010/annotation7018/range7018/1> ;
+	<http://sbols.org/v3#displayId> "range7018" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0010> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "80" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation7018> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0010/annotation7018/range7018> .
+<https://synbiohub.org/public/igem/1/BBa_B0010> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0010/annotation7018> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0010_sequence> .
+<http://michael.zhang/1/Op> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Op/1> ;
+	<http://sbols.org/v3#displayId> "Op" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000057> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/1> ;
+	<http://sbols.org/v3#displayId> "BBa_R0011" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_R0011> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://sbols.org/v3#name> "lacI+pL" ;
+	<http://sbols.org/v3#description> "Promoter (lacI regulated, lambda pL hybrid)" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-05-08T01:14:14Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "represillator of Elowitz and Leibler (2000)" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Inverting regulatory region controlled by LacI (<bb_part>BBa_C0010</bb_part>, <bb_part>BBa_C0011</bb_part>, etc.) <p> The PLlac 0-1 promoter is a hybrid regulatory region consisting of the promoter P(L) of phage lambda with the cI binding sites replaced with lacO1. The hybrid design allows for strong promotion that can nevertheless be tightly repressed by LacI, the Lac inhibitor (i.e. repressor) (<bb_part>BBa_C0010</bb_part>) ([LUTZ97]). The activity of the promoter can be regulated over a >600-fold range by IPTG in E.Coli DH5-alpha-Z1 (same paper reference)." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "<P> <P>hybrid promoter design to create strong promoter that is, at the same time,      highly repressible. note that the upstream operator installed in this hybrid      is slightly different than the one in the original source (Lutz and Bujard,      1997). the most upstream operator region is slightly truncated in the represillator      version, so that both operators in the hybrid are the same sequence. see references      for details. also, the sequence has been truncated after the transcriptional      start site.<P>LacI binds to this regulator. This part is incompatible with species containing active LacI coding regions. Lactose and IPTG disable the operation of LacI and increase transcription. This part is incompatible with environments containing lactose or lactose analogs." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Neelaksh Varshney, Grace Kenney, Daniel Shen, Samantha Sutton" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2002> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation2002/1> ;
+	<http://sbols.org/v3#displayId> "annotation2002" ;
+	<http://sbols.org/v3#name> "-10" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2002/range2002> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation2002/range2002/1> ;
+	<http://sbols.org/v3#displayId> "range2002" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "43" ;
+	<http://sbols.org/v3#end> "48" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2002> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation2002/range2002> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation2002> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2001> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation2001/1> ;
+	<http://sbols.org/v3#displayId> "annotation2001" ;
+	<http://sbols.org/v3#name> "lac O1" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000057> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/operator> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2001/range2001> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation2001/range2001/1> ;
+	<http://sbols.org/v3#displayId> "range2001" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "26" ;
+	<http://sbols.org/v3#end> "42" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2001> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation2001/range2001> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation2001> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2000> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation2000/1> ;
+	<http://sbols.org/v3#displayId> "annotation2000" ;
+	<http://sbols.org/v3#name> "-35" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/promoter> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2000/range2000> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation2000/range2000/1> ;
+	<http://sbols.org/v3#displayId> "range2000" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "20" ;
+	<http://sbols.org/v3#end> "25" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2000> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation2000/range2000> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation2000> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation1999> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation1999/1> ;
+	<http://sbols.org/v3#displayId> "annotation1999" ;
+	<http://sbols.org/v3#name> "lac O1" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000057> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/operator> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation1999/range1999> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation1999/range1999/1> ;
+	<http://sbols.org/v3#displayId> "range1999" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "3" ;
+	<http://sbols.org/v3#end> "19" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation1999> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation1999/range1999> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation1999> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation7064> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation7064/1> ;
+	<http://sbols.org/v3#displayId> "annotation7064" ;
+	<http://sbols.org/v3#name> "BBa_R0011" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation7064/range7064> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011/annotation7064/range7064/1> ;
+	<http://sbols.org/v3#displayId> "range7064" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "54" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation7064> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation7064/range7064> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_R0011/annotation7064> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_B0010_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0010_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0010_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0010> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0010_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_E0422_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0422_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_E0422_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_E0422> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0422_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "aaagaggagaaatactagatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagaggcctgctgcaaacgacgaaaactacgctttagtagcttaataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_K119002_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K119002_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_K119002_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_K119002> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K119002_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "cactattaatctactggggggtagtatcaggtactgggggggagtagaatcagattgccgaattaatactaagaattattatc" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_B0034_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0034_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0034> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "aaagaggagaaa" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_I9201_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I9201_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I9201_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I9201> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I9201_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "tgcaatttagatagtggcgttccctatttatagattgtggcagcgacaactgataaaatggagaccgccactattaccaacg" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_E0022_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_E0022_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_E0022_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_E0022> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "atggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagaggcctgctgcaaacgacgaaaactacgctttagtagcttaataa" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_R0011_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0011_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_R0011_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_R0011> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "aattgtgagcggataacaattgacattgtgagcggataacaagatactgagcaca" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_I741109_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I741109_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I741109_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I741109> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "acgttaaatctatcaccgcaagggataaatatctaacaccgtgcgtgttgactattttacctctggcggtgataatggttgc" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_B0012_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0012_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0012> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "tcacactggctcaccttcgggtgggcctttctgcgtttata" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_I712004_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I712004_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I712004_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I712004> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I712004_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "cgatgtacgggccagatatacgcgttgacattgattattgcctagttattaatagtaatcaattacggggtcattagttcatagcccatatatggagttccgcgttacataacttacggtaaatggcccgcctggctgaccgcccaacgacccccgcccattgacgtcaataatgacgtatgttcccatagtaacgccaatagggactttccattgacgtcaatgggtggagtatttacggtaaactgcccacttggcagtacatcaagtgtatcatatgccaagtacgccccctattgacgtcaatgacggtaaatggcccgcctggcattatgcccagtacatgaccttatgggactttcctacttggcagtacatctacgtattagtcatcgctattaccatggtgatgcggttttggcagtacatcaatgggcgtggatagcggtttgactcacggggatttccaagtctccaccccattgacgtcaatgggagtttgttttggcaccaaaatcaacgggactttccaaaatgtcgtaacaactccgccccattgacgcaaatgggcggtaggcgtgtacggtgggaggtctatataagcagagctctctggctaactagagaacccactgcttactggcttatcgaaat" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://michael.zhang/1/Eukaryotic_PromotersSequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_PromotersSequence/1> ;
+	<http://sbols.org/v3#displayId> "Eukaryotic_PromotersSequence" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#elements> "cgatgtacgggccagatatacgcgttgacattgattattgcctagttattaatagtaatcaattacggggtcattagttcatagcccatatatggagttccgcgttacataacttacggtaaatggcccgcctggctgaccgcccaacgacccccgcccattgacgtcaataatgacgtatgttcccatagtaacgccaatagggactttccattgacgtcaatgggtggagtatttacggtaaactgcccacttggcagtacatcaagtgtatcatatgccaagtacgccccctattgacgtcaatgacggtaaatggcccgcctggcattatgcccagtacatgaccttatgggactttcctacttggcagtacatctacgtattagtcatcgctattaccatggtgatgcggttttggcagtacatcaatgggcgtggatagcggtttgactcacggggatttccaagtctccaccccattgacgtcaatgggagtttgttttggcaccaaaatcaacgggactttccaaaatgtcgtaacaactccgccccattgacgcaaatgggcggtaggcgtgtacggtgggaggtctatataagcagagctctctggctaactagagaacccactgcttactggcttatcgaaat" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_I13603_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_I13603_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_I13603_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_I13603> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/igem2sbol/1> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_I13603_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "aattgtgagcggataacaattgacattgtgagcggataacaagatactgagcacatactagagaaagaggagaaatactagatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtgaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctggggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacatcagccacaacgtctatatcaccgccgacaagcagaagaacggcatcaaggccaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagaggcctgctgcaaacgacgaaaactacgctttagtagcttaataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "Eukaryotic_Promoters_SBOLDesignerActivity" ;
+	<http://purl.org/dc/elements/1.1/creator> "Michael Zhang" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2018-01-15T21:40:15.886-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity/Association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "Association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#agent> <https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2> .
+<http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity/Association> .
+<http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation> a <http://sbols.org/v3#CombinatorialDerivation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation> ;
+	<http://sbols.org/v3#displayId> "Eukaryotic_Promoters_CombinatorialDerivation" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#template> <http://michael.zhang/1/Eukaryotic_Promoters> ;
+	<http://sbols.org/v3#strategy> <http://sbols.org/v3#sample> .
+<http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation/Op_Component_VariableComponent> a <http://sbols.org/v3#VariableFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation/Op_Component_VariableComponent> ;
+	<http://sbols.org/v3#displayId> "Op_Component_VariableComponent" ;
+	<http://sbols.org/v3#variable> <http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> ;
+	<http://sbols.org/v3#cardinality> <http://sbols.org/v3#zeroOrOne> ;
+	<http://sbols.org/v3#variant> <https://synbiohub.org/public/igem/1/BBa_K119002> , <https://synbiohub.org/public/igem/1/BBa_I741109> , <https://synbiohub.org/public/igem/1/BBa_I9201> , <https://synbiohub.org/public/igem/1/BBa_I13603> .
+<http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation> <http://sbols.org/v3#hasVariableFeature> <http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation/Op_Component_VariableComponent> .
+<http://michael.zhang/1/Eukaryotic_Promoters> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/Eukaryotic_PromotersSequence> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/Eukaryotic_Promoters_CombinatorialDerivation> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/Eukaryotic_Promoters_SBOLDesignerActivity> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/Op> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<https://synbiohub.org/public/igem/1/BBa_B0010> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0010_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0012_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0034> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0034_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_E0022> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_E0022_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_E0422_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I13603> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I13603_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I712004> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I712004_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I741109> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I741109_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I9201> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_I9201_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_K119002> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_K119002_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_R0011> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_R0011_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2002/range2002> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2001/range2001> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2155/range2155> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_K119002/annotation1977507/range1977507> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K119002_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/Eukaryotic_Promoters/Op_Component/GenericLocation> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/Eukaryotic_PromotersSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation1999/range1999> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936875/range1936875> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936876/range1936876> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component/Eukaryotic_Promoters_SequenceAnnotation1_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/Eukaryotic_PromotersSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936878/range1936878> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I9201/annotation302665/range302665> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I9201_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2154/range2154> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942833/range942833> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0422_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation2000/range2000> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221478/range2221478> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I13603_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_R0011/annotation7064/range7064> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_R0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation7040/range7040> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation4184/range4184> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0010_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2150/range2150> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I13603/component2221496/range2221496> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I13603_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942823/range942823> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0422_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0010/annotation7018/range7018> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0010_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0022/annotation2153/range2153> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0022_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936877/range1936877> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942803/range942803> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0422_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936874/range1936874> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0422/component942815/range942815> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0422_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936879/range1936879> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_I741109/annotation1936873/range1936873> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_I741109_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_E0422/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <https://synbiohub.org/public/igem/1/BBa_E0422/component942823> , <https://synbiohub.org/public/igem/1/BBa_E0422/component942833> , <https://synbiohub.org/public/igem/1/BBa_E0422/component942815> , <https://synbiohub.org/public/igem/1/BBa_E0422/component942803> .
+<https://synbiohub.org/public/igem/1/BBa_E0422> <http://sbols.org/v3#hasInterface> <https://synbiohub.org/public/igem/1/BBa_E0422/Interface1> .
+<https://synbiohub.org/public/igem/1/BBa_I13603/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <https://synbiohub.org/public/igem/1/BBa_I13603/component2221478> , <https://synbiohub.org/public/igem/1/BBa_I13603/component2221496> .
+<https://synbiohub.org/public/igem/1/BBa_I13603> <http://sbols.org/v3#hasInterface> <https://synbiohub.org/public/igem/1/BBa_I13603/Interface1> .
+<http://michael.zhang/1/Eukaryotic_Promoters/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://michael.zhang/1/Eukaryotic_Promoters/Pro_Component> , <http://michael.zhang/1/Eukaryotic_Promoters/Op_Component> .
+<http://michael.zhang/1/Eukaryotic_Promoters> <http://sbols.org/v3#hasInterface> <http://michael.zhang/1/Eukaryotic_Promoters/Interface1> .

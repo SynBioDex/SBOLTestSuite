@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer">
+		<description xmlns="http://purl.org/dc/terms/">LacI producer</description>
+		<displayId xmlns="http://sbols.org/v2#">LacI_producer</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent3"/>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent1"/>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent2"/>
+		<title xmlns="http://purl.org/dc/terms/">LacI produce</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</Component>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_protein">
+		<description xmlns="http://purl.org/dc/terms/">LacI protein</description>
+		<displayId xmlns="http://sbols.org/v2#">LacI_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">LacI</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+	</Component>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<description xmlns="http://purl.org/dc/terms/">TetR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent3">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent3</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/aTC"/>
+	</Component>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/aTC">
+		<description xmlns="http://purl.org/dc/terms/">aTC</description>
+		<displayId xmlns="http://sbols.org/v2#">aTC</displayId>
+		<title xmlns="http://purl.org/dc/terms/">aTC</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/CHEBI:35224"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/aTC">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/aTC"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Model xmlns="http://sbols.org/v2#" rdf:about="https://example.org/model">
+		<displayId xmlns="http://sbols.org/v2#">model</displayId>
+		<framework xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000062"/>
+		<language xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/edam/format_2585"/>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbml.xml"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/model"/>
+	</Model>
+</rdf:RDF>

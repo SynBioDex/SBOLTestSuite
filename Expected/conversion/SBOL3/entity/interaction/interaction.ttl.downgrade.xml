@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1">
+		<displayId xmlns="http://sbols.org/v2#">Interaction1</displayId>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+	</Interaction>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system">
+		<displayId xmlns="http://sbols.org/v2#">i13504_system</displayId>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1"/>
+		<title xmlns="http://purl.org/dc/terms/">i13504 system</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system"/>
+	</ModuleDefinition>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1"/>
+	</rdf:Description>
+</rdf:RDF>

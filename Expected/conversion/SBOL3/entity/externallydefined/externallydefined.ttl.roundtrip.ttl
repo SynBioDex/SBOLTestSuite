@@ -1,0 +1,5 @@
+<https://sbolstandard.org/examples/interlab16device1> a <http://sbols.org/v3#Component> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/interlab16device1> ;
+	<http://sbols.org/v3#displayId> "interlab16device1" ;
+	<http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .

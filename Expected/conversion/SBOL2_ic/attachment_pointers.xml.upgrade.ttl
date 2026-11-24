@@ -1,0 +1,95 @@
+<http://sys-bio.org/Attachment/1.0.0/characterization_protocol> a <http://sbols.org/v3#Attachment> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sys-bio.org/Attachment/characterization_protocol/1.0.0> ;
+	<http://sbols.org/v3#displayId> "characterization_protocol" ;
+	<http://sbols.org/v3#source> <http://sbols.org/unspecified/dynamic_measurement.mdx> .
+<http://partsregistry.org/seq/BBa_J23119> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/seq/BBa_J23119> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "BBa_J23119" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_J23119:Design> ;
+	<http://sbols.org/v3#elements> "ttgacagctagctcagtcctaggtataatgctagc" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://partsregistry.org/cd/BBa_J23119> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/BBa_J23119> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "BBa_J23119" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://partsregistry.org/Part:BBa_J23119> ;
+	<http://sbols.org/v3#name> "J23119 promoter" ;
+	<http://sbols.org/v3#description> "Constitutive promoter" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <https://identifiers.org/SO:0000613> ;
+	<http://sbols.org/v3#hasSequence> <http://partsregistry.org/seq/BBa_J23119> .
+<http://www.sbolstandard.org/examples/pIKE_Toggle_1> a <http://sbols.org/v3#Model> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.sbolstandard.org/examples/pIKE_Toggle_1> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "pIKE_Toggle_1" ;
+	<http://sbols.org/v3#name> "pIKE_Toggle_1 toggle switch" ;
+	<http://sbols.org/v3#source> <http://virtualparts.org/part/pIKE_Toggle_1> ;
+	<http://sbols.org/v3#language> <https://identifiers.org/edam:format_2585> ;
+	<http://sbols.org/v3#framework> <https://identifiers.org/SBO:0000062> .
+<http://sbolstandard.org/example/md/GFP_expression> a <http://sbols.org/v3#Component> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sbolstandard.org/example/md/GFP_expression> ;
+	<http://sbols.org/v3#displayId> "GFP_expression" ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> .
+<http://parts.igem.org/Promoters/Catalog/Anderson> a <http://sbols.org/v3#Collection> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://parts.igem.org/Promoters/Catalog/Anderson> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "Anderson" ;
+	<http://sbols.org/v3#name> "Anderson promoters" ;
+	<http://sbols.org/v3#description> "The Anderson promoter collection" ;
+	<http://sbols.org/v3#member> <http://partsregistry.org/Part:BBa_J23119> , <http://partsregistry.org/Part:BBa_J23118> .
+<http://examples.org/Implementation/1.0.0/build> a <http://sbols.org/v3#Implementation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://examples.org/Implementation/build/1.0.0> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "build" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://examples.org/ComponentDefinition/design/1.0.0> ;
+	<http://sbols.org/v3#built> <http://examples.org/ComponentDefinition/1.0.0/mutant> .
+<https://dummy.org/public/ACS_SynBio/attachment_00009Les8pDTQCmKA7A5T6> a <http://sbols.org/v3#Attachment> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://dummy.org/public/ACS_SynBio/attachment_00009Les8pDTQCmKA7A5T6> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "attachment_00009Les8pDTQCmKA7A5T6" ;
+	<http://sbols.org/v3#name> "NicePlot.png" ;
+	<http://sbols.org/v3#source> <https://dummy.org/public/ACS_SynBio/attachment_00009Les8pDTQCmKA7A5T6/1/download> ;
+	<http://sbols.org/v3#format> <http://identifiers.org/edam/format_3603> ;
+	<http://sbols.org/v3#size> "31399"^^<http://www.w3.org/2001/XMLSchema#long> ;
+	<http://sbols.org/v3#hash> "404966a5062857f63edb5c3ba16bb581d7fb6a1e" .
+<http://www.partsregistry.org/gen/datasheet1> a <http://www.myapp.org/Datasheet> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "datasheet1" ;
+	<http://sbols.org/v3#name> "Datasheet 1" ;
+	<http://www.myapp.org/characterizationData> <http://www.myapp.org//measurement/1> ;
+	<http://www.myapp.org/transcriptionRate> "1" .
+<http://myapp.com/codon_optimization_activity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "codon_optimization_activity" ;
+	<http://sbols.org/v3#name> "Codon Optimization Activity" .
+<http://myapp.com/codon_optimization_activity/association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://myapp.com/codonoptimiser> ;
+	<http://www.w3.org/ns/prov#agent> <http://myapp.com/codon_optimization_software> .
+<http://myapp.com/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://myapp.com/codon_optimization_activity/association> .
+<http://myapp.com/codon_optimization_activity/usage> a <http://www.w3.org/ns/prov#Usage> ;
+	<http://sbols.org/v3#displayId> "usage" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#source> ;
+	<http://www.w3.org/ns/prov#entity> <http://myapp.com/non_codon_optimized> .
+<http://myapp.com/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedUsage> <http://myapp.com/codon_optimization_activity/usage> .
+<http://myapp.com/x_ray> a <http://www.w3.org/ns/prov#Agent> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "x_ray" ;
+	<http://sbols.org/v3#name> "X-ray" .
+<http://sys-bio.org/Plan/1.0.0/characterization_protocol> a <http://www.w3.org/ns/prov#Plan> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "characterization_protocol" .
+<http://examples.org/Implementation/1.0.0/build> <http://sbols.org/v3#hasNamespace> <http://examples.org/Implementation> .
+<http://myapp.com/codon_optimization_activity> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/x_ray> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://parts.igem.org/Promoters/Catalog/Anderson> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org/Promoters/Catalog> .
+<http://partsregistry.org/cd/BBa_J23119> <http://sbols.org/v3#hasNamespace> <http://partsregistry.org/cd> .
+<http://partsregistry.org/seq/BBa_J23119> <http://sbols.org/v3#hasNamespace> <http://partsregistry.org/seq> .
+<http://sbolstandard.org/example/md/GFP_expression> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/example/md> .
+<http://sys-bio.org/Attachment/1.0.0/characterization_protocol> <http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Attachment> .
+<http://sys-bio.org/Plan/1.0.0/characterization_protocol> <http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Plan> .
+<http://www.sbolstandard.org/examples/pIKE_Toggle_1> <http://sbols.org/v3#hasNamespace> <http://www.sbolstandard.org/examples> .
+<https://dummy.org/public/ACS_SynBio/attachment_00009Les8pDTQCmKA7A5T6> <http://sbols.org/v3#hasNamespace> <https://dummy.org/public/ACS_SynBio> .
+<http://www.partsregistry.org/gen/datasheet1> <http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/gen> .

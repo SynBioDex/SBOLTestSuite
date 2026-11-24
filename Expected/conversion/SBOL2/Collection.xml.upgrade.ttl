@@ -1,0 +1,5 @@
+<http://www.async.ece.utah.edu/1.0/myParts> a <http://sbols.org/v3#Collection> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/myParts/1.0> ;
+	<http://sbols.org/v3#displayId> "myParts" ;
+	<http://myannotation.org/thisAnnotation> "turtleString" ;
+	<http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .

@@ -1,0 +1,4 @@
+<urn:uuid:fb2eb360-351f-4cac-b7a2-decc65464f6a> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <urn:uuid:fb2eb360-351f-4cac-b7a2-decc65464f6a> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000252> ;
+	<http://sbols.org/v3#hasNamespace> <urn:uuid> .

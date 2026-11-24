@@ -1,0 +1,12 @@
+<https://sbolstandard.org/examples/i13504_system/Interaction1> a <http://sbols.org/v3#Interaction> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/i13504_system/Interaction1> ;
+	<http://sbols.org/v3#displayId> "Interaction1" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000589> .
+<https://sbolstandard.org/examples/i13504_system> a <http://sbols.org/v3#Component> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/i13504_system> ;
+	<http://sbols.org/v3#displayId> "i13504_system" ;
+	<http://sbols.org/v3#hasInteraction> <https://sbolstandard.org/examples/i13504_system/Interaction1> ;
+	<http://sbols.org/v3#name> "i13504 system" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000704> ;
+	<http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .

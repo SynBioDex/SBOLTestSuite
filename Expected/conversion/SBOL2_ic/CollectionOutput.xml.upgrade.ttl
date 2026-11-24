@@ -1,0 +1,7 @@
+<http://parts.igem.org/Promoters/Catalog/Anderson> a <http://sbols.org/v3#Collection> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://parts.igem.org/Promoters/Catalog/Anderson> ;
+	<http://sbols.org/v3#displayId> "Anderson" ;
+	<http://sbols.org/v3#name> "Anderson promoters" ;
+	<http://sbols.org/v3#description> "The Anderson promoter collection" ;
+	<http://sbols.org/v3#member> <http://partsregistry.org/Part:BBa_J23119> , <http://partsregistry.org/Part:BBa_J23118> ;
+	<http://sbols.org/v3#hasNamespace> <http://parts.igem.org/Promoters/Catalog> .

@@ -1,0 +1,7 @@
+<https://example.org/model> a <http://sbols.org/v3#Model> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://example.org/model> ;
+	<http://sbols.org/v3#displayId> "model" ;
+	<http://sbols.org/v3#framework> <https://identifiers.org/SBO:0000062> ;
+	<http://sbols.org/v3#language> <https://identifiers.org/edam:format_2585> ;
+	<http://sbols.org/v3#source> <https://example.org/sbml.xml> ;
+	<http://sbols.org/v3#hasNamespace> <https://example.org> .

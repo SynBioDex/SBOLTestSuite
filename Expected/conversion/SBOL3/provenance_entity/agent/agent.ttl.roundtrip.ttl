@@ -1,0 +1,7 @@
+<https://sbolstandard.org/examples/toggle_switch> a <http://sbols.org/v3#Component> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/toggle_switch> ;
+	<http://sbols.org/v3#description> "Toggle Switch genetic circuit" ;
+	<http://sbols.org/v3#displayId> "toggle_switch" ;
+	<http://sbols.org/v3#name> "Toggle Switch" ;
+	<http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .

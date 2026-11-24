@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent5">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent5</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062"/>
+	</FunctionalComponent>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0034_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_B0034 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0034_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">aaagaggagaaa</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_C0062_protein sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_C0062_protein_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">NNNNNNNNNNN</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iupac/AminoAcid/"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0012"/>
+	</Component>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_C0062">
+		<description xmlns="http://purl.org/dc/terms/">luxR repressor/activator,  (no LVA?)</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_C0062</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">luxR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000316"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0012">
+		<description xmlns="http://purl.org/dc/terms/">Double terminator consisting of BBa_B0010 and BBa_B0012</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0012</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0012_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">BBa_B0012</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000141"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Range xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1/Range1">
+		<displayId xmlns="http://sbols.org/v2#">Range1</displayId>
+		<end xmlns="http://sbols.org/v2#">121</end>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015_Sequence1"/>
+		<orientation xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#inline"/>
+		<start xmlns="http://sbols.org/v2#">81</start>
+	</Range>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent7">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent7</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0062"/>
+	</FunctionalComponent>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_C0062_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_C0062 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_C0062_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">atgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcac</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+	</Participation>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/TetR_protein"/>
+	</FunctionalComponent>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/TetR_protein_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">TetR_protein sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">NNNNNNNNNNN</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iupac/AminoAcid/"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_B0015 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0015_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttata</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620">
+		<description xmlns="http://purl.org/dc/terms/">PoPS Receiver</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_F2620</displayId>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent3"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent7"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent2"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent6"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent5"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent4"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction3"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction2"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction1"/>
+		<title xmlns="http://purl.org/dc/terms/">BBa_F2620</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+	</ModuleDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction1">
+		<displayId xmlns="http://sbols.org/v2#">Interaction1</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+	</Interaction>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_R0040 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0040_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent4">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent4</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0034"/>
+	</FunctionalComponent>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent2"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000459"/>
+	</Participation>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0010"/>
+	</Component>
+	<Range xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1/Range1">
+		<displayId xmlns="http://sbols.org/v2#">Range1</displayId>
+		<end xmlns="http://sbols.org/v2#">80</end>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015_Sequence1"/>
+		<orientation xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#inline"/>
+		<start xmlns="http://sbols.org/v2#">1</start>
+	</Range>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent5"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000645"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0062">
+		<description xmlns="http://purl.org/dc/terms/">Promoter (luxR &amp;amp; HSL regulated -- lux pR)</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0062</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0062_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">lux pR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction3">
+		<displayId xmlns="http://sbols.org/v2#">Interaction3</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+	</Interaction>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0012_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_B0012 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0012_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">tcacactggctcaccttcgggtgggcctttctgcgtttata</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent6">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent6</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0034">
+		<description xmlns="http://purl.org/dc/terms/">RBS based on Elowitz repressilator</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0034</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0034_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">BBa_B0034</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000139"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062_protein"/>
+	</FunctionalComponent>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent7"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/TetR_protein">
+		<description xmlns="http://purl.org/dc/terms/">TetR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/TetR_protein_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0010_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_B0010 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0010_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0062_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_R0062 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0062_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">acctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent3">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent3</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040"/>
+	</FunctionalComponent>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent3"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000643"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015">
+		<description xmlns="http://purl.org/dc/terms/">Double terminator consisting of BBa_B0010 and BBa_B0012</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0015</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2"/>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1"/>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">BBa_B0015</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000141"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_C0062_protein">
+		<description xmlns="http://purl.org/dc/terms/">LuxR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_C0062_protein</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">LuxR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0010">
+		<description xmlns="http://purl.org/dc/terms/">Transcriptional terminator consisting of a 64 bp stem-loop</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_B0010</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0010_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">BBa_B0010</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000141"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction2">
+		<displayId xmlns="http://sbols.org/v2#">Interaction2</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000170"/>
+	</Interaction>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_F2620 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_F2620_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcacaaagaggagaaaatgaaaaacataaatgccgacgacacatacagaataattaataaaattaaagcttgtagaagcaataatgatattaatcaatgcttatctgatatgactaaaatggtacattgtgaatattatttactcgcgatcatttatcctcattctatggttaaatctgatatttcaatcctagataattaccctaaaaaatggaggcaatattatgatgacgctaatttaataaaatatgatcctatagtagattattctaactccaatcattcaccaattaattggaatatatttgaaaacaatgctgtaaataaaaaatctccaaatgtaattaaagaagcgaaaacatcaggtcttatcactgggtttagtttccctattcatacggctaacaatggcttcggaatgcttagttttgcacattcagaaaaagacaactatatagatagtttatttttacatgcgtgtatgaacataccattaattgttccttctctagttgataattatcgaaaaataaatatagcaaataataaatcaaacaacgatttaaccaaaagagaaaaagaatgtttagcgtgggcatgcgaaggaaaaagctcttgggatatttcaaaaatattaggttgcagtgagcgtactgtcactttccatttaaccaatgcgcaaatgaaactcaatacaacaaaccgctgccaaagtatttctaaagcaattttaacaggagcaattgattgcccatactttaaaaattaataacactgatagtgctagtgtagatcacccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctcacactggctcaccttcgggtgggcctttctgcgtttataacctgtaggatcgtacaggtttacgcaagaaaatggtttgttatagtcgaataaa</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040">
+		<description xmlns="http://purl.org/dc/terms/">TetR repressible promoter</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0040</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">pTetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015">
+		<sequenceAnnotation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1"/>
+	</rdf:Description>
+	<SequenceAnnotation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1_Range1</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1"/>
+		<location xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1/Range1"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1"/>
+	</SequenceAnnotation>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015">
+		<sequenceAnnotation xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1"/>
+	</rdf:Description>
+	<SequenceAnnotation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2_Range1</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2"/>
+		<location xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1/Range1"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1"/>
+	</SequenceAnnotation>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0010">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0010"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0010_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0010_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0012">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0012"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0012_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0012_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1/Range1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent1_Range1/Range1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1/Range1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015/SubComponent2_Range1/Range1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0015_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0015_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0034">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0034"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_B0034_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_B0034_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_C0062">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_C0062_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_C0062_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_C0062_protein_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction1/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction2/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/Interaction3/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent4">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent5">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent5"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent6">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent6"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent7">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620/SubComponent7"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0062">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0062"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0062_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0062_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/TetR_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/TetR_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/TetR_protein_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/TetR_protein_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent1">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent2">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent3">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent4">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent5">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent6">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_F2620/SubComponent7">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+</rdf:RDF>

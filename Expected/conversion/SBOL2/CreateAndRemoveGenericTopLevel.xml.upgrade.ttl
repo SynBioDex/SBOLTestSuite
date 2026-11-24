@@ -1,0 +1,3 @@
+<http://www.async.ece.utah.edu/1.0/someGenTopLev> a <urn:bbn.com:tasbe:grn/RegulatoryReaction> ;
+	<http://sbols.org/v3#displayId> "someGenTopLev" ;
+	<http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .

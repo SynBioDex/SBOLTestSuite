@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sequence_a">
+		<displayId xmlns="http://sbols.org/v2#">sequence_a</displayId>
+		<elements xmlns="http://sbols.org/v2#">ATGC</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+	</Sequence>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sequence_b">
+		<displayId xmlns="http://sbols.org/v2#">sequence_b</displayId>
+		<elements xmlns="http://sbols.org/v2#">ATGC</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+	</Sequence>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://example.org/component">
+		<displayId xmlns="http://sbols.org/v2#">component</displayId>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/component"/>
+	</ModuleDefinition>
+	<rdf:Description rdf:about="https://example.org/sequence_a">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sequence_a"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sequence_b">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sequence_b"/>
+	</rdf:Description>
+</rdf:RDF>

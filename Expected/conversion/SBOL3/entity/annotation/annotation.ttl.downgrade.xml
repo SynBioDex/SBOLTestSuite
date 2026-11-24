@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/BBa_J23119">
+		<belongsTo xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/SynBioHubRepository"/>
+		<belongsTo xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/iGEMRepository"/>
+		<experienceURL xmlns="http://parts.igem.org/" rdf:resource="http://parts.igem.org/Part:BBa_J23119:Experience"/>
+		<group xmlns="http://parts.igem.org/">iGEM2006_Berkeley</group>
+		<hasInformation xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information1"/>
+		<hasInformation xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information3"/>
+		<hasInformation xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information2"/>
+		<hasUsage xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage1"/>
+		<hasUsage xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage2"/>
+		<hasUsage xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage3"/>
+		<description xmlns="http://purl.org/dc/terms/">Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library.</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_J23119</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119 part</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119"/>
+	</ComponentDefinition>
+</rdf:RDF>

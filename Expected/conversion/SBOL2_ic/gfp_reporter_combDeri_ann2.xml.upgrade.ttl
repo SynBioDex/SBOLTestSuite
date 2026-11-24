@@ -1,0 +1,7 @@
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> a <http://sbols.org/v3#CombinatorialDerivation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_CombinatorialDerivation_Sample" ;
+	<http://sbols.org/v3#template> <http://michael.zhang/1/GFP_Reporter_Template> ;
+	<http://sbols.org/v3#strategy> <http://sbols.org/v3#sample> ;
+	<http://purl.org/dc/terms/created> "2003-12-04T12:00:00Z" ;
+	<http://sbols.org/v3#hasNamespace> <http://michael.zhang> .

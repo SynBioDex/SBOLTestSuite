@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Attachment xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/attachment1">
+		<displayId xmlns="http://sbols.org/v2#">attachment1</displayId>
+		<format xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/edam:format_2585"/>
+		<hash xmlns="http://sbols.org/v2#">aaa</hash>
+		<hashAlgorithm xmlns="http://sbols.org/v2#">sha-256</hashAlgorithm>
+		<size xmlns="http://sbols.org/v2#">1000</size>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/attachment1"/>
+	</Attachment>
+	<Attachment xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/attachment2">
+		<displayId xmlns="http://sbols.org/v2#">attachment2</displayId>
+		<format xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/edam:format_2585"/>
+		<hash xmlns="http://sbols.org/v2#">aaa</hash>
+		<hashAlgorithm xmlns="http://sbols.org/v2#">sha-256</hashAlgorithm>
+		<size xmlns="http://sbols.org/v2#">1000</size>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/attachment2"/>
+	</Attachment>
+	<Implementation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/impl1">
+		<built xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+		<displayId xmlns="http://sbols.org/v2#">impl1</displayId>
+		<attachment xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment1"/>
+	</Implementation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<description xmlns="http://purl.org/dc/terms/">TetR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/attachment1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/attachment2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/impl1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/impl1"/>
+	</rdf:Description>
+</rdf:RDF>

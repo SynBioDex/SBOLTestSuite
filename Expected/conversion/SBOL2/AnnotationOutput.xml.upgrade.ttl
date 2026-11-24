@@ -1,0 +1,14 @@
+<http://partsregistry.org/cd/BBa_J23119> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://partsregistry.org/cd/BBa_J23119> ;
+	<http://sbols.org/v3#displayId> "BBa_J23119" ;
+	<http://sbols.org/v3#name> "J23119" ;
+	<http://sbols.org/v3#description> "Constitutive promoter" ;
+	<http://partsregistry.org/group> "iGEM2006_Berkeley" ;
+	<http://partsregistry.org/experience> <http://parts.igem.org/cgi/partsdb/part_info.cgi?part_name=BBa_J23119> .
+<http://partsregistry.org/cd/BBa_J23119/anno/information> a <http://partsregistry.org/Information> ;
+	<http://partsregistry.org/sigmafactor> "//rnap/prokaryote/ecoli/sigma70" ;
+	<http://partsregistry.org/regulation> "//regulation/constitutive" .
+<http://partsregistry.org/cd/BBa_J23119> <http://partsregistry.org/information> <http://partsregistry.org/cd/BBa_J23119/anno/information> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> ;
+	<http://sbols.org/v3#hasNamespace> <http://partsregistry.org/cd> .

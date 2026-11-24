@@ -1,0 +1,661 @@
+<https://synbiohub.org/public/igem/1/BBa_K1545000> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545000/1> ;
+	<http://sbols.org/v3#displayId> "BBa_K1545000" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_K1545000> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://sbols.org/v3#name> "BBa_K1545000" ;
+	<http://sbols.org/v3#description> "1xGFP1 decoy" ;
+	<http://purl.org/dc/terms/created> "2014-10-08T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-05-08T01:10:53Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "synthesized" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545000> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Array of 1 binding site for gRNAs matching CCATCTAATTCAACAAGAATTGG + 7 bp spacer" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1928_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "23396" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "9" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "n/a" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Mike Zhu" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545000/annotation2407646/1> ;
+	<http://sbols.org/v3#displayId> "annotation2407646" ;
+	<http://sbols.org/v3#name> "GFP1 binding site + NGG" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545000> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000110> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646/range2407646> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545000/annotation2407646/range2407646/1> ;
+	<http://sbols.org/v3#displayId> "range2407646" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545000> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "24" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646/range2407646> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545001/1> ;
+	<http://sbols.org/v3#displayId> "BBa_K1545001" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_K1545001> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://sbols.org/v3#name> "BBa_K1545001" ;
+	<http://sbols.org/v3#description> "6xGFP1 decoy" ;
+	<http://purl.org/dc/terms/created> "2014-10-08T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-05-08T01:10:53Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "synthesized" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545001> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Array of 6 binding sites for gRNAs matching CCATCTAATTCAACAAGAATTGG + 7 bp spacer" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1928_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "23396" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "9" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "n/a" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Mike Zhu" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Regulatory> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545001/annotation2407780/1> ;
+	<http://sbols.org/v3#displayId> "annotation2407780" ;
+	<http://sbols.org/v3#name> "GFP1 binding site + NGG" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545001> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000110> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/misc> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780/range2407780> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545001/annotation2407780/range2407780/1> ;
+	<http://sbols.org/v3#displayId> "range2407780" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545001> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "24" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780/range2407780> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> .
+<http://michael.zhang/1/GFP_Reporter_Template> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://michael.zhang/UnnamedPart/1> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> , <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> .
+<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/Ter_Component/1> ;
+	<http://sbols.org/v3#displayId> "Ter_Component" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0014> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/Pro_Component/1> ;
+	<http://sbols.org/v3#displayId> "Pro_Component" ;
+	<http://sbols.org/v3#instanceOf> <http://michael.zhang/1/Pro> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/CDS_Component/1> ;
+	<http://sbols.org/v3#displayId> "CDS_Component" ;
+	<http://sbols.org/v3#instanceOf> <http://michael.zhang/1/CDS> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/RBS_Component/1> ;
+	<http://sbols.org/v3#displayId> "RBS_Component" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0034> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation2/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation2/1> .
+<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component/GenericLocation> a <http://sbols.org/v3#Location> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation2/GenericLocation/1> ;
+	<http://sbols.org/v3#displayId> "GenericLocation" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> <http://sbols.org/v3#hasLocation> <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component/GenericLocation> .
+<http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation/1> .
+<http://michael.zhang/1/GFP_Reporter_Template/Pro_Component/GenericLocation> a <http://sbols.org/v3#Location> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation/GenericLocation/1> ;
+	<http://sbols.org/v3#displayId> "GenericLocation" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> <http://sbols.org/v3#hasLocation> <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component/GenericLocation> .
+<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation1/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation1/1> .
+<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component/GFP_Reporter_Template_SequenceAnnotation1_Range> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation1/GFP_Reporter_Template_SequenceAnnotation1_Range/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceAnnotation1_Range" ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "12" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> <http://sbols.org/v3#hasLocation> <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component/GFP_Reporter_Template_SequenceAnnotation1_Range> .
+<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation3/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation3/1> .
+<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component/GFP_Reporter_Template_SequenceAnnotation3_Range> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceAnnotation3/GFP_Reporter_Template_SequenceAnnotation3_Range/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceAnnotation3_Range" ;
+	<http://sbols.org/v3#start> "13" ;
+	<http://sbols.org/v3#end> "107" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> <http://sbols.org/v3#hasLocation> <http://michael.zhang/1/GFP_Reporter_Template/Ter_Component/GFP_Reporter_Template_SequenceAnnotation3_Range> .
+<http://michael.zhang/1/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint1> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint1/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceConstraint1" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint1> .
+<http://michael.zhang/1/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint2> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint2/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceConstraint2" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint2> .
+<http://michael.zhang/1/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceConstraint" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/GFP_Reporter_Template/GFP_Reporter_Template_SequenceConstraint> ;
+	<http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> .
+<http://michael.zhang/1/Pro> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/Pro/1> ;
+	<http://sbols.org/v3#displayId> "Pro" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> , <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> .
+<https://synbiohub.org/public/igem/1/BBa_B0014> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0014" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0014> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://sbols.org/v3#name> "BBa_B0014" ;
+	<http://sbols.org/v3#description> "double terminator (B0012-B0011)" ;
+	<http://purl.org/dc/terms/created> "2003-07-15T11:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0014> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Double terminator consisting of BBa_B0012 and BBa_B0011" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Reshma Shetty" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Terminator> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939311> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/component939311/1> ;
+	<http://sbols.org/v3#displayId> "component939311" ;
+	<http://sbols.org/v3#name> "BBa_B0011" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0014> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0011> .
+<https://synbiohub.org/public/igem/1/BBa_B0014> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0014/component939311> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939303> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/component939303/1> ;
+	<http://sbols.org/v3#displayId> "component939303" ;
+	<http://sbols.org/v3#name> "BBa_B0012" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0014> ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0012> .
+<https://synbiohub.org/public/igem/1/BBa_B0014> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0014/component939303> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939303> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_B0014/annotation939303/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/annotation939303/1> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939303/range939303> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/annotation939303/range939303/1> ;
+	<http://sbols.org/v3#displayId> "range939303" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0014> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "41" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939303> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0014/component939303/range939303> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939311> <https://sbols.org/backport/2_3#sbol2OriginalSequenceAnnotationURI> <https://synbiohub.org/public/igem/BBa_B0014/annotation939311/1> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/annotation939311/1> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939311/range939311> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014/annotation939311/range939311/1> ;
+	<http://sbols.org/v3#displayId> "range939311" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0014> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "50" ;
+	<http://sbols.org/v3#end> "95" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939311> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0014/component939311/range939311> .
+<https://synbiohub.org/public/igem/1/BBa_B0014> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_B0011> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0011/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0011" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0011> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://sbols.org/v3#name> "BBa_B0011" ;
+	<http://sbols.org/v3#description> "LuxICDABEG (+/-)" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Derived from luxICDABEG operon terminator of Vibrio fischeri <genbank>AF170104</genbank>." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Bidirectional transcriptional terminator consisting of a 22 bp stem-loop.</p>" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "<P> <P>In the naturally-occuring sequence there is a mismatch in the stem of the      stem loop. This can be corrected via an A-&gt;G mutation (at position 40 -- sequence coordinate/not MFOLD coordinate). The above sequence does not reflect this mutation (but the MFOLD image does). This terminator's location cannot be      found using some inverted repeat detectors like PALINDROME because it is too      short and contains a mismatch. This one was found with the help of Tom Knight.      It lies between two coding regions that point towards eachother.<P>" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Reshma Shetty" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Terminator> .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0011/annotation7019/1> ;
+	<http://sbols.org/v3#displayId> "annotation7019" ;
+	<http://sbols.org/v3#name> "BBa_B0011" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0011> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019/range7019> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0011/annotation7019/range7019/1> ;
+	<http://sbols.org/v3#displayId> "range7019" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "46" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019/range7019> .
+<https://synbiohub.org/public/igem/1/BBa_B0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019> .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0011/annotation1683/1> ;
+	<http://sbols.org/v3#displayId> "annotation1683" ;
+	<http://sbols.org/v3#name> "stem_loop" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0011> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop> , <https://identifiers.org/SO:0000313> .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683/range1683> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0011/annotation1683/range1683/1> ;
+	<http://sbols.org/v3#displayId> "range1683" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0011> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "13" ;
+	<http://sbols.org/v3#end> "35" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683/range1683> .
+<https://synbiohub.org/public/igem/1/BBa_B0011> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> .
+<http://michael.zhang/1/CDS> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/CDS/1> ;
+	<http://sbols.org/v3#displayId> "CDS" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> , <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<https://synbiohub.org/public/igem/1/BBa_B0034> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0034" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0034> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://sbols.org/v3#name> "BBa_B0034" ;
+	<http://sbols.org/v3#description> "RBS (Elowitz 1999) -- defines RBS efficiency" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "RBS based on Elowitz repressilator." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "true" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Works> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "Varies from -6 to +1 region from original sequence to accomodate BioBricks      suffix.   <p>No secondary structures are formed in the given RBS region. Users should check      for secondary structures induced in the RBS by upstream and downstream elements      in the +50 to -50 region, as such structures will greatly affect the strength      of the RBS.\n\nContact info for this part: <a href=\"mailto:(bchow@media.mit.edu)\">Brian Chow</a>" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "true" ;
+	<http://purl.org/dc/elements/1.1/creator> "Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003." ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000139> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/RBS> .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034/annotation23325/1> ;
+	<http://sbols.org/v3#displayId> "annotation23325" ;
+	<http://sbols.org/v3#name> "conserved" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/conserved> , <https://identifiers.org/SO:0000330> .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034/annotation23325/range23325/1> ;
+	<http://sbols.org/v3#displayId> "range23325" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "5" ;
+	<http://sbols.org/v3#end> "8" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> .
+<https://synbiohub.org/public/igem/1/BBa_B0034> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0012" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0012> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://sbols.org/v3#name> "BBa_B0012" ;
+	<http://sbols.org/v3#description> "TE from coliphageT7" ;
+	<http://purl.org/dc/terms/created> "2003-01-31T12:00:00Z" ;
+	<http://purl.org/dc/terms/modified> "2015-08-31T04:07:20Z" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableProvenance> "Derived from the TE terminator of T7 bacteriophage between Genes 1.3 and 1.4      <genbank>V01146</genbank>." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#partStatus> "Released HQ 2013" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableDescription> "Transcription terminator for the <i>E.coli</i> RNA polymerase." ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#discontinued> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#dominant> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#experience> <http://wiki.synbiohub.org/wiki/Terms/igem#experience/Fails> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#group_u_list> "_1_" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#m_user_id> "0" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owner_id> "24" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#owning_group_id> "7" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#sampleStatus> "In stock" ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#status> <http://wiki.synbiohub.org/wiki/Terms/igem#status/Available> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#bookmark> "false" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#mutableNotes> "<P> <P>Suggested by Sri Kosuri and Drew Endy as a high efficiency terminator. The      5' end cutoff was placed immediately after the TAA stop codon and the 3' end      cutoff was placed just prior to the RBS of Gene 1.4 (before AAGGAG).<P> Use anywhere transcription should be stopped when the gene of interest is upstream of this terminator." ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#star> "false" ;
+	<http://purl.org/dc/elements/1.1/creator> "Reshma Shetty" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000141> , <http://wiki.synbiohub.org/wiki/Terms/igem#partType/Terminator> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1687/1> ;
+	<http://sbols.org/v3#displayId> "annotation1687" ;
+	<http://sbols.org/v3#name> "stop" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000319> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stop> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1687/range1687/1> ;
+	<http://sbols.org/v3#displayId> "range1687" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "34" ;
+	<http://sbols.org/v3#end> "34" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1690/1> ;
+	<http://sbols.org/v3#displayId> "annotation1690" ;
+	<http://sbols.org/v3#name> "polya" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/polya> , <https://identifiers.org/SO:0000553> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1690/range1690/1> ;
+	<http://sbols.org/v3#displayId> "range1690" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "28" ;
+	<http://sbols.org/v3#end> "41" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1686/1> ;
+	<http://sbols.org/v3#displayId> "annotation1686" ;
+	<http://sbols.org/v3#name> "T7 TE" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <http://wiki.synbiohub.org/wiki/Terms/igem#feature/stem_loop> , <https://identifiers.org/SO:0000313> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation1686/range1686/1> ;
+	<http://sbols.org/v3#displayId> "range1686" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "8" ;
+	<http://sbols.org/v3#end> "27" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation7020/1> ;
+	<http://sbols.org/v3#displayId> "annotation7020" ;
+	<http://sbols.org/v3#name> "BBa_B0012" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> , <http://wiki.synbiohub.org/wiki/Terms/igem#feature/BioBrick> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012/annotation7020/range7020/1> ;
+	<http://sbols.org/v3#displayId> "range7020" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012> ;
+	<http://wiki.synbiohub.org/wiki/Terms/igem#direction> <http://wiki.synbiohub.org/wiki/Terms/igem#direction/forward> ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "41" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020> <http://sbols.org/v3#hasLocation> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_GeneratedInstance2" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://michael.zhang/UnnamedPart/1> , <http://michael.zhang/1/GFP_Reporter_Template> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> , <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/RBS_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/RBS_Component/1> ;
+	<http://sbols.org/v3#displayId> "RBS_Component" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0034> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/RBS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Ter_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/Ter_Component/1> ;
+	<http://sbols.org/v3#displayId> "Ter_Component" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_B0014> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Ter_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Pro_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/Pro_Component/1> ;
+	<http://sbols.org/v3#displayId> "Pro_Component" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/1/BBa_K1545001> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Pro_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/CDS_Component> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/CDS_Component/1> ;
+	<http://sbols.org/v3#displayId> "CDS_Component" ;
+	<http://sbols.org/v3#instanceOf> <http://michael.zhang/1/CDS> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasFeature> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/CDS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceConstraint" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Pro_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/RBS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint1> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint1/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceConstraint1" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/RBS_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/CDS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint1> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint2> a <http://sbols.org/v3#Constraint> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint2/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SequenceConstraint2" ;
+	<http://sbols.org/v3#restriction> <http://sbols.org/v3#precedes> ;
+	<http://sbols.org/v3#subject> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/CDS_Component> ;
+	<http://sbols.org/v3#object> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Ter_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasConstraint> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/GFP_Reporter_Template_SequenceConstraint2> ;
+	<http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545000_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_K1545000_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_K1545000> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "ccatctaattcaacaagaattggtgatgttaat" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_B0034_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0034_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0034_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0034> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "aaagaggagaaa" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_K1545001_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_K1545001_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_K1545001> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "ccatctaattcaacaagaattggtgatgttaatccatctaattcaacaagaattggtgatgttaatccatctaattcaacaagaattggtgatgttaatccatctaattcaacaagaattggtgatgttaatccatctaattcaacaagaattggtgatgttaatccatctaattcaacaagaattggtgatgttaat" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_B0012_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0012_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0012_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0012> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "tcacactggctcaccttcgggtgggcctttctgcgtttata" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_B0011_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0011_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0011_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0011> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "agagaatataaaaagccagattattaatccggcttttttattattt" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<https://synbiohub.org/public/igem/1/BBa_B0014_sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_B0014_sequence/1> ;
+	<http://sbols.org/v3#displayId> "BBa_B0014_sequence" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://parts.igem.org/Part:BBa_B0014> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://sbols.org/v3#elements> "tcacactggctcaccttcgggtgggcctttctgcgtttatatactagagagagaatataaaaagccagattattaatccggcttttttattattt" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://michael.zhang/1/GFP_Reporter_TemplateSequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_TemplateSequence/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_TemplateSequence" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> , <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> ;
+	<http://sbols.org/v3#elements> "aaagaggagaaatcacactggctcaccttcgggtgggcctttctgcgtttatatactagagagagaatataaaaagccagattattaatccggcttttttattattt" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SBOLDesignerActivity" ;
+	<http://purl.org/dc/elements/1.1/creator> "Michael Zhang" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2018-01-22T17:15:40.442-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "Association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#agent> <https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> .
+<https://synbiohub.org/public/igem/1/igem2sbol> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "igem2sbol" ;
+	<http://sbols.org/v3#name> "iGEM to SBOL conversion" ;
+	<http://sbols.org/v3#description> "Conversion of the iGEM parts registry to SBOL2.1" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" , "James Alastair McLaughlin" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2017-03-06T08:00:00.000-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity" ;
+	<http://purl.org/dc/elements/1.1/creator> "Michael Zhang" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2018-01-22T17:15:46.461-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/Association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "Association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#agent> <https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/Association> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage> a <http://www.w3.org/ns/prov#Usage> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#entity> <http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedUsage> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> a <http://sbols.org/v3#CombinatorialDerivation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_CombinatorialDerivation_Sample" ;
+	<http://sbols.org/v3#template> <http://michael.zhang/1/GFP_Reporter_Template> ;
+	<http://sbols.org/v3#strategy> <http://sbols.org/v3#sample> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent> a <http://sbols.org/v3#VariableFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent/1> ;
+	<http://sbols.org/v3#displayId> "Pro_Component_VariableComponent" ;
+	<http://sbols.org/v3#variable> <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> ;
+	<http://sbols.org/v3#cardinality> <http://sbols.org/v3#zeroOrOne> ;
+	<http://sbols.org/v3#variant> <https://synbiohub.org/public/igem/1/BBa_K1545001> , <https://synbiohub.org/public/igem/1/BBa_K1545000> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> <http://sbols.org/v3#hasVariableFeature> <http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent> .
+<http://michael.zhang/1/CDS> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_TemplateSequence> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/Pro> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<https://synbiohub.org/public/igem/1/BBa_B0011> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0011_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0012> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0012_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0014> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0014_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0034> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_B0034_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/1/igem2sbol> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<http://michael.zhang/1/GFP_Reporter_Template/Pro_Component/GenericLocation> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939303/range939303> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component/GenericLocation> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019/range7019> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780/range2407780> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646/range2407646> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component/GFP_Reporter_Template_SequenceAnnotation1_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component/GFP_Reporter_Template_SequenceAnnotation3_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939311/range939311> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683/range1683> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0014/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <https://synbiohub.org/public/igem/1/BBa_B0014/component939311> , <https://synbiohub.org/public/igem/1/BBa_B0014/component939303> .
+<https://synbiohub.org/public/igem/1/BBa_B0014> <http://sbols.org/v3#hasInterface> <https://synbiohub.org/public/igem/1/BBa_B0014/Interface1> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/CDS_Component> , <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Pro_Component> , <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Ter_Component> , <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/RBS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2> <http://sbols.org/v3#hasInterface> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2/Interface1> .
+<http://michael.zhang/1/GFP_Reporter_Template/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> , <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> , <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> , <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> .
+<http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasInterface> <http://michael.zhang/1/GFP_Reporter_Template/Interface1> .

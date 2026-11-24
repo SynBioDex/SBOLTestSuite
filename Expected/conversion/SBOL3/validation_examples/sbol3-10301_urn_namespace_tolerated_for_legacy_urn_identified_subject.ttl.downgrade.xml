@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="urn:uuid:fb2eb360-351f-4cac-b7a2-decc65464f6a">
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="urn:uuid:fb2eb360-351f-4cac-b7a2-decc65464f6a"/>
+	</ComponentDefinition>
+</rdf:RDF>

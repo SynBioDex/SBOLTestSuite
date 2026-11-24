@@ -1,0 +1,14 @@
+<http://www.async.ece.utah.edu/generic_activity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "generic_activity" .
+<http://www.async.ece.utah.edu/generic_activity/act_assoc> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "act_assoc" ;
+	<http://www.w3.org/ns/prov#agent> <http://www.async.ece.utah.edu/unknown> .
+<http://www.async.ece.utah.edu/generic_activity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://www.async.ece.utah.edu/generic_activity/act_assoc> .
+<http://sbolstandard.org/build/cut_vector_with_restriction_enzyme> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "cut_vector_with_restriction_enzyme" ;
+	<http://sbols.org/v3#name> "cut(vector, restriction_enzyme)" .
+<http://www.async.ece.utah.edu/unknown> a <http://www.w3.org/ns/prov#Agent> ;
+	<http://sbols.org/v3#displayId> "unknown" .
+<http://sbolstandard.org/build/cut_vector_with_restriction_enzyme> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://www.async.ece.utah.edu/generic_activity> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/unknown> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .

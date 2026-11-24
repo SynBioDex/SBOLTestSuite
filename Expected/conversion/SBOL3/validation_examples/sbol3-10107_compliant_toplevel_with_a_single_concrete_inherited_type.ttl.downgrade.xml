@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Experiment xmlns="http://sbols.org/v2#" rdf:about="https://example.org/experiment">
+		<displayId xmlns="http://sbols.org/v2#">experiment</displayId>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/experiment"/>
+	</Experiment>
+</rdf:RDF>

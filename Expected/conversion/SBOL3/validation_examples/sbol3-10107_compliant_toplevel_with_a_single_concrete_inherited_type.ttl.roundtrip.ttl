@@ -1,0 +1,4 @@
+<https://example.org/experiment> a <http://sbols.org/v3#Experiment> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://example.org/experiment> ;
+	<http://sbols.org/v3#displayId> "experiment" ;
+	<http://sbols.org/v3#hasNamespace> <https://example.org> .

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_F2620">
+		<description xmlns="http://purl.org/dc/terms/">PoPS Receiver</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_F2620</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_F2620</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_F2620"/>
+	</ComponentDefinition>
+</rdf:RDF>
