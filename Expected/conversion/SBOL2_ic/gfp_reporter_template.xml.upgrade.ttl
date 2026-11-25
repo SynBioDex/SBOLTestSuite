@@ -699,37 +699,40 @@
 <https://synbiohub.org/public/igem/1/BBa_M36577> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
 <https://synbiohub.org/public/igem/1/BBa_M36577_sequence> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
 <https://synbiohub.org/public/igem/1/igem2sbol> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
-<https://synbiohub.org/public/igem/1/BBa_B0014/component939311/range939311> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646/range2407646> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component/GFP_Reporter_Template_SequenceAnnotation1_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component/GenericLocation> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> a <http://sbols.org/v3#TopLevel> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> a <http://sbols.org/v3#Identified> .
+<https://synbiohub.org/public/igem/1/igem2sbol> a <http://sbols.org/v3#TopLevel> .
+<https://synbiohub.org/public/igem/1/BBa_E0040/annotation1934520/range1934520> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0040_sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <https://synbiohub.org/public/igem/1/BBa_B0012/annotation1690/range1690> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component/GFP_Reporter_Template_SequenceAnnotation3_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683/range1683> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> ;
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <https://synbiohub.org/public/igem/1/BBa_B0011/annotation7019/range7019> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780/range2407780> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_B0014/component939303/range939303> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1686/range1686> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation1687/range1687> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component/GenericLocation> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/GFP_Reporter_Template/CDS_Component/GenericLocation> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939311/range939311> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/GFP_Reporter_Template/RBS_Component/GFP_Reporter_Template_SequenceAnnotation1_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_K1545001/annotation2407780/range2407780> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545001_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_K1545000/annotation2407646/range2407646> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_K1545000_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0014/component939303/range939303> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0014_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <https://synbiohub.org/public/igem/1/BBa_B0034/annotation23325/range23325> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0034_sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<https://synbiohub.org/public/igem/1/BBa_E0040/annotation1934520/range1934520> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_E0040_sequence> ;
+<https://synbiohub.org/public/igem/1/BBa_B0011/annotation1683/range1683> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0011_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<https://synbiohub.org/public/igem/1/BBa_B0012/annotation7020/range7020> <http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/1/BBa_B0012_sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://michael.zhang/1/GFP_Reporter_Template/Ter_Component/GFP_Reporter_Template_SequenceAnnotation3_Range> <http://sbols.org/v3#hasSequence> <http://michael.zhang/1/GFP_Reporter_TemplateSequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <https://synbiohub.org/public/igem/1/BBa_B0014/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
@@ -737,5 +740,5 @@
 <https://synbiohub.org/public/igem/1/BBa_B0014> <http://sbols.org/v3#hasInterface> <https://synbiohub.org/public/igem/1/BBa_B0014/Interface1> .
 <http://michael.zhang/1/GFP_Reporter_Template/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> , <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> , <http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> , <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> .
+	<http://sbols.org/v3#nondirectional> <http://michael.zhang/1/GFP_Reporter_Template/Pro_Component> , <http://michael.zhang/1/GFP_Reporter_Template/RBS_Component> , <http://michael.zhang/1/GFP_Reporter_Template/CDS_Component> , <http://michael.zhang/1/GFP_Reporter_Template/Ter_Component> .
 <http://michael.zhang/1/GFP_Reporter_Template> <http://sbols.org/v3#hasInterface> <http://michael.zhang/1/GFP_Reporter_Template/Interface1> .

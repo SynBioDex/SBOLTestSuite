@@ -10,3 +10,6 @@
 	<http://sbols.org/v3#displayId> "unknown" .
 <http://sys-bio.org/1.0.0/Activity_build_generation> <http://sbols.org/v3#hasNamespace> <http://sys-bio.org> .
 <http://www.async.ece.utah.edu/unknown> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://sys-bio.org/1.0.0/Activity_build_generation> a <http://sbols.org/v3#TopLevel> .
+<http://sys-bio.org/1.0.0/Activity_build_generation/build_generation_association> a <http://sbols.org/v3#Identified> .
+<http://www.async.ece.utah.edu/unknown> a <http://sbols.org/v3#TopLevel> .

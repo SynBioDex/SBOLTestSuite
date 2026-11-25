@@ -3,4 +3,5 @@
 	<http://sbols.org/v3#name> "Datasheet 1" ;
 	<http://www.myapp.org/characterizationData> <http://www.myapp.org//measurement/1> ;
 	<http://www.myapp.org/transcriptionRate> "1" ;
-	<http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/gen> .
+	<http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/gen> ;
+	a <http://sbols.org/v3#TopLevel> .

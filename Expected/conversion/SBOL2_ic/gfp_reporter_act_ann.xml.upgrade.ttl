@@ -32,3 +32,9 @@
 	<http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
 <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
 <https://synbiohub.org/public/igem/1/igem2sbol> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> a <http://sbols.org/v3#TopLevel> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/Association> a <http://sbols.org/v3#Identified> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage> a <http://sbols.org/v3#Identified> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> a <http://sbols.org/v3#TopLevel> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> a <http://sbols.org/v3#Identified> .
+<https://synbiohub.org/public/igem/1/igem2sbol> a <http://sbols.org/v3#TopLevel> .

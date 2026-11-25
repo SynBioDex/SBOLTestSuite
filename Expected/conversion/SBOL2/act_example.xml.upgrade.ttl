@@ -1,3 +1,4 @@
 <http://sys-bio.org/1.0.0/Activity_build_generation> a <http://www.w3.org/ns/prov#Activity> ;
 	<http://sbols.org/v3#displayId> "Activity_build_generation" ;
-	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> .
+	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> ;
+	a <http://sbols.org/v3#TopLevel> .

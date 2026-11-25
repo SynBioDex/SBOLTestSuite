@@ -1,6 +1,6 @@
 {
  "description": "Expected validation issues per file and configuration: [rule, severity, subject, [configs]]",
- "generator": "scripts/generate_expected.py with sbol 1.1.0 (commit 729f55b)",
+ "generator": "scripts/generate_expected.py with sbol 1.1.0 (commit 298bac0)",
  "base_iri": "http://sbols.org/unspecified/",
  "configs": {"sbol2": {"best_practice": {"best_practice": true}, "default": {}, "incomplete": {"complete": false}, "non_compliant": {"compliant": false}}, "sbol3": {"default": {}, "incomplete": {"complete": false}, "no_best_practices": {"best_practice": false}, "non_compliant": {"compliant": false}}},
  "files": {

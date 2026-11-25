@@ -13,4 +13,5 @@
 <http://www.async.ece.utah.edu/1.0/experiment> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
 <http://www.async.ece.utah.edu/1.0/experimental_data1> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
 <http://www.async.ece.utah.edu/1.0/experimental_data2> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
-<http://www.async.ece.utah.edu/1.0/GenericTopLevel> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/1.0/GenericTopLevel> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> ;
+	a <http://sbols.org/v3#TopLevel> .

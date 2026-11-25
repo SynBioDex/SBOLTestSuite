@@ -44,3 +44,7 @@
 <http://sbolstandard.org/build/five_primer> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
 <http://sbolstandard.org/build/my_amplified_dna> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
 <http://sbolstandard.org/build/three_primer> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/amplify_dna_construct_with_five_primer_and_three_primer> a <http://sbols.org/v3#TopLevel> .
+<http://sbolstandard.org/build/amplify_dna_construct_with_five_primer_and_three_primer/dna_construct> a <http://sbols.org/v3#Identified> .
+<http://sbolstandard.org/build/amplify_dna_construct_with_five_primer_and_three_primer/forward_primer> a <http://sbols.org/v3#Identified> .
+<http://sbolstandard.org/build/amplify_dna_construct_with_five_primer_and_three_primer/reverse_primer> a <http://sbols.org/v3#Identified> .

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Usage xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/codon_optimization_activity/Usage1">
+		<displayId xmlns="http://sbols.org/v2#">Usage1</displayId>
+		<entity xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/toggle_switch"/>
+		<hadRole xmlns="http://www.w3.org/ns/prov#" rdf:resource="http://sbols.org/v3#learn"/>
+	</Usage>
 	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch">
 		<description xmlns="http://purl.org/dc/terms/">Toggle Switch genetic circuit</description>
 		<displayId xmlns="http://sbols.org/v2#">toggle_switch</displayId>
@@ -12,6 +17,66 @@
 		<wasDerivedFrom xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/toggle_switch"/>
 		<wasGeneratedBy xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity"/>
 	</ModuleDefinition>
+	<Activity xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/RBS_optimisation_activity">
+		<description xmlns="http://purl.org/dc/terms/">An activity that is used to RBSs</description>
+		<displayId xmlns="http://sbols.org/v2#">RBS_optimisation_activity</displayId>
+		<title xmlns="http://purl.org/dc/terms/">RBS optimization activity</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v3#design"/>
+		<wasInformedBy xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity"/>
+	</Activity>
+	<Agent xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/CodonOptimiserSoftware">
+		<description xmlns="http://purl.org/dc/terms/">Used to optimise bacterial DNA sequences.</description>
+		<displayId xmlns="http://sbols.org/v2#">CodonOptimiserSoftware</displayId>
+		<title xmlns="http://purl.org/dc/terms/">Codon Optimiser Software</title>
+	</Agent>
+	<Activity xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/codon_optimization_activity">
+		<description xmlns="http://purl.org/dc/terms/">An activity that is used to optimise codons</description>
+		<displayId xmlns="http://sbols.org/v2#">codon_optimization_activity</displayId>
+		<title xmlns="http://purl.org/dc/terms/">Codon optimization activity</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v3#design"/>
+		<endedAtTime xmlns="http://www.w3.org/ns/prov#">2019-08-30T00:00:00Z</endedAtTime>
+		<qualifiedAssociation xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity/Association1"/>
+		<qualifiedUsage xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity/Usage1"/>
+		<qualifiedUsage xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity/Usage2"/>
+		<startedAtTime xmlns="http://www.w3.org/ns/prov#">2019-07-29T16:50:59Z</startedAtTime>
+	</Activity>
+	<Plan xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/CodonOptimisationProtocol">
+		<description xmlns="http://purl.org/dc/terms/">Optimisation protocol to improve the translation of mRNAs.</description>
+		<displayId xmlns="http://sbols.org/v2#">CodonOptimisationProtocol</displayId>
+		<title xmlns="http://purl.org/dc/terms/">Codon Optimisation Protocol</title>
+	</Plan>
+	<Usage xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/codon_optimization_activity/Usage2">
+		<displayId xmlns="http://sbols.org/v2#">Usage2</displayId>
+		<entity xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/toggle_switch_optimised"/>
+		<hadRole xmlns="http://www.w3.org/ns/prov#" rdf:resource="http://sbols.org/v3#design"/>
+	</Usage>
+	<Association xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/codon_optimization_activity/Association1">
+		<displayId xmlns="http://sbols.org/v2#">Association1</displayId>
+		<agent xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/CodonOptimiserSoftware"/>
+		<hadPlan xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://sbolstandard.org/examples/CodonOptimisationProtocol"/>
+		<hadRole xmlns="http://www.w3.org/ns/prov#" rdf:resource="http://sbols.org/v3#design"/>
+	</Association>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/CodonOptimisationProtocol">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/CodonOptimisationProtocol"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/CodonOptimiserSoftware">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/CodonOptimiserSoftware"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/RBS_optimisation_activity">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/RBS_optimisation_activity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/codon_optimization_activity">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/codon_optimization_activity/Association1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity/Association1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/codon_optimization_activity/Usage1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity/Usage1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/codon_optimization_activity/Usage2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/codon_optimization_activity/Usage2"/>
+	</rdf:Description>
 	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch">
 		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch"/>
 	</rdf:Description>

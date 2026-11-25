@@ -31,3 +31,6 @@
 <http://sbolstandard.org/build/dna_part_2> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
 <http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
 <http://sbolstandard.org/build/joined_dna_part> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> a <http://sbols.org/v3#TopLevel> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_1> a <http://sbols.org/v3#Identified> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_2> a <http://sbols.org/v3#Identified> .

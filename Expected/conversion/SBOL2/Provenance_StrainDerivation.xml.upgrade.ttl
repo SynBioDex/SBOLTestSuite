@@ -32,3 +32,7 @@
 <http://myapp.com/bsubtilisncimb3610> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
 <http://myapp.com/x_ray> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
 <http://myapp.com/xraymutagenesis> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/x_ray> a <http://sbols.org/v3#TopLevel> .
+<http://myapp.com/xraymutagenesis> a <http://sbols.org/v3#TopLevel> .
+<http://myapp.com/xraymutagenesis/association> a <http://sbols.org/v3#Identified> .
+<http://myapp.com/xraymutagenesis/usage> a <http://sbols.org/v3#Identified> .

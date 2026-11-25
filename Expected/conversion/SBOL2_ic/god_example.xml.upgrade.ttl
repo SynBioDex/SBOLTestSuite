@@ -585,35 +585,59 @@
 <http://www.virtualparts.org/part/pIKERightCassette_1> <http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
 <http://www.virtualparts.org/part/pIKE_Toggle_1> <http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
 <http://www.virtualparts.org/part/unknown> <http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
-<http://sbolhub.org/gen/james_test_sbol2_061015155208> <http://sbols.org/v3#hasNamespace> <http://sbolhub.org/gen> .
-<http://www.virtualparts.org/part/pIKE_Toggle_1/pIKELeftCassette_1/location1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKE_Toggle_1_seq> ;
+<http://sbolhub.org/gen/james_test_sbol2_061015155208> <http://sbols.org/v3#hasNamespace> <http://sbolhub.org/gen> ;
+	a <http://sbols.org/v3#TopLevel> .
+<http://www.virtualparts.org/part/1.0.0/Activity_build_generation> a <http://sbols.org/v3#TopLevel> .
+<http://www.virtualparts.org/part/1.0.0/Activity_build_generation/build_generation_association> a <http://sbols.org/v3#Identified> .
+<http://www.virtualparts.org/part/1.0.0/Activity_build_generation/design_usage> a <http://sbols.org/v3#Identified> .
+<http://www.virtualparts.org/part/1.0.0/characterization_protocol_plan> a <http://sbols.org/v3#TopLevel> .
+<http://www.virtualparts.org/part/unknown> a <http://sbols.org/v3#TopLevel> .
+<http://www.virtualparts.org/part/BBa_J23119/cutat12/cut> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/BBa_J23119_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKELeftCassette_1/ECK120029600/location4> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
+<http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_R0040/location1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/GenericLocationComponent/gl_seqAnn/gl> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/GenericLocationComponent_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/pIKERightCassette_1/BBa_E0040/location5> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_C0012/location3> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_J61120/location2> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/pIKERightCassette_1/BBa_R0010/location1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/pIKERightCassette_1/ECK120033736/location6> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_C0040/location3> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_J61130/location4> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKERightCassette_1/BBa_E0040/location5> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/BBa_J23119/cutat12/cut> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/BBa_J23119_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/GenericLocationComponent/gl_seqAnn/gl> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/GenericLocationComponent_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKERightCassette_1/BBa_R0010/location1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_J61101/location2> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKERightCassette_1/ECK120033736/location6> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_R0040/location1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_C0012/location3> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
+<http://www.virtualparts.org/part/pIKELeftCassette_1/ECK120029600/location4> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://www.virtualparts.org/part/pIKE_Toggle_1/pIKERightCassette_1/location2> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKE_Toggle_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/pIKE_Toggle_1/pIKELeftCassette_1/location1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKE_Toggle_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_J61101/location2> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.virtualparts.org/part/BBa_J23119_seq> a <http://sbols.org/v3#Sequence> ;
+	<http://sbols.org/v3#displayId> "BBa_J23119_seq" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
+<http://www.virtualparts.org/part/BBa_J23119> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/BBa_J23119_seq> ;
+	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/BBa_J23119_seq> .
+<http://www.virtualparts.org/part/pIKELeftCassette_1_seq> a <http://sbols.org/v3#Sequence> ;
+	<http://sbols.org/v3#displayId> "pIKELeftCassette_1_seq" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
+<http://www.virtualparts.org/part/pIKELeftCassette_1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
+	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> .
+<http://www.virtualparts.org/part/GenericLocationComponent_seq> a <http://sbols.org/v3#Sequence> ;
+	<http://sbols.org/v3#displayId> "GenericLocationComponent_seq" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
+<http://www.virtualparts.org/part/GenericLocationComponent> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/GenericLocationComponent_seq> ;
+	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/GenericLocationComponent_seq> .
 <http://www.virtualparts.org/part/pIKE_Toggle_1_seq> a <http://sbols.org/v3#Sequence> ;
 	<http://sbols.org/v3#displayId> "pIKE_Toggle_1_seq" ;
 	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
@@ -626,24 +650,6 @@
 	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
 <http://www.virtualparts.org/part/pIKERightCassette_1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> ;
 	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/pIKERightCassette_1_seq> .
-<http://www.virtualparts.org/part/pIKELeftCassette_1_seq> a <http://sbols.org/v3#Sequence> ;
-	<http://sbols.org/v3#displayId> "pIKELeftCassette_1_seq" ;
-	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
-	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
-<http://www.virtualparts.org/part/pIKELeftCassette_1> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> ;
-	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/pIKELeftCassette_1_seq> .
-<http://www.virtualparts.org/part/BBa_J23119_seq> a <http://sbols.org/v3#Sequence> ;
-	<http://sbols.org/v3#displayId> "BBa_J23119_seq" ;
-	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
-	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
-<http://www.virtualparts.org/part/BBa_J23119> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/BBa_J23119_seq> ;
-	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/BBa_J23119_seq> .
-<http://www.virtualparts.org/part/GenericLocationComponent_seq> a <http://sbols.org/v3#Sequence> ;
-	<http://sbols.org/v3#displayId> "GenericLocationComponent_seq" ;
-	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
-	<http://sbols.org/v3#hasNamespace> <http://www.virtualparts.org/part> .
-<http://www.virtualparts.org/part/GenericLocationComponent> <http://sbols.org/v3#hasSequence> <http://www.virtualparts.org/part/GenericLocationComponent_seq> ;
-	<https://sbols.org/backport/2_3#sbol3TempSequenceURI> <http://www.virtualparts.org/part/GenericLocationComponent_seq> .
 <http://sbolstandard.org/example/toggle_switch/LacI_mapping> <https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sbolstandard.org/example/toggle_switch/laci_inverter/LacI_mapping> ;
 	a <http://sbols.org/v3#ComponentReference> ;
 	<http://sbols.org/v3#displayId> "LacI_mapping" ;
@@ -668,31 +674,31 @@
 	<http://sbols.org/v3#object> <http://sbolstandard.org/example/toggle_switch/TetR> ;
 	<http://sbols.org/v3#restriction> <http://sbols.org/v3#replaces> .
 <http://sbolstandard.org/example/toggle_switch> <http://sbols.org/v3#hasConstraint> <http://sbolstandard.org/example/toggle_switch/Constraint2> .
-<http://sbolstandard.org/example/toggle_switch/Interface1> a <http://sbols.org/v3#Interface> ;
+<http://www.virtualparts.org/part/BBa_K174004/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://sbolstandard.org/example/toggle_switch/TetR> , <http://sbolstandard.org/example/toggle_switch/LacI> .
-<http://sbolstandard.org/example/toggle_switch> <http://sbols.org/v3#hasInterface> <http://sbolstandard.org/example/toggle_switch/Interface1> .
-<http://sbolstandard.org/example/laci_inverter/Interface1> a <http://sbols.org/v3#Interface> ;
-	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://sbolstandard.org/example/laci_inverter/TF> , <http://sbolstandard.org/example/laci_inverter/promoter> .
-<http://sbolstandard.org/example/laci_inverter> <http://sbols.org/v3#hasInterface> <http://sbolstandard.org/example/laci_inverter/Interface1> .
-<http://www.virtualparts.org/part/pIKERightCassette_1/Interface1> a <http://sbols.org/v3#Interface> ;
-	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_E0040> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_C0040> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_J61120> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_J61130> , <http://www.virtualparts.org/part/pIKERightCassette_1/ECK120033736> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_R0010> .
-<http://www.virtualparts.org/part/pIKERightCassette_1> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/pIKERightCassette_1/Interface1> .
-<http://www.virtualparts.org/part/pIKELeftCassette_1/Interface1> a <http://sbols.org/v3#Interface> ;
-	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_R0040> , <http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_J61101> , <http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_C0012> , <http://www.virtualparts.org/part/pIKELeftCassette_1/ECK120029600> .
-<http://www.virtualparts.org/part/pIKELeftCassette_1> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/pIKELeftCassette_1/Interface1> .
+	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/BBa_K174004/pspac> , <http://www.virtualparts.org/part/BBa_K174004/LacI_operator> .
+<http://www.virtualparts.org/part/BBa_K174004> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/BBa_K174004/Interface1> .
 <http://sbolstandard.org/example/tetr_inverter/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
 	<http://sbols.org/v3#nondirectional> <http://sbolstandard.org/example/tetr_inverter/promoter> , <http://sbolstandard.org/example/tetr_inverter/TF> .
 <http://sbolstandard.org/example/tetr_inverter> <http://sbols.org/v3#hasInterface> <http://sbolstandard.org/example/tetr_inverter/Interface1> .
+<http://www.virtualparts.org/part/pIKELeftCassette_1/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_J61101> , <http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_C0012> , <http://www.virtualparts.org/part/pIKELeftCassette_1/BBa_R0040> , <http://www.virtualparts.org/part/pIKELeftCassette_1/ECK120029600> .
+<http://www.virtualparts.org/part/pIKELeftCassette_1> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/pIKELeftCassette_1/Interface1> .
 <http://www.virtualparts.org/part/pIKE_Toggle_1/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/pIKE_Toggle_1/pIKELeftCassette_1> , <http://www.virtualparts.org/part/pIKE_Toggle_1/pIKERightCassette_1> .
+	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/pIKE_Toggle_1/pIKERightCassette_1> , <http://www.virtualparts.org/part/pIKE_Toggle_1/pIKELeftCassette_1> .
 <http://www.virtualparts.org/part/pIKE_Toggle_1> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/pIKE_Toggle_1/Interface1> .
-<http://www.virtualparts.org/part/BBa_K174004/Interface1> a <http://sbols.org/v3#Interface> ;
+<http://sbolstandard.org/example/laci_inverter/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/BBa_K174004/LacI_operator> , <http://www.virtualparts.org/part/BBa_K174004/pspac> .
-<http://www.virtualparts.org/part/BBa_K174004> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/BBa_K174004/Interface1> .
+	<http://sbols.org/v3#nondirectional> <http://sbolstandard.org/example/laci_inverter/promoter> , <http://sbolstandard.org/example/laci_inverter/TF> .
+<http://sbolstandard.org/example/laci_inverter> <http://sbols.org/v3#hasInterface> <http://sbolstandard.org/example/laci_inverter/Interface1> .
+<http://www.virtualparts.org/part/pIKERightCassette_1/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://www.virtualparts.org/part/pIKERightCassette_1/ECK120033736> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_J61120> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_E0040> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_J61130> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_R0010> , <http://www.virtualparts.org/part/pIKERightCassette_1/BBa_C0040> .
+<http://www.virtualparts.org/part/pIKERightCassette_1> <http://sbols.org/v3#hasInterface> <http://www.virtualparts.org/part/pIKERightCassette_1/Interface1> .
+<http://sbolstandard.org/example/toggle_switch/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://sbolstandard.org/example/toggle_switch/LacI> , <http://sbolstandard.org/example/toggle_switch/TetR> .
+<http://sbolstandard.org/example/toggle_switch> <http://sbols.org/v3#hasInterface> <http://sbolstandard.org/example/toggle_switch/Interface1> .

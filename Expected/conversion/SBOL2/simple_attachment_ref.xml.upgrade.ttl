@@ -7,4 +7,5 @@
 	<http://sbols.org/v3#displayId> "characterization_protocol" ;
 	<http://sbols.org/v3#source> <http://sbols.org/unspecified/dynamic_measurement.mdx> ;
 	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Attachment> .
-<http://sys-bio.org/Plan/1.0.0/characterization_protocol> <http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Plan> .
+<http://sys-bio.org/Plan/1.0.0/characterization_protocol> <http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Plan> ;
+	a <http://sbols.org/v3#TopLevel> .

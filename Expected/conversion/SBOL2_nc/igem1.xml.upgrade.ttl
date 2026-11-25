@@ -1485,172 +1485,173 @@
 <http://parts.igem.org/Part:BBa_I766207> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://parts.igem.org/Part:BBa_I766207#sequence> <http://sbols.org/v3#hasNamespace> <http://parts.igem.org> .
 <http://sbolhub.org/col/igem_sbol2_151015212715> <http://sbols.org/v3#hasNamespace> <http://sbolhub.org/col> .
-<http://sbolhub.org/gen/igem_sbol2_151015212715> <http://sbols.org/v3#hasNamespace> <http://sbolhub.org/gen> .
-<http://parts.igem.org/Part:BBa_I763026#component2253078/range2253078> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280611/range2280611> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280619/range2280619> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280634/range2280634> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280615/range2280615> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253076/range2253076> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280623/range2280623> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253071/range2253071> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952306/range1952306> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280628/range2280628> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280630/range2280630> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253068/range2253068> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280614/range2280614> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952302/range1952302> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253069/range2253069> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280624/range2280624> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I712077#component1952295/range1952295> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712077#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280635/range2280635> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I712078#component1952299/range1952299> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712078#sequence> ;
+<http://sbolhub.org/gen/igem_sbol2_151015212715> <http://sbols.org/v3#hasNamespace> <http://sbolhub.org/gen> ;
+	a <http://sbols.org/v3#TopLevel> .
+<http://parts.igem.org/Part:BBa_I763039#component2280641/range2280641> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I763039#component2280626/range2280626> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280637/range2280637> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280613/range2280613> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280638/range2280638> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280642/range2280642> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+<http://parts.igem.org/Part:BBa_I763039#component2280619/range2280619> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I763026#component2253084/range2253084> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952304/range1952304> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
+<http://parts.igem.org/Part:BBa_I742133#component1952305/range1952305> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I763039#component2280618/range2280618> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253080/range2253080> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+<http://parts.igem.org/Part:BBa_I763039#component2280628/range2280628> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280609/range2280609> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+<http://parts.igem.org/Part:BBa_I763039#component2280638/range2280638> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952297/range1952297> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253079/range2253079> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280622/range2280622> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253081/range2253081> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253073/range2253073> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253070/range2253070> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280629/range2280629> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280639/range2280639> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253083/range2253083> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253085/range2253085> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280632/range2280632> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952305/range1952305> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280641/range2280641> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280620/range2280620> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280605/range2280605> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280640/range2280640> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253077/range2253077> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280633/range2280633> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253086/range2253086> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253067/range2253067> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I712078#component1952300/range1952300> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712078#sequence> ;
+<http://parts.igem.org/Part:BBa_I763039#component2280614/range2280614> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I742133#component1952301/range1952301> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280616/range2280616> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253074/range2253074> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I712077#component1952296/range1952296> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712077#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742131#component1956553/range1956553> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742131#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952303/range1952303> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280627/range2280627> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280636/range2280636> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I742133#component1952298/range1952298> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280631/range2280631> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I763039#component2280607/range2280607> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280608/range2280608> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+<http://parts.igem.org/Part:BBa_I763026#component2253086/range2253086> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253075/range2253075> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+<http://parts.igem.org/Part:BBa_I712077#component1952295/range1952295> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712077#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280617/range2280617> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+<http://parts.igem.org/Part:BBa_I763026#component2253079/range2253079> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280609/range2280609> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280624/range2280624> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280620/range2280620> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I742133#component1952304/range1952304> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253081/range2253081> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253080/range2253080> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I763039#component2280612/range2280612> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280621/range2280621> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+<http://parts.igem.org/Part:BBa_I712078#component1952300/range1952300> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712078#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280604/range2280604> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+<http://parts.igem.org/Part:BBa_I763039#component2280622/range2280622> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253072/range2253072> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+<http://parts.igem.org/Part:BBa_I742133#component1952306/range1952306> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280606/range2280606> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763039#component2280625/range2280625> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
-	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
-<http://parts.igem.org/Part:BBa_I763026#component2253082/range2253082> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+<http://parts.igem.org/Part:BBa_I763039#component2280608/range2280608> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
 <http://parts.igem.org/Part:BBa_I763039#component2280610/range2280610> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
 	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280604/range2280604> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253083/range2253083> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253082/range2253082> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I742133#component1952303/range1952303> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280615/range2280615> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280630/range2280630> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280611/range2280611> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280633/range2280633> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280635/range2280635> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I742133#component1952297/range1952297> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253074/range2253074> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280613/range2280613> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280621/range2280621> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280637/range2280637> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I742133#component1952302/range1952302> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I742133#component1952298/range1952298> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742133#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280605/range2280605> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253073/range2253073> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280636/range2280636> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280617/range2280617> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253078/range2253078> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280642/range2280642> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253076/range2253076> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280627/range2280627> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I712077#component1952296/range1952296> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712077#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280625/range2280625> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253075/range2253075> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280623/range2280623> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I742131#component1956553/range1956553> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I742131#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253067/range2253067> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280640/range2280640> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280616/range2280616> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280606/range2280606> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253071/range2253071> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280634/range2280634> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253077/range2253077> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253072/range2253072> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253070/range2253070> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253068/range2253068> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280631/range2280631> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253069/range2253069> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763026#component2253085/range2253085> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763026#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280639/range2280639> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280632/range2280632> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039#component2280629/range2280629> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I763039#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I712078#component1952299/range1952299> <http://sbols.org/v3#hasSequence> <http://parts.igem.org/Part:BBa_I712078#sequence> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://parts.igem.org/Part:BBa_I763039/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I763039#component2280621> , <http://parts.igem.org/Part:BBa_I763039#component2280634> , <http://parts.igem.org/Part:BBa_I763039#component2280622> , <http://parts.igem.org/Part:BBa_I763039#component2280641> , <http://parts.igem.org/Part:BBa_I763039#component2280605> , <http://parts.igem.org/Part:BBa_I763039#component2280640> , <http://parts.igem.org/Part:BBa_I763039#component2280604> , <http://parts.igem.org/Part:BBa_I763039#component2280616> , <http://parts.igem.org/Part:BBa_I763039#component2280609> , <http://parts.igem.org/Part:BBa_I763039#component2280614> , <http://parts.igem.org/Part:BBa_I763039#component2280627> , <http://parts.igem.org/Part:BBa_I763039#component2280620> , <http://parts.igem.org/Part:BBa_I763039#component2280628> , <http://parts.igem.org/Part:BBa_I763039#component2280619> , <http://parts.igem.org/Part:BBa_I763039#component2280612> , <http://parts.igem.org/Part:BBa_I763039#component2280630> , <http://parts.igem.org/Part:BBa_I763039#component2280639> , <http://parts.igem.org/Part:BBa_I763039#component2280606> , <http://parts.igem.org/Part:BBa_I763039#component2280626> , <http://parts.igem.org/Part:BBa_I763039#component2280608> , <http://parts.igem.org/Part:BBa_I763039#component2280613> , <http://parts.igem.org/Part:BBa_I763039#component2280625> , <http://parts.igem.org/Part:BBa_I763039#component2280637> , <http://parts.igem.org/Part:BBa_I763039#component2280617> , <http://parts.igem.org/Part:BBa_I763039#component2280636> , <http://parts.igem.org/Part:BBa_I763039#component2280610> , <http://parts.igem.org/Part:BBa_I763039#component2280635> , <http://parts.igem.org/Part:BBa_I763039#component2280631> , <http://parts.igem.org/Part:BBa_I763039#component2280623> , <http://parts.igem.org/Part:BBa_I763039#component2280632> , <http://parts.igem.org/Part:BBa_I763039#component2280629> , <http://parts.igem.org/Part:BBa_I763039#component2280615> , <http://parts.igem.org/Part:BBa_I763039#component2280624> , <http://parts.igem.org/Part:BBa_I763039#component2280611> , <http://parts.igem.org/Part:BBa_I763039#component2280618> , <http://parts.igem.org/Part:BBa_I763039#component2280638> , <http://parts.igem.org/Part:BBa_I763039#component2280633> , <http://parts.igem.org/Part:BBa_I763039#component2280607> , <http://parts.igem.org/Part:BBa_I763039#component2280642> .
+<http://parts.igem.org/Part:BBa_I763039> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I763039/Interface1> .
 <http://parts.igem.org/Part:BBa_I763026/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I763026#component2253082> , <http://parts.igem.org/Part:BBa_I763026#component2253068> , <http://parts.igem.org/Part:BBa_I763026#component2253078> , <http://parts.igem.org/Part:BBa_I763026#component2253070> , <http://parts.igem.org/Part:BBa_I763026#component2253067> , <http://parts.igem.org/Part:BBa_I763026#component2253085> , <http://parts.igem.org/Part:BBa_I763026#component2253077> , <http://parts.igem.org/Part:BBa_I763026#component2253081> , <http://parts.igem.org/Part:BBa_I763026#component2253069> , <http://parts.igem.org/Part:BBa_I763026#component2253073> , <http://parts.igem.org/Part:BBa_I763026#component2253079> , <http://parts.igem.org/Part:BBa_I763026#component2253086> , <http://parts.igem.org/Part:BBa_I763026#component2253071> , <http://parts.igem.org/Part:BBa_I763026#component2253080> , <http://parts.igem.org/Part:BBa_I763026#component2253083> , <http://parts.igem.org/Part:BBa_I763026#component2253084> , <http://parts.igem.org/Part:BBa_I763026#component2253074> , <http://parts.igem.org/Part:BBa_I763026#component2253075> , <http://parts.igem.org/Part:BBa_I763026#component2253076> , <http://parts.igem.org/Part:BBa_I763026#component2253072> .
+	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I763026#component2253075> , <http://parts.igem.org/Part:BBa_I763026#component2253067> , <http://parts.igem.org/Part:BBa_I763026#component2253069> , <http://parts.igem.org/Part:BBa_I763026#component2253077> , <http://parts.igem.org/Part:BBa_I763026#component2253085> , <http://parts.igem.org/Part:BBa_I763026#component2253081> , <http://parts.igem.org/Part:BBa_I763026#component2253084> , <http://parts.igem.org/Part:BBa_I763026#component2253082> , <http://parts.igem.org/Part:BBa_I763026#component2253079> , <http://parts.igem.org/Part:BBa_I763026#component2253070> , <http://parts.igem.org/Part:BBa_I763026#component2253074> , <http://parts.igem.org/Part:BBa_I763026#component2253078> , <http://parts.igem.org/Part:BBa_I763026#component2253072> , <http://parts.igem.org/Part:BBa_I763026#component2253080> , <http://parts.igem.org/Part:BBa_I763026#component2253071> , <http://parts.igem.org/Part:BBa_I763026#component2253068> , <http://parts.igem.org/Part:BBa_I763026#component2253073> , <http://parts.igem.org/Part:BBa_I763026#component2253086> , <http://parts.igem.org/Part:BBa_I763026#component2253083> , <http://parts.igem.org/Part:BBa_I763026#component2253076> .
 <http://parts.igem.org/Part:BBa_I763026> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I763026/Interface1> .
+<http://parts.igem.org/Part:BBa_I742133/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I742133#component1952305> , <http://parts.igem.org/Part:BBa_I742133#component1952303> , <http://parts.igem.org/Part:BBa_I742133#component1952298> , <http://parts.igem.org/Part:BBa_I742133#component1952297> , <http://parts.igem.org/Part:BBa_I742133#component1952302> , <http://parts.igem.org/Part:BBa_I742133#component1952306> , <http://parts.igem.org/Part:BBa_I742133#component1952304> , <http://parts.igem.org/Part:BBa_I742133#component1952301> .
+<http://parts.igem.org/Part:BBa_I742133> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I742133/Interface1> .
 <http://parts.igem.org/Part:BBa_I712078/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
 	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I712078#component1952299> , <http://parts.igem.org/Part:BBa_I712078#component1952300> .
 <http://parts.igem.org/Part:BBa_I712078> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I712078/Interface1> .
-<http://parts.igem.org/Part:BBa_I742131/Interface1> a <http://sbols.org/v3#Interface> ;
-	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I742131#component1956553> .
-<http://parts.igem.org/Part:BBa_I742131> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I742131/Interface1> .
 <http://parts.igem.org/Part:BBa_I712077/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
 	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I712077#component1952296> , <http://parts.igem.org/Part:BBa_I712077#component1952295> .
 <http://parts.igem.org/Part:BBa_I712077> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I712077/Interface1> .
-<http://parts.igem.org/Part:BBa_I763039/Interface1> a <http://sbols.org/v3#Interface> ;
+<http://parts.igem.org/Part:BBa_I742131/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I763039#component2280626> , <http://parts.igem.org/Part:BBa_I763039#component2280609> , <http://parts.igem.org/Part:BBa_I763039#component2280633> , <http://parts.igem.org/Part:BBa_I763039#component2280623> , <http://parts.igem.org/Part:BBa_I763039#component2280631> , <http://parts.igem.org/Part:BBa_I763039#component2280610> , <http://parts.igem.org/Part:BBa_I763039#component2280638> , <http://parts.igem.org/Part:BBa_I763039#component2280621> , <http://parts.igem.org/Part:BBa_I763039#component2280640> , <http://parts.igem.org/Part:BBa_I763039#component2280620> , <http://parts.igem.org/Part:BBa_I763039#component2280641> , <http://parts.igem.org/Part:BBa_I763039#component2280639> , <http://parts.igem.org/Part:BBa_I763039#component2280605> , <http://parts.igem.org/Part:BBa_I763039#component2280628> , <http://parts.igem.org/Part:BBa_I763039#component2280616> , <http://parts.igem.org/Part:BBa_I763039#component2280625> , <http://parts.igem.org/Part:BBa_I763039#component2280611> , <http://parts.igem.org/Part:BBa_I763039#component2280614> , <http://parts.igem.org/Part:BBa_I763039#component2280622> , <http://parts.igem.org/Part:BBa_I763039#component2280637> , <http://parts.igem.org/Part:BBa_I763039#component2280615> , <http://parts.igem.org/Part:BBa_I763039#component2280617> , <http://parts.igem.org/Part:BBa_I763039#component2280636> , <http://parts.igem.org/Part:BBa_I763039#component2280642> , <http://parts.igem.org/Part:BBa_I763039#component2280632> , <http://parts.igem.org/Part:BBa_I763039#component2280618> , <http://parts.igem.org/Part:BBa_I763039#component2280607> , <http://parts.igem.org/Part:BBa_I763039#component2280613> , <http://parts.igem.org/Part:BBa_I763039#component2280612> , <http://parts.igem.org/Part:BBa_I763039#component2280630> , <http://parts.igem.org/Part:BBa_I763039#component2280634> , <http://parts.igem.org/Part:BBa_I763039#component2280619> , <http://parts.igem.org/Part:BBa_I763039#component2280608> , <http://parts.igem.org/Part:BBa_I763039#component2280624> , <http://parts.igem.org/Part:BBa_I763039#component2280627> , <http://parts.igem.org/Part:BBa_I763039#component2280629> , <http://parts.igem.org/Part:BBa_I763039#component2280635> , <http://parts.igem.org/Part:BBa_I763039#component2280606> , <http://parts.igem.org/Part:BBa_I763039#component2280604> .
-<http://parts.igem.org/Part:BBa_I763039> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I763039/Interface1> .
-<http://parts.igem.org/Part:BBa_I742133/Interface1> a <http://sbols.org/v3#Interface> ;
-	<http://sbols.org/v3#displayId> "Interface1" ;
-	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I742133#component1952303> , <http://parts.igem.org/Part:BBa_I742133#component1952305> , <http://parts.igem.org/Part:BBa_I742133#component1952304> , <http://parts.igem.org/Part:BBa_I742133#component1952297> , <http://parts.igem.org/Part:BBa_I742133#component1952302> , <http://parts.igem.org/Part:BBa_I742133#component1952306> , <http://parts.igem.org/Part:BBa_I742133#component1952301> , <http://parts.igem.org/Part:BBa_I742133#component1952298> .
-<http://parts.igem.org/Part:BBa_I742133> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I742133/Interface1> .
+	<http://sbols.org/v3#nondirectional> <http://parts.igem.org/Part:BBa_I742131#component1956553> .
+<http://parts.igem.org/Part:BBa_I742131> <http://sbols.org/v3#hasInterface> <http://parts.igem.org/Part:BBa_I742131/Interface1> .

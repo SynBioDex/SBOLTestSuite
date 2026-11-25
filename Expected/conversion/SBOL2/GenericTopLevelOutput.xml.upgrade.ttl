@@ -13,4 +13,5 @@
 	<http://www.myapp.org/characterizationData> <http://www.myapp.org//measurement/1> ;
 	<http://www.myapp.org/transcriptionRate> "1" .
 <http://www.partsregistry.org/cd/BBa_J23119> <http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/cd> .
-<http://www.partsregistry.org/gen/datasheet1> <http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/gen> .
+<http://www.partsregistry.org/gen/datasheet1> <http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/gen> ;
+	a <http://sbols.org/v3#TopLevel> .

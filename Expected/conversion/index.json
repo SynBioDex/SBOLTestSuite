@@ -1,6 +1,6 @@
 {
  "description": "Expected SBOL 2 <-> SBOL 3 conversion outputs; paths are relative to the suite root",
- "generator": "scripts/generate_expected.py with sbol 1.1.0 (commit 729f55b)",
+ "generator": "scripts/generate_expected.py with sbol 1.1.0 (commit 298bac0)",
  "base_iri": "http://sbols.org/unspecified/",
  "files": {
   "SBOL2/ActivityTypeOutput.xml": {

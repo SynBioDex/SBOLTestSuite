@@ -7,4 +7,6 @@
 	<http://www.w3.org/ns/prov#hadPlan> <http://sys-bio.org/Plan_gibson_assembly/1.0.0> ;
 	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#build> .
 <http://sys-bio.org/1.0.0/Activity_build_generation> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://sys-bio.org/1.0.0/Activity_build_generation/build_generation_association> ;
-	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> .
+	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> ;
+	a <http://sbols.org/v3#TopLevel> .
+<http://sys-bio.org/1.0.0/Activity_build_generation/build_generation_association> a <http://sbols.org/v3#Identified> .

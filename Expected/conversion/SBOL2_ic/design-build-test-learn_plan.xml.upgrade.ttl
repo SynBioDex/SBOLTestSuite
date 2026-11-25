@@ -1,4 +1,5 @@
 <http://sys-bio.org/1.0.0/Plan_model_fitting> a <http://www.w3.org/ns/prov#Plan> ;
 	<http://sbols.org/v3#displayId> "Plan_model_fitting" ;
 	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/1.0.0/Attachment_model_fitting_script> ;
-	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> .
+	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org> ;
+	a <http://sbols.org/v3#TopLevel> .

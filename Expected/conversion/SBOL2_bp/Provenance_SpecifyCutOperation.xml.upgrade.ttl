@@ -33,3 +33,6 @@
 <http://sbolstandard.org/build/linearized_vector> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
 <http://sbolstandard.org/build/restriction_enzyme> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
 <http://sbolstandard.org/build/vector> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/cut_vector_with_restriction_enzyme> a <http://sbols.org/v3#TopLevel> .
+<http://sbolstandard.org/build/cut_vector_with_restriction_enzyme/enzyme> a <http://sbols.org/v3#Identified> .
+<http://sbolstandard.org/build/cut_vector_with_restriction_enzyme/vector> a <http://sbols.org/v3#Identified> .

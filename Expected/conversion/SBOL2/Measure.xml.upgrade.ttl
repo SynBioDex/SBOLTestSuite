@@ -51,6 +51,10 @@
 	<http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
 <http://www.async.ece.utah.edu/empty_md> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
 <http://www.async.ece.utah.edu/md> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/md/fc/fc_measure> a <http://sbols.org/v3#Identified> .
+<http://www.async.ece.utah.edu/md/i/i_measure> a <http://sbols.org/v3#Identified> .
+<http://www.async.ece.utah.edu/md/i/p/pMeasure> a <http://sbols.org/v3#Identified> .
+<http://www.async.ece.utah.edu/md/m/md_measure> a <http://sbols.org/v3#Identified> .
 <http://www.async.ece.utah.edu/md/Interface1> a <http://sbols.org/v3#Interface> ;
 	<http://sbols.org/v3#displayId> "Interface1" ;
 	<http://sbols.org/v3#nondirectional> <http://www.async.ece.utah.edu/md/fc> .
