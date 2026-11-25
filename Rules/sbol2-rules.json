@@ -1,6 +1,6 @@
 {
  "meta": {
-  "source": "sbol-rs@298bac085c2c9170e005ada4c756a1412f05a1d2",
+  "source": "sbol-rs@8332b2f2a4bd0d8c4a127991a253bbd3af711806",
   "spec_canonical_url": "https://sbolstandard.org/datamodel-specification/version-2-3-0/",
   "spec_path": "spec/SBOL2.3.0.md",
   "spec_pdf_sha256": "6ad000f596a26517d1d0a4cf8f53af87538d8703befea35d2383b5ade7558c88",
