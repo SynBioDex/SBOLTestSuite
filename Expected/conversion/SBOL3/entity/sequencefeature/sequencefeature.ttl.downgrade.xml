@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Range xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040/SequenceFeature1/Range1">
+		<displayId xmlns="http://sbols.org/v2#">Range1</displayId>
+		<end xmlns="http://sbols.org/v2#">3</end>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040_Sequence1"/>
+		<start xmlns="http://sbols.org/v2#">1</start>
+	</Range>
+	<SequenceAnnotation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040/SequenceFeature1">
+		<displayId xmlns="http://sbols.org/v2#">SequenceFeature1</displayId>
+		<location xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040/SequenceFeature1/Range1"/>
+	</SequenceAnnotation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040">
+		<displayId xmlns="http://sbols.org/v2#">E0040</displayId>
+		<sequenceAnnotation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040/SequenceFeature1"/>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">E0040</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000316"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">E0040 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">E0040_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040/SequenceFeature1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040/SequenceFeature1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040/SequenceFeature1/Range1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040/SequenceFeature1/Range1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040_Sequence1"/>
+	</rdf:Description>
+</rdf:RDF>

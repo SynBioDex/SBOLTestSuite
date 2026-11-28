@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Collection xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/col1">
+		<displayId xmlns="http://sbols.org/v2#">col1</displayId>
+		<member xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+		<member xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</Collection>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<description xmlns="http://purl.org/dc/terms/">TetR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_protein">
+		<description xmlns="http://purl.org/dc/terms/">LacI protein</description>
+		<displayId xmlns="http://sbols.org/v2#">LacI_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">LacI</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/col1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/col1"/>
+	</rdf:Description>
+</rdf:RDF>

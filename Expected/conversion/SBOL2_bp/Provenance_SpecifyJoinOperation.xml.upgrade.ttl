@@ -1,0 +1,36 @@
+<http://sbolstandard.org/build/dna_part_1> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sbolstandard.org/build/dna_part_1> ;
+	<http://sbols.org/v3#displayId> "dna_part_1" ;
+	<http://sbols.org/v3#name> "dna_part_1" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> , <https://identifiers.org/SO:0000985> .
+<http://sbolstandard.org/build/joined_dna_part> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sbolstandard.org/build/joined_dna_part> ;
+	<http://sbols.org/v3#displayId> "joined_dna_part" ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> ;
+	<http://sbols.org/v3#name> "joined_dna_part" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> , <https://identifiers.org/SO:0000985> .
+<http://sbolstandard.org/build/dna_part_2> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sbolstandard.org/build/dna_part_2> ;
+	<http://sbols.org/v3#displayId> "dna_part_2" ;
+	<http://sbols.org/v3#name> "dna_part_2" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> , <https://identifiers.org/SO:0000985> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "join_dna_part_1_with_dna_part_2" ;
+	<http://sbols.org/v3#name> "join(dna_part_1, dna_part_2)" .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_1> a <http://www.w3.org/ns/prov#Usage> ;
+	<http://sbols.org/v3#displayId> "dna_part_1" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://identifiers.org/so/SO:0001631> ;
+	<http://www.w3.org/ns/prov#entity> <http://sbolstandard.org/build/dna_part_1> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> <http://www.w3.org/ns/prov#qualifiedUsage> <http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_1> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_2> a <http://www.w3.org/ns/prov#Usage> ;
+	<http://sbols.org/v3#displayId> "dna_part_2" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://identifiers.org/so/SO:0001632> ;
+	<http://www.w3.org/ns/prov#entity> <http://sbolstandard.org/build/dna_part_2> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> <http://www.w3.org/ns/prov#qualifiedUsage> <http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_2> .
+<http://sbolstandard.org/build/dna_part_1> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/dna_part_2> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/joined_dna_part> <http://sbols.org/v3#hasNamespace> <http://sbolstandard.org/build> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2> a <http://sbols.org/v3#TopLevel> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_1> a <http://sbols.org/v3#Identified> .
+<http://sbolstandard.org/build/join_dna_part_1_with_dna_part_2/dna_part_2> a <http://sbols.org/v3#Identified> .

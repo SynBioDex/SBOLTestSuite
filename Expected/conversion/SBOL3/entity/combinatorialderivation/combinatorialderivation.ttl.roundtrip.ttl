@@ -1,0 +1,56 @@
+<https://synbiohub.org/public/igem/BBa_R0040_start> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040_start> ;
+	<http://sbols.org/v3#description> "promoter_start" ;
+	<http://sbols.org/v3#displayId> "BBa_R0040_start" ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1> ;
+	<http://sbols.org/v3#name> "pTetR_start" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://synbiohub.org/public/igem/cs1> a <http://sbols.org/v3#CombinatorialDerivation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/cs1> ;
+	<http://sbols.org/v3#displayId> "cs1" ;
+	<http://sbols.org/v3#template> <https://synbiohub.org/public/igem/BBa_R0040> .
+<https://synbiohub.org/public/igem/BBa_R0040/SubComponent1> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040/SubComponent1> ;
+	<http://sbols.org/v3#displayId> "SubComponent1" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/BBa_R0040_start> .
+<https://synbiohub.org/public/igem/BBa_R0040/SubComponent3> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040/SubComponent3> ;
+	<http://sbols.org/v3#displayId> "SubComponent3" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/BBa_R0040_start> .
+<https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1> ;
+	<http://sbols.org/v3#description> "BBa_R0040_start sequence" ;
+	<http://sbols.org/v3#displayId> "BBa_R0040_start_Sequence1" ;
+	<http://sbols.org/v3#elements> "tccctat" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
+	<http://sbols.org/v3#name> "Sequence1" .
+<https://synbiohub.org/public/igem/BBa_R0040/SubComponent2> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040/SubComponent2> ;
+	<http://sbols.org/v3#displayId> "SubComponent2" ;
+	<http://sbols.org/v3#instanceOf> <https://synbiohub.org/public/igem/BBa_R0040_start> .
+<https://synbiohub.org/public/igem/BBa_R0040_Sequence1> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040_Sequence1> ;
+	<http://sbols.org/v3#description> "BBa_R0040 sequence" ;
+	<http://sbols.org/v3#displayId> "BBa_R0040_Sequence1" ;
+	<http://sbols.org/v3#elements> "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> ;
+	<http://sbols.org/v3#name> "Sequence1" .
+<https://synbiohub.org/public/igem/BBa_R0040> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://synbiohub.org/public/igem/BBa_R0040> ;
+	<http://sbols.org/v3#description> "TetR repressible promoter" ;
+	<http://sbols.org/v3#displayId> "BBa_R0040" ;
+	<http://sbols.org/v3#hasFeature> <https://synbiohub.org/public/igem/BBa_R0040/SubComponent3> , <https://synbiohub.org/public/igem/BBa_R0040/SubComponent2> , <https://synbiohub.org/public/igem/BBa_R0040/SubComponent1> ;
+	<http://sbols.org/v3#hasSequence> <https://synbiohub.org/public/igem/BBa_R0040_Sequence1> ;
+	<http://sbols.org/v3#name> "pTetR" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/BBa_R0040_Sequence1> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/BBa_R0040_start> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/cs1> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<https://synbiohub.org/public/igem/BBa_R0040/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <https://synbiohub.org/public/igem/BBa_R0040/SubComponent3> , <https://synbiohub.org/public/igem/BBa_R0040/SubComponent2> , <https://synbiohub.org/public/igem/BBa_R0040/SubComponent1> .
+<https://synbiohub.org/public/igem/BBa_R0040> <http://sbols.org/v3#hasInterface> <https://synbiohub.org/public/igem/BBa_R0040/Interface1> .

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<SingularUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/litre">
+		<description xmlns="http://purl.org/dc/terms/">The litre is a unit of volume defined as 1.0e-3 cubic metre.</description>
+		<displayId xmlns="http://sbols.org/v2#">litre</displayId>
+		<title xmlns="http://purl.org/dc/terms/">liter</title>
+		<alternativeLabel xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">litre2</alternativeLabel>
+		<alternativeLabel xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">liter</alternativeLabel>
+		<alternativeSymbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">L</alternativeSymbol>
+		<alternativeSymbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">L2</alternativeSymbol>
+		<comment xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">The litre is a unit of volume defined as 1.0e-3 cubic metre.</comment>
+		<hasFactor xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">0.001</hasFactor>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">liter</label>
+		<longcomment xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">This is an example long comment.</longcomment>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">l</symbol>
+	</SingularUnit>
+	<SingularUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/kelvin">
+		<displayId xmlns="http://sbols.org/v2#">kelvin</displayId>
+		<title xmlns="http://purl.org/dc/terms/">kelvin</title>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">kelvin</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">kelvin</symbol>
+	</SingularUnit>
+	<SingularUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/mole">
+		<displayId xmlns="http://sbols.org/v2#">mole</displayId>
+		<title xmlns="http://purl.org/dc/terms/">mole</title>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">mole</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">mol</symbol>
+	</SingularUnit>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/M9_Glucose_CAA">
+		<description xmlns="http://purl.org/dc/terms/">M9 Glucose CAA growth media</description>
+		<displayId xmlns="http://sbols.org/v2#">M9_Glucose_CAA</displayId>
+		<title xmlns="http://purl.org/dc/terms/">M9 Glucose CAA</title>
+	</ModuleDefinition>
+	<PrefixedUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/millimole">
+		<displayId xmlns="http://sbols.org/v2#">millimole</displayId>
+		<title xmlns="http://purl.org/dc/terms/">millimole</title>
+		<hasPrefix xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/milli"/>
+		<hasUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/mole"/>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">millimole</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">mmol</symbol>
+	</PrefixedUnit>
+	<UnitMultiplication xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/kelvinMole">
+		<displayId xmlns="http://sbols.org/v2#">kelvinMole</displayId>
+		<title xmlns="http://purl.org/dc/terms/">kelvinMole</title>
+		<hasTerm1 xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/kelvin"/>
+		<hasTerm2 xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/mole"/>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">kelvinMole</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">K mol</symbol>
+	</UnitMultiplication>
+	<Measure xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1">
+		<displayId xmlns="http://sbols.org/v2#">measure1</displayId>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/SBO:0000197"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/SBO:0000196"/>
+		<hasNumericalValue xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">0.1</hasNumericalValue>
+		<hasUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/millimolePerLitre"/>
+	</Measure>
+	<SingularUnit xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/meter">
+		<displayId xmlns="http://sbols.org/v2#">meter</displayId>
+		<title xmlns="http://purl.org/dc/terms/">meter</title>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">meter</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">m</symbol>
+	</SingularUnit>
+	<UnitExponentiation xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/cubicMeter">
+		<displayId xmlns="http://sbols.org/v2#">cubicMeter</displayId>
+		<title xmlns="http://purl.org/dc/terms/">cubicMeter</title>
+		<hasBase xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/meter"/>
+		<hasExponent xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">3</hasExponent>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">cubicMeter</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">m3</symbol>
+	</UnitExponentiation>
+	<SIPrefix xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/milli">
+		<description xmlns="http://purl.org/dc/terms/">Comment for the milli prefix.</description>
+		<displayId xmlns="http://sbols.org/v2#">milli</displayId>
+		<title xmlns="http://purl.org/dc/terms/">milli</title>
+		<alternativeLabel xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">milli2</alternativeLabel>
+		<alternativeLabel xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">milli1</alternativeLabel>
+		<alternativeSymbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">m2</alternativeSymbol>
+		<alternativeSymbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">m1</alternativeSymbol>
+		<comment xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">Comment for the milli prefix.</comment>
+		<hasFactor xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">0.001</hasFactor>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">milli</label>
+		<longcomment xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">This is an example long comment for the milli prefix.</longcomment>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">m</symbol>
+	</SIPrefix>
+	<UnitDivision xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:about="https://sbolstandard.org/examples/millimolePerLitre">
+		<displayId xmlns="http://sbols.org/v2#">millimolePerLitre</displayId>
+		<title xmlns="http://purl.org/dc/terms/">millimolar</title>
+		<hasDenominator xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/litre"/>
+		<hasNumerator xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/" rdf:resource="https://sbolstandard.org/examples/millimole"/>
+		<label xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">millimolar</label>
+		<symbol xmlns="http://www.ontology-of-units-of-measure.org/resource/om-2/">mmol/l</symbol>
+	</UnitDivision>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/M9_Glucose_CAA">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/M9_Glucose_CAA"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/M9_Glucose_CAA/ExternallyDefined1/measure1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/cubicMeter">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/cubicMeter"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/kelvin">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/kelvin"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/kelvinMole">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/kelvinMole"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/litre">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/litre"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/meter">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/meter"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/milli">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/milli"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/millimole">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/millimole"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/millimolePerLitre">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/millimolePerLitre"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/mole">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/mole"/>
+	</rdf:Description>
+</rdf:RDF>

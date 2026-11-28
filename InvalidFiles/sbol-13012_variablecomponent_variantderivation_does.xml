@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+>
+  <rdf:Description rdf:about="http://ex/vc">
+    <rdf:type rdf:resource="http://sbols.org/v2#VariableComponent"/>
+    <sbol:displayId>vc</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/vc"/>
+    <sbol:variable rdf:resource="http://ex/t/c"/>
+    <sbol:operator rdf:resource="http://sbols.org/v2#one"/>
+    <sbol:variantDerivation rdf:resource="http://ex/missing-derivation"/>
+  </rdf:Description>
+</rdf:RDF>

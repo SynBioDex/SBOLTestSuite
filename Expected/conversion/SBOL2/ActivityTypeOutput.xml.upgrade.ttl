@@ -1,0 +1,5 @@
+<http://www.partsregistry.org/act/activityId> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "activityId" ;
+	<http://sbols.org/v3#type> <http://purl.obolibrary.org/obo/CHEBI_23924> , <http://purl.obolibrary.org/obo/OBI_0000415> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.partsregistry.org/act> ;
+	a <http://sbols.org/v3#TopLevel> .

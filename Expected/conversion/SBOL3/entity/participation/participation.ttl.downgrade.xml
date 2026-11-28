@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040">
+		<description xmlns="http://purl.org/dc/terms/">gfp coding sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">E0040</displayId>
+		<sequenceAnnotation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040/SequenceFeature1"/>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">gfp</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000316"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/gfp_start">
+		<displayId xmlns="http://sbols.org/v2#">gfp_start</displayId>
+	</Sequence>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040"/>
+	</Component>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/GFP_protein"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/GFP_protein">
+		<description xmlns="http://purl.org/dc/terms/">GFP</description>
+		<displayId xmlns="http://sbols.org/v2#">GFP_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">GFP</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction2">
+		<displayId xmlns="http://sbols.org/v2#">Interaction2</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction2/Participation1"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000169"/>
+	</Interaction>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000645"/>
+	</Participation>
+	<Range xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504/SubComponent1_Range1/Range1">
+		<displayId xmlns="http://sbols.org/v2#">Range1</displayId>
+		<end xmlns="http://sbols.org/v2#">720</end>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_Sequence1"/>
+		<orientation xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#inline"/>
+		<start xmlns="http://sbols.org/v2#">1</start>
+	</Range>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">E0040 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">E0040_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR">
+		<displayId xmlns="http://sbols.org/v2#">TetR</displayId>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">i13504 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">i13504_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system">
+		<displayId xmlns="http://sbols.org/v2#">i13504_system</displayId>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/SubComponent1"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/SubComponent2"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction2"/>
+		<title xmlns="http://purl.org/dc/terms/">i13504 system</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000289"/>
+	</ModuleDefinition>
+	<SequenceAnnotation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/E0040/SequenceFeature1">
+		<displayId xmlns="http://sbols.org/v2#">SequenceFeature1</displayId>
+	</SequenceAnnotation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/SubComponent2"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504">
+		<displayId xmlns="http://sbols.org/v2#">i13504</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1"/>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_Sequence1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction2/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000020"/>
+	</Participation>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1">
+		<displayId xmlns="http://sbols.org/v2#">Interaction1</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation2"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation1"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+	</Interaction>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504">
+		<sequenceAnnotation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1_Range1"/>
+	</rdf:Description>
+	<SequenceAnnotation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/i13504/SubComponent1_Range1">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1_Range1</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1"/>
+		<location xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1_Range1/Range1"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1_Range1"/>
+	</SequenceAnnotation>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040/SequenceFeature1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040/SequenceFeature1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/E0040_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/E0040_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/GFP_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/GFP_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/gfp_start">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/gfp_start"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504/SubComponent1_Range1/Range1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504/SubComponent1_Range1/Range1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction1/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/Interaction2/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/Interaction2/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/i13504_system/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/SubComponent1">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/i13504_system/SubComponent2">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,49 @@
+<https://sbolstandard.org/examples/LacI_producer> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/LacI_producer> ;
+	<http://sbols.org/v3#description> "LacI producer" ;
+	<http://sbols.org/v3#displayId> "LacI_producer" ;
+	<http://sbols.org/v3#hasFeature> <https://sbolstandard.org/examples/LacI_producer/SubComponent3> , <https://sbolstandard.org/examples/LacI_producer/SubComponent1> , <https://sbolstandard.org/examples/LacI_producer/SubComponent2> ;
+	<http://sbols.org/v3#name> "LacI produce" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000704> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> .
+<https://sbolstandard.org/examples/LacI_producer/SubComponent2> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/LacI_producer/SubComponent2> ;
+	<http://sbols.org/v3#displayId> "SubComponent2" ;
+	<http://sbols.org/v3#instanceOf> <https://sbolstandard.org/examples/TetR_protein> .
+<https://sbolstandard.org/examples/LacI_protein> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/LacI_protein> ;
+	<http://sbols.org/v3#description> "LacI protein" ;
+	<http://sbols.org/v3#displayId> "LacI_protein" ;
+	<http://sbols.org/v3#name> "LacI" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/GO:0003700> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000252> .
+<https://sbolstandard.org/examples/LacI_producer/SubComponent1> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/LacI_producer/SubComponent1> ;
+	<http://sbols.org/v3#displayId> "SubComponent1" ;
+	<http://sbols.org/v3#instanceOf> <https://sbolstandard.org/examples/LacI_protein> .
+<https://sbolstandard.org/examples/TetR_protein> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/TetR_protein> ;
+	<http://sbols.org/v3#description> "TetR protein" ;
+	<http://sbols.org/v3#displayId> "TetR_protein" ;
+	<http://sbols.org/v3#name> "TetR" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/GO:0003700> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000252> .
+<https://sbolstandard.org/examples/LacI_producer/SubComponent3> a <http://sbols.org/v3#SubComponent> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/LacI_producer/SubComponent3> ;
+	<http://sbols.org/v3#displayId> "SubComponent3" ;
+	<http://sbols.org/v3#instanceOf> <https://sbolstandard.org/examples/aTC> .
+<https://sbolstandard.org/examples/aTC> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://sbolstandard.org/examples/aTC> ;
+	<http://sbols.org/v3#description> "aTC" ;
+	<http://sbols.org/v3#displayId> "aTC" ;
+	<http://sbols.org/v3#name> "aTC" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/CHEBI:35224> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000247> .
+<https://sbolstandard.org/examples/LacI_producer> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/LacI_protein> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/TetR_protein> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/aTC> <http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> .
+<https://sbolstandard.org/examples/LacI_producer/Interface1> a <http://sbols.org/v3#Interface> ;
+	<http://sbols.org/v3#displayId> "Interface1" ;
+	<http://sbols.org/v3#nondirectional> <https://sbolstandard.org/examples/LacI_producer/SubComponent2> , <https://sbolstandard.org/examples/LacI_producer/SubComponent3> , <https://sbolstandard.org/examples/LacI_producer/SubComponent1> .
+<https://sbolstandard.org/examples/LacI_producer> <http://sbols.org/v3#hasInterface> <https://sbolstandard.org/examples/LacI_producer/Interface1> .

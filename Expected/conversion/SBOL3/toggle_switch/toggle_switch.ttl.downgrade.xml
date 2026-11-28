@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent6">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent6</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ter_lacI"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent6">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent6</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+	</FunctionalComponent>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer">
+		<description xmlns="http://purl.org/dc/terms/">LacI producer</description>
+		<displayId xmlns="http://sbols.org/v2#">LacI_producer</displayId>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent10"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent7"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent3"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent11"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent8"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent9"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent4"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent5"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent1"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent6"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent2"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction3"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction1"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction2"/>
+		<title xmlns="http://purl.org/dc/terms/">LacI producer</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+	</ModuleDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction1">
+		<displayId xmlns="http://sbols.org/v2#">Interaction1</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+	</Interaction>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/gfp">
+		<description xmlns="http://purl.org/dc/terms/">gfp coding sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">gfp</displayId>
+		<title xmlns="http://purl.org/dc/terms/">gfp</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000316"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/atC_TetR">
+		<description xmlns="http://purl.org/dc/terms/">atC_TetR complex</description>
+		<displayId xmlns="http://sbols.org/v2#">atC_TetR</displayId>
+		<title xmlns="http://purl.org/dc/terms/">atC_TetR</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+	</ComponentDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/pTetR"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/pLacI"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/pTetR">
+		<description xmlns="http://purl.org/dc/terms/">TetR repressible promoter</description>
+		<displayId xmlns="http://sbols.org/v2#">pTetR</displayId>
+		<title xmlns="http://purl.org/dc/terms/">pTetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent7"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000642"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000642"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/GFP_protein">
+		<description xmlns="http://purl.org/dc/terms/">GFP</description>
+		<displayId xmlns="http://sbols.org/v2#">GFP_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">GFP</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/rbs_gfp">
+		<description xmlns="http://purl.org/dc/terms/">RBS</description>
+		<displayId xmlns="http://sbols.org/v2#">rbs_gfp</displayId>
+		<title xmlns="http://purl.org/dc/terms/">rbs</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000139"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction3">
+		<displayId xmlns="http://sbols.org/v2#">Interaction3</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000169"/>
+	</Interaction>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent8">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent8</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/GFP_protein"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent8">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent8</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/IPTG_LacI"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/rbs_tetR">
+		<description xmlns="http://purl.org/dc/terms/">tetR RBS</description>
+		<displayId xmlns="http://sbols.org/v2#">rbs_tetR</displayId>
+		<title xmlns="http://purl.org/dc/terms/">rbs</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000139"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3">
+		<displayId xmlns="http://sbols.org/v2#">Interaction3</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation2"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation3"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000177"/>
+	</Interaction>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/ter_tetR">
+		<description xmlns="http://purl.org/dc/terms/">Terminator</description>
+		<displayId xmlns="http://sbols.org/v2#">ter_tetR</displayId>
+		<title xmlns="http://purl.org/dc/terms/">tetR terminator</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000141"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent3">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent3</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/lacI"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent3">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent3</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/tetR"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<description xmlns="http://purl.org/dc/terms/">TetR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent8"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent6"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+	</Participation>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch">
+		<description xmlns="http://purl.org/dc/terms/">Toggle Switch genetic circuit</description>
+		<displayId xmlns="http://sbols.org/v2#">toggle_switch</displayId>
+		<module xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent2"/>
+		<module xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent1"/>
+		<title xmlns="http://purl.org/dc/terms/">Toggle Switch</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+	</ModuleDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent9"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+	</Participation>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent11">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent11</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/atC_TetR"/>
+	</FunctionalComponent>
+	<Module xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent1">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer"/>
+	</Module>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent5">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent5</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/gfp"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent5">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent5</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</FunctionalComponent>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation3">
+		<displayId xmlns="http://sbols.org/v2#">Participation3</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent8"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_protein">
+		<description xmlns="http://purl.org/dc/terms/">LacI protein</description>
+		<displayId xmlns="http://sbols.org/v2#">LacI_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">LacI</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+	</ComponentDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation3">
+		<displayId xmlns="http://sbols.org/v2#">Participation3</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent11"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/lacI">
+		<description xmlns="http://purl.org/dc/terms/">lacI coding sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">lacI</displayId>
+		<title xmlns="http://purl.org/dc/terms/">lacI</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000316"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/IPTG_LacI">
+		<description xmlns="http://purl.org/dc/terms/">IPTG_LacI complex</description>
+		<displayId xmlns="http://sbols.org/v2#">IPTG_LacI</displayId>
+		<title xmlns="http://purl.org/dc/terms/">IPTG_LacI</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+	</ComponentDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent3"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000645"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent5"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000011"/>
+	</Participation>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction2">
+		<displayId xmlns="http://sbols.org/v2#">Interaction2</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+	</Interaction>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent7">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent7</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent7">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent7</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/IPTG"/>
+	</FunctionalComponent>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction2">
+		<displayId xmlns="http://sbols.org/v2#">Interaction2</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000169"/>
+	</Interaction>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/rbs_lacI"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/rbs_tetR"/>
+	</FunctionalComponent>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent5"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000645"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent6"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000020"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent9"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000020"/>
+	</Participation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/IPTG">
+		<description xmlns="http://purl.org/dc/terms/">IPTG</description>
+		<displayId xmlns="http://sbols.org/v2#">IPTG</displayId>
+		<title xmlns="http://purl.org/dc/terms/">IPTG</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/CHEBI:35224"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/pLacI">
+		<description xmlns="http://purl.org/dc/terms/">LacI repressible promoter</description>
+		<displayId xmlns="http://sbols.org/v2#">pLacI</displayId>
+		<title xmlns="http://purl.org/dc/terms/">pLacI promoter</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4">
+		<displayId xmlns="http://sbols.org/v2#">Interaction4</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation2"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation3"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000177"/>
+	</Interaction>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent10">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent10</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/aTC"/>
+	</FunctionalComponent>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent9">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent9</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</FunctionalComponent>
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer">
+		<description xmlns="http://purl.org/dc/terms/">TetR producer</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_producer</displayId>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent5"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent4"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent8"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent3"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent7"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent2"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent6"/>
+		<functionalComponent xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent1"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction1"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3"/>
+		<interaction xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction2"/>
+		<title xmlns="http://purl.org/dc/terms/">TetR device</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+	</ModuleDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/aTC">
+		<description xmlns="http://purl.org/dc/terms/">aTC</description>
+		<displayId xmlns="http://sbols.org/v2#">aTC</displayId>
+		<title xmlns="http://purl.org/dc/terms/">aTC</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/CHEBI:35224"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+	</ComponentDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent4">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent4</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/rbs_gfp"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/rbs_lacI">
+		<description xmlns="http://purl.org/dc/terms/">RBS</description>
+		<displayId xmlns="http://sbols.org/v2#">rbs_lacI</displayId>
+		<title xmlns="http://purl.org/dc/terms/">rbs</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000139"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<FunctionalComponent xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent4">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#private"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent4</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ter_tetR"/>
+	</FunctionalComponent>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/tetR">
+		<description xmlns="http://purl.org/dc/terms/">tetR coding sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">tetR</displayId>
+		<title xmlns="http://purl.org/dc/terms/">tetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000316"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/ter_lacI">
+		<description xmlns="http://purl.org/dc/terms/">Terminator</description>
+		<displayId xmlns="http://sbols.org/v2#">ter_lacI</displayId>
+		<title xmlns="http://purl.org/dc/terms/">lacI terminator</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000141"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent7"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+	</Participation>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation2">
+		<displayId xmlns="http://sbols.org/v2#">Participation2</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent10"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000010"/>
+	</Participation>
+	<Module xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent2">
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer"/>
+	</Module>
+	<Participation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation1">
+		<displayId xmlns="http://sbols.org/v2#">Participation1</displayId>
+		<participant xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent3"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000645"/>
+	</Participation>
+	<Interaction xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction1">
+		<displayId xmlns="http://sbols.org/v2#">Interaction1</displayId>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation1"/>
+		<participation xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation2"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000589"/>
+	</Interaction>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent1">
+		<mapsTo xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent1/ComponentReference1"/>
+	</rdf:Description>
+	<MapsTo xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent1/ComponentReference1">
+		<displayId xmlns="http://sbols.org/v2#">ComponentReference1</displayId>
+		<local xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/ComponentReference2"/>
+		<remote xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent7"/>
+		<refinement xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#verifyIdentical"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent1/ComponentReference1"/>
+	</MapsTo>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent1">
+		<mapsTo xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent1/ComponentReference3"/>
+	</rdf:Description>
+	<MapsTo xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent1/ComponentReference3">
+		<displayId xmlns="http://sbols.org/v2#">ComponentReference3</displayId>
+		<local xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/ComponentReference4"/>
+		<remote xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent9"/>
+		<refinement xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#verifyIdentical"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent1/ComponentReference3"/>
+	</MapsTo>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/GFP_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/GFP_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/IPTG">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/IPTG"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/IPTG_LacI">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/IPTG_LacI"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction1/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction2/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction3/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/Interaction4/Participation3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent10">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent10"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent11">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent11"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent4">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent5">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent5"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent6">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent6"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent7">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent7"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent8">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent9">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_producer/SubComponent9"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/LacI_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction1/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction2/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/Interaction3/Participation3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent4">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent4"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent5">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent5"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent6">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent6"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent7">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent7"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent8">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_producer/SubComponent8"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/aTC">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/aTC"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/atC_TetR">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/atC_TetR"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/gfp">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/gfp"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/lacI">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/lacI"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/pLacI">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/pLacI"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/pTetR">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/pTetR"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/rbs_gfp">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/rbs_gfp"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/rbs_lacI">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/rbs_lacI"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/rbs_tetR">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/rbs_tetR"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ter_lacI">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ter_lacI"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/ter_tetR">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/ter_tetR"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/tetR">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/tetR"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent1">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent10">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent11">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent2">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent3">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent4">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent5">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent6">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent7">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent8">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/LacI_producer/SubComponent9">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent1">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent2">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent3">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent4">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent5">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent6">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent7">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/TetR_producer/SubComponent8">
+		<direction xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#none"/>
+	</rdf:Description>
+</rdf:RDF>

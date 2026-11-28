@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Implementation xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/impl1">
+		<built xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+		<displayId xmlns="http://sbols.org/v2#">impl1</displayId>
+	</Implementation>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/TetR_protein">
+		<description xmlns="http://purl.org/dc/terms/">TetR protein</description>
+		<displayId xmlns="http://sbols.org/v2#">TetR_protein</displayId>
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/GO:0003700"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/TetR_protein"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/impl1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/impl1"/>
+	</rdf:Description>
+</rdf:RDF>

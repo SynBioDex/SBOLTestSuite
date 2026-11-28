@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sequence">
+		<displayId xmlns="http://sbols.org/v2#">sequence</displayId>
+		<elements xmlns="http://sbols.org/v2#">ATGC</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+	</Sequence>
+	<Range xmlns="http://sbols.org/v2#" rdf:about="https://example.org/range">
+		<displayId xmlns="http://sbols.org/v2#">range</displayId>
+		<end xmlns="http://sbols.org/v2#">2</end>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sequence"/>
+		<orientation xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#inline"/>
+		<start xmlns="http://sbols.org/v2#">1</start>
+	</Range>
+	<rdf:Description rdf:about="https://example.org/sequence">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sequence"/>
+	</rdf:Description>
+</rdf:RDF>

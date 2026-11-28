@@ -1,0 +1,7 @@
+<http://www.async.ece.utah.edu/1.0/ToggleModel> a <http://sbols.org/v3#Model> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/ToggleModel/1.0> ;
+	<http://sbols.org/v3#displayId> "ToggleModel" ;
+	<http://sbols.org/v3#source> <http://sbols.org/unspecified/ToggleModel_source> ;
+	<http://sbols.org/v3#language> <https://identifiers.org/edam:format_2585> ;
+	<http://sbols.org/v3#framework> <https://identifiers.org/SBO:0000062> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .

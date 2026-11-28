@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Attachment xmlns="http://sbols.org/v2#" rdf:about="https://example.org/attachment">
+		<displayId xmlns="http://sbols.org/v2#">attachment</displayId>
+		<format xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/edam:format_1207"/>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/file.txt"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/attachment"/>
+	</Attachment>
+</rdf:RDF>

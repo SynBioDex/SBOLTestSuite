@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/simpleDevice_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">simpleDevice sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">simpleDevice_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#"></elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/interlab16device1/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/i13504_system"/>
+	</Component>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/i13504">
+		<displayId xmlns="http://sbols.org/v2#">i13504</displayId>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/B0015_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">B0015 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">B0015_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">ccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctc</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/interlab16device1">
+		<displayId xmlns="http://sbols.org/v2#">interlab16device1</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/interlab16device1/SubComponent1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/B0015">
+		<description xmlns="http://purl.org/dc/terms/">B0015 double terminator</description>
+		<displayId xmlns="http://sbols.org/v2#">B0015</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/B0015_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">terminator</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000141"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/simpleDevice/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/B0015"/>
+	</Component>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/simpleDevice">
+		<displayId xmlns="http://sbols.org/v2#">simpleDevice</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/simpleDevice/SubComponent1"/>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/simpleDevice_Sequence1"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/i13504_system/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/i13504"/>
+	</Component>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/i13504_system">
+		<displayId xmlns="http://sbols.org/v2#">i13504_system</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/i13504_system/SubComponent1"/>
+		<title xmlns="http://purl.org/dc/terms/">i13504 system</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000704"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/SBO:0000289"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/B0015">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/B0015"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/B0015_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/B0015_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/i13504">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/i13504"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/i13504_system">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/i13504_system"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/i13504_system/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/i13504_system/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/interlab16device1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/interlab16device1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/interlab16device1/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/interlab16device1/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/simpleDevice">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/simpleDevice"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/simpleDevice/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/simpleDevice/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/simpleDevice_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/simpleDevice_Sequence1"/>
+	</rdf:Description>
+</rdf:RDF>

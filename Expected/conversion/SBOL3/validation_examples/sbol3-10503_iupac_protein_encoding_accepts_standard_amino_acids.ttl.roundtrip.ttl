@@ -1,0 +1,6 @@
+<https://example.org/sequence> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://example.org/sequence> ;
+	<http://sbols.org/v3#displayId> "sequence" ;
+	<http://sbols.org/v3#elements> "MSTNRDH" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1208> ;
+	<http://sbols.org/v3#hasNamespace> <https://example.org> .

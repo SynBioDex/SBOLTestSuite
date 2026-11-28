@@ -1,0 +1,1435 @@
+{
+ "description": "Expected SBOL 2 <-> SBOL 3 conversion outputs; paths are relative to the suite root",
+ "generator": "scripts/generate_expected.py with sbol 1.1.0 (commit 8332b2f)",
+ "base_iri": "http://sbols.org/unspecified/",
+ "files": {
+  "SBOL2/ActivityTypeOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ActivityTypeOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/AnnotationOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/AnnotationOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/BBa_I0462.xml": {
+   "upgrade": "Expected/conversion/SBOL2/BBa_I0462.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CD_SA_Cut_Example.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CD_SA_Cut_Example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CD_SA_Range_Example.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CD_SA_Range_Example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Collection.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Collection.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ComponentDefinitionOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ComponentDefinitionOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ComponentDefinitionOutput_gl.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ComponentDefinitionOutput_gl.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ComponentDefinitionOutput_gl_cd_sa_comp.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ComponentDefinitionOutput_gl_cd_sa_comp.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ComponentDefinitionOutput_gl_noRange.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ComponentDefinitionOutput_gl_noRange.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CreateAndRemoveCollections.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CreateAndRemoveCollections.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CreateAndRemoveComponentDefinition.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CreateAndRemoveComponentDefinition.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CreateAndRemoveGenericTopLevel.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CreateAndRemoveGenericTopLevel.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CreateAndRemoveModel.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CreateAndRemoveModel.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/CreateAndRemoveModuleDefinition.xml": {
+   "upgrade": "Expected/conversion/SBOL2/CreateAndRemoveModuleDefinition.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/EF587312.xml": {
+   "upgrade": "Expected/conversion/SBOL2/EF587312.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/GenericTopLevelOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/GenericTopLevelOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/GenericTopLevelOutput_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/GenericTopLevelOutput_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Measure.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Measure.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ModelOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ModelOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ModuleDefinitionOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ModuleDefinitionOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/ModuleDefinitionOutput_int_md_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/ModuleDefinitionOutput_int_md_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_CodonOptimization.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_CodonOptimization.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_CodonOptimization_Agent_Act_CD.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_CodonOptimization_Agent_Act_CD.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_SpecifyCutOperation_Ag.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_SpecifyCutOperation_Ag.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_SpecifyCutOperation_Ag_Act.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_SpecifyCutOperation_Ag_Act.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_SpecifyCutOperation_ag_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_SpecifyCutOperation_ag_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_SpecifyJoinOperation_act_us.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_SpecifyJoinOperation_act_us.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/Provenance_StrainDerivation.xml": {
+   "upgrade": "Expected/conversion/SBOL2/Provenance_StrainDerivation.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/RepressionModel.xml": {
+   "upgrade": "Expected/conversion/SBOL2/RepressionModel.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/SBOLDocumentOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/SBOLDocumentOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/SequenceConstraintOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/SequenceConstraintOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/SequenceOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2/SequenceOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/act_example.xml": {
+   "upgrade": "Expected/conversion/SBOL2/act_example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/attachment.xml": {
+   "upgrade": "Expected/conversion/SBOL2/attachment.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/attachment_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/attachment_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/design_usa_act_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/design_usa_act_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/eukaryotic_transcriptional_cd_sa_gl.xml": {
+   "upgrade": "Expected/conversion/SBOL2/eukaryotic_transcriptional_cd_sa_gl.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/implementation_example.xml": {
+   "upgrade": "Expected/conversion/SBOL2/implementation_example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_All.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_All.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Aspergillus_nidulans.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Aspergillus_nidulans.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Bacillus_subtilis.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Bacillus_subtilis.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Drosophila_melanogaster.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Drosophila_melanogaster.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Escherichia_Coli.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Escherichia_Coli.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Gram-negative_bacteria.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Gram-negative_bacteria.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Insect_Cells.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Insect_Cells.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Kluyveromyces_lactis.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Kluyveromyces_lactis.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Mammalian_Cells.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Mammalian_Cells.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Pichia_pastoris.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Pichia_pastoris.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Plant_Cells.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Plant_Cells.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Saccharomyces_cerevisiae.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Saccharomyces_cerevisiae.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Schizosaccharomyces_pombe.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Schizosaccharomyces_pombe.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/labhost_Unspecified.xml": {
+   "upgrade": "Expected/conversion/SBOL2/labhost_Unspecified.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/memberAnnotations.xml": {
+   "upgrade": "Expected/conversion/SBOL2/memberAnnotations.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/memberAnnotations_int_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2/memberAnnotations_int_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/memberAnnotations_interaction.xml": {
+   "upgrade": "Expected/conversion/SBOL2/memberAnnotations_interaction.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/memberAnnotations_md_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/memberAnnotations_md_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/memberAnnotations_md_mod_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/memberAnnotations_md_mod_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/multipleCollections_no_Members.xml": {
+   "upgrade": "Expected/conversion/SBOL2/multipleCollections_no_Members.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/multipleGenericTopLevel.xml": {
+   "upgrade": "Expected/conversion/SBOL2/multipleGenericTopLevel.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/multipleSequences.xml": {
+   "upgrade": "Expected/conversion/SBOL2/multipleSequences.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pAGM1467.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pAGM1467.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pAGM1479.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pAGM1479.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pAGM1482.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pAGM1482.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pAGM5331.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pAGM5331.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pAGM5343.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pAGM5343.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pAGM5355.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pAGM5355.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH37326.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH37326.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH37431.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH37431.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41373.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41373.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41388.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41388.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41402.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41402.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41414.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41414.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41421.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41421.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41432.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41432.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41531.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41531.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH41551.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH41551.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH42211.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH42211.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH42222.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH42222.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH42760.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH42760.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH43844.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH43844.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44022.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44022.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44157.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44157.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44179.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44179.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44188.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44188.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44199.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44199.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44222.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44222.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44233.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44233.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH44300.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH44300.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45089.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45089.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45125.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45125.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45131.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45131.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45152.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45152.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45173.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45173.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45180.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45180.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45195.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45195.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45214.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45214.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45234.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45234.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH45244.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH45244.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH49477.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH49477.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH50581.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH50581.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH51266.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH51266.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH51277.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH51277.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH51288.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH51288.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH71292.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH71292.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH71301.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH71301.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH71311.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH71311.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH71342.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH71342.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH71411.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH71411.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH71431.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH71431.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH72400.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH72400.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH75111.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH75111.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH77901.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH77901.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH77911.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH77911.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH78133.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH78133.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH78141.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH78141.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH85281.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH85281.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH87611.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH87611.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH87633.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH87633.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH87644.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH87644.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH87655.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH87655.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICH88103.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICH88103.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL12006.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL12006.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL13001.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL13001.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL13002.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL13002.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50004.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50004.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50006.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50006.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50007.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50007.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50009.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50009.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50010.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50010.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50011.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50011.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50012.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50012.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50013.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50013.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50014.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50014.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL50016.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL50016.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL70002.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL70002.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL70004.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL70004.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL70005.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL70005.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL70008.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL70008.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80001.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80001.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80004.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80004.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80005.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80005.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80007.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80007.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80012.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80012.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80014.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80014.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pICSL80016.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pICSL80016.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pIKE_pTAK_cassettes.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pIKE_pTAK_cassettes.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pIKE_pTAK_cassettes_2.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pIKE_pTAK_cassettes_2.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pIKE_pTAK_left_right_cassettes.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pIKE_pTAK_left_right_cassettes.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/pIKE_pTAK_toggle_switches.xml": {
+   "upgrade": "Expected/conversion/SBOL2/pIKE_pTAK_toggle_switches.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/partial_pIKE_left_cassette.xml": {
+   "upgrade": "Expected/conversion/SBOL2/partial_pIKE_left_cassette.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/partial_pIKE_right_casette.xml": {
+   "upgrade": "Expected/conversion/SBOL2/partial_pIKE_right_casette.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/partial_pIKE_right_cassette.xml": {
+   "upgrade": "Expected/conversion/SBOL2/partial_pIKE_right_cassette.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/partial_pTAK_left_cassette.xml": {
+   "upgrade": "Expected/conversion/SBOL2/partial_pTAK_left_cassette.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/partial_pTAK_right_cassette.xml": {
+   "upgrade": "Expected/conversion/SBOL2/partial_pTAK_right_cassette.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/sequence1.xml": {
+   "upgrade": "Expected/conversion/SBOL2/sequence1.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/sequence2.xml": {
+   "upgrade": "Expected/conversion/SBOL2/sequence2.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/sequence3.xml": {
+   "upgrade": "Expected/conversion/SBOL2/sequence3.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/sequence4.xml": {
+   "upgrade": "Expected/conversion/SBOL2/sequence4.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/sequence_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/sequence_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/simple_attachment_plan_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2/simple_attachment_plan_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/simple_attachment_ref.xml": {
+   "upgrade": "Expected/conversion/SBOL2/simple_attachment_ref.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleCollection.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleCollection.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleCompDef_withSeq.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleCompDef_withSeq.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleComponentDefinition.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleComponentDefinition.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleFunctionalComponent.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleFunctionalComponent.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleGenericTopLevel.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleGenericTopLevel.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleModel.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleModel.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleModuleDefinition.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleModuleDefinition.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/singleSequence.xml": {
+   "upgrade": "Expected/conversion/SBOL2/singleSequence.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_Collection_remove.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_Collection_remove.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_ComponentDefinition_remove.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_ComponentDefinition_remove.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_Experiment_ExperimentData.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_Experiment_ExperimentData.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_GenericTopLevel_remove.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_GenericTopLevel_remove.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_Model_remove.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_Model_remove.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_ModuleDefinition_remove.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_ModuleDefinition_remove.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_Sequence_remove.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_Sequence_remove.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/test_source_location.xml": {
+   "upgrade": "Expected/conversion/SBOL2/test_source_location.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2/toggle.xml": {
+   "upgrade": "Expected/conversion/SBOL2/toggle.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/BBa_T9002.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/BBa_T9002.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/CutExample.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/CutExample.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/LocationToSequenceOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/LocationToSequenceOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/Provenance_SpecifyAmplifyOperation.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/Provenance_SpecifyAmplifyOperation.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/Provenance_SpecifyCutOperation.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/Provenance_SpecifyCutOperation.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/Provenance_SpecifyCutOperation2.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/Provenance_SpecifyCutOperation2.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/Provenance_SpecifyCutOperation_Ag_Act_CD.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/Provenance_SpecifyCutOperation_Ag_Act_CD.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/Provenance_SpecifyCutOperation_redone.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/Provenance_SpecifyCutOperation_redone.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/Provenance_SpecifyJoinOperation.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/Provenance_SpecifyJoinOperation.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/SimpleComponentDefinitionExample.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/SimpleComponentDefinitionExample.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_bp/design-build-test-learn.xml": {
+   "upgrade": "Expected/conversion/SBOL2_bp/design-build-test-learn.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/CollectionOutput.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/CollectionOutput.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_int_fc_md_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_int_fc_md_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_int_md_mod.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_int_md_mod.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_int_md_mod_fc.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_int_md_mod_fc.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_int_md_mod_fc_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_int_md_mod_fc_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_maps_md_fc.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_maps_md_fc.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_maps_md_mod.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_maps_md_mod.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_md_fc_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_md_fc_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_md_mod_fc_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_md_mod_fc_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_md_mod_int.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_md_mod_int.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_mod_fc_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_mod_fc_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_mod_fc_model_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_mod_fc_model_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_mod_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_mod_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_pa_int_fc_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_pa_int_fc_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_pa_int_fc_md_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_pa_int_fc_md_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_pa_int_md_mod_fc.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_pa_int_md_mod_fc.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_pa_int_md_mod_fc_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_pa_int_md_mod_fc_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_pa_maps_mod_int_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_pa_maps_mod_int_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/ModuleDefinitionOutput_pa_maps_mod_int_md2.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/ModuleDefinitionOutput_pa_maps_mod_int_md2.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/SimpleModuleDefinition.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/SimpleModuleDefinition.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/SimpleModuleDefinition_fc_md.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/SimpleModuleDefinition_fc_md.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/act_agent_assoc_example.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/act_agent_assoc_example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/act_assoc_example.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/act_assoc_example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/attachment_pointers.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/attachment_pointers.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn2.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn2.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn3.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn3.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn4.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn4.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn5.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn5.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn6.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn6.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn7.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn7.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn_imp.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn_imp.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design-build-test-learn_plan.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design-build-test-learn_plan.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design_assoc_act_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design_assoc_act_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design_usa_assoc_act.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design_usa_assoc_act.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/design_usa_assoc_act_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/design_usa_assoc_act_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_promoters.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_promoters.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_promoters_enumerated.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_promoters_enumerated.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_promoters_sampled.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_promoters_sampled.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_cut.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_cut.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_range.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_range.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_cut.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_cut.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_cut_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_cut_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_gl.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_gl.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_gl_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_gl_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_ran_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_ran_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_range.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_range.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_range_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_com_sa_sc_range_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_sa_cutl_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_sa_cutl_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_sa_gl_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_sa_gl_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_cd_sa_range_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_cd_sa_range_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_unit.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_unit.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_unit_enumerated.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_unit_enumerated.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/eukaryotic_transcriptional_unit_sampled.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/eukaryotic_transcriptional_unit_sampled.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_act_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_act_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_activity_combDeri.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_activity_combDeri.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_comDeri_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_comDeri_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_combDeri.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_combDeri.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_combDeri_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_combDeri_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_combDeri_ann2.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_combDeri_ann2.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_combDeri_varComp.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_combDeri_varComp.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_combDeri_varComp_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_combDeri_varComp_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_template.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_template.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_template_enumerated.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_template_enumerated.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/gfp_reporter_template_sampled.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/gfp_reporter_template_sampled.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/god_example.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/god_example.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/implementation_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/implementation_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/model.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/model.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/model_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/model_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/plan_ann.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/plan_ann.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_ic/singleComponentDefinition_component.xml": {
+   "upgrade": "Expected/conversion/SBOL2_ic/singleComponentDefinition_component.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/BBa_I0462_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/BBa_I0462_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/BBa_I0462_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/BBa_T9002_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/BBa_T9002_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/BBa_T9002_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/SBOL1and2Test.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/SBOL1and2Test.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/igem1.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/igem1.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/igem1.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/igem2.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/igem2.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/igem2.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/igem3.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/igem3.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/igem3.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/labhost_All_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_All_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Aspergillus_nidulans_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Aspergillus_nidulans_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Bacillus_subtilis_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Bacillus_subtilis_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Drosophila_melanogaster_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Drosophila_melanogaster_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Escherichia_Coli_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Escherichia_Coli_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Gram-negative_bacteria_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Gram-negative_bacteria_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Insect_Cells_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Insect_Cells_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Kluyveromyces_lactis_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Kluyveromyces_lactis_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Mammalian_Cells_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Mammalian_Cells_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Pichia_pastoris_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Pichia_pastoris_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Plant_Cells_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Plant_Cells_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Saccharomyces_cerevisiae_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Saccharomyces_cerevisiae_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Schizosaccharomyces_pombe_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Schizosaccharomyces_pombe_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/labhost_Unspecified_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/labhost_Unspecified_orig.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL2_nc/pIKE_pTAK_cassettes_2_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/pIKE_pTAK_cassettes_2_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/pIKE_pTAK_cassettes_2_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/pIKE_pTAK_cassettes_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/pIKE_pTAK_cassettes_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/pIKE_pTAK_cassettes_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/pIKE_pTAK_left_right_cassettes_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/pIKE_pTAK_left_right_cassettes_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/pIKE_pTAK_left_right_cassettes_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/pIKE_pTAK_toggle_switches_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/pIKE_pTAK_toggle_switches_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/pIKE_pTAK_toggle_switches_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/partial_pIKE_left_cassette_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/partial_pIKE_left_cassette_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/partial_pIKE_left_cassette_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/partial_pIKE_right_casette_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/partial_pIKE_right_casette_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/partial_pIKE_right_casette_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/partial_pIKE_right_cassette_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/partial_pIKE_right_cassette_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/partial_pIKE_right_cassette_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/partial_pTAK_left_cassette_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/partial_pTAK_left_cassette_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/partial_pTAK_left_cassette_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/partial_pTAK_right_cassette_orig.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/partial_pTAK_right_cassette_orig.xml.upgrade.ttl",
+   "roundtrip": "Expected/conversion/SBOL2_nc/partial_pTAK_right_cassette_orig.xml.roundtrip.ttl"
+  },
+  "SBOL2_nc/was-generated-bys-derived-froms.xml": {
+   "upgrade": "Expected/conversion/SBOL2_nc/was-generated-bys-derived-froms.xml.upgrade.ttl",
+   "roundtrip": "fixed-point"
+  },
+  "SBOL3/BBa_F2620_PoPSReceiver/BBa_F2620_PoPSReceiver.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/BBa_F2620_PoPSReceiver/BBa_F2620_PoPSReceiver.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/BBa_F2620_PoPSReceiver/BBa_F2620_PoPSReceiver.ttl.roundtrip.ttl"
+  },
+  "SBOL3/combine2020/combine2020.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/combine2020/combine2020.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/combine2020/combine2020.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/annotation/annotation.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/annotation/annotation.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/annotation/annotation.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/attachment/attachment.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/attachment/attachment.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/attachment/attachment.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/collection/collection.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/collection/collection.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/collection/collection.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/combinatorialderivation/combinatorialderivation.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/combinatorialderivation/combinatorialderivation.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/combinatorialderivation/combinatorialderivation.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/component/component.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/component/component.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/component/component.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/component_urn_uri/component_urn_uri.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/component_urn_uri/component_urn_uri.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/component_urn_uri/component_urn_uri.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/componentreference/componentreference.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/componentreference/componentreference.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/componentreference/componentreference.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/constraint/constraint.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/constraint/constraint.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/constraint/constraint.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/cut/cut.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/cut/cut.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/cut/cut.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/experiment/experiment.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/experiment/experiment.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/experiment/experiment.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/experimentaldata/experimentaldata.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/experimentaldata/experimentaldata.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/experimentaldata/experimentaldata.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/externallydefined/externallydefined.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/externallydefined/externallydefined.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/externallydefined/externallydefined.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/implementation/implementation.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/implementation/implementation.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/implementation/implementation.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/interaction/interaction.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/interaction/interaction.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/interaction/interaction.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/interface/interface.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/interface/interface.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/interface/interface.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/localsubcomponent/localsubcomponent.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/localsubcomponent/localsubcomponent.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/localsubcomponent/localsubcomponent.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/model/model.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/model/model.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/model/model.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/participation/participation.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/participation/participation.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/participation/participation.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/range/range.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/range/range.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/range/range.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/sequencefeature/sequencefeature.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/sequencefeature/sequencefeature.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/sequencefeature/sequencefeature.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/subcomponent/subcomponent.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/subcomponent/subcomponent.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/subcomponent/subcomponent.ttl.roundtrip.ttl"
+  },
+  "SBOL3/entity/variablefeature/variablefeature.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/entity/variablefeature/variablefeature.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/entity/variablefeature/variablefeature.ttl.roundtrip.ttl"
+  },
+  "SBOL3/measurement_entity/measurement/measurement.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/measurement_entity/measurement/measurement.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/measurement_entity/measurement/measurement.ttl.roundtrip.ttl"
+  },
+  "SBOL3/measurement_entity/measurement_using_units_From_OM/measurement_using_units_From_OM.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/measurement_entity/measurement_using_units_From_OM/measurement_using_units_From_OM.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/measurement_entity/measurement_using_units_From_OM/measurement_using_units_From_OM.ttl.roundtrip.ttl"
+  },
+  "SBOL3/multicellular/multicellular.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/multicellular/multicellular.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/multicellular/multicellular.ttl.roundtrip.ttl"
+  },
+  "SBOL3/multicellular_simple/multicellular_simple.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/multicellular_simple/multicellular_simple.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/multicellular_simple/multicellular_simple.ttl.roundtrip.ttl"
+  },
+  "SBOL3/provenance_entity/activity/activity.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/provenance_entity/activity/activity.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/provenance_entity/activity/activity.ttl.roundtrip.ttl"
+  },
+  "SBOL3/provenance_entity/agent/agent.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/provenance_entity/agent/agent.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/provenance_entity/agent/agent.ttl.roundtrip.ttl"
+  },
+  "SBOL3/provenance_entity/plan/plan.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/provenance_entity/plan/plan.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/provenance_entity/plan/plan.ttl.roundtrip.ttl"
+  },
+  "SBOL3/toggle_switch/toggle_switch.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/toggle_switch/toggle_switch.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/toggle_switch/toggle_switch.ttl.roundtrip.ttl"
+  },
+  "SBOL3/toggle_switch_v2/toggle_switch_v2.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/toggle_switch_v2/toggle_switch_v2.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/toggle_switch_v2/toggle_switch_v2.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10107_compliant_toplevel_with_a_single_concrete_inherited_type.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10107_compliant_toplevel_with_a_single_concrete_inherited_type.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10107_compliant_toplevel_with_a_single_concrete_inherited_type.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10301_urn_namespace_tolerated_for_legacy_urn_identified_subject.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10301_urn_namespace_tolerated_for_legacy_urn_identified_subject.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10301_urn_namespace_tolerated_for_legacy_urn_identified_subject.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10501_sequence_with_no_elements_does_not_require_encoding.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10501_sequence_with_no_elements_does_not_require_encoding.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10501_sequence_with_no_elements_does_not_require_encoding.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10503_iupac_dna_encoding_accepts_ambiguity_codes.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_dna_encoding_accepts_ambiguity_codes.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_dna_encoding_accepts_ambiguity_codes.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10503_iupac_dna_encoding_accepts_canonical_bases.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_dna_encoding_accepts_canonical_bases.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_dna_encoding_accepts_canonical_bases.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10503_iupac_protein_encoding_accepts_standard_amino_acids.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_protein_encoding_accepts_standard_amino_acids.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_protein_encoding_accepts_standard_amino_acids.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10503_iupac_rna_encoding_accepts_canonical_bases.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_rna_encoding_accepts_canonical_bases.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10503_iupac_rna_encoding_accepts_canonical_bases.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10504_table_1_encoding_uri_not_flagged_as_native_edam_alias.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10504_table_1_encoding_uri_not_flagged_as_native_edam_alias.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10504_table_1_encoding_uri_not_flagged_as_native_edam_alias.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10505_edam_textual_format_branch_encoding_does_not_warn.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10505_edam_textual_format_branch_encoding_does_not_warn.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10505_edam_textual_format_branch_encoding_does_not_warn.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10609_protein_component_with_chemical_role_from_go.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10609_protein_component_with_chemical_role_from_go.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10609_protein_component_with_chemical_role_from_go.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10612_dna_component_carrying_an_so_sequence_feature_role.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10612_dna_component_carrying_an_so_sequence_feature_role.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10612_dna_component_carrying_an_so_sequence_feature_role.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10613_dna_component_with_exactly_one_so_sequence_feature_role.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10613_dna_component_with_exactly_one_so_sequence_feature_role.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10613_dna_component_with_exactly_one_so_sequence_feature_role.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-10617_component_with_same_encoding_sequences_sharing_elements.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-10617_component_with_same_encoding_sequences_sharing_elements.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-10617_component_with_same_encoding_sequences_sharing_elements.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11011_dna_localsubcomponent_with_so_sequence_feature_role.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11011_dna_localsubcomponent_with_so_sequence_feature_role.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11011_dna_localsubcomponent_with_so_sequence_feature_role.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11012_dna_localsubcomponent_with_exactly_one_so_sequence_feature_r.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11012_dna_localsubcomponent_with_exactly_one_so_sequence_feature_r.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11012_dna_localsubcomponent_with_exactly_one_so_sequence_feature_r.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11101_externallydefined_with_single_table_2_type.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11101_externallydefined_with_single_table_2_type.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11101_externallydefined_with_single_table_2_type.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11104_externallydefined_with_valid_table_2_type.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11104_externallydefined_with_valid_table_2_type.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11104_externallydefined_with_valid_table_2_type.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11107_dna_externallydefined_with_single_topology_type.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11107_dna_externallydefined_with_single_topology_type.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11107_dna_externallydefined_with_single_topology_type.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11108_dna_externallydefined_with_topology_type.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11108_dna_externallydefined_with_topology_type.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11108_dna_externallydefined_with_topology_type.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11201_sequencefeature_with_non_overlapping_locations.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11201_sequencefeature_with_non_overlapping_locations.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11201_sequencefeature_with_non_overlapping_locations.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11301_location_with_valid_orientation.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11301_location_with_valid_orientation.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11301_location_with_valid_orientation.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11401_range_at_sequence_start_is_valid.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11401_range_at_sequence_start_is_valid.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11401_range_at_sequence_start_is_valid.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11401_range_with_explicit_inline_orientation.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11401_range_with_explicit_inline_orientation.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11401_range_with_explicit_inline_orientation.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11402_range_at_sequence_end_is_valid.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11402_range_at_sequence_end_is_valid.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11402_range_at_sequence_end_is_valid.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11402_range_covering_the_entire_sequence_is_valid.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11402_range_covering_the_entire_sequence_is_valid.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11402_range_covering_the_entire_sequence_is_valid.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11403_range_start_equals_end_single_base_is_valid.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11403_range_start_equals_end_single_base_is_valid.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11403_range_start_equals_end_single_base_is_valid.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11501_cut_at_sequence_end_is_valid.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11501_cut_at_sequence_end_is_valid.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11501_cut_at_sequence_end_is_valid.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-11501_cut_at_sequence_start_zero_is_valid.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-11501_cut_at_sequence_start_zero_is_valid.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-11501_cut_at_sequence_start_zero_is_valid.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-12504_model_language_refers_to_an_edam_ontology_term.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-12504_model_language_refers_to_an_edam_ontology_term.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-12504_model_language_refers_to_an_edam_ontology_term.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-12507_model_framework_is_in_the_sbo_modeling_framework_branch.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-12507_model_framework_is_in_the_sbo_modeling_framework_branch.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-12507_model_framework_is_in_the_sbo_modeling_framework_branch.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-12803_attachment_format_refers_to_an_edam_ontology_term.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-12803_attachment_format_refers_to_an_edam_ontology_term.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-12803_attachment_format_refers_to_an_edam_ontology_term.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-12807_attachment_hashalgorithm_is_sha3_256.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-12807_attachment_hashalgorithm_is_sha3_256.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-12807_attachment_hashalgorithm_is_sha3_256.ttl.roundtrip.ttl"
+  },
+  "SBOL3/validation_examples/sbol3-12808_attachment_hash_with_hashalgorithm.ttl": {
+   "downgrade": "Expected/conversion/SBOL3/validation_examples/sbol3-12808_attachment_hash_with_hashalgorithm.ttl.downgrade.xml",
+   "roundtrip": "Expected/conversion/SBOL3/validation_examples/sbol3-12808_attachment_hash_with_hashalgorithm.ttl.roundtrip.ttl"
+  }
+ }
+}

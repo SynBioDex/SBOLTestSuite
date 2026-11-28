@@ -5,7 +5,7 @@ The SBOLTestSuite contains the latest set of examples created using the Syntheti
 The repository is organized into the following directories : 
 
 ```
-1. Invalid : SBOL files that incorrectly encode the SBOL validation rules.
+1. InvalidFiles : SBOL2 files that each violate one SBOL2 validation rule; sbol-NNNNN*.xml violates sbol2-NNNNN.
 2. GenBank : A series of GenBank files
 3. RDF :  A series of SBOL files encoded using RDF format. 
 4. SBOL1 : SBOL files which encode the SBOL1 data model. 
@@ -13,6 +13,14 @@ The repository is organized into the following directories :
 6. SBOL2_bp : SBOL files that are compliant and complete, but do not follow best practices. 
 7. SBOL2_ic : SBOL files that are incomplete, but are compliant.
 8. SBOL2_nc : SBOL files that are not compliant.
+9. SBOL3 : Valid SBOL3 files, each test case in several serializations; validation_examples/ holds small valid
+   documents that exercise individual validation rules.
+10. SBOL3_InvalidFiles : SBOL3 Turtle files that each violate one SBOL3 validation rule;
+    sbol3-NNNNN_<case>.ttl violates sbol3-NNNNN.
+11. Expected : Reference outputs for the files above: the validation issues each file produces, and the result of
+    converting each file between SBOL2 and SBOL3. See Expected/README.md.
+12. Rules : The SBOL2 and SBOL3 validation-rule catalogs as JSON.
+13. Ontology : The ontology facts (term hierarchy and SBOL classification) that ontology-dependent rules use.
 ```
 
 # Submitting a SBOL Test File

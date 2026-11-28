@@ -1,0 +1,38 @@
+<http://myapp.com/codon_optimized> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://myapp.com/codon_optimized> ;
+	<http://sbols.org/v3#displayId> "codon_optimized" ;
+	<http://www.w3.org/ns/prov#wasDerivedFrom> <http://myapp.com/non_codon_optimized> ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <http://myapp.com/codon_optimization_activity> ;
+	<http://sbols.org/v3#name> "Codon optimised CDS" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://myapp.com/non_codon_optimized> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://myapp.com/non_codon_optimized> ;
+	<http://sbols.org/v3#displayId> "non_codon_optimized" ;
+	<http://sbols.org/v3#name> "Non Codon optimised CDS" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://myapp.com/codon_optimization_activity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "codon_optimization_activity" ;
+	<http://sbols.org/v3#name> "Codon Optimization Activity" .
+<http://myapp.com/codon_optimization_activity/association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://myapp.com/codonoptimiser> ;
+	<http://www.w3.org/ns/prov#agent> <http://myapp.com/codon_optimization_software> .
+<http://myapp.com/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://myapp.com/codon_optimization_activity/association> .
+<http://myapp.com/codon_optimization_activity/usage> a <http://www.w3.org/ns/prov#Usage> ;
+	<http://sbols.org/v3#displayId> "usage" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#source> ;
+	<http://www.w3.org/ns/prov#entity> <http://myapp.com/non_codon_optimized> .
+<http://myapp.com/codon_optimization_activity> <http://www.w3.org/ns/prov#qualifiedUsage> <http://myapp.com/codon_optimization_activity/usage> .
+<http://myapp.com/codon_optimization_software> a <http://www.w3.org/ns/prov#Agent> ;
+	<http://sbols.org/v3#displayId> "codon_optimization_software" ;
+	<http://sbols.org/v3#name> "Codon Optimization Software" .
+<http://myapp.com/codon_optimization_activity> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/codon_optimization_software> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/codon_optimized> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/non_codon_optimized> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/codon_optimization_activity> a <http://sbols.org/v3#TopLevel> .
+<http://myapp.com/codon_optimization_activity/association> a <http://sbols.org/v3#Identified> .
+<http://myapp.com/codon_optimization_activity/usage> a <http://sbols.org/v3#Identified> .
+<http://myapp.com/codon_optimization_software> a <http://sbols.org/v3#TopLevel> .

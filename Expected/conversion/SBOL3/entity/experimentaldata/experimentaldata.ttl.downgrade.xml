@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ExperimentalData xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/sample_measurements">
+		<displayId xmlns="http://sbols.org/v2#">sample_measurements</displayId>
+		<attachment xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/sample_measurements_csv"/>
+	</ExperimentalData>
+	<Attachment xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/sample_measurements_csv">
+		<displayId xmlns="http://sbols.org/v2#">sample_measurements_csv</displayId>
+		<format xmlns="http://sbols.org/v2#" rdf:resource="https://identifiers.org/edam:format_3752"/>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/sample_measurements.csv"/>
+	</Attachment>
+	<Experiment xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/characterization">
+		<displayId xmlns="http://sbols.org/v2#">characterization</displayId>
+		<experimentalData xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/sample_measurements"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/characterization"/>
+	</Experiment>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/sample_measurements">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/sample_measurements"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/sample_measurements_csv">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/sample_measurements_csv"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Attachment xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/attachment1">
+		<displayId xmlns="http://sbols.org/v2#">attachment1</displayId>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/attachment1"/>
+	</Attachment>
+	<Attachment xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/attachment2">
+		<displayId xmlns="http://sbols.org/v2#">attachment2</displayId>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/attachment2"/>
+	</Attachment>
+	<Experiment xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/exp1">
+		<displayId xmlns="http://sbols.org/v2#">exp1</displayId>
+		<experimentalData xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment2"/>
+		<experimentalData xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment1"/>
+	</Experiment>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/attachment1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/attachment2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/attachment2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/exp1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/exp1"/>
+	</rdf:Description>
+</rdf:RDF>

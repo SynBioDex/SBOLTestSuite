@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040_start">
+		<description xmlns="http://purl.org/dc/terms/">promoter_start</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0040_start</displayId>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">pTetR_start</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000804"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<CombinatorialDerivation xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/cs1">
+		<displayId xmlns="http://sbols.org/v2#">cs1</displayId>
+		<template xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040"/>
+	</CombinatorialDerivation>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040/SubComponent1">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent1</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_start"/>
+	</Component>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040/SubComponent3">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent3</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_start"/>
+	</Component>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_R0040_start sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0040_start_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">tccctat</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040/SubComponent2">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">SubComponent2</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_start"/>
+	</Component>
+	<Sequence xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040_Sequence1">
+		<description xmlns="http://purl.org/dc/terms/">BBa_R0040 sequence</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0040_Sequence1</displayId>
+		<elements xmlns="http://sbols.org/v2#">tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac</elements>
+		<encoding xmlns="http://sbols.org/v2#" rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+		<title xmlns="http://purl.org/dc/terms/">Sequence1</title>
+	</Sequence>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://synbiohub.org/public/igem/BBa_R0040">
+		<description xmlns="http://purl.org/dc/terms/">TetR repressible promoter</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_R0040</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040/SubComponent3"/>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040/SubComponent2"/>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040/SubComponent1"/>
+		<sequence xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_Sequence1"/>
+		<title xmlns="http://purl.org/dc/terms/">pTetR</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040"/>
+	</ComponentDefinition>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040/SubComponent1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040/SubComponent1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040/SubComponent2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040/SubComponent2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040/SubComponent3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040/SubComponent3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040_start">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_start"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/BBa_R0040_start_Sequence1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://synbiohub.org/public/igem/cs1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://synbiohub.org/public/igem/cs1"/>
+	</rdf:Description>
+</rdf:RDF>

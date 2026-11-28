@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch">
+		<description xmlns="http://purl.org/dc/terms/">Toggle Switch genetic circuit</description>
+		<displayId xmlns="http://sbols.org/v2#">toggle_switch</displayId>
+		<title xmlns="http://purl.org/dc/terms/">Toggle Switch</title>
+	</ModuleDefinition>
+	<Agent xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/CodonOptimiserSoftware">
+		<description xmlns="http://purl.org/dc/terms/">Used to optimise bacterial DNA sequences.</description>
+		<displayId xmlns="http://sbols.org/v2#">CodonOptimiserSoftware</displayId>
+		<title xmlns="http://purl.org/dc/terms/">Codon Optimiser Software</title>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/CodonOptimiserSoftware"/>
+	</Agent>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch"/>
+	</rdf:Description>
+</rdf:RDF>

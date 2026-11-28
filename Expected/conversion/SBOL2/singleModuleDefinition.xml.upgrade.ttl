@@ -1,0 +1,6 @@
+<http://www.async.ece.utah.edu/1.0/LacI_Inv> a <http://sbols.org/v3#Component> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000241> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/LacI_Inv/1.0> ;
+	<http://sbols.org/v3#displayId> "LacI_Inv" ;
+	<http://sbols.org/v3#role> <http://some.ontology.org/Inverter> ;
+	<http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .

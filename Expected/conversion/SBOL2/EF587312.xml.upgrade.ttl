@@ -1,0 +1,74 @@
+<http://www.async.ece.utah.edu/1/EF587312> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/EF587312/1> ;
+	<http://sbols.org/v3#displayId> "EF587312" ;
+	<http://sbols.org/v3#description> "Yeast expression vector pNIA-Cb, complete sequence." ;
+	<http://www.ncbi.nlm.nih.gov/genbank#locus> "EF587312" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#molecule> "DNA" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#division> "SYN" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#date> "07-DEC-2007" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#region> "complement(1379..2083)" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#keywords> "." ;
+	<http://www.ncbi.nlm.nih.gov/genbank#source> "Yeast expression vector pNIA-Cb" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#organism> "Yeast expression vector pNIA-Cb other sequences; artificial sequences; vectors." .
+<http://www.async.ece.utah.edu/EF587312/reference0> a <http://www.ncbi.nlm.nih.gov/genbank#Reference> ;
+	<http://www.ncbi.nlm.nih.gov/genbank#label> "1  (bases 1 to 705)" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#authors> "Zaltsman,A., Yi,B.Y., Krichevsky,A., Gafni,Y. and Citovsky,V." ;
+	<http://www.ncbi.nlm.nih.gov/genbank#title> "Yeast-plant coupled vector system for identification of nuclear proteins" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#journal> "Plant Physiol. 145 (4), 1264-1271 (2007)" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#pubmed> "17704231" .
+<http://www.async.ece.utah.edu/1/EF587312> <http://www.ncbi.nlm.nih.gov/genbank#reference> <http://www.async.ece.utah.edu/EF587312/reference0> ;
+	<http://purl.obolibrary.org/obo/OBI_0001617> "17704231" .
+<http://www.async.ece.utah.edu/EF587312/reference1> a <http://www.ncbi.nlm.nih.gov/genbank#Reference> ;
+	<http://www.ncbi.nlm.nih.gov/genbank#label> "2  (bases 1 to 705)" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#authors> "Zaltsman,A.A. and Citovsky,V." ;
+	<http://www.ncbi.nlm.nih.gov/genbank#title> "Direct Submission" ;
+	<http://www.ncbi.nlm.nih.gov/genbank#journal> "Submitted (27-APR-2007) Biochemistry and Cell Bio, State University of New York, Stony Brook, NY 11777, USA" .
+<http://www.async.ece.utah.edu/1/EF587312> <http://www.ncbi.nlm.nih.gov/genbank#reference> <http://www.async.ece.utah.edu/EF587312/reference1> ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000804> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation1> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/EF587312/annotation1/1> ;
+	<http://sbols.org/v3#displayId> "annotation1" ;
+	<http://sbols.org/v3#name> "TRP1" ;
+	<http://sbols.org/genBankConversion#codon_start> "1" ;
+	<http://sbols.org/genBankConversion#transl_table> "11" ;
+	<http://sbols.org/genBankConversion#product> "TRP1" ;
+	<http://sbols.org/genBankConversion#protein_id> "ABQ43169.1" ;
+	<http://sbols.org/genBankConversion#translation> "MIKHTKAAWSMSVINFTGSSGPLVKVCGLQSTEAAECALDSDADLLGIICVPNRKRTIDPVIARKISSLVKAYKNSSGTPKYLVGVFRNQPKEDVLALVNDYGIDIVQLHGDESWQEYQEFLGLPVIKRLVFPKDCNILLSAASQKPHSFIPLFDSEAGGTGELLDWNSISDWVGRQESPESLHFMLAGGLTPENVGDALRLNGVIGVDVSGGVETNGVKDSNKIANFVKNAKK" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation1/range> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/EF587312/annotation1/range/1> ;
+	<http://sbols.org/v3#displayId> "range" ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "705" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation1> <http://sbols.org/v3#hasLocation> <http://www.async.ece.utah.edu/1/EF587312/annotation1/range> .
+<http://www.async.ece.utah.edu/1/EF587312> <http://sbols.org/v3#hasFeature> <http://www.async.ece.utah.edu/1/EF587312/annotation1> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation0> a <http://sbols.org/v3#SequenceFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/EF587312/annotation0/1> ;
+	<http://sbols.org/v3#displayId> "annotation0" ;
+	<http://sbols.org/v3#name> "Yeast expression vector pNIA-Cb" ;
+	<http://sbols.org/genBankConversion#organism> "Yeast expression vector pNIA-Cb" ;
+	<http://sbols.org/genBankConversion#mol_type> "other DNA" ;
+	<http://sbols.org/genBankConversion#db_xref> "taxon:443237" ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0002206> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation0/range> a <http://sbols.org/v3#Range> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/EF587312/annotation0/range/1> ;
+	<http://sbols.org/v3#displayId> "range" ;
+	<http://sbols.org/v3#start> "1" ;
+	<http://sbols.org/v3#end> "705" ;
+	<http://sbols.org/v3#orientation> <https://identifiers.org/SO:0001030> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation0> <http://sbols.org/v3#hasLocation> <http://www.async.ece.utah.edu/1/EF587312/annotation0/range> .
+<http://www.async.ece.utah.edu/1/EF587312> <http://sbols.org/v3#hasFeature> <http://www.async.ece.utah.edu/1/EF587312/annotation0> ;
+	<http://sbols.org/v3#hasSequence> <http://www.async.ece.utah.edu/1/EF587312_seq> .
+<http://www.async.ece.utah.edu/1/EF587312_seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/EF587312_seq/1> ;
+	<http://sbols.org/v3#displayId> "EF587312_seq" ;
+	<http://sbols.org/v3#elements> "gtgattaagcacacaaaggcagcttggagtatgtctgttattaatttcacaggtagttctggtccattggtgaaagtttgcggcttgcagagcacagaggccgcagaatgtgctctagattccgatgctgacttgctgggtattatatgtgtgcccaatagaaagagaacaattgacccggttattgcaaggaaaatttcaagtcttgtaaaagcatataaaaatagttcaggcactccgaaatacttggttggcgtgtttcgtaatcaacctaaggaggatgttttggctctggtcaatgattacggcattgatatcgtccaactgcatggagatgagtcgtggcaagaataccaagagttcctcggtttgccagttattaaaagactcgtatttccaaaagactgcaacatactactcagtgcagcttcacagaaacctcattcgtttattcccttgtttgattcagaagcaggtgggacaggtgaacttttggattggaactcgatttctgactgggttggaaggcaagagagccccgaaagcttacattttatgttagctggtggactgacgccagaaaatgttggtgatgcgcttagattaaatggcgttattggtgttgatgtaagcggaggtgtggagacaaatggtgtaaaagactctaacaaaatagcaaatttcgtcaaaaatgctaagaaatag" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://www.async.ece.utah.edu/1/EF587312> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/1/EF587312_seq> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/1/EF587312/annotation1/range> <http://sbols.org/v3#hasSequence> <http://www.async.ece.utah.edu/1/EF587312_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .
+<http://www.async.ece.utah.edu/1/EF587312/annotation0/range> <http://sbols.org/v3#hasSequence> <http://www.async.ece.utah.edu/1/EF587312_seq> ;
+	<https://sbols.org/backport/2_3#sbol2LocationSequenceNull> true .

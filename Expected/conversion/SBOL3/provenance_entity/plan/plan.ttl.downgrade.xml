@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Plan xmlns="http://www.w3.org/ns/prov#" rdf:about="https://sbolstandard.org/examples/CodonOptimisationProtocol">
+		<description xmlns="http://purl.org/dc/terms/">Optimisation protocol to improve the translation of mRNAs.</description>
+		<displayId xmlns="http://sbols.org/v2#">CodonOptimisationProtocol</displayId>
+		<title xmlns="http://purl.org/dc/terms/">Codon Optimisation Protocol</title>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/CodonOptimisationProtocol"/>
+	</Plan>
+</rdf:RDF>

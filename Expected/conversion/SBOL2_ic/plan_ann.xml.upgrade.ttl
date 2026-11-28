@@ -1,0 +1,6 @@
+<http://sys-bio.org/Plan/1.0.0/characterization_protocol> a <http://www.w3.org/ns/prov#Plan> ;
+	<http://sbols.org/v3#hasAttachment> <http://sys-bio.org/Attachment/1.0.0/characterization_protocol> ;
+	<http://sbols.org/v3#displayId> "characterization_protocol" ;
+	<http://purl.org/dc/terms/created> "2003-12-04T12:00:00Z" ;
+	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Plan> ;
+	a <http://sbols.org/v3#TopLevel> .

@@ -1,0 +1,6 @@
+<https://sbolstandard.org/examples/CodonOptimisationProtocol> a <http://www.w3.org/ns/prov#Plan> ;
+	<http://sbols.org/v3#description> "Optimisation protocol to improve the translation of mRNAs." ;
+	<http://sbols.org/v3#displayId> "CodonOptimisationProtocol" ;
+	<http://sbols.org/v3#name> "Codon Optimisation Protocol" ;
+	<http://sbols.org/v3#hasNamespace> <https://sbolstandard.org/examples> ;
+	a <http://sbols.org/v3#TopLevel> .

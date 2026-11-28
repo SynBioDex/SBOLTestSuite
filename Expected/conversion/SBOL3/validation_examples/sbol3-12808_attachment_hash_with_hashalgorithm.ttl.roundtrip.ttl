@@ -1,0 +1,7 @@
+<https://example.org/attachment> a <http://sbols.org/v3#Attachment> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <https://example.org/attachment> ;
+	<http://sbols.org/v3#displayId> "attachment" ;
+	<http://sbols.org/v3#hash> "abcdef" ;
+	<http://sbols.org/v3#hashAlgorithm> "sha3-256" ;
+	<http://sbols.org/v3#source> <https://example.org/file.txt> ;
+	<http://sbols.org/v3#hasNamespace> <https://example.org> .

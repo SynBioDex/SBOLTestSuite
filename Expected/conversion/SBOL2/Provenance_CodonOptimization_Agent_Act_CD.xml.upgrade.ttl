@@ -1,0 +1,10 @@
+<http://myapp.com/codon_optimization_activity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "codon_optimization_activity" ;
+	<http://sbols.org/v3#name> "Codon Optimization Activity" .
+<http://myapp.com/codon_optimization_software> a <http://www.w3.org/ns/prov#Agent> ;
+	<http://sbols.org/v3#displayId> "codon_optimization_software" ;
+	<http://sbols.org/v3#name> "Codon Optimization Software" .
+<http://myapp.com/codon_optimization_activity> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/codon_optimization_software> <http://sbols.org/v3#hasNamespace> <http://myapp.com> .
+<http://myapp.com/codon_optimization_activity> a <http://sbols.org/v3#TopLevel> .
+<http://myapp.com/codon_optimization_software> a <http://sbols.org/v3#TopLevel> .

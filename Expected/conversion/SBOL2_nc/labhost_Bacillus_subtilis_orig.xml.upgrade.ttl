@@ -1,0 +1,90 @@
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Collection:Bacillus_subtilis> a <http://sbols.org/v3#Collection> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Collection:Bacillus_subtilis> ;
+	<http://sbols.org/v3#displayId> "Bacillus_subtilis" ;
+	<http://sbols.org/v3#name> "Collection of Bacillus subtilis features" ;
+	<http://sbols.org/v3#description> "This is a collection of features that have been associated with Bacillus subtilis plasmids downloaded from the SnapGene Resources repository (http://www.snapgene.com)." ;
+	<http://sbols.org/v3#member> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017> , <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001> , <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220> , <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009> , <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB> , <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006> ;
+	<http://sbols.org/v3#displayId> "TcR_006" ;
+	<http://sbols.org/v3#name> "TcR-006" ;
+	<http://sbols.org/v3#description> "confers resistance to tetracycline" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> ;
+	<http://sbols.org/v3#hasSequence> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006#seq> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017> ;
+	<http://sbols.org/v3#displayId> "AmpR_017" ;
+	<http://sbols.org/v3#name> "AmpR-017" ;
+	<http://sbols.org/v3#description> "confers resistance to ampicillin, carbenicillin, and related antibiotics" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> ;
+	<http://sbols.org/v3#hasSequence> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017#seq> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001> ;
+	<http://sbols.org/v3#displayId> "p15A_ori_001" ;
+	<http://sbols.org/v3#name> "p15A ori-001" ;
+	<http://sbols.org/v3#description> "Plasmids containing the medium-copy-number p15A origin of replication can be propagated in E. coli cells" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000296> ;
+	<http://sbols.org/v3#hasSequence> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001#seq> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009> ;
+	<http://sbols.org/v3#displayId> "AmpR_promoter_009" ;
+	<http://sbols.org/v3#name> "AmpR promoter-009" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000167> ;
+	<http://sbols.org/v3#hasSequence> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009#seq> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220> ;
+	<http://sbols.org/v3#displayId> "MCS_220" ;
+	<http://sbols.org/v3#name> "MCS-220" ;
+	<http://sbols.org/v3#description> "multiple cloning site" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000001> ;
+	<http://sbols.org/v3#hasSequence> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220#seq> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB> ;
+	<http://sbols.org/v3#displayId> "repB" ;
+	<http://sbols.org/v3#name> "repB" ;
+	<http://sbols.org/v3#description> "from Enterococcus faecalis plasmid pAM-alpha-1" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000251> , <https://identifiers.org/SO:0000987> ;
+	<http://sbols.org/v3#role> <https://identifiers.org/SO:0000316> ;
+	<http://sbols.org/v3#hasSequence> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB#seq> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009#seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009#seq> ;
+	<http://sbols.org/v3#elements> "cgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagt" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006#seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006#seq> ;
+	<http://sbols.org/v3#elements> "gtgaatacatcctattcacaatcgaatttacgacacaaccaaattttaatttggctttgcattttatctttttttagcgtattaaatgaaatggttttgaacgtctcattacctgatattgcaaatgattttaataaaccacctgcgagtacaaactgggtgaacacagcctttatgttaaccttttccattggaacagctgtatatggaaagctatctgatcaattaggcatcaaaaggttactcctatttggaattataataaattgtttcgggtcggtaattgggtttgttggccattctttcttttccttacttattatggctcgttttattcaaggggctggtgcagctgcatttccagcactcgtaatggttgtagttgcgcgctatattccaaaggaaaataggggtaaagcatttggtcttattggatcgatagtagccatgggagaaggagtcggtccagcgattggtggaatgatagcccattatattcattggtcctatcttctactcattcctatgataacaattatcactgttccgtttcttatgaaattattaaagaaagaagtaaggataaaaggtcattttgatatcaaaggaattatactaatgtctgtaggcattgtattttttatgttgtttacaacatcatatagcatttcttttcttatcgttagcgtgctgtcattcctgatatttgtaaaacatatcaggaaagtaacagatccttttgttgatcccggattagggaaaaatataccttttatgattggagttctttgtgggggaattatatttggaacagtagcagggtttgtctctatggttccttatatgatgaaagatgttcaccagctaagtactgccgaaatcggaagtgtaattattttccctggaacaatgagtgtcattattttcggctacattggtgggatacttgttgatagaagaggtcctttatacgtgttaaacatcggagttacatttctttctgttagctttttaactgcttcctttcttttagaaacaacatcatggttcatgacaattataatcgtatttgttttaggtgggctttcgttcaccaaaacagttatatcaacaattgtttcaagtagcttgaaacagcaggaagctggtgctggaatgagtttgcttaactttaccagctttttatcagagggaacaggtattgcaattgtaggtggtttattatccatacccttacttgatcaaaggttgttacctatggaagttgatcagtcaacttatctgtatagtaatttgttattacttttttcaggaatcattgtcattagttggctggttaccttgaatgtatataaacattctcaaagggatttctaa" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001#seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001#seq> ;
+	<http://sbols.org/v3#elements> "ttgagatcgttttggtctgcgcgtaatctcttgctctgaaaacgaaaaaaccgccttgcagggaggtttttcgaaggttctctgagctaccaactctttgaaccgaggtaactggcttgcaggagcgcagtcaccaaaacttgtcctttcagtttagccttaaccggcgcatgacttcaagactaactcctctaaatcaattaccagtggctgctgccagtggtgcttttgcatgtctttccgggttggactcaagacgatagttaccggataaggcgcagcggtcggactgaacggggggttcgtgcatacagtccagcttggagcgaactgcctacccggaactgagtgtcaggcgtggaatgagacaaacgcggccataacagcggaatgacaccggtaaaccgaaaggcaggaacaggagagcgcacgagggagccgccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccaccactgatttgagcgtcagatttcgtgatgcttgtcagggggcggagcctatggaaa" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017#seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017#seq> ;
+	<http://sbols.org/v3#elements> "atgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtgttgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgcagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtgggtctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaa" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB#seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB#seq> ;
+	<http://sbols.org/v3#elements> "atgggggtttcttttaatattatgtgtcctaatagtagcatttattcagatgaaaaatcaagggttttagtggacaagacaaaaagtggaaaagtgagaccatggagagaaaagaaaatcgctaatgttgattactttgaacttctgcatattcttgaatttaaaaaggctgaaagagtaaaagattgtgctgaaatattagagtataaacaaaatcgtgaaacaggcgaaagaaagttgtatcgagtgtggttttgtaaatccaggctttgtccaatgtgcaactggaggagagcaatgaaacatggcattcagtcacaaaaggttgttgctgaagttattaaacaaaagccaacagttcgttggttgtttctcacattaacagttaaaaatgtttatgatggcgaagaattaaataagagtttgtcagatatggctcaaggatttcgccgaatgatgcaatataaaaaaattaataaaaatcttgttggttttatgcgtgcaacggaagtgacaataaataataaagataattcttataatcagcacatgcatgtattggtatgtgtggaaccaacttattttaagaatacagaaaactacgtgaatcaaaaacaatggattcaattttggaaaaaggcaatgaaattagactatgatccaaatgtaaaagttcaaatgattcgaccgaaaaataaatataaatcggatatacaatcggcaattgacgaaactgcaaaatatcctgtaaaggatacggattttatgaccgatgatgaagaaaagaatttgaaacgtttgtctgatttggaggaaggtttacaccgtaaaaggttaatctcctatggtggtttgttaaaagaaatacataaaaaattaaaccttgatgacacagaagaaggcgatttgattcatacagatgatgacgaaaaagccgatgaagatggattttctattattgcaatgtggaattgggaacggaaaaattattttattaaagagtag" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220#seq> a <http://sbols.org/v3#Sequence> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220#seq> ;
+	<http://sbols.org/v3#elements> "aagcttctagagatctgcaggtcgacggatccccgggaattc" ;
+	<http://sbols.org/v3#encoding> <https://identifiers.org/edam:format_1207> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Collection:Bacillus_subtilis> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR-017#seq> <http://sbols.org/v3#hasNamespace> <http://genocad.org> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:AmpR_promoter-009#seq> <http://sbols.org/v3#hasNamespace> <http://genocad.org> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:MCS-220#seq> <http://sbols.org/v3#hasNamespace> <http://genocad.org> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:TcR-006#seq> <http://sbols.org/v3#hasNamespace> <http://genocad.org> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:p15A_ori-001#seq> <http://sbols.org/v3#hasNamespace> <http://genocad.org> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB> <http://sbols.org/v3#hasNamespace> <http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038> .
+<http://genocad.org/SBOL/doi:10.6084/m9.figshare.1159038/Part:repB#seq> <http://sbols.org/v3#hasNamespace> <http://genocad.org> .

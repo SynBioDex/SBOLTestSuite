@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sbol="http://sbols.org/v2#"
+>
+  <rdf:Description rdf:about="http://ex/c">
+    <rdf:type rdf:resource="http://sbols.org/v2#Component"/>
+    <sbol:displayId>c</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/c"/>
+    <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+    <sbol:definition rdf:resource="http://ex/dna"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    <sbol:roleIntegration rdf:resource="http://sbols.org/v2#mergeRoles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ex/dna">
+    <rdf:type rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+    <sbol:displayId>dna</sbol:displayId>
+    <sbol:persistentIdentity rdf:resource="http://ex/dna"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<http://www.async.ece.utah.edu/1.0/GenericTopLevel> a <urn:bbn.com:tasbe:grn/RegulatoryReaction> ;
+	<http://sbols.org/v3#displayId> "GenericTopLevel" .
+<http://www.async.ece.utah.edu/1.0/experiment> a <http://sbols.org/v3#Experiment> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/experiment/1.0> ;
+	<http://sbols.org/v3#displayId> "experiment" ;
+	<http://sbols.org/v3#member> <http://www.async.ece.utah.edu/1.0/experimental_data1> , <http://www.async.ece.utah.edu/1.0/experimental_data2> .
+<http://www.async.ece.utah.edu/1.0/experimental_data1> a <http://sbols.org/v3#ExperimentalData> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/experimental_data1/1.0> ;
+	<http://sbols.org/v3#displayId> "experimental_data1" .
+<http://www.async.ece.utah.edu/1.0/experimental_data2> a <http://sbols.org/v3#ExperimentalData> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://www.async.ece.utah.edu/experimental_data2/1.0> ;
+	<http://sbols.org/v3#displayId> "experimental_data2" .
+<http://www.async.ece.utah.edu/1.0/experiment> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/1.0/experimental_data1> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/1.0/experimental_data2> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> .
+<http://www.async.ece.utah.edu/1.0/GenericTopLevel> <http://sbols.org/v3#hasNamespace> <http://www.async.ece.utah.edu> ;
+	a <http://sbols.org/v3#TopLevel> .

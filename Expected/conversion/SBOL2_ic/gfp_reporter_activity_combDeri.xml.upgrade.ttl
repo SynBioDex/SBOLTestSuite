@@ -1,0 +1,53 @@
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_SBOLDesignerActivity" ;
+	<http://purl.org/dc/elements/1.1/creator> "Michael Zhang" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2018-01-22T17:15:40.442-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "Association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#agent> <https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> .
+<https://synbiohub.org/public/igem/1/igem2sbol> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "igem2sbol" ;
+	<http://sbols.org/v3#name> "iGEM to SBOL conversion" ;
+	<http://sbols.org/v3#description> "Conversion of the iGEM parts registry to SBOL2.1" ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel> <https://synbiohub.org/public/igem/1/igem2sbol> ;
+	<http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy> <https://synbiohub.org/user/james> , <https://synbiohub.org/user/myers> ;
+	<http://purl.org/dc/elements/1.1/creator> "Chris J. Myers" , "James Alastair McLaughlin" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2017-03-06T08:00:00.000-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> a <http://www.w3.org/ns/prov#Activity> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity" ;
+	<http://purl.org/dc/elements/1.1/creator> "Michael Zhang" ;
+	<http://www.w3.org/ns/prov#endedAtTime> "2018-01-22T17:15:46.461-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/Association> a <http://www.w3.org/ns/prov#Association> ;
+	<http://sbols.org/v3#displayId> "Association" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#agent> <https://synbiohub.org/public/SBOL_Software/SBOLDesigner/2.2> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/Association> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage> a <http://www.w3.org/ns/prov#Usage> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage" ;
+	<http://www.w3.org/ns/prov#hadRole> <http://sbols.org/v2#sequenceEditor> ;
+	<http://www.w3.org/ns/prov#entity> <http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> <http://www.w3.org/ns/prov#qualifiedUsage> <http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> a <http://sbols.org/v3#CombinatorialDerivation> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample/1> ;
+	<http://sbols.org/v3#displayId> "GFP_Reporter_Template_CombinatorialDerivation_Sample" ;
+	<http://sbols.org/v3#template> <http://michael.zhang/1/GFP_Reporter_Template> ;
+	<http://sbols.org/v3#strategy> <http://sbols.org/v3#sample> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent> a <http://sbols.org/v3#VariableFeature> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://michael.zhang/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent/1> ;
+	<http://sbols.org/v3#displayId> "Pro_Component_VariableComponent" ;
+	<http://sbols.org/v3#variable> <http://michael.zhang/GFP_Reporter_Template/1/Pro_Component> ;
+	<http://sbols.org/v3#cardinality> <http://sbols.org/v3#zeroOrOne> ;
+	<http://sbols.org/v3#variant> <https://synbiohub.org/public/igem/1/BBa_K1545001> , <https://synbiohub.org/public/igem/1/BBa_K1545000> .
+<http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample> <http://sbols.org/v3#hasVariableFeature> <http://michael.zhang/1/GFP_Reporter_Template_CombinatorialDerivation_Sample/Pro_Component_VariableComponent> ;
+	<http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> <http://sbols.org/v3#hasNamespace> <http://michael.zhang> .
+<https://synbiohub.org/public/igem/1/igem2sbol> <http://sbols.org/v3#hasNamespace> <https://synbiohub.org/public/igem> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity> a <http://sbols.org/v3#TopLevel> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/Association> a <http://sbols.org/v3#Identified> .
+<http://michael.zhang/1/GFP_Reporter_Template_GeneratedInstance2_SBOLDesignerActivity/GFP_Reporter_Template_CombinatorialDerivation_Sample_Usage> a <http://sbols.org/v3#Identified> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity> a <http://sbols.org/v3#TopLevel> .
+<http://michael.zhang/1/GFP_Reporter_Template_SBOLDesignerActivity/Association> a <http://sbols.org/v3#Identified> .
+<https://synbiohub.org/public/igem/1/igem2sbol> a <http://sbols.org/v3#TopLevel> .

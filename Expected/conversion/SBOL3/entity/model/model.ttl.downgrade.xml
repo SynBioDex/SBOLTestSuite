@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ModuleDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/toggle_switch">
+		<description xmlns="http://purl.org/dc/terms/">Toggle Switch genetic circuit</description>
+		<displayId xmlns="http://sbols.org/v2#">toggle_switch</displayId>
+		<model xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/model1"/>
+		<title xmlns="http://purl.org/dc/terms/">Toggle Switch</title>
+	</ModuleDefinition>
+	<Model xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/model1">
+		<displayId xmlns="http://sbols.org/v2#">model1</displayId>
+		<framework xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/biomodels.sbo/SBO:0000062"/>
+		<language xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/edam/format_2585"/>
+		<source xmlns="http://sbols.org/v2#" rdf:resource="http://virtualparts.org"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/model1"/>
+	</Model>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/toggle_switch">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/toggle_switch"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<Repository xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/SynBioHubRepository">
+		<displayId xmlns="http://sbols.org/v2#">SynBioHubRepository</displayId>
+		<title xmlns="http://purl.org/dc/terms/">SynBioHub</title>
+	</Repository>
+	<TwinPartUsage xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts">
+		<twinURL xmlns="http://parts.igem.org/" rdf:resource="http://parts.igem.org/wiki/index.php?title=Part:BBa_M36800"/>
+		<twinURL xmlns="http://parts.igem.org/" rdf:resource="http://parts.igem.org/wiki/index.php?title=Part:BBa_M1638"/>
+		<twinURL xmlns="http://parts.igem.org/" rdf:resource="http://parts.igem.org/wiki/index.php?title=Part:BBa_J72073"/>
+		<displayId xmlns="http://sbols.org/v2#">twinParts</displayId>
+		<title xmlns="http://purl.org/dc/terms/">twin parts</title>
+	</TwinPartUsage>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://sbolstandard.org/examples/BBa_J23119">
+		<belongsTo xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/SynBioHubRepository"/>
+		<belongsTo xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/iGEMRepository"/>
+		<experienceURL xmlns="http://parts.igem.org/" rdf:resource="http://parts.igem.org/Part:BBa_J23119:Experience"/>
+		<group xmlns="http://parts.igem.org/">iGEM2006_Berkeley</group>
+		<hasInformation xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information1"/>
+		<hasInformation xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information3"/>
+		<hasInformation xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information2"/>
+		<hasUsage xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage1"/>
+		<hasUsage xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage2"/>
+		<hasUsage xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage3"/>
+		<description xmlns="http://purl.org/dc/terms/">Parts J23100 through J23119 are a family of constitutive promoter parts isolated from a small combinatorial library.</description>
+		<displayId xmlns="http://sbols.org/v2#">BBa_J23119</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119 part</title>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<iGEMUsage xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage1">
+		<inStock xmlns="http://parts.igem.org/">true</inStock>
+		<registryStar xmlns="http://parts.igem.org/">1</registryStar>
+		<twinURLs xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts"/>
+		<twins xmlns="http://parts.igem.org/">7</twins>
+		<uses xmlns="http://parts.igem.org/">442</uses>
+		<uses2 xmlns="http://parts.igem.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442</uses2>
+		<description xmlns="http://purl.org/dc/terms/">BBa_J23119 usage statistics</description>
+		<displayId xmlns="http://sbols.org/v2#">usage1</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119_usage</title>
+	</iGEMUsage>
+	<Information xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/information1">
+		<regulation xmlns="http://parts.igem.org/">//regulation/second_regulation</regulation>
+		<regulation xmlns="http://parts.igem.org/">//regulation/constitutive</regulation>
+		<sigmaFactor xmlns="http://parts.igem.org/">//rnap/prokaryote/ecoli/sigma70</sigmaFactor>
+		<source xmlns="http://parts.igem.org/" rdf:resource="https://sbolstandard.org/examples/BBa_J23119"/>
+		<description xmlns="http://purl.org/dc/terms/">The experience page captures users&apos; experience using the BBa_J23119 part</description>
+		<displayId xmlns="http://sbols.org/v2#">information1</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119_experience</title>
+	</Information>
+	<Z_iGEMUsage xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage3">
+		<displayId xmlns="http://sbols.org/v2#">usage3</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119_usage_3</title>
+	</Z_iGEMUsage>
+	<Z_Information xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/information3">
+		<displayId xmlns="http://sbols.org/v2#">information3</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119_experience3</title>
+	</Z_Information>
+	<Repository xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/iGEMRepository">
+		<website xmlns="http://parts.igem.org/" rdf:resource="http://parts.igem.org/Main_Page"/>
+		<description xmlns="http://purl.org/dc/terms/">Registry of Standard Biological Parts</description>
+		<displayId xmlns="http://sbols.org/v2#">iGEMRepository</displayId>
+		<title xmlns="http://purl.org/dc/terms/">iGEM Registry</title>
+	</Repository>
+	<A_iGEMUsage xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage2">
+		<twins xmlns="http://parts.igem.org/">7</twins>
+		<displayId xmlns="http://sbols.org/v2#">usage2</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119_usage_2</title>
+	</A_iGEMUsage>
+	<A_Information xmlns="http://parts.igem.org/" rdf:about="https://sbolstandard.org/examples/BBa_J23119/information2">
+		<displayId xmlns="http://sbols.org/v2#">information2</displayId>
+		<title xmlns="http://purl.org/dc/terms/">BBa_J23119_experience2</title>
+	</A_Information>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/information1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/information2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/information3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/information3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage1">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage1"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage1/twinParts"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage2">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage2"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/BBa_J23119/usage3">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/BBa_J23119/usage3"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/SynBioHubRepository">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/SynBioHubRepository"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://sbolstandard.org/examples/iGEMRepository">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://sbolstandard.org/examples/iGEMRepository"/>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,6 @@
+<http://sys-bio.org/Attachment/1.0.0/characterization_protocol> a <http://sbols.org/v3#Attachment> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <http://sys-bio.org/Attachment/characterization_protocol/1.0.0> ;
+	<http://sbols.org/v3#displayId> "characterization_protocol" ;
+	<http://sbols.org/v3#source> <http://sbols.org/unspecified/dynamic_measurement.mdx> ;
+	<http://purl.org/dc/terms/created> "2003-12-04T12:00:00Z" ;
+	<http://sbols.org/v3#hasNamespace> <http://sys-bio.org/Attachment> .

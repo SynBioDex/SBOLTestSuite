@@ -1,0 +1,5 @@
+<urn:uuid:c75fa522-daae-4b85-8ed1-21ad3a15af24> a <http://sbols.org/v3#Component> ;
+	<https://sbols.org/backport/2_3#sbol2OriginalURI> <urn:uuid:c75fa522-daae-4b85-8ed1-21ad3a15af24> ;
+	<http://sbols.org/v3#name> "TetR" ;
+	<http://sbols.org/v3#type> <https://identifiers.org/SBO:0000252> ;
+	<http://sbols.org/v3#hasNamespace> <urn:uuid> .

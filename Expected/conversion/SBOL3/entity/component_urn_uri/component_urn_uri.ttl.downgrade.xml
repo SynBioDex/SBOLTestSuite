@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="urn:uuid:c75fa522-daae-4b85-8ed1-21ad3a15af24">
+		<title xmlns="http://purl.org/dc/terms/">TetR</title>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="urn:uuid:c75fa522-daae-4b85-8ed1-21ad3a15af24"/>
+	</ComponentDefinition>
+</rdf:RDF>

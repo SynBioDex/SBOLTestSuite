@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its">
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/promoter_a">
+		<displayId xmlns="http://sbols.org/v2#">promoter_a</displayId>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/promoter_b">
+		<displayId xmlns="http://sbols.org/v2#">promoter_b</displayId>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Collection xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/promoter_library">
+		<displayId xmlns="http://sbols.org/v2#">promoter_library</displayId>
+		<member xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_a"/>
+		<member xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_b"/>
+	</Collection>
+	<ComponentDefinition xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/template_component">
+		<displayId xmlns="http://sbols.org/v2#">template_component</displayId>
+		<component xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/template_component/promoter_slot"/>
+		<role xmlns="http://sbols.org/v2#" rdf:resource="http://identifiers.org/so/SO:0000167"/>
+		<type xmlns="http://sbols.org/v2#" rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+	</ComponentDefinition>
+	<Component xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/template_component/promoter_slot">
+		<access xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#public"/>
+		<displayId xmlns="http://sbols.org/v2#">promoter_slot</displayId>
+		<definition xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_a"/>
+	</Component>
+	<CombinatorialDerivation xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/promoter_derivation">
+		<displayId xmlns="http://sbols.org/v2#">promoter_derivation</displayId>
+		<variableComponent xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_derivation/promoter_slot"/>
+		<strategy xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#enumerate"/>
+		<template xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/template_component"/>
+	</CombinatorialDerivation>
+	<VariableComponent xmlns="http://sbols.org/v2#" rdf:about="https://example.org/sbol-rs/fixtures/promoter_derivation/promoter_slot">
+		<operator xmlns="http://sbols.org/v2#" rdf:resource="http://sbols.org/v2#one"/>
+		<displayId xmlns="http://sbols.org/v2#">promoter_slot</displayId>
+		<variable xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/template_component/promoter_slot"/>
+		<variant xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_a"/>
+		<variant xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_b"/>
+		<variantCollection xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_library"/>
+	</VariableComponent>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/promoter_a">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_a"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/promoter_b">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_b"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/promoter_derivation">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_derivation"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/promoter_derivation/promoter_slot">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_derivation/promoter_slot"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/promoter_library">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/promoter_library"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/template_component">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/template_component"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="https://example.org/sbol-rs/fixtures/template_component/promoter_slot">
+		<persistentIdentity xmlns="http://sbols.org/v2#" rdf:resource="https://example.org/sbol-rs/fixtures/template_component/promoter_slot"/>
+	</rdf:Description>
+</rdf:RDF>
